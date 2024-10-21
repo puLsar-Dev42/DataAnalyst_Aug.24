@@ -1,0 +1,21 @@
+Kunden-ID;Kundenname;Produkt;Preis;Datum
+1;Julia Müller;Laptop;799,00 €;2023-03-05
+2;Mark Schmidt;Maus;29,99 €;2023-03-07
+3;Sabrina Fischer;Tastatur;49,99 €;2023-03-10
+4;Alex Wagner;Drucker;129,00 €;2023-03-12
+5;Laura Huber;USB-Stick;14,99 €;2023-03-15
+6;Felix Braun;Monitor;239,00 €;2023-03-18
+7;Sophie Keller;Webcam;59,99 €;2023-03-21
+8;Max Lehmann;Festplatte;79,99 €;2023-03-24
+9;Nina Richter;Grafikkarte;299,00 €;2023-03-27
+10;Simon Schmitt;Kopfhörer;89,99 €;2023-03-30
+11;Andreas Beck;Mauspad;9,99 €;2023-04-02
+12;Lena Wolf;Lautsprecher;69,99 €;2023-04-05
+13;Daniel Schwarz;Tablet;199,00 €;2023-04-08
+14;Caroline Hartmann;Kabel;7,99 €;2023-04-11
+15;Tobias Braun;Router;49,99 €;2023-04-14
+16;Isabel Vogel;SSD-Festplatte;109,00 €;2023-04-17
+17;Sebastian Müller;Gaming-Maus;49,99 €;2023-04-20
+18;Anna Schmidt;Gaming-Tastatur;89,99 €;2023-04-23
+19;Michael Fischer;Bluetooth-Kopfhörer;39,99 €;2023-04-26
+20;Maria Wagner;External SSD;149,00 €;2023-04-29

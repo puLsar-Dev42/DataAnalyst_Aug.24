@@ -234,7 +234,7 @@ SELECT ARRAY_LENGTH(ARRAY [[1, 2, 3, 4], [4, 5, 6, 7]], 2);
 
 -- Texte in Arrays zerlegen
 -- STRING_TO_ARRAY(TEXT, TRENNZEICHEN)
-SELECT STRING_TO_ARRAY('Hallo Du', ' ');
+SELECT ('Hallo Du', ' ');
 
 SELECT STRING_TO_ARRAY(email, '@')
 FROM customer;

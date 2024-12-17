@@ -1,0 +1,13 @@
+﻿order_id;customer_name;product_name;product_preis;order_date;product_category;customer_mail;address;employee_name;employee_phone
+1;Schmidt, Johannes;Tisch;250;12.12.2023;Möbel;schmidt123@gmail.com;Am Hang 12;Pfeiffer, Hans;030 123452
+2;Serkan, Aoglu;Maus;15;04.01.2024;Technik;s.aoglu@gmx.de;Sternalle 78;Pfeiffer, Hans;030 123452
+3;Botulin, Sandra;Lampe;50;05.01.2024;Beleuchtung;sandra1974@hotmail.com;Jägersteig 3;Albertsen, Greta;030 123453
+4;Jonas, Mayer;Stuhl;75;12.01.2024;Möbel;mayer_vom_berg@gmx.de;Krumme Straße 23a;Albertsen, Greta;030 123453
+5;Fleischlos, Anna;Tisch;250;13.01.2024;Möbel;die_fleischlose@gmail.com;Fenngasse 1;Wichtig, Winfried;030 123451
+6;Botulin, Sandra;Bildschirm;200;15.01.2024;Technik;sandra1974@hotmail.com;Jägersteig 3;Pfeiffer, Hans;030 123452
+7;Jonas, Mayer;Bildschirm;200;21.01.2024;Technik;mayer_vom_berg@gmx.de;Krumme Straße 23a;Wichtig, Winfried;030 123451
+8;Utkin, Vlad;Stuhl;75;25.01.2024;Möbel;vlad_utka@mail.ru;Allee der Kosmonauten 155;Albertsen, Greta;030 123453
+9;Schmidt, Johannes;Maus;15;30.01.2024;Technik;schmidt123@gmail.com;Am Hang 12;Albertsen, Greta;030 123453
+10;Utkin, Vlad;Tisch;250;04.02.2024;Möbel;vlad_utka@mail.ru;Allee der Kosmonauten 155;Pfeiffer, Hans;030 123452
+11;Fleischlos, Anna;Bildschirm;200;05.02.2024;Technik;die_fleischlose@gmail.com;Fenngasse 1;Albertsen, Greta;030 123453
+12;Schmidt, Johannes;Lampe;50;07.02.2024;Beleuchtung;schmidt123@gmail.com;Am Hang 12;Wichtig, Winfried;030 123451

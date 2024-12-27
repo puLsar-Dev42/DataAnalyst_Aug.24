@@ -86,7 +86,7 @@ FROM title_and_language;
 
 --> ANTWORT: <--
 -->	Also die Unterschiede liegen darin das VIEWS immer Aktuell sind, sprich alle änderungen werden mit übernommen.
-	Und MATERIALIZED VIEWS müssen immer manuell per UPDATE aktualisiert werden. <--
+	Und MATERIALIZED VIEWS müssen immer manuell per REFRESH aktualisiert werden. <--
 
 */
 

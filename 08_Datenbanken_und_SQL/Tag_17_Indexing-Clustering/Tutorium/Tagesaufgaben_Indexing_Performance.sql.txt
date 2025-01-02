@@ -1,0 +1,127 @@
+/*
+Aufgabe 1
+
+Welches Zeichen dient in der Datei Datensatz_Verkehrsverstoesse.csv
+als Trennzeichen für die Datenfelder ?
+*/
+
+-- 
+
+/*
+Worauf ist beim Import der Daten der Datei
+Datensatz_Verkehrsverstoesse.csv in eine Datenbank zu achten?
+*/
+
+-- 
+
+/*
+Aufgabe 2 
+
+Erstellen Sie eine neue postgres Datenbank verkehrskontrolle.
+
+Erstellen Sie eine neue Tabelle "messungen" in der neuen Datenbank,
+passend zu den Informationen aus der Datei Datensatz_Verkehrsverstoesse.csv.
+
+Importieren Sie die Daten der Datei Datensatz_Verkehrsverstoesse.csv
+sinnvoll in die Tabelle "messungen".
+*/
+
+
+/*
+Aufgabe 3
+
+3.1 Führen Sie eine Analyse durch wie lange es dauert das
+	Vorkommen der Messplätze zu zählen ohne die Verwendung eines Index.
+*/
+
+
+/*
+3.2 Notieren Sie ihr Ergebnis.
+*/
+-- 
+
+/*
+3.3 Fügen Sie einen Index für die Spalte messplatz hinzu und führen
+Sie die Messung erneut aus.
+*/
+
+
+/*
+3.4 Notieren Sie die Dauer der Ausführung. Wurde der neue 
+Index verwendet?
+*/
+
+-- 
+
+/*
+3.5 Entfernen Sie den Index wieder.
+*/
+
+
+/*
+Aufgabe 4
+
+4.1 Fügen Sie jedem Eintrag eine messung_id hinzu und machen Sie
+diese zum Primärschlüssel.
+*/
+
+
+/*
+4.2 Berechnen Sie den gleitenden Durchschnitt für 3 Messungen
+pro Messplatz. Sortieren Sie dafür nach dem Datum und verwenden
+Sie zwei vorherige Zeilen und die aktuelle Zeile. Lassen Sie
+sich außerdem das Datum und den Messplatz ausgeben.
+*/
+
+
+/*
+4.3 Summieren Sie die Verstöße pro Messplatz auf (Die Tabelle
+darf nicht kollabieren). Zeigen sie das Ergebnis zusammen mit
+dem Messplatz.
+*/
+
+
+/*
+4.4 Führen Sie eine vollständige Performance Analyse für
+Aufgabe 4.2 durch. Fügen Sie der Query aus 4.2 noch einen Filter
+nach dem Messplatz 'Berensberger Strasse' hinzu. Wie schnell
+war die Ausführung? Wurde ein Index verwendet?
+*/
+
+
+
+
+/*
+4.5 Führen Sie eine vollständige Performance Analyse für 
+Aufgabe 4.3 durch. Fügen Sie der Query aus 4.3 noch einen Filter
+nach dem Messplatz 'Berensberger Strasse' hinzu. Wie schnell
+war die Ausführung? Wurde ein Index verwendet?
+*/
+
+
+/*
+4.6 Erstellen Sie nun einen Index für die Spalte messplatz.
+*/
+
+
+/*
+4.7 Wiederholen Sie hier Aufgabe 4.4.
+*/
+
+
+/*
+4.8 Hat das hinzufügen des Schlüssels die Performance verbessert?
+*/
+
+--
+
+/*
+4.9 Wiederholen Sie hier Aufgabe 4.5.
+*/
+
+
+/*
+4.10 Hat das Hinzufügen des Schlüssels die
+Performance verbessert?
+*/
+

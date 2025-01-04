@@ -203,7 +203,7 @@ DROP USER
 REVOKE SELECT ON spells, potions FROM schüler;
 REVOKE SELECT ON "Characters" FROM vertrauensschüler;
 REVOKE SELECT, INSERT, UPDATE, DELETE ON spells, potions FROM lehrer;
-REVOKE SELECT ON "Characters" FROM 	lehrer;
+REVOKE SELECT ON "Characters" FROM lehrer;
 REVOKE SELECT, INSERT, UPDATE, DELETE ON "Characters" FROM schulverwaltung;
 
 

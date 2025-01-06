@@ -19,13 +19,14 @@ create_table()
 # Man hätte auch mit try & except + Casting arbeiten können.
 
 while (user_choice := input(menu)) != '3':
-    if user_choice == '1':
-        print('Eintrag wurde hinzugefügt.')
-        # hier kommt was
-    elif user_choice == '2':
-        print('Das sind die Einträge:\n')
-        # hier kommt was
-    else:
-        print('Ungültige Eingabe!')
+	if user_choice == '1':
+		insert_topic()
+		print('Eintrag wurde hinzugefügt.')
+	elif user_choice == '2':
+		print('Das sind die Einträge:\n')
+		view_entries()
+		print('---------------------------')
+	else:
+		print('Ungültige Eingabe!')
 
-print('Danke für die Nutzung dieser App!')
+print('\nDanke für die Nutzung dieser App!')

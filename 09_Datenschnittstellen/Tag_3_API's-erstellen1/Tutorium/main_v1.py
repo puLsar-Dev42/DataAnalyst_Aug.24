@@ -76,7 +76,7 @@ def add_movie(movie: dict):
 
 
 # delete
-@app.delete('/movies/delete', status_code=status.HTTP_202_ACCEPTED)
+@app.delete('/movies/delete', status_code=status.HTTP_204_NO_CONTENT)
 def delete_movie(movie_id: int):
 	movies.pop(movie_id - 1)  # Index aushebeln
 	return {'msg': f'Movie with ID {movie_id} deleted!'}

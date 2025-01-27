@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_10_Funktionen/Tutorium/8_Lernkontrolle_2_MichaelMat.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_10_Funktionen/Vorlesung/8_Skript_Funktionen_Vorlage.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_11_Tabellen-&amp;-Datenbanken-erstellen/Tutorium/8_Tagesaufgaben_Tabellen_Primary_Keys_MichaelMat.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_11_Tabellen-&amp;-Datenbanken-erstellen/Vorlesung/8_Skript_Tabellen_erstellen_VorlageMM.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_12_Normalisierung/Tutorium/8_Loesung_Tagesaufgaben_Normalisierung.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_12_Normalisierung/Tutorium/8_Tagesaufgaben_Normalisierung_MichaelMat.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_12_Normalisierung/Vorlesung/8_Skript_Normalisierung_MM.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_12_Normalisierung/Vorlesung/8_Skript_Normalisierung_Vorlage.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_13_ForeignKeys/Tutorium/8_Tagesaufgaben_ERD_Foreign_Keys_MichaelMat.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_13_ForeignKeys/Vorlesung/8_Skript_Foreign_Keys_MM.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_14_Views/Tutorium/8_Tagesaufgaben_Views_MichaelMat.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_14_Views/Vorlesung/8_Skript_CREATE_DROP_Views_Vorlage.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_16_RollingWindow/Tutorium/Tagesaufgaben_Rolling_Window_MichaelMat.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_16_RollingWindow/Vorlesung/8_Skript_Rolling_Window_Vorlage_MM.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_18_Benutzermanagement/Tutorium/8_Tagesaufgaben_Benutzermanagement_MichaelMat.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_18_Benutzermanagement/Tutorium/harry_potter_data.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_18_Benutzermanagement/Vorlesung/8_Skript_Benutzermanagement_Vorlage_MM.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_2_SELECT-Statement/Tutorium/SelfEducationSQL_GLOB.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_2_SELECT-Statement/Tutorium/Tagesaufgaben_SQL_MichaelMat.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_2_SELECT-Statement/Vorlesung/8_Skript_SQL_Basics_Vorlage.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_3_DISTINCT-Strings-Logik/Tutorium/Tagesaufgaben_SQL_MichaelMat.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_3_DISTINCT-Strings-Logik/Vorlesung/8_Skript_AS_DISTINCT_Strings_Logik_Vorlage.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_4_JOINs-UNION-SUBQUERIES/Tutorium/Tagesaufgaben_SQL_MichaelMat.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_4_JOINs-UNION-SUBQUERIES/Vorlesung/8_SQL_JOINs-UNION-SUBQUERIES.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_4_JOINs-UNION-SUBQUERIES/Vorlesung/8_Uebungen.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_5_GROUPBY-HAVING-AGGREGATION/Tutorium/8_Lernkontrolle_1_SQL_MichaelMat.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_5_GROUPBY-HAVING-AGGREGATION/Vorlesung/8_Skript_Gruppierungen_Aggregation_Vorlage.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_6_CASE-WHEN/Tutorium/Tagesaufgaben_CASE_WHEN_MichaelMatt.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_6_CASE-WHEN/Vorlesung/8_Skript_CASE_WHEN_Daten_Vorlage.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_7_REGEX/Tutorium/Tagesaufgaben_SQL-Wiederholung_MichaelMat.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_7_REGEX/Vorlesung/8_Skript_Regex_und_Wiederholung_MichaelMatt.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_8_Postgres-PgAdmin/Tutorium/Datenbank_Chinook_Postgres.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_8_Postgres-PgAdmin/Tutorium/Tagesaufgaben_Postgres.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_8_Postgres-PgAdmin/Vorlesung/8_Skript_Postgres_Vorlage.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_8_Postgres-PgAdmin/Vorlesung/northwind.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_9_weitere-PSQL-Besonderheiten/Tutorium/8_Tagesaufgaben_Postgres_Tag_2_MichaelMat.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/08_Datenbanken_und_SQL/Tag_9_weitere-PSQL-Besonderheiten/Vorlesung/8_Skript_Dates_Strings_Arrays_Vorlage.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/09_Datenschnittstellen/API/app/data/src/data_analytics/MICHAEL/da's.sql" dialect="PostgreSQL" />
+  </component>
+</project>

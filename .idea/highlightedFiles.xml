@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectTreeColorHighlighter">
+    <files>
+      <node color="5" path="$PROJECT_DIR$/09_Datenschnittstellen/API/app/mainAPI.py" />
+      <node color="8" path="$PROJECT_DIR$/09_Datenschnittstellen/API/app/models/BaseModel.py" />
+      <node color="4" path="$PROJECT_DIR$/09_Datenschnittstellen/API/app/routes/planet_routes.py" />
+      <node color="1" path="$PROJECT_DIR$/09_Datenschnittstellen/API/app/routes/star_routes.py" />
+      <node color="2" path="$PROJECT_DIR$/09_Datenschnittstellen/API/run.py" />
+      <node color="5" path="$PROJECT_DIR$/09_Datenschnittstellen/Tag_6_Webscraping1/Tutorium/Michael_Matthiesen_24-01-2025.ipynb" />
+      <node color="5" path="$PROJECT_DIR$/09_Datenschnittstellen/Tag_7_Webscraping2/Vorlesung/9_Skript_Webscraping_2_Vorlage.ipynb" />
+    </files>
+    <colors>
+      <color id="1" value="#74060d" name="Color 1" enabled="true" />
+      <color id="2" value="#51005c" name="Color 2" enabled="true" />
+      <color id="3" value="#8e8d01" name="Color 3" enabled="true" />
+      <color id="4" value="#134c04" name="Color 4" enabled="true" />
+      <color id="5" value="#052864" name="Color 5" enabled="true" />
+      <color id="6" value="#070034" name="Color 6" enabled="true" />
+      <color id="7" value="#19024a" name="Color 7" enabled="true" />
+      <color id="8" value="#0d0d0d" name="Color 8" enabled="true" />
+      <color id="9" value="#16fa00" name="Color 9" />
+      <color id="10" value="#fa00e8" name="Color 10" />
+      <color id="11" value="#fa0015" name="Color 11" />
+      <color id="12" value="#002cfa" name="Color 12" />
+      <color id="13" name="Color 13" />
+      <color id="14" name="Color 14" />
+      <color id="15" name="Color 15" />
+      <color id="16" name="Color 16" />
+    </colors>
+    <option name="marksForCollapsedHighlights" value="Dots" />
+  </component>
+</project>

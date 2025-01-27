@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CsvFileAttributes">
+    <option name="attributeMap">
+      <map>
+        <entry key="\03_Excel\DashBoardSideProject\healthcare_dataset.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\03_Excel\Tag_11_PowerQuery&amp;Interaktivität\Tutorium\Tagesaufgabe1\Datensatz_nyc_planes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\07_Python_für_Datenanalysten\Tag_10_virtuel-environment-venv\Tutorium\autoscout24-germany-dataset.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\07_Python_für_Datenanalysten\Tag_9_RegEx-in-Pandas\Vorlesung\titanic.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\08_Datenbanken_und_SQL\Tag_12_Normalisierung\Vorlesung\datacraft_students.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

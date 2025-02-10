@@ -9,15 +9,17 @@
       <node color="2" path="$PROJECT_DIR$/09_Datenschnittstellen/API/run.py" />
       <node color="5" path="$PROJECT_DIR$/09_Datenschnittstellen/Tag_6_Webscraping1/Tutorium/Michael_Matthiesen_24-01-2025.ipynb" />
       <node color="5" path="$PROJECT_DIR$/09_Datenschnittstellen/Tag_7_Webscraping2/Vorlesung/9_Skript_Webscraping_2_Vorlage.ipynb" />
+      <node color="7" path="$PROJECT_DIR$/util/colors/color.py" />
+      <node color="2" path="$PROJECT_DIR$/util/functions/fns.py" />
     </files>
     <colors>
       <color id="1" value="#74060d" name="Color 1" enabled="true" />
       <color id="2" value="#51005c" name="Color 2" enabled="true" />
-      <color id="3" value="#8e8d01" name="Color 3" enabled="true" />
-      <color id="4" value="#134c04" name="Color 4" enabled="true" />
-      <color id="5" value="#052864" name="Color 5" enabled="true" />
+      <color id="3" value="#7c7b05" name="Color 3" enabled="true" />
+      <color id="4" value="#0f770b" name="Color 4" enabled="true" />
+      <color id="5" value="#062d70" name="Color 5" enabled="true" />
       <color id="6" value="#070034" name="Color 6" enabled="true" />
-      <color id="7" value="#19024a" name="Color 7" enabled="true" />
+      <color id="7" value="#08706c" name="Color 7" enabled="true" />
       <color id="8" value="#0d0d0d" name="Color 8" enabled="true" />
       <color id="9" value="#16fa00" name="Color 9" />
       <color id="10" value="#fa00e8" name="Color 10" />

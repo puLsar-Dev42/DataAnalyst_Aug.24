@@ -1,6 +1,6 @@
 # functions
 
-##################################################################################################
+###################################################################################################
 
 
 # calculate_mean:
@@ -14,7 +14,7 @@ def calc_mean(numb: list) -> list:
 	return c_mean
 
 
-##################################################################################################
+###################################################################################################
 
 
 # determine_mode imports:
@@ -28,7 +28,7 @@ def determine_mode(data_list: list) -> tuple:
 	return most_common
 
 
-##################################################################################################
+###################################################################################################
 
 
 # permutation:
@@ -44,7 +44,7 @@ for num in range(1, n + 1):
 print(result)
 
 
-##################################################################################################
+###################################################################################################
 
 
 # calc_permu:
@@ -57,5 +57,63 @@ def calc_permu():
 		print(result)
 	
 	print(result)
+
+
+###################################################################################################
+
+
+# char_counter
+def char_counter(text: str, char_u_wanna_count: str) -> Counter:
+	"""
+	Prints all positions where a specified character appears in a given text,
+    followed by the total count of that character.
+    Args:
+        text (str): The text to be searched.
+        char_u_wanna_count (str): The character to search for within the text.
+    Returns:
+        None: This function only prints the occurrences and the current count but
+        does not return any value.
+	"""
+	count = 0
+	print(f"Word you want to get searched: => {text}")
+	print(f"Char you want to search & get counted: => {char_u_wanna_count}\n")
+	for idx, char in enumerate(text.lower()):
+		if char == char_u_wanna_count:
+			count += 1
+			print(f"{char} on position {idx} => Counter: {count - 1} + 1")
+	print(f"\nTotal of counted {char_u_wanna_count}'s: == {count}\n"
+		  f"▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬\n\n")
+
+
+###################################################################################################
+
+
+# rename_col_by_user
+def rename_cols_by_user(df: pd.DataFrame) -> pd.DataFrame:
+	"""
+	function:
+    Interactively prompts the user to rename columns in a DataFrame.
+
+	This function prints the current column names of the given DataFrame,
+	then asks whether the user wants to rename any columns. If confirmed,
+	it iterates through each column, prompting the user for a new name.
+	The user can enter a new name or skip to leave the column name unchanged.
+    Args:
+        df (pd.DataFrame): The DataFrame whose columns will be considered for renaming.
+    Returns:
+        pd.DataFrame: The modified DataFrame with updated column names (if any).
+    """
+	print("\nCurrent column names:\n")
+	for col_name in df.columns:
+		print(f" - {col_name}")
+	
+	rename_question = input("\nYou want to change column names? (y/n):")
+	if rename_question.lower() == "y":
+		for old_col_name in list(df.columns):
+			new_col_name = input(
+				f"\nPlease enter new name for {old_col_name}, or click OK button to go to next column .")
+			if new_col_name.strip():
+				df.rename(columns={old_col_name: new_col_name}, inplace=True)
+	return df
 
 ##################################################################################################

@@ -38,6 +38,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\10_Statistik-Grundlagen\Tag_12_Multiple-Regressionsanalyse\Tutorium\autoscout24.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

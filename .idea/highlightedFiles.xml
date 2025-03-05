@@ -9,17 +9,19 @@
       <node color="2" path="$PROJECT_DIR$/09_Datenschnittstellen/API/run.py" />
       <node color="5" path="$PROJECT_DIR$/09_Datenschnittstellen/Tag_6_Webscraping1/Tutorium/Michael_Matthiesen_24-01-2025.ipynb" />
       <node color="5" path="$PROJECT_DIR$/09_Datenschnittstellen/Tag_7_Webscraping2/Vorlesung/9_Skript_Webscraping_2_Vorlage.ipynb" />
+      <node color="5" path="$PROJECT_DIR$/11_Datenvisualisierung_mit_Python/Tag_2_Balken-Linien-Streudiagramm/Tutorium/Group2_Tagesaufgaben.ipynb" />
+      <node color="2" path="$PROJECT_DIR$/11_Datenvisualisierung_mit_Python/Tag_5_Bubblechart-Surfaceplot-3DScatterplot/Tutorium/11_Datenvisualisierung_Lernkontrolle_1_MichaelMat.ipynb" />
       <node color="7" path="$PROJECT_DIR$/util/colors/color.py" />
       <node color="2" path="$PROJECT_DIR$/util/functions/fns.py" />
     </files>
     <colors>
-      <color id="1" value="#74060d" name="Color 1" enabled="true" />
-      <color id="2" value="#51005c" name="Color 2" enabled="true" />
-      <color id="3" value="#7c7b05" name="Color 3" enabled="true" />
-      <color id="4" value="#0f770b" name="Color 4" enabled="true" />
-      <color id="5" value="#062d70" name="Color 5" enabled="true" />
-      <color id="6" value="#070034" name="Color 6" enabled="true" />
-      <color id="7" value="#08706c" name="Color 7" enabled="true" />
+      <color id="1" value="#8c0710" name="Color 1" enabled="true" />
+      <color id="2" value="#680076" name="Color 2" enabled="true" />
+      <color id="3" value="#9d9c06" name="Color 3" enabled="true" />
+      <color id="4" value="#13960e" name="Color 4" enabled="true" />
+      <color id="5" value="#073789" name="Color 5" enabled="true" />
+      <color id="6" value="#0b0053" name="Color 6" enabled="true" />
+      <color id="7" value="#0a8b86" name="Color 7" enabled="true" />
       <color id="8" value="#0d0d0d" name="Color 8" enabled="true" />
       <color id="9" value="#16fa00" name="Color 9" />
       <color id="10" value="#fa00e8" name="Color 10" />

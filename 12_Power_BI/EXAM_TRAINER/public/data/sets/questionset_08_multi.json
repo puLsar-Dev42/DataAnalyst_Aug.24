@@ -1,0 +1,1076 @@
+[
+  {
+    "id": "q001",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider the Power BI model shown in the picture. [IMAGE HERE] The Product Table has a relationship to the Product Category Table on the SKU column. Here, you can check a sample of data inside the tables: Product Table: SKU: HD-001, Product: GymSmartwatch, Color: Blue SKU: HD-002, Product: XSound Headphones, Color: Black SKU: HD-003, Product: Laptop Pro 2000, Color: Green Product Category Table: SKU: HD-001, Category: Smartwatch SKU: HD-002, Category: Headphone SKU: HD-003, Category: Computer You need to use in your Power BI report a Hierarchy that shows two levels: product and category. Solution: Create a DAX expression that uses CONCATENATEX function between the Product column and the Category column. Does this solution meet the goal?",
+        "de": "Betrachten Sie das im Bild gezeigte Power BI-Modell. [IMAGE HERE] Die Produkttabelle steht mit der Produktkategorietabelle über die SKU-Spalte in Beziehung. Beispieldaten: Produkttabelle: SKU: HD-001, Produkt: GymSmartwatch, Farbe: Blau SKU: HD-002, Produkt: XSound Kopfhörer, Farbe: Schwarz SKU: HD-003, Produkt: Laptop Pro 2000, Farbe: Grün Produktkategorietabelle: SKU: HD-001, Kategorie: Smartwatch SKU: HD-002, Kategorie: Kopfhörer SKU: HD-003, Kategorie: Computer Sie benötigen eine Hierarchie mit zwei Ebenen (Produkt und Kategorie) in Ihrem Bericht. Lösung: Erstellen Sie einen DAX-Ausdruck mit der CONCATENATEX-Funktion zwischen Produkt- und Kategoriespalte. Erfüllt diese Lösung das Ziel?"
+      },
+      {
+        "type": "image",
+        "value": "q001.png"
+      }
+    ],
+    "images": [
+      "q001.png"
+    ],
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "choices_ger": [
+      "Nein",
+      "Ja"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q002",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Suppose you have a Power BI model based on the following two tables: Enrollments (columns name: Enrollments_ID, Enrollments_amount, DateID), Date (columns name: DateID, Date, Month, Week, Year). There is an active relationship between Enrollments and Date. You want to create a measure to calculate the Enrollments for the same period from the previous year. Select the right DAX formula.",
+        "de": "Angenommen, Sie haben ein Power BI-Modell mit zwei Tabellen: Enrollments (Spalten: Enrollments_ID, Enrollments_amount, DateID) und Date (Spalten: DateID, Date, Month, Week, Year). Es gibt eine aktive Beziehung zwischen Enrollments und Date. Sie möchten ein Measure erstellen, das die Anmeldungen für denselben Zeitraum des Vorjahres berechnet. Wählen Sie die richtige DAX-Formel."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "SUM(Enrollments[Enrollments_amount]) / CALCULATE(SUM(Enrollments[Enrollments_amount]), SAMEPERIODLASTYEAR('Date'[Date]))",
+      "SUM(Enrollments[Enrollments_amount]) - CALCULATE(Enrollments[Enrollments_amount]), DATESYID('Date'[Date]))",
+      "CALCULATE(SUM(Enrollments[Enrollments_amount]), SAMEPERIODLASTYEAR('Date'[Date]))",
+      "CALCULATEx(SUM(Enrollments[Enrollments_amount]), DATEADD('Date'[Date], -1, YEAR))"
+    ],
+    "choices_ger": [
+      "SUM(Enrollments[Enrollments_amount]) / CALCULATE(SUM(Enrollments[Enrollments_amount]), SAMEPERIODLASTYEAR('Date'[Date]))",
+      "SUM(Enrollments[Enrollments_amount]) - CALCULATE(Enrollments[Enrollments_amount]), DATESYID('Date'[Date]))",
+      "CALCULATE(SUM(Enrollments[Enrollments_amount]), SAMEPERIODLASTYEAR('Date'[Date]))",
+      "CALCULATEx(SUM(Enrollments[Enrollments_amount]), DATEADD('Date'[Date], -1, YEAR))"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q003",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider the following two tables: Sales (columns: SalesID, OrderDate, Salesman), Date (columns: Date, Month, Week, Year) There is a relationship between Sales[OrderDate] and Date[Date]. Suppose you want to create a goal for the number of sales made in the current year and set it as 10% higher than the number of sales made in the previous year. Select the proper order of the DAX functions to complete correctly the following formula: [IMAGE HERE] ",
+        "de": "Betrachten Sie diese zwei Tabellen: Sales (Spalten: SalesID, OrderDate, Salesman) und Date (Spalten: Date, Month, Week, Year). Es gibt eine Beziehung zwischen Sales[OrderDate] und Date[Date]. Sie möchten ein Ziel für die Verkaufsanzahl des aktuellen Jahres erstellen, das 10% höher ist als im Vorjahr. Wählen Sie die richtige Reihenfolge der DAX-Funktionen, um die Formel zu vervollständigen: [IMAGE HERE]"
+      },
+      {
+        "type": "image",
+        "value": "q003.png"
+      }
+    ],
+    "images": [
+      "q003.png"
+    ],
+    "choices": [
+      "CALCULATE - COUNT - PREVIOUSYEAR",
+      "COUNTX - FORMAT - DATEADD",
+      "CALCULATE - SUMX - PREVIOUSYEAR",
+      "COUNT - CALCULATE - SAMEPERIODLASTYEAR"
+    ],
+    "choices_ger": [
+      "CALCULATE - COUNT - PREVIOUSYEAR",
+      "COUNTX - FORMAT - DATEADD",
+      "CALCULATE - SUMX - PREVIOUSYEAR",
+      "COUNT - CALCULATE - SAMEPERIODLASTYEAR"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q004",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You plan to create a DAX formula to filter the total enrollments of the 2019 year. How should you complete the formula shown in the picture, in order to effectively use it apart from the other date filter set on the report page? [IMAGE HERE] ",
+        "de": "Sie möchten eine DAX-Formel erstellen, um die Gesamtanmeldungen des Jahres 2019 zu filtern. Wie sollten Sie die im Bild gezeigte Formel vervollständigen, um sie unabhängig von anderen Datumsfiltern auf der Berichtsseite zu verwenden? [IMAGE HERE]"
+      },
+      {
+        "type": "image",
+        "value": "q004.png"
+      }
+    ],
+    "images": [
+      "q004.png"
+    ],
+    "choices": [
+      "ALL",
+      "FORMAT",
+      "VALUES",
+      "ALLEXCEPT"
+    ],
+    "choices_ger": [
+      "ALL",
+      "FORMAT",
+      "VALUES",
+      "ALLEXCEPT"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q005",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You plan to create a measure named YTDPreviousEnrollments that will be used in a table visualization. YTDPreviousEnrollments must show the year-to-date (YTD) enrollment amount of the previous year for the same month. Check the picture for a sample of the desired data: ",
+        "de": "Sie möchten ein Measure namens YTDPreviousEnrollments erstellen, das in einer Tabellenvisualisierung verwendet wird. Es soll die YTD-Anmeldezahl des Vorjahres für denselben Monat anzeigen. Siehe Bild für Beispieldaten: "
+      },
+      {
+        "type": "image",
+        "value": "q005.png"
+      },
+      {
+        "type": "text",
+        "eng": "Select the proper order of DAX formula targets that calculate the YTDPreviousEnrollments.",
+        "de": "Wählen Sie die richtige Reihenfolge der DAX-Formelziele zur Berechnung von YTDPreviousEnrollments."
+      },
+      {
+        "type": "image",
+        "value": "q005_2.png"
+      }
+    ],
+    "images": [
+      "q005.png",
+      "q005_2.png"
+    ],
+    "choices": [
+      {
+        "de": "CALCULATE - TOTALYTD",
+        "en": "CALCULATE - TOTALYTD"
+      },
+      {
+        "de": "CALCULATE - DATEADD",
+        "en": "CALCULATE - DATEADD"
+      },
+      {
+        "de": "CALENDAR - DATEADD",
+        "en": "CALENDAR - DATEADD"
+      },
+      {
+        "de": "FILTER - DATEDIFF",
+        "en": "FILTER - DATEDIFF"
+      }
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q006",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider the table named Enrollments shown in the picture:",
+        "de": "Betrachten Sie die im Bild gezeigte Tabelle Enrollments:"
+      },
+      {
+        "type": "image",
+        "value": "q006.png"
+      },
+      {
+        "type": "text",
+        "eng": "You need to create the following measure:  Total Enrollments This Year = SUM([Enrollments]) Suppose you want to compare the current yearly enrollments to the previous year by another measure. Complete the following DAX formula with the right targets:",
+        "de": "Sie müssen dieses Measure erstellen: Total Enrollments This Year = SUM([Enrollments]). Sie möchten die aktuellen Jahresanmeldungen mit dem Vorjahr vergleichen. Vervollständigen Sie die DAX-Formel mit den richtigen Zielen: "
+      },
+      {
+        "type": "image",
+        "value": "q006_2.png"
+      }
+    ],
+    "images": [
+      "q006.png",
+      "q006_2.png"
+    ],
+    "choices": [
+      {
+        "de": "SUMX - PREVIOUSYEAR",
+        "en": "SUMX - PREVIOUSYEAR"
+      },
+      {
+        "de": "DATEADD - CALCULATE",
+        "en": "DATEADD - CALCULATE"
+      },
+      {
+        "de": "CALCULATE- DATEADD",
+        "en": "CALCULATE- DATEADD"
+      },
+      {
+        "de": "CALCULATE - SAMEPERIODLASTYEAR",
+        "en": "CALCULATE - SAMEPERIODLASTYEAR"
+      }
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q007",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a Power BI model for sales data. You create a measure to calculate the year-to-date sales. You need to compare the year-to-date sales with the previous year for the same time period. Which DAX function should you use?",
+        "de": "Sie haben ein Power BI-Modell für Verkaufsdaten. Sie erstellen ein Measure für YTD-Verkäufe. Sie möchten die YTD-Verkäufe mit dem Vorjahreszeitraum vergleichen. Welche DAX-Funktion sollten Sie verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "DATEADD",
+      "ENDOFYEAR",
+      "TOTALYTD",
+      "DATESYTD"
+    ],
+    "choices_ger": [
+      "DATEADD",
+      "ENDOFYEAR",
+      "TOTALYTD",
+      "DATESYTD"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q008",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a Power BI model that contains two tables named Enrollments and Date. Enrollments table contains three columns named EnrollmentsAmount, EnrollmentDate and EnrollmentID. You want to create a measure to sum the last 12 months of enrollments. Note: you have to start from the last date an enrollment was made and reject any filters set on the report. Select the proper order of the DAX functions to complete correctly the following formula: [IMAGE HERE]",
+        "de": "Ihr Power BI-Modell enthält zwei Tabellen: Enrollments und Date. Die Enrollments-Tabelle hat drei Spalten: EnrollmentsAmount, EnrollmentDate und EnrollmentID. Sie möchten ein Measure für die Summe der letzten 12 Monate erstellen. Hinweis: Beginnen Sie mit dem letzten Anmeldedatum und ignorieren Sie Berichtsfilter. Wählen Sie die richtige Reihenfolge der DAX-Funktionen: [IMAGE HERE]"
+      },
+      {
+        "type": "image",
+        "value": "q008.png"
+      }
+    ],
+    "images": [
+      "q008.png"
+    ],
+    "choices": [
+      "ALLEXCEPT - DATEADD",
+      "CALCULATE - DATESYTD",
+      "DATEADD - LASTNONBLANK",
+      "CALCULATE - DATEADD"
+    ],
+    "choices_ger": [
+      "ALLEXCEPT - DATEADD",
+      "CALCULATE - DATESYTD",
+      "DATEADD - LASTNONBLANK",
+      "CALCULATE - DATEADD"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q009",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You want to see the sum of the Sales[SalesAmount] for the Contoso brand by creating a new Quick Measure. How you are supposed to set the following fields? [image here]",
+        "de": "Sie möchten die Summe von Sales[SalesAmount] für die Marke Contoso als Quick Measure erstellen. Wie sollten Sie die Felder einstellen? [image here]"
+      },
+      {
+        "type": "image",
+        "value": "q009.png"
+      }
+    ],
+    "images": [
+      "q009.png"
+    ],
+    "choices": [
+      "Calculation: Running totals, Base Value: Count of Sales Amount, Field: Contoso, Direction: Ascending",
+      "Calculation: Filtered Value, Base Value: Count of Sales Amount, Filter: BrandName, Select a value: Contoso",
+      "Calculation: Running totals, Base Value: Sum of Sales Amount, Field: Contoso, Direction: Ascending",
+      "Calculation: Filtered Value, Base Value: Sum of Sales Amount, Filter: BrandName, Select a value: Contoso"
+    ],
+    "choices_ger": [
+      "Berechnung: Laufende Summen, Basiswert: Anzahl Sales Amount, Feld: Contoso, Richtung: Aufsteigend",
+      "Berechnung: Gefilterter Wert, Basiswert: Anzahl Sales Amount, Filter: BrandName, Wert: Contoso",
+      "Berechnung: Laufende Summen, Basiswert: Summe Sales Amount, Feld: Contoso, Richtung: Aufsteigend",
+      "Berechnung: Gefilterter Wert, Basiswert: Summe Sales Amount, Filter: BrandName, Wert: Contoso"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q010",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider the tables shown in the picture:",
+        "de": "You need to create a new table that displays the top 5 Students by the total of attended courses. Select the proper order of the DAX functions to complete correctly the following formula: "
+      },
+      {
+        "type": "image",
+        "value": "q010.png"
+      },
+      {
+        "type": "text",
+        "eng": "Betrachten Sie die im Bild gezeigten Tabellen:",
+        "de": "Sie müssen eine Tabelle der Top 5 Studenten nach besuchten Kursen erstellen. Wählen Sie die richtige Reihenfolge der DAX-Funktionen:"
+      },
+      {
+        "type": "image",
+        "value": "q010_2.png"
+      }
+    ],
+    "images": [
+      "q010.png",
+      "q010_2.png"
+    ],
+    "choices": [
+      {
+        "de": "CALCULATE - TOPN",
+        "en": "CALCULATE - TOPN"
+      },
+      {
+        "de": "CALCULATE - VALUES",
+        "en": "CALCULATE - VALUES"
+      },
+      {
+        "de": "FILTER - RANKX",
+        "en": "FILTER - RANKX"
+      },
+      {
+        "de": "CALCULATE - RANKX",
+        "en": "CALCULATE - RANKX"
+      }
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q011",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider the table Product_Sales shown in picture 1:",
+        "de": "Betrachten Sie die Tabelle Product_Sales (Bild 1): "
+      },
+      {
+        "type": "image",
+        "value": "q011.png"
+      },
+      {
+        "type": "text",
+        "eng": "You need to create a measure to rank total sales by product as shown in picture 2.",
+        "de": "Sie benötigen ein Measure für die Verkaufsrangfolge (Bild 2)."
+      },
+      {
+        "type": "image",
+        "value": "q011_2.png"
+      },
+      {
+        "type": "text",
+        "eng": "Which of the following DAX formulas should you use?",
+        "de": "Welche DAX-Formel sollten Sie verwenden?"
+      }
+    ],
+    "images": [
+      "q011.png",
+      "q011_2.png"
+    ],
+    "choices": [
+      {
+        "de": "RANKX(ALL('Product_Sales'), [SalesAmount],,DESC, Dense)",
+        "en": "RANKX(ALL('Product_Sales'), [SalesAmount],,DESC, Dense)"
+      },
+      {
+        "de": "RANKX([Product], [SalesAmount],,DESC, Dense)",
+        "en": "RANKX([Product], [SalesAmount],,DESC, Dense)"
+      },
+      {
+        "de": "RANKX(ALL('Product_Sales' [Product]), [SalesAmount],,DESC, Skip)",
+        "en": "RANKX(ALL('Product_Sales' [Product]), [SalesAmount],,DESC, Skip)"
+      },
+      {
+        "de": "RANKX(ALL('Product_Sales'), [SalesAmount], Asc)",
+        "en": "RANKX(ALL('Product_Sales'), [SalesAmount], Asc)"
+      }
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q012",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You want to create a bar chart visualization to show the count of course enrollments by year that have an Enrollments Amount greater than 1,000. You need to create a measure that will be used in the bar chart visualization. Select the proper order of the DAX functions to complete correctly the following formula: [image here] ",
+        "de": "Sie möchten ein Balkendiagramm der Kursanmeldungen pro Jahr (nur Anmeldungen > 1.000) erstellen. Sie benötigen ein Measure für die Visualisierung. Wählen Sie die richtige Reihenfolge der DAX-Funktionen: [image here]"
+      },
+      {
+        "type": "image",
+        "value": "q012.png"
+      }
+    ],
+    "images": [
+      "q012.png"
+    ],
+    "choices": [
+      "COUNT - VALUE",
+      "COUNTROWS-FILTER",
+      "CALCULATE - COUNT",
+      "CALCULATE - FILTER"
+    ],
+    "choices_ger": [
+      "COUNT - VALUE",
+      "COUNTROWS-FILTER",
+      "CALCULATE - COUNT",
+      "CALCULATE - FILTER"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q013",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are creating appointment schedules for your clients. Consider the following data from a query named Appointments:",
+        "de": "Sie erstellen Terminpläne für Kunden. Betrachten Sie die Daten der Abfrage 'Appointments': "
+      },
+      {
+        "type": "image",
+        "value": "q013.png"
+      },
+      {
+        "type": "text",
+        "eng": "You need to visualize the data as shown in the following picture by using a matrix visualization:",
+        "de": "Sie müssen die Daten als Matrix (siehe Bild) visualisieren."
+      },
+      {
+        "type": "image",
+        "value": "q013_2.png"
+      },
+      {
+        "type": "text",
+        "eng": "Select the proper order of DAX formula targets which allows you to create the measure that will display the checkboxes.",
+        "de": "Wählen Sie die richtige Reihenfolge der DAX-Formelziele für das Measure mit Checkboxen."
+      },
+      {
+        "type": "image",
+        "value": "q013_3.png"
+      }
+    ],
+    "images": [
+      "q013.png",
+      "q013_2.png",
+      "q013_3"
+    ],
+    "choices": [
+      {
+        "de": "COUNTX - UPPER",
+        "en": "COUNTX - UPPER"
+      },
+      {
+        "de": "COUNTROWS-UNICHAR",
+        "en": "COUNTROWS-UNICHAR"
+      },
+      {
+        "de": "SUM - LOWER",
+        "en": "SUM - LOWER"
+      },
+      {
+        "de": "CALCULATE - UNICHAR",
+        "en": "CALCULATE - UNICHAR"
+      }
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q014",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are modeling data by using Microsoft Power Bl. Part of the data model is a large Microsoft SQL Server table named [Fact Internet Sales] that has more than 500 million records. During the development process, you need to import a sample of the data from the [Fact Internet Sales] table. Solution:  You add a report-level filter that filters based on the [Fact Internet Sales] date. Does this meet the goal?",
+        "de": "Sie modellieren Daten in Power BI. Teil des Modells ist die große SQL Server-Tabelle [Fact Internet Sales] (>500 Mio. Datensätze). Für die Entwicklung benötigen Sie einen Datenauszug. Lösung: Sie fügen einen Berichtsfilter für das Datum hinzu. Erfüllt dies das Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q015",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You need to configure the visual as shown below [image here] What will you add to the visual?",
+        "de": "Sie müssen die Visualisierung wie gezeigt konfigurieren [image here]. Was fügen Sie hinzu?"
+      },
+      {
+        "type": "image",
+        "value": "q015.png"
+      }
+    ],
+    "images": [
+      "q015.png"
+    ],
+    "choices": [
+      "a measure",
+      "a trendline",
+      "a forecast",
+      "an Average line"
+    ],
+    "choices_ger": [
+      "ein Measure",
+      "eine Trendlinie",
+      "eine Prognose",
+      "eine Durchschnittslinie"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q016",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a table that contains sales data and approximately 1,500 rows. You need to identify outliers in the table. Which type of visualization should you use?",
+        "de": "Sie haben eine Tabelle mit Verkaufsdaten und etwa 1.500 Zeilen. Sie müssen Ausreißer in der Tabelle identifizieren. Welchen Visualisierungstyp sollten Sie verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "area chart",
+      "donut chart",
+      "scatter plot",
+      "pie chart"
+    ],
+    "choices_ger": [
+      "Flächendiagramm",
+      "Donut-Diagramm",
+      "Streudiagramm",
+      "Kreisdiagramm"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q017",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create the following step by using Power Query Editor = Table.ReplaceValue(SalesLT_Address,”1318″,”1319″,Replacer.ReplaceText,{“AddressLine1”}) A row has a value of 21318 Lasalle Street in the AddressLine1 column. What will the value be when the step is applied?",
+        "de": "Sie erstellen folgenden Schritt im Power Query Editor: = Table.ReplaceValue(SalesLT_Address,”1318″,”1319″,Replacer.ReplaceText,{“AddressLine1”}). Eine Zeile hat den Wert „21318 Lasalle Street“ in der Spalte AddressLine1. Wie lautet der Wert nach Anwendung des Schritts?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "1319",
+      "21319 Lasalle Street",
+      "1318",
+      "21318 Lasalle Street"
+    ],
+    "choices_ger": [
+      "1319",
+      "21319 Lasalle Street",
+      "1318",
+      "21318 Lasalle Street"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q018",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What is the benefit of using a report tooltip?",
+        "de": "Welchen Vorteil bietet die Verwendung einer Report-Tooltip?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "To give users additional information about a report visual, such as the author name and modified date",
+      "To provide additional detail that is specific to the context of the data that is being hovered over.",
+      "To give users the ability to export data from the visual."
+    ],
+    "choices_ger": [
+      "Benutzern zusätzliche Informationen zu einem Visual bereitzustellen, wie Autor und Änderungsdatum.",
+      "Kontextspezifische Details zu den Daten anzuzeigen, über die gerade gehovered wird.",
+      "Benutzern die Möglichkeit zu geben, Daten aus dem Visual zu exportieren."
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q019",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You need to create a visualization that compares revenue and cost over time. Which type of visualization should you use?",
+        "de": "Sie müssen eine Visualisierung erstellen, die Umsatz und Kosten über die Zeit vergleicht. Welchen Visualisierungstyp sollten Sie verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "stacked area chart",
+      "donut chart",
+      "line chart",
+      "waterfall chart"
+    ],
+    "choices_ger": [
+      "Gestapeltes Flächendiagramm",
+      "Donut-Diagramm",
+      "Liniendiagramm",
+      "Wasserfalldiagramm"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q020",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What does the decomposition tree not enable you to do?",
+        "de": "Was ermöglicht der Dekompositionsbaum NICHT?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Conduct root cause analysis to understand a measure better.",
+      "Conduct what-if analysis with built-in parameters.",
+      "Automatically analyze selected dimensions to find where a measure is highest or lowest."
+    ],
+    "choices_ger": [
+      "Ursachenanalyse durchzuführen, um eine Kennzahl besser zu verstehen.",
+      "Was-wäre-wenn-Analysen mit integrierten Parametern durchzuführen.",
+      "Automatisch Dimensionen zu analysieren, um Höchst- oder Tiefstwerte einer Kennzahl zu finden."
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q021",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a report that contains a bar chart and a column chart. The bar chart shows customer count by customer segment. The column chart shows sales by month. You need to ensure that when a segment is selected in the bar chart, you see which portion of the total sales for the month belongs to the customer segment. How should the visual interactions be set on the column chart when the bar chart is selected?",
+        "de": "Sie haben einen Bericht mit einem Balkendiagramm und einem Säulendiagramm. Das Balkendiagramm zeigt die Kundenzahl nach Kundensegment. Das Säulendiagramm zeigt Verkäufe nach Monat. Sie müssen sicherstellen, dass bei Auswahl eines Segments im Balkendiagramm der Anteil des Segments am Gesamtumsatz des Monats angezeigt wird. Wie sollten die visuellen Interaktionen im Säulendiagramm eingestellt sein, wenn das Balkendiagramm ausgewählt ist?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "filter",
+      "Highlight",
+      "No impact"
+    ],
+    "choices_ger": [
+      "Filtern",
+      "Hervorheben",
+      "Keine Auswirkung"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q022",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Where can you configure and set data alerts?",
+        "de": "Wo können Sie Datenwarnungen konfigurieren und einstellen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Data alerts can be set only in Power BI service on specific visuals such as KPI cards, gauges, and cards.",
+      "Data alerts can be set only in Power BI desktop on specific visuals such as KPI cards, gauges, and cards.",
+      "Data alerts can be set only in Power BI desktop and Power BI service on specific visuals such as KPI cards, gauges, and cards."
+    ],
+    "choices_ger": [
+      "Datenwarnungen können nur im Power BI Service für bestimmte Visuals wie KPI-Karten, Messgeräte und Karten gesetzt werden.",
+      "Datenwarnungen können nur in Power BI Desktop für bestimmte Visuals wie KPI-Karten, Messgeräte und Karten gesetzt werden.",
+      "Datenwarnungen können sowohl in Power BI Desktop als auch im Power BI Service für bestimmte Visuals wie KPI-Karten, Messgeräte und Karten gesetzt werden."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q023",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have sales data in a star schema that contains four tables named Sales, Customer, Date, and Product. The Sales table contains purchase and ship dates. Most often, you will use the purchase date to analyze the data, but you will analyze the data by both dates independently and together. You need to design an imported dataset to support the analysis. The solution must minimize the model size and the number of queries against the data source. Which data modeling design should you use?",
+        "de": "Sie haben Verkaufsdaten in einem Sternschema mit vier Tabellen: Sales, Customer, Date und Product. Die Sales-Tabelle enthält Kauf- und Versanddaten. Meistens analysieren Sie die Daten nach Kaufdatum, aber manchmal auch nach beiden Datumsangaben unabhängig oder gemeinsam. Sie müssen ein importiertes Dataset entwerfen, das die Analyse unterstützt. Die Lösung muss die Modellgröße und die Anzahl der Abfragen minimieren. Welches Datenmodell sollten Sie verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "On the Date table, use a reference query in Power Query and create active relationships between Sales and both Date tables in the modeling view.",
+      "Duplicate the Date query in Power Query and use active relationships between both Date tables.",
+      "Use the Auto Date/Time functionality in Microsoft Power BI and do NOT import the Date table.",
+      "Create an active relationship between Sales and Date for the purchase date and an inactive relationship for the ship date."
+    ],
+    "choices_ger": [
+      "In der Date-Tabelle eine Referenzabfrage in Power Query verwenden und aktive Beziehungen zwischen Sales und beiden Date-Tabellen erstellen.",
+      "Die Date-Abfrage in Power Query duplizieren und aktive Beziehungen zwischen beiden Date-Tabellen verwenden.",
+      "Die Auto Date/Time-Funktionalität in Power BI nutzen und die Date-Tabelle nicht importieren.",
+      "Eine aktive Beziehung zwischen Sales und Date für das Kaufdatum und eine inaktive Beziehung für das Versanddatum erstellen."
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q024",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a clustered bar chart that contains a measure named Salary as the value and a field named Employee as the axis. Salary is present in the data as a numerical amount representing US dollars. You need to create a reference line to show which employees are above the median salary. Solution: You create an average line by using the Salary measure. Does this meet the goal?",
+        "de": "Sie haben ein gruppiertes Balkendiagramm mit der Kennzahl „Salary“ als Wert und dem Feld „Employee“ als Achse. „Salary“ ist ein numerischer Wert in US-Dollar. Sie benötigen eine Referenzlinie, um anzuzeigen, welche Mitarbeiter über dem Medianeinkommen liegen. Lösung: Sie erstellen eine Durchschnittslinie mit der Kennzahl „Salary“. Erfüllt dies das Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q025",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a clustered bar chart that contains a measure named Salary as the value and a field named Employee as the axis. Salary is present in the data as a numerical amount representing US dollars. You need to create a reference line to show which employees are above the median salary. Solution: You create a percentile line by using the Salary measure and set the percentile to 50%. Does this meet the goal?",
+        "de": "Sie haben ein gruppiertes Balkendiagramm mit der Kennzahl „Salary“ als Wert und dem Feld „Employee“ als Achse. „Salary“ ist ein numerischer Wert in US-Dollar. Sie benötigen eine Referenzlinie, um anzuzeigen, welche Mitarbeiter über dem Medianeinkommen liegen. Lösung: Sie erstellen eine Perzentillinie mit der Kennzahl „Salary“ und setzen das Perzentil auf 50%. Erfüllt dies das Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q026",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a clustered bar chart that contains a measure named Salary as the value and a field named Employee as the axis. Salary is present in the data as a numerical amount representing US dollars. You need to create a reference line to show which employees are above the median salary. Solution: You create a constant line and set the value to .5. Does this meet the goal?",
+        "de": "Sie haben ein gruppiertes Balkendiagramm mit der Kennzahl „Salary“ als Wert und dem Feld „Employee“ als Achse. „Salary“ ist ein numerischer Wert in US-Dollar. Sie benötigen eine Referenzlinie, um anzuzeigen, welche Mitarbeiter über dem Medianeinkommen liegen. Lösung: Sie erstellen eine konstante Linie und setzen den Wert auf 0,5. Erfüllt dies das Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q027",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What visual should be used to display outliers?",
+        "de": "Welches Visual sollte zur Anzeige von Ausreißern verwendet werden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "line chart",
+      "scatter chart",
+      "clustered column chart"
+    ],
+    "choices_ger": [
+      "Liniendiagramm",
+      "Streudiagramm",
+      "Gruppiertes Säulendiagramm"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q028",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are modeling data by using Microsoft Power Bl. Part of the data model is a large Microsoft SQL Server table named [Fact Internet Sales] that has more than 500 million records. During the development process, you need to import a sample of the data from the [Fact Internet Sales] table. Solution: You add a WHERE clause to the SQL statement. Does this meet the goal?",
+        "de": "Sie modellieren Daten mit Microsoft Power BI. Teil des Datenmodells ist eine große SQL Server-Tabelle [Fact Internet Sales] mit über 500 Millionen Datensätzen. Während der Entwicklung müssen Sie einen Datenausschnitt aus dieser Tabelle importieren. Lösung: Sie fügen der SQL-Abfrage eine WHERE-Klausel hinzu. Erfüllt dies das Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q029",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What can be achieved by removing unnecessary rows and columns?",
+        "de": "Was kann durch das Entfernen unnötiger Zeilen und Spalten erreicht werden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Deleting unnecessary rows and columns will reduce a dataset size and its good practice to load only necessary data into your data model.",
+      "It is not necessary deleting unnecessary rows and columns and it is a good practice to keep all metadata intact.",
+      "Deleting unnecessary rows and columns can damage the structure of the data model."
+    ],
+    "choices_ger": [
+      "Das Löschen unnötiger Zeilen und Spalten verkleinert das Dataset, und es ist eine gute Praxis, nur notwendige Daten zu laden.",
+      "Das Löschen unnötiger Zeilen und Spalten ist nicht nötig, und es ist gut, alle Metadaten zu behalten.",
+      "Das Löschen unnötiger Zeilen und Spalten kann die Struktur des Datenmodells beschädigen."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q030",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You're creating a Power BI report with data from an Azure Analysis Services Cube. When the data refreshes in the cube, you would like to see it immediately in the Power BI report. How should you connect?",
+        "de": "Sie erstellen einen Power BI-Bericht mit Daten aus einem Azure Analysis Services Cube. Wenn sich die Daten im Cube aktualisieren, sollen sie sofort im Bericht sichtbar sein. Wie sollten Sie eine Verbindung herstellen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Import",
+      "Donnect Live",
+      "Direct Query"
+    ],
+    "choices_ger": [
+      "Importieren",
+      "Liveverbindung",
+      "Direct Query"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q031",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your company plans to completely separate development and production assets such as datasets, reports, and dashboards in Microsoft Power BI. You need to recommend an application lifecycle strategy. The solution must minimize maintenance to update access and prevent end-users from viewing the development assets. What should you recommend?",
+        "de": "Ihr Unternehmen plant, Entwicklungs- und Produktions-Assets wie Datensätze, Berichte und Dashboards in Microsoft Power BI vollständig zu trennen. Sie müssen eine Application-Lifecycle-Strategie empfehlen. Die Lösung muss den Wartungsaufwand für Zugriffsaktualisierungen minimieren und verhindern, dass Endbenutzer die Entwicklungs-Assets einsehen können. Was sollten Sie empfehlen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Create one workspace for development. From the workspace, publish an app for production",
+      "Create separate workspaces for development and production. Grant the end users access to the production workspace",
+      "In the same workspace, create separate copies of the assets and append DEV to the names of the copied assets. Grant the end users access to the workspace",
+      "Create production reports in a separate workspace that uses a shared dataset from the development workspace. Grant the end users access to the production workspace"
+    ],
+    "choices_ger": [
+      "Einen Workspace für die Entwicklung erstellen. Aus dem Workspace eine App für die Produktion veröffentlichen",
+      "Separate Workspaces für Entwicklung und Produktion erstellen. Endbenutzern Zugriff auf den Produktions-Workspace gewähren",
+      "Im selben Workspace separate Kopien der Assets erstellen und den kopierten Assets DEV an den Namen anhängen. Endbenutzern Zugriff auf den Workspace gewähren",
+      "Produktionsberichte in einem separaten Workspace erstellen, der einen freigegebenen Datensatz aus dem Entwicklungs-Workspace verwendet. Endbenutzern Zugriff auf den Produktions-Workspace gewähren"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q032",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a data model that contains many complex DAX expressions. The expressions contain frequent references to the RELATED and RELATEDTABLE functions. You need to recommend a solution to minimize the use of the RELATED and RELATEDTABLE functions. What should you recommend?",
+        "de": "Sie haben ein Datenmodell mit vielen komplexen DAX-Ausdrücken. Die Ausdrücke enthalten häufige Verweise auf die RELATED- und RELATEDTABLE-Funktionen. Sie müssen eine Lösung empfehlen, um die Verwendung dieser Funktionen zu minimieren. Was sollten Sie empfehlen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Split the model into multiple models",
+      "Hide unused columns in the model",
+      "Merge tables by using Power Query.",
+      "Transpose"
+    ],
+    "choices_ger": [
+      "Das Modell in mehrere Modelle aufteilen",
+      "Unbenutzte Spalten im Modell ausblenden",
+      "Tabellen mit Power Query zusammenführen",
+      "Transponieren"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q033",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have the following three versions of an Azure SQL database: * Test * Production * Development You have a dataset that uses the development database as a data source. You need to configure the dataset so that you can easily change the data source between the development, test, and production database servers from powerbi.com. What will you do?",
+        "de": "Sie haben drei Versionen einer Azure SQL-Datenbank: * Test * Produktion * Entwicklung. Sie haben einen Datensatz, der die Entwicklungsdatenbank als Datenquelle nutzt. Sie müssen den Datensatz so konfigurieren, dass Sie die Datenquelle einfach zwischen den Entwicklungs-, Test- und Produktions-Datenbankservern über powerbi.com wechseln können. Was werden Sie tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Create a parameter and update the queries to use the parameter",
+      "Create a query for each database server and hide the development tables.",
+      "Set the data source privacy level to Organizational and use the ReplaceValue Power Query M function.",
+      "Create a JSON file that contains the database server names. Import the JSON file to the dataset"
+    ],
+    "choices_ger": [
+      "Einen Parameter erstellen und die Abfragen aktualisieren, um den Parameter zu verwenden",
+      "Für jeden Datenbankserver eine Abfrage erstellen und die Entwicklungstabellen ausblenden",
+      "Die Datenschutzstufe der Datenquelle auf Organisatorisch setzen und die ReplaceValue-Funktion von Power Query M verwenden",
+      "Eine JSON-Datei mit den Datenbankservernamen erstellen. Die JSON-Datei in den Datensatz importieren"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q034",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have worked hard to create a clean dataset of all your company's customer details, including address and geocode. The Senior Director in your division has asked that all people within your company are aware of the high-quality, authoritative customer dataset that meets all the company's standards. How can you achieve this goal?",
+        "de": "Sie haben intensiv daran gearbeitet, einen bereinigten Datensatz mit allen Kundendetails Ihres Unternehmens zu erstellen, inklusive Adresse und Geocode. Der Senior-Director Ihrer Abteilung möchte, dass alle Mitarbeiter im Unternehmen von diesem hochwertigen, autoritativen Kundendatensatz erfahren, der allen Unternehmensstandards entspricht. Wie können Sie dieses Ziel erreichen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Select Promote content",
+      "Ask authorized reviewers to Certify your content",
+      "Select Featured content on home",
+      "Create a new workspace with the high-quality data and add the entire company as members"
+    ],
+    "choices_ger": [
+      "„Inhalt fördern“ auswählen",
+      "Autorisierte Prüfer bitten, Ihren Inhalt zu zertifizieren",
+      "„Hervorgehobene Inhalte auf der Startseite“ auswählen",
+      "Einen neuen Workspace mit den hochwertigen Daten erstellen und das gesamte Unternehmen als Mitglieder hinzufügen"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q035",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create several Power BI report pages. You need to make the report pages more interactive for users. To answer, drag the appropriate Power BI feature for the stated requirement. “Share feedback on visuals with other users”",
+        "de": "Sie erstellen mehrere Power BI-Berichtsseiten. Sie müssen die Berichtsseiten für Benutzer interaktiver gestalten. Ziehen Sie die entsprechende Power BI-Funktion für die angegebene Anforderung auf die Antwortfläche. „Feedback zu Visuals mit anderen Benutzern teilen“"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Buttons",
+      "Selection pane",
+      "Bookmarks",
+      "Comments"
+    ],
+    "choices_ger": [
+      "Schaltflächen",
+      "Auswahlbereich",
+      "Lesezeichen",
+      "Kommentare"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  }
+]

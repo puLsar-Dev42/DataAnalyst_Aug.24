@@ -1,0 +1,1292 @@
+[
+  {
+    "id": "q001",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have multiple dashboards. You need to ensure that when users browse the available dashboards from powerbi.com. they can see which dashboards contain Personally Identifiable Information (Pll). The solution must minimize configuration effort and impact on the dashboard design.",
+        "de": "Sie haben mehrere Dashboards. Sie müssen sicherstellen, dass Benutzer beim Durchsuchen der verfügbaren Dashboards auf powerbi.com erkennen können, welche Dashboards personenbezogene Daten (PII) enthalten. Die Lösung muss den Konfigurationsaufwand und die Auswirkungen auf das Dashboard-Design minimieren."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "data classifications",
+      "Active Directory groups",
+      "Tiles",
+      "Comments"
+    ],
+    "choices_ger": [
+      "Datenklassifizierungen",
+      "Active Directory-Gruppen",
+      "Kacheln",
+      "Kommentare"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q002",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a dashboard by using the Microsoft Power BI Service. The dashboard contains a card visual that shows total sales from the current year. You grant users access to the dashboard by using the viewer role in the workspace. A user wants to receive daily notifications of the number shown on the card visual. What should the user can do?",
+        "de": "Sie erstellen ein Dashboard mit dem Microsoft Power BI Service. Das Dashboard enthält eine Kartenvisualisierung, die den Gesamtumsatz des aktuellen Jahres anzeigt. Sie gewähren Benutzern Zugriff auf das Dashboard durch die Viewer-Rolle im Workspace. Ein Benutzer möchte tägliche Benachrichtigungen über die in der Kartenvisualisierung angezeigte Zahl erhalten. Was kann der Benutzer tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Create a data alert.",
+      "Share the dashboard to the user.",
+      "Create a subscription."
+    ],
+    "choices_ger": [
+      "Eine Datenwarnung erstellen.",
+      "Das Dashboard für den Benutzer freigeben.",
+      "Ein Abonnement erstellen."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q003",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You build a report to help the sales team understand its performance and the drivers of sales. The team needs to have a single visualization to identify which factors affect success. Which type of visualization should you use?",
+        "de": "Sie erstellen einen Bericht, um dem Vertriebsteam zu helfen, seine Leistung und die Treiber des Umsatzes zu verstehen. Das Team benötigt eine einzelne Visualisierung, um zu identifizieren, welche Faktoren den Erfolg beeinflussen. Welchen Visualisierungstyp sollten Sie verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Line and clustered column chart",
+      "Key influencer",
+      "Funnel chart"
+    ],
+    "choices_ger": [
+      "Liniendiagramm und gruppiertes Säulendiagramm",
+      "Key Influencer",
+      "Trichterdiagramm"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q004",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have four sales regions. Each region has multiple sales managers. You implement row-level security (RLS) in a data model. You assign the relevant distribution lists to each role. You have sales reports that enable analysis by region. The sales managers can view the sales records of their region. The sales managers are prevented from viewing records from other regions. A sales manager changes to a different region. You need to ensure that the sales manager can see the correct sales data What should you do?",
+        "de": "Sie haben vier Vertriebsregionen. Jede Region hat mehrere Vertriebsmanager. Sie implementieren zeilenbasierte Sicherheit (RLS) in einem Datenmodell. Sie weisen den relevanten Verteilergruppen die entsprechenden Rollen zu. Sie haben Vertriebsberichte, die eine Analyse nach Region ermöglichen. Die Vertriebsmanager können die Verkaufsdaten ihrer Region einsehen. Sie können keine Daten anderer Regionen einsehen. Ein Vertriebsmanager wechselt in eine andere Region. Sie müssen sicherstellen, dass der Vertriebsmanager die korrekten Verkaufsdaten sehen kann. Was sollten Sie tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Change the Microsoft Power BI license type of the sales manager.",
+      "From Microsoft Power BI Desktop, edit the Row-Level Security setting for the reports.",
+      "Request that the sales manager be added to the correct Azure Active Directory group.",
+      "Manage the permissions of the underlying dataset."
+    ],
+    "choices_ger": [
+      "Den Microsoft Power BI-Lizenztyp des Vertriebsmanagers ändern.",
+      "In Microsoft Power BI Desktop die Einstellung für zeilenbasierte Sicherheit für die Berichte bearbeiten.",
+      "Beantragen, dass der Vertriebsmanager der richtigen Azure Active Directory-Gruppe hinzugefügt wird.",
+      "Die Berechtigungen des zugrunde liegenden Datensatzes verwalten."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q005",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are configuring a Microsoft Power BI data model to enable users to ask natural language questions by using Q&A. You have a table named Customer that has the following measure. Customer Count = DISTINCTCOUNT(Customer[CustomerID]) Users frequently refer to customers as subscribers. You need to ensure that the users can get a useful result for 'subscriber count' by using Q&A. The solution must minimize the size of the model. What should you do?",
+        "de": "Sie konfigurieren ein Microsoft Power BI-Datenmodell, um Benutzern das Stellen von Fragen in natürlicher Sprache mit Q&A zu ermöglichen. Sie haben eine Tabelle namens Customer mit folgender Kennzahl: Customer Count = DISTINCTCOUNT(Customer[CustomerID]). Benutzer bezeichnen Kunden häufig als Abonnenten. Sie müssen sicherstellen, dass Benutzer mit Q&A ein nützliches Ergebnis für 'Anzahl der Abonnenten' erhalten. Die Lösung muss die Größe des Modells minimieren. Was sollten Sie tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Add a synonym of 'subscriber' to the Customer table.",
+      "Add a synonym of 'subscriberID' to the CustomerID column.",
+      "Add a description of 'subscriber count' to the Customer Count measure.",
+      "Set Summarize By to None for the CustomerID column."
+    ],
+    "choices_ger": [
+      "Dem Synonym 'subscriber' zur Customer-Tabelle hinzufügen.",
+      "Dem Synonym 'subscriberID' zur CustomerID-Spalte hinzufügen.",
+      "Der Customer Count-Kennzahl die Beschreibung 'subscriber count' hinzufügen.",
+      "Für die CustomerID-Spalte 'Summarize By' auf None setzen."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q006",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You use an R visual to produce a map of 500,000 customers. You include the values of [CustomerID], Latitude, and Longitude in the fields sent to the visual. Each customer ID is unique. In powerbi.com, when users load the visual, they only see some of the customers. What is the cause of the issue?",
+        "de": "Sie verwenden eine R-Visualisierung, um eine Karte mit 500.000 Kunden zu erstellen. Sie fügen die Werte von [CustomerID], Latitude und Longitude in die an die Visualisierung gesendeten Felder ein. Jede Kunden-ID ist eindeutig. Auf powerbi.com sehen Benutzer beim Laden der Visualisierung nur einige der Kunden. Was ist die Ursache des Problems?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "The visual was built by using a different version of R",
+      "Too many records were sent to the visual.",
+      "The data comes from a Microsoft SQL Server source.",
+      "The data is deduplicated."
+    ],
+    "choices_ger": [
+      "Die Visualisierung wurde mit einer anderen R-Version erstellt.",
+      "Zu viele Datensätze wurden an die Visualisierung gesendet.",
+      "Die Daten stammen aus einer Microsoft SQL Server-Quelle.",
+      "Die Daten werden dedupliziert."
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q007",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a Microsoft Power BI dashboard. You need to ensure that consumers of the dashboard can give you feedback that will be visible to the other consumers of the dashboard. What should you use?",
+        "de": "Sie haben ein Microsoft Power BI-Dashboard. Sie müssen sicherstellen, dass die Nutzer des Dashboards Feedback geben können, das für andere Dashboard-Nutzer sichtbar ist. Was sollten Sie verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Subscribe",
+      "Comments",
+      "Mark as favorite"
+    ],
+    "choices_ger": [
+      "Abonnieren",
+      "Kommentare",
+      "Als Favorit markieren"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q008",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a Microsoft SharePoint Online site that contains several document libraries. One of the document libraries contains manufacturing reports saved as Microsoft Excel files. All the manufacturing reports have the same data structure. You need to load only the manufacturing reports to a table for analysis. What should you do on Microsoft Power BI Desktop?",
+        "de": "Sie haben eine Microsoft SharePoint Online-Website mit mehreren Dokumentbibliotheken. Eine der Dokumentbibliotheken enthält Fertigungsberichte, die als Microsoft Excel-Dateien gespeichert sind. Alle Fertigungsberichte haben die gleiche Datenstruktur. Sie müssen nur die Fertigungsberichte in eine Tabelle laden, um sie zu analysieren. Was sollten Sie in Microsoft Power BI Desktop tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Get data from a SharePoint Online list, enter the site URL and then select Combine & Load",
+      "Get data from a SharePoint Online folder and enter the site URL. Edit the query and filter by folder path.",
+      "Get data from a SharePoint Online folder, enter the site URL, and then select Combine & Load",
+      "Get data from a SharePoint Online list and enter the site URL. Edit the query and filter by folder"
+    ],
+    "choices_ger": [
+      "Daten aus einer SharePoint Online-Liste abrufen, die Website-URL eingeben und dann 'Kombinieren & Laden' auswählen",
+      "Daten aus einem SharePoint Online-Ordner abrufen und die Website-URL eingeben. Die Abfrage bearbeiten und nach Ordnerpfad filtern.",
+      "Daten aus einem SharePoint Online-Ordner abrufen, die Website-URL eingeben und dann 'Kombinieren & Laden' auswählen",
+      "Daten aus einer SharePoint Online-Liste abrufen und die Website-URL eingeben. Die Abfrage bearbeiten und nach Ordner filtern"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q009",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have several reports and dashboards in a workspace. You need to grant all organizational users to read access to a dashboard and several reports. Solution: You publish an app to the entire organization. Does this meet the goal?",
+        "de": "Sie haben mehrere Berichte und Dashboards in einem Workspace. Sie müssen allen Benutzern der Organisation Lesezugriff auf ein Dashboard und mehrere Berichte gewähren. Lösung: Sie veröffentlichen eine App für die gesamte Organisation. Erfüllt dies das Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q010",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have several reports and dashboards in a workspace. You need to grant all organizational users to read access to a dashboard and several reports. Solution: You assign all the users the Viewer role to the workspace. Does this meet the goal?",
+        "de": "Sie haben mehrere Berichte und Dashboards in einem Workspace. Sie müssen allen Benutzern der Organisation Lesezugriff auf ein Dashboard und mehrere Berichte gewähren. Lösung: Sie weisen allen Benutzern die Viewer-Rolle für den Workspace zu. Erfüllt dies das Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q011",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You publish a Microsoft Power BI dataset to powerbi.com. The dataset appends data from an on-premises Oracle database and an Azure SQL database by using one query. You have admin access to the workspace and permission to use an existing On-premises data gateway for which the Oracle data source is already configured. You need to ensure that the data is updated every morning. The solution must minimize configuration effort. Which two actions should you perform when you configure scheduled refresh? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.",
+        "de": "Sie veröffentlichen einen Microsoft Power BI-Datensatz auf powerbi.com. Der Datensatz fügt Daten aus einer lokalen Oracle-Datenbank und einer Azure SQL-Datenbank mit einer Abfrage zusammen. Sie haben Administratorzugriff auf den Workspace und die Berechtigung, ein vorhandenes lokales Datengateway zu verwenden, für das die Oracle-Datenquelle bereits konfiguriert ist. Sie müssen sicherstellen, dass die Daten jeden Morgen aktualisiert werden. Die Lösung muss den Konfigurationsaufwand minimieren. Welche zwei Aktionen sollten Sie bei der Konfiguration der geplanten Aktualisierung durchführen? Jede richtige Antwort ist Teil der Lösung. HINWEIS: Jede richtige Auswahl gibt einen Punkt."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Deploy an On-premises data gateway in personal mode.",
+      "Set the refresh frequency to Daily.",
+      "Configure the dataset to use the personal gateway.",
+      "Configure the dataset to use the existing On-premises data gateway."
+    ],
+    "choices_ger": [
+      "Ein lokales Datengateway im persönlichen Modus bereitstellen.",
+      "Die Aktualisierungshäufigkeit auf Täglich einstellen.",
+      "Den Datensatz so konfigurieren, dass er das persönliche Gateway verwendet.",
+      "Den Datensatz so konfigurieren, dass er das vorhandene lokale Datengateway verwendet."
+    ],
+    "isMulti": true,
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "q012",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a report that contains three pages. One of the pages contains a KPI visualization. You need to filter all the visualizations in the report except for the KPI visualization. Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point",
+        "de": "Sie haben einen Bericht mit drei Seiten. Eine der Seiten enthält eine KPI-Visualisierung. Sie müssen alle Visualisierungen im Bericht außer der KPI-Visualisierung filtern. Welche zwei Aktionen sollten Sie durchführen? Jede richtige Antwort ist Teil der Lösung. HINWEIS: Jede richtige Auswahl gibt einen Punkt."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Add the same slicer to each page and configure Sync slicers.",
+      "Edit the interactions of the KPI visualization.",
+      "Configure a page-level filter",
+      "Edit the interactions of the slicer that is on the same page as the KPI visualization.",
+      "Configure a report-level filter."
+    ],
+    "choices_ger": [
+      "Einen gleichen Slicer zu jeder Seite hinzufügen und Sync Slicers konfigurieren.",
+      "Die Interaktionen der KPI-Visualisierung bearbeiten.",
+      "Einen Seitenfilter konfigurieren",
+      "Die Interaktionen des Slicers bearbeiten, der sich auf derselben Seite wie die KPI-Visualisierung befindet.",
+      "Einen Berichtsfilter konfigurieren."
+    ],
+    "isMulti": true,
+    "correct": [
+      1,
+      4
+    ]
+  },
+  {
+    "id": "q013",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have the tables shown in the following table. [image here] The Impressions table contains approximately 30 million records per month. You need to create an ad analytics system to meet the following requirements: * Present ad impression counts for the day, campaign, and [Site_name]. The analytics for the last year is required. * Minimize the data model size. Which two actions should you perform? Each correct answer presents part of the solution. NOTE: Each correct selection is worth one point.",
+        "de": "Sie haben die Tabellen, die in der folgenden Tabelle dargestellt sind. [Bild hier] Die Tabelle „Impressions“ enthält ungefähr 30 Millionen Datensätze pro Monat. Sie müssen ein Anzeigenanalyse-System erstellen, das die folgenden Anforderungen erfüllt: Anzeigenimpressions-Zählungen für den Tag, die Kampagne und den [Site_name] darstellen. Die Analysedaten des letzten Jahres werden benötigt. Die Größe des Datenmodells soll minimiert werden. Welche zwei Aktionen sollten Sie durchführen? Jede richtige Antwort stellt einen Teil der Lösung dar. HINWEIS: Jede korrekte Auswahl gibt einen Punkt."
+      },
+      {
+        "type": "image",
+        "value": "q013.png"
+      }
+    ],
+    "images": [
+      "q013.png"
+    ],
+    "choices": [
+      "Create a calculated measure that aggregates by using the COUNTROWS function.",
+      "Create a calculated table that contains Ad_id, Site_name, and Impression_date.",
+      "Group the impressions by Ad_id, Site_name, and Impression_date. Aggregate by using the CountRows function.",
+      "Create one-to-many relationships between the tables."
+    ],
+    "choices_ger": [
+      "Eine berechnete Kennzahl erstellen, die mit der COUNTROWS-Funktion aggregiert.",
+      "Eine berechnete Tabelle erstellen, die Ad_id, Site_name und Impression_date enthält.",
+      "Die Impressionen nach Ad_id, Site_name und Impression_date gruppieren. Mit der CountRows-Funktion aggregieren.",
+      "1:n-Beziehungen zwischen den Tabellen erstellen."
+    ],
+    "isMulti": true,
+    "correct": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "q014",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a dataset named Pens that contains the following columns: *Unit Price *Quantity Ordered You need to create a visualization that shows the relationship between Unit Price and Quantity Ordered. The solution must highlight orders that have a similar unit price and ordered quantity. Which type of visualization and which feature should you use? To answer, select the appropriate options in the answer area. NOTE: Each correct selection is worth one point.[images here]",
+        "de": "Sie haben einen Datensatz namens „Pens“ mit den folgenden Spalten:Unit Price (Stückpreis) Quantity Ordered (Bestellmenge) Sie müssen eine Visualisierung erstellen, die die Beziehung zwischen Unit Price und Quantity Ordered zeigt. Die Lösung soll Bestellungen hervorheben, die einen ähnlichen Stückpreis und eine ähnliche Bestellmenge aufweisen. Welchen Visualisierungstyp und welche Funktion sollten Sie verwenden? (Wählen Sie die passenden Optionen im Antwortbereich aus. HINWEIS: Jede korrekte Auswahl gibt einen Punkt.)"
+      },
+      {
+        "type": "image",
+        "value": "q014.png"
+      }
+    ],
+    "images": [
+      "q014.png"
+    ],
+    "choices": [
+      "Box 1: A line chart of Quantity Ordered and Unit Price by item Box 2: Find where the distribution is different",
+      "Box 1: A scatter plot of Quantity Ordered and Unit price by item Box 2: Automatically find clusters",
+      "Box 1: A column chart of Quantity Ordered and Unit Price by year Box 2: Automatically find clusters"
+    ],
+    "choices_ger": [
+      "Box 1: Ein Liniendiagramm von Quantity Ordered und Unit Price nach Artikel Box 2: Finden, wo die Verteilung unterschiedlich ist",
+      "Box 1: Ein Streudiagramm von Quantity Ordered und Unit Price nach Artikel Box 2: Automatisch Cluster finden",
+      "Box 1: Ein Säulendiagramm von Quantity Ordered und Unit Price nach Jahr Box 2: Automatisch Cluster finden"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q015",
+    "content": [
+      {
+        "type": "text",
+        "eng": "DRAG and DROP You are modeling data in a table named SalesDetail by using Microsoft Power BI. You need to provide end-users with access to the summary statistics about the SalesDetail data. The users require insights on the completeness of the data and the value distributions. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order [image here]",
+        "de": "DRAG and DROP (Ziehen und Ablegen) Sie modellieren Daten in einer Tabelle namens SalesDetail mit Microsoft Power BI. Sie müssen Endbenutzern Zugriff auf zusammenfassende Statistiken zu den SalesDetail-Daten bereitstellen. Die Benutzer benötigen Einblicke in: Die Vollständigkeit der Daten Die Wertverteilungen Welche drei Aktionen sollten Sie in der richtigen Reihenfolge durchführen? (Ziehen Sie die passenden Aktionen aus der Liste in den Antwortbereich und ordnen Sie sie in der korrekten Reihenfolge an.)"
+      },
+      {
+        "type": "image",
+        "value": "q015.png"
+      }
+    ],
+    "images": [
+      "q015.png"
+    ],
+    "choices": [
+      "Box 1: Create a blank query as a data source Box 2: Specify the following query. =Table.Distinct(#”SaleDetail”) Box 3: Create a visual for the query table",
+      "Box 1: Create a blank query as a data source Service Box 2: Specify the following query. =Table.Profile(#”SaleDetail”) Box 3: Create a visual for the query table",
+      "Box 1: Create a parameter that uses Common Data Service as a data source Box 2: Specify the following query. =Table.Profile(#”SaleDetail”) Box 3: Create a visual for the query table"
+    ],
+    "choices_ger": [
+      "Box 1: Eine leere Abfrage als Datenquelle erstellen Box 2: Folgende Abfrage angeben: =Table.Distinct(#”SaleDetail”) Box 3: Eine Visualisierung für die Abfragetabelle erstellen",
+      "Box 1: Eine leere Abfrage als Datenquelle erstellen Box 2: Folgende Abfrage angeben: =Table.Profile(#”SaleDetail”) Box 3: Eine Visualisierung für die Abfragetabelle erstellen",
+      "Box 1: Einen Parameter erstellen, der Common Data Service als Datenquelle verwendet Box 2: Folgende Abfrage angeben: =Table.Profile(#”SaleDetail”) Box 3: Eine Visualisierung für die Abfragetabelle erstellen"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q016",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What type of expression supported by Power BI while extracting data?",
+        "de": "Welche Art von Ausdrücken unterstützt Power BI beim Extrahieren von Daten?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "SQL, MDX, DAX",
+      "SQL, Python, R",
+      "SQL, DAX, M"
+    ],
+    "choices_ger": [
+      "SQL, MDX, DAX",
+      "SQL, Python, R",
+      "SQL, DAX, M"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q017",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have the visual shown below: [image here] What is the name of the visual?",
+        "de": "Sie haben die folgende Visualisierung: [Bild hier] Wie heißt diese Visualisierung?"
+      },
+      {
+        "type": "image",
+        "value": "q017.png"
+      }
+    ],
+    "images": [
+      "q017.png"
+    ],
+    "choices": [
+      "Decomposition tree visual",
+      "Key Influencer",
+      "Breaking down custom visual",
+      "Horizonal bar chart"
+    ],
+    "choices_ger": [
+      "Zerlegungsbaum-Visualisierung",
+      "Key Influencer",
+      "Benutzerdefinierte Aufschlüsselungsvisualisierung",
+      "Horizontales Balkendiagramm"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q018",
+    "content": [
+      {
+        "type": "text",
+        "eng": "How do you use an inactive relationship in a single measure?",
+        "de": "Wie nutzt man eine inaktive Beziehung in einer einzelnen Kennzahl?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Change the active relationship in the Modeling tab.",
+      "Delete one relationship.",
+      "Use the USERELATIONSHIP function."
+    ],
+    "choices_ger": [
+      "Aktive Beziehung im Modellierungs-Tab ändern.",
+      "Eine Beziehung löschen.",
+      "Die USERELATIONSHIP-Funktion verwenden."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q019",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are creating a Microsoft Power BI imported data model to perform basket analysis. The goal of the analysis is to identify which products are usually bought together in the same transaction across and within sales territories. You import a fact table named Sales as shown: [image here] The related dimension tables are imported into the model. The SalesRowID and AuditID can be removed from the model without impeding the analysis goals?",
+        "de": "Sie erstellen ein importiertes Power BI-Datenmodell für Warenkorbanalysen. Ziel ist es, Produkte zu identifizieren, die häufig zusammen in derselben Transaktion gekauft werden. Sie importieren eine Faktentabelle 'Sales' [Bild hier]. Die zugehörigen Dimensionstabellen sind im Modell. Können SalesRowID und AuditID ohne Beeinträchtigung der Analyseziele entfernt werden?"
+      },
+      {
+        "type": "image",
+        "value": "q019.png"
+      }
+    ],
+    "images": [
+      "q019.png"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q020",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Litware, Inc. Case Study [...] Question: You need to create the required relationship for the executive’s visual. What should you do before you can create the relationship?",
+        "de": "Fallstudie Litware, Inc. [...] Frage: Sie müssen die benötigte Beziehung für die Führungskraft-Visualisierung erstellen. Was müssen Sie zuvor tun?"
+      },
+      {
+        "type": "image",
+        "value": "q020.png"
+      }
+    ],
+    "images": [
+      "q020.png"
+    ],
+    "choices": [
+      "Change the data type of sales[sales_id] to Text.",
+      "Change the data type of sales [region_id] to Decimal Number",
+      "Change the data type of Sales[region_id] to Whole Number.",
+      "In the Sales table, add a measure for sum(sales_amount)."
+    ],
+    "choices_ger": [
+      "Den Datentyp von sales[sales_id] auf Text ändern.",
+      "Den Datentyp von sales[region_id] auf Dezimalzahl ändern.",
+      "Den Datentyp von Sales[region_id] auf Ganzzahl ändern.",
+      "Im Sales-Tabelle ein Measure für sum(sales_amount) hinzufügen."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q021",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Litware, Inc. Case Study [...] Question- You need to create a calculated column to display the month based on the reporting requirements. Which DAX expression should you use?",
+        "de": "Fallstudie Litware, Inc. [...] Frage: Sie müssen eine berechnete Spalte für die Monatsdarstellung gemäß den Anforderungen erstellen. Welchen DAX-Ausdruck sollten Sie verwenden?"
+      },
+      {
+        "type": "image",
+        "value": "q021.png"
+      }
+    ],
+    "images": [
+      "q021.png"
+    ],
+    "choices": [
+      "FORMAT('Date'[date], 'MMM YYYY')",
+      "FORMAT('Date' [date], 'M YY')",
+      "FORMAT('Date'[date_id], 'MMM') & '' & FORMAT('Date'[year], '#'')",
+      "FORMAT('Date' [date_id], 'MMM YYYY')"
+    ],
+    "choices_ger": [
+      "FORMAT('Date'[date], 'MMM YYYY')",
+      "FORMAT('Date'[date], 'M YY')",
+      "FORMAT('Date'[date_id], 'MMM') & '' & FORMAT('Date'[year], '#'')",
+      "FORMAT('Date'[date_id], 'MMM YYYY')"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q022",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Contoso, Ltd. is a manufacturing company that produces outdoor equipment. Contoso has quarterly board meetings for which financial analysts manually prepare Microsoft Excel reports, including profit and loss statements for each of the company’s four business units, a company balance sheet, and net income projections for the next quarter.\nData and Sources\nData for the reports come from three sources. Detailed revenue, cost, and expense data come from an Azure SQL database. Summary balance sheet data comes from Microsoft Dynamics 365 Business Central. The balance sheet data is not related to the profit and loss results, other than they both relate dates.\nMonthly revenue and expense projections for the next quarter come from a Microsoft SharePoint Online list. Quarterly projections relate to the profit and loss results by using the following shared dimensions: date, business unit, department, and product category.\nNet Income Projection Data\nNet income projection data is stored in a SharePoint Online list named Projections in the format shown in the following table.",
+        "de": "Contoso, Ltd. ist ein Produktionsunternehmen, das Outdoor-Ausrüstung herstellt. Contoso hält vierteljährliche Vorstandssitzungen ab, für die Finanzanalysten manuell Microsoft Excel-Berichte vorbereiten, darunter Gewinn- und Verlustrechnungen für jeden der vier Geschäftsbereiche des Unternehmens, eine Unternehmensbilanz und Nettogewinnprognosen für das nächste Quartal.\nDaten und Quellen\nDie Daten für die Berichte stammen aus drei Quellen. Detaillierte Daten zu Umsatz, Kosten und Ausgaben stammen aus einer Azure SQL-Datenbank. Zusammenfassende Bilanzdaten stammen aus Microsoft Dynamics 365 Business Central. Die Bilanzdaten haben keine Beziehung zu den Gewinn- und Verlustergebnissen, außer dass sie sich beide auf Daten beziehen.\nMonatliche Umsatz- und Ausgabenprognosen für das nächste Quartal stammen aus einer Microsoft SharePoint Online-Liste. Vierteljährliche Prognosen beziehen sich auf die Gewinn- und Verlustergebnisse unter Verwendung der folgenden gemeinsamen Dimensionen: Datum, Geschäftsbereich, Abteilung und Produktkategorie.\nDaten zur Nettogewinnprognose\nDaten zur Nettogewinnprognose werden in einer SharePoint Online-Liste mit dem Namen „Prognosen“ im in der folgenden Tabelle gezeigten Format gespeichert."
+      },
+      {
+        "type": "image",
+        "value": "q022.png"
+      },
+      {
+        "type": "text",
+        "eng": "Revenue projections are set at the monthly level and summed to show projections for the quarter.\nBalance Sheet Data\nThe balance sheet data is imported with final balances for each account per month in the format shown in the following table.",
+        "de": "Umsatzprognosen werden auf Monatsebene festgelegt und summiert, um Prognosen für das Quartal anzuzeigen.\nBilanzdaten\nDie Bilanzdaten werden mit den endgültigen Salden für jedes Konto pro Monat im in der folgenden Tabelle gezeigten Format importiert."
+      },
+      {
+        "type": "image",
+        "value": "q022_2.png"
+      },
+      {
+        "type": "text",
+        "eng": "There is always a row for each account for each month in the balance sheet data.\nDynamics 365 Business Central Data\nBusiness Central contains a product catalog that shows how products roll up to product categories, which roll up to business units.\nRevenue data is provided at the date and product level. Expense data is provided at the date and department level.\nBusiness Issues\nHistorically, it has taken two analysts a week to prepare the reports for the quarterly board meetings. Also, there is usually at least one issue each quarter where a value in a report is wrong because of a bad cell reference in an Excel formula. On occasion, there are conflicting results in the reports because the products and departments that roll up to each business unit are not defined consistently.\nRequirements:-\n1. Planned Changes -Contoso plans to automate and standardize the quarterly reporting process by using Microsoft Power BI. The company wants to how long it takes to populate reports to less than two days. The company wants to create common logic for business units, products, and departments to be used across all reports, including, but not limited, to the quarterly reporting for the board.\n2. Technical Requirements -Contoso wants the reports and datasets refreshed with minimal manual effort. The company wants to provide a single package of reports to the board that contains custom navigation and links to supplementary information. Maintenance, including manually updating data and access, must be minimized as much as possible.\n3. Security Requirements – The reports must be made available to the board from powerbi.com. A mail-enabled security group will be used to share information with the board. The analysts responsible for each business unit must see all the data the board sees, except the profit and loss data, which must be restricted to only their business unit’s data. The analysts must be able to build new reports from the dataset that contains the profit and loss data, but any reports that the analysts build must not be included in the quarterly reports for the board. The analysts must not be able to share the quarterly reports with anyone.\n4.Report Requirements – You plan to relate the balance sheet to a standard date table in Power BI in a many-to-one relationship based on the last day of the month. At least one of the balance sheet reports in the quarterly reporting package must show the ending balances for the quarter, as well as for the previous quarter. Projections must contain a column named RevenueProjection that contains the revenue projection amounts.",
+        "de": "In den Bilanzdaten gibt es für jedes Konto und jeden Monat immer eine Zeile.\nDynamics 365 Business Central-Daten\nBusiness Central enthält einen Produktkatalog, der zeigt, wie Produkte zu Produktkategorien zusammengefasst werden, die zu Geschäftseinheiten zusammengefasst werden.\nUmsatzdaten werden auf Datums- und Produktebene bereitgestellt. Ausgabendaten werden auf Datums- und Abteilungsebene bereitgestellt.\nGeschäftsprobleme\nIn der Vergangenheit waren zwei Analysten pro Woche damit beschäftigt, die Berichte für die vierteljährlichen Vorstandssitzungen vorzubereiten. Außerdem gibt es normalerweise jedes Quartal mindestens ein Problem, bei dem ein Wert in einem Bericht falsch ist, weil eine Excel-Formel einen ungültigen Zellbezug aufweist. Gelegentlich gibt es in den Berichten widersprüchliche Ergebnisse, weil die Produkte und Abteilungen, die zu den einzelnen Geschäftseinheiten zusammengefasst werden, nicht einheitlich definiert sind.\nAnforderungen: –\n1. Geplante Änderungen – Contoso plant, den vierteljährlichen Berichtsprozess mithilfe von Microsoft Power BI zu automatisieren und zu standardisieren. Das Unternehmen möchte die Zeit, die zum Ausfüllen der Berichte benötigt wird, auf weniger als zwei Tage reduzieren. Das Unternehmen möchte eine einheitliche Logik für Geschäftsbereiche, Produkte und Abteilungen entwickeln, die in allen Berichten verwendet werden kann, einschließlich, aber nicht beschränkt auf die vierteljährliche Berichterstattung für den Vorstand.\n2. Technische Anforderungen: Contoso möchte die Berichte und Datensätze mit minimalem manuellen Aufwand aktualisieren. Das Unternehmen möchte dem Vorstand ein einheitliches Berichtspaket mit benutzerdefinierter Navigation und Links zu zusätzlichen Informationen bereitstellen. Der Wartungsaufwand, einschließlich der manuellen Aktualisierung von Daten und des Zugriffs, soll so gering wie möglich gehalten werden.\n3. Sicherheitsanforderungen: Die Berichte müssen dem Vorstand über powerbi.com zur Verfügung gestellt werden. Für den Informationsaustausch mit dem Vorstand wird eine E-Mail-fähige Sicherheitsgruppe verwendet. Die für die einzelnen Geschäftsbereiche zuständigen Analysten müssen alle Daten sehen können, die auch der Vorstand sieht, mit Ausnahme der Gewinn- und Verlustdaten, die auf die Daten ihrer jeweiligen Geschäftsbereiche beschränkt sein müssen. Die Analysten müssen neue Berichte aus dem Datensatz mit den Gewinn- und Verlustdaten erstellen können, dürfen jedoch nicht in die vierteljährlichen Berichte für den Vorstand aufgenommen werden. Die Analysten dürfen die vierteljährlichen Berichte nicht an Dritte weitergeben.\n4. Berichtsanforderungen – Sie planen, die Bilanz in einer n:1-Beziehung basierend auf dem letzten Tag des Monats mit einer Standarddatumstabelle in Power BI zu verknüpfen. Mindestens einer der Bilanzberichte im Quartalsberichtspaket muss die Endsalden des Quartals sowie des Vorquartals anzeigen. Prognosen müssen eine Spalte mit dem Namen „RevenueProjection“ enthalten, die die prognostizierten Umsatzbeträge enthält."
+      },
+      {
+        "type": "image",
+        "value": "q022_3.png"
+      },
+      {
+        "type": "text",
+        "eng": "The relationships between products and departments to business units must be consistent across all reports.\nThe board must be able to get the following information from the quarterly reports:\n– Revenue trends over time\n– Ending balances for each account\n– A comparison of expenses versus projections by a quarter\n– Changes in long-term liabilities from the previous quarter\n– A comparison of quarterly revenue versus the same quarter during the prior year\nQuestion:-\nUsers want a column like Apr-20 for reporting purposes. How you will create this?",
+        "de": "Die Beziehungen zwischen Produkten und Abteilungen zu Geschäftseinheiten müssen in allen Berichten konsistent sein.\nDer Vorstand muss den Quartalsberichten folgende Informationen entnehmen können:\n– Umsatzentwicklung im Zeitverlauf\n– Endsalden der einzelnen Konten\n– Vergleich der Ausgaben mit den Prognosen pro Quartal\n– Veränderungen der langfristigen Verbindlichkeiten gegenüber dem Vorquartal\n– Vergleich des Quartalsumsatzes mit dem Vorjahresquartal.\nFrage: –\nBenutzer wünschen sich für Berichtszwecke eine Spalte wie „April-20“. Wie erstellen Sie diese?"
+      }
+    ],
+    "images": [
+      "q022.png",
+      "q022_2.png",
+      "q022_3.png"
+    ],
+    "choices": [
+      {
+        "de": "FORMAT (Date[Date], 'MMM- YYYY')",
+        "en": "FORMAT (Date[Date], 'MMM- YYYY')"
+      },
+      {
+        "de": "FORMAT (Date[Date], 'MM -YYYY')",
+        "en": "FORMAT (Date[Date], 'MM -YYYY')"
+      },
+      {
+        "de": "FORMAT (Date[Date], 'MMM -YY')",
+        "en": "FORMAT (Date[Date], 'MMM -YY')"
+      },
+      {
+        "de": "FORMAT (Date[Date], 'M- YYYY')",
+        "en": "FORMAT (Date[Date], 'M- YYYY')"
+      }
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q023",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You use Power BI Desktop to prepare data. You examine data quality in Power Query. You need to discover the number of errors in a column. Which two Data preview options should you use? Each correct answer presents a complete solution.",
+        "de": "Sie verwenden Power BI Desktop zur Datenaufbereitung. Sie überprüfen die Datenqualität in Power Query. Sie müssen die Anzahl der Fehler in einer Spalte ermitteln. Welche zwei Datenvorschau-Optionen sollten Sie verwenden? Jede richtige Antwort bietet eine vollständige Lösung."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Show whitespace",
+      "Column profile",
+      "Column quality",
+      "Column distribution"
+    ],
+    "choices_ger": [
+      "Leerzeichen anzeigen",
+      "Spaltenprofil",
+      "Spaltenqualität",
+      "Spaltenverteilung"
+    ],
+    "isMulti": true,
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "q024",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What is the use of 'Select Related Table' option while importing data from SQL Server?",
+        "de": "Wozu dient die Option 'Verwandte Tabellen auswählen' beim Import aus SQL Server?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "It will also import views related to selected tables",
+      "It won't import any extra table or view.",
+      "It will import tables that have a physical relationship with the selected table.",
+      "It will import the tables that have similar schema"
+    ],
+    "choices_ger": [
+      "Es importiert auch mit den Tabellen verknüpfte Views.",
+      "Es werden keine zusätzlichen Tabellen oder Views importiert.",
+      "Es importiert Tabellen mit physischer Beziehung zur ausgewählten Tabelle.",
+      "Es importiert Tabellen mit ähnlichem Schema."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q025",
+    "content": [
+      {
+        "type": "text",
+        "eng": "'Live Connection is used when connecting to multidimensional data sources, such as Analysis Services' Select whether the above statement is True or False.",
+        "de": "'Live Connection wird für multidimensionale Datenquellen wie Analysis Services verwendet'. Wählen Sie, ob diese Aussage wahr oder falsch ist."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "True",
+      "False"
+    ],
+    "choices_ger": [
+      "Wahr",
+      "Falsch"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q026",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You plan to use dataflows to perform extract, transform, and load processing on data stored in the Common Data Service to prepare it for Power BI reports. You need to set up the dataflows to process and store data. Which components should you use for the following process? 'Store data in dataflows using….'",
+        "de": "Sie planen Dataflows für ETL-Prozesse mit Common Data Service-Daten zu nutzen. Welche Komponenten verwenden Sie für: 'Daten in Dataflows speichern mit...'?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "JSON files",
+      "Common Data Model folders",
+      "OneDrive for Business"
+    ],
+    "choices_ger": [
+      "JSON-Dateien",
+      "Common Data Model-Ordner",
+      "OneDrive for Business"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q027",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You import an HR dataset into Power BI Desktop. You need to see how many empty and error rows are in a dataset, as shown below.[image here] Which two data quality options can you use to meet your goal? Each correct answer presents a complete solution.",
+        "de": "Sie importieren HR-Daten in Power BI Desktop. Sie müssen leere und fehlerhafte Zeilen zählen [Bild hier]. Welche zwei Datenqualitäts-Optionen helfen dabei? Jede richtige Antwort bietet eine Lösung."
+      },
+      {
+        "type": "image",
+        "value": "q027.png"
+      }
+    ],
+    "images": [
+      "q027.png"
+    ],
+    "choices": [
+      "Column distribution",
+      "Column profile",
+      "Custom column",
+      "Column quality"
+    ],
+    "choices_ger": [
+      "Spaltenverteilung",
+      "Spaltenprofil",
+      "Benutzerdefinierte Spalte",
+      "Spaltenqualität"
+    ],
+    "isMulti": true,
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "q028",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a Power BI report using an Excel workbook stored on OneDrive for Business as the data source in Power BI Desktop. You need to replace the Excel workbook with a new version that contains updated data. For the following statement(s), select Yes if the statement is true. Otherwise, select No. 'The Excel workbook must have the same structure as the original workbook.'",
+        "de": "Sie erstellen einen Power BI-Bericht mit einer OneDrive for Business-Excel-Datei als Quelle. Sie müssen die Datei durch eine aktualisierte Version ersetzen. Wählen Sie 'Ja', wenn die Aussage wahr ist: 'Die Excel-Datei muss dieselbe Struktur wie die Originaldatei haben.'"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q029",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have Employee and Salary tables in a data model. You need to include employee salaries in the Employee table, as shown in the below images. Before transformation",
+        "de": "Sie haben Employee- und Salary-Tabellen. Sie müssen Gehälter in die Employee-Tabelle integrieren. Vorher: "
+      },
+      {
+        "type": "image",
+        "value": "q029.png"
+      },
+      {
+        "type": "text",
+        "eng": "After transformation:",
+        "de": "Nach der Transformation: "
+      },
+      {
+        "type": "image",
+        "value": "q029_2.png"
+      },
+      {
+        "type": "text",
+        "eng": "Which transformation should you use? Choose the correct answer",
+        "de": "Welche Transformation verwenden Sie?"
+      }
+    ],
+    "images": [
+      "q029.png",
+      "q029_2.png"
+    ],
+    "choices": [
+      {
+        "de": "Abfragen anfügen",
+        "en": "Append queries"
+      },
+      {
+        "de": "Abfragen zusammenführen",
+        "en": "Merge queries"
+      },
+      {
+        "de": "Abfragen als neue zusammenführen",
+        "en": "Merge queries as new"
+      },
+      {
+        "de": "Abfragen als neue anfügen",
+        "en": "Append queries as new"
+      }
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q030",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your company moved from a self-service approach to an increasingly centralized approach. The IT team created a SQL Server Analysis Server (SSAS) for you to use. When using live connections for SSAS, why might the Relationships view disappear in Power BI?",
+        "de": "Ihr Unternehmen wechselt zu einem zentralisierten Ansatz. Das IT-Team erstellte einen SSAS-Server. Warum verschwindet die Beziehungsansicht bei Live-Verbindungen zu SSAS?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "The Relationship view is hidden by default because changes are pushed back to the underlying SSAS data model.",
+      "The relationship view is only available for data from SQL Server.",
+      "The model's relationships are managed in SSAS, not in Power BI Desktop.",
+      "Live connections automatically determine the relationships between tables.",
+      "Live connections do not support cross-table formulas."
+    ],
+    "choices_ger": [
+      "Die Ansicht ist standardmäßig ausgeblendet, da Änderungen an SSAS zurückgespielt werden.",
+      "Die Beziehungsansicht ist nur für SQL Server-Daten verfügbar.",
+      "Beziehungen werden in SSAS verwaltet, nicht in Power BI Desktop.",
+      "Live-Verbindungen bestimmen Beziehungen automatisch.",
+      "Live-Verbindungen unterstützen keine tabellenübergreifenden Formeln."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q031",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Select the feature that allows you to navigate through HTML tags to get the data from a website?",
+        "de": "Welche Funktion ermöglicht es, durch HTML-Tags zu navigieren, um Daten von einer Website zu extrahieren?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Scaffolding",
+      "Get JSON Data",
+      "Web Scraping"
+    ],
+    "choices_ger": [
+      "Scaffolding",
+      "JSON-Daten abrufen",
+      "Web Scraping"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q032",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are a data analyst using Power BI with Power Query to connect and get the data. You use the Common Data Service as a data source. You need to investigate query performance issues, but the View Native Query option is disabled. What is a possible cause for the View Native Query option being disabled?",
+        "de": "Sie sind Datenanalyst und nutzen Power BI mit Power Query. Als Datenquelle verwenden Sie Common Data Service. Die Option 'Native Abfrage anzeigen' ist deaktiviert. Was ist eine mögliche Ursache?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "The Common Data Service does not support Query folding.",
+      "There is a conditional column transformation step.",
+      "There is a measure on the dataset.",
+      "The storage mode is set as Import."
+    ],
+    "choices_ger": [
+      "Common Data Service unterstützt kein Query Folding.",
+      "Es gibt einen Schritt mit bedingter Spaltentransformation.",
+      "Es gibt ein Measure im Dataset.",
+      "Der Speichermodus ist auf Import gesetzt."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q033",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are creating a dataset and modeling the data for a Power BI report. The report should contain up-to-date information. The tables in the data model are shown in the exhibit and are described below: [image here] • Sales has the details of sales made to customers and has a large number of records. Many new records are added daily. • Customer is the list of customers. Customers have a few thousand records and there are additions and updates regularly. • Territory is the geographical area for the sales teams. Territories are rarely updated. • Date is a date table created with DAX. You need to select the correct storage mode to meet your company’s requirements. Which storage mode should you use for the following requirement? 'Use Customer and Territory as slicers'",
+        "de": "Sie erstellen ein Dataset für einen Power BI-Bericht mit aktuellen Daten. Die Tabellen im Datenmodell sind: [Bild hier] • Sales (täglich neue Einträge) • Customer (regelmäßige Updates) • Territory (selten aktualisiert) • Date (DAX-Datentabelle). Welchen Speichermodus wählen Sie für: 'Customer und Territory als Slicer verwenden'?"
+      },
+      {
+        "type": "image",
+        "value": "q033.png"
+      }
+    ],
+    "images": [
+      "q033.png"
+    ],
+    "choices": [
+      "Dual",
+      "DirectQuery",
+      "Import",
+      "Live Connection"
+    ],
+    "choices_ger": [
+      "Dual",
+      "DirectQuery",
+      "Import",
+      "Live Connection"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q034",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You should create a report that shows the company‘s sales performance. The sales team asked you to add a single visualization that could help identify the factors that affect sales and influence success. Which of the following visualization would you use?",
+        "de": "Sie sollen einen Bericht mit Verkaufsdaten erstellen. Das Vertriebsteam möchte eine Visualisierung zur Identifikation von Erfolgsfaktoren. Welche Visualisierung verwenden Sie?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "None of these",
+      "Key influencers",
+      "Funnel chart",
+      "Q&A visualization"
+    ],
+    "choices_ger": [
+      "Keine davon",
+      "Key Influencers",
+      "Trichterdiagramm",
+      "Q&A-Visualisierung"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q035",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have two tables as shown in the exhibit. There are no unique values in either table. The tables are related by the product name. You need to create relationships in the data model to enable visuals to be created that contain data from both tables. [images here] How should you model these tables?",
+        "de": "Sie haben zwei Tabellen ohne eindeutige Werte, die über Produktnamen verknüpft sind [Bilder hier]. Wie modellieren Sie die Beziehung für Visuals mit Daten beider Tabellen?"
+      },
+      {
+        "type": "image",
+        "value": "q035.png"
+      }
+    ],
+    "images": [
+      "q035.png"
+    ],
+    "choices": [
+      "Create a table that contains unique IDs and create two one-to-many relationships.",
+      "Set the relationship cardinality to one-to-one between the two tables.",
+      "Set the relationship cardinality to one-to-many between the two tables.",
+      "Set the relationship cardinality to many-to-many between the two tables."
+    ],
+    "choices_ger": [
+      "Eine Tabelle mit eindeutigen IDs erstellen und zwei 1:n-Beziehungen anlegen.",
+      "Kardinalität 1:1 zwischen den Tabellen einstellen.",
+      "Kardinalität 1:n zwischen den Tabellen einstellen.",
+      "Kardinalität n:m zwischen den Tabellen einstellen."
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q036",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a very large dataset, and you want to reduce its size. A table called Telemetry contains multiple records per day with the datetime, deviceid, devicetype, readingtype, and readingvalue. You need to produce reports showing average values for devicetype and readingtype. The Telemetry table is set to DirectQuery storage mode. You need to create aggregations for date, devicetype, readingtype, and readingvalue. Which of the following five actions should you perform in sequence?",
+        "de": "Sie haben ein großes Telemetry-Dataset (DirectQuery) mit täglichen Gerätedaten. Sie benötigen aggregierte Berichte für devicetype/readingtype. Welche 5 Schritte sind korrekt?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "1. Neue Tabelle 'Telemetry_Aggregate' erstellen. 2. Telemetry-Tabelle → 'Aggregationen verwalten'. 3. Telemetry_Aggregate als Aggregationstabelle auswählen. 4. Zusammenfassungstyp wählen. 5. Spalten aus Telemetry auswählen.",
+      "1. Telemetry-Tabelle → 'Aggregationen verwalten'. 2. Telemetry als Aggregationstabelle wählen. 3. Telemetry_Aggregate verwalten. 4. Speichermodus auf Import setzen. 5. Zusammenfassungstyp wählen.",
+      "1. Telemetry als Aggregationstabelle wählen. 2. Telemetry → 'Aggregationen verwalten'. 3. Telemetry_Aggregate erstellen. 4. Speichermodus auf Import setzen. 5. Zusammenfassungstyp wählen.",
+      "1. Telemetry_Aggregate erstellen. 2. Telemetry als Aggregationstabelle wählen. 3. Telemetry_Aggregate als Aggregationstabelle wählen. 4. Telemetry-Spalten auswählen. 5. Zusammenfassungstyp wählen."
+    ],
+    "choices_ger": [
+      "1. Neue Tabelle 'Telemetry_Aggregate' erstellen. 2. Telemetry-Tabelle → 'Aggregationen verwalten'. 3. Telemetry_Aggregate als Aggregationstabelle auswählen. 4. Zusammenfassungstyp wählen. 5. Spalten aus Telemetry auswählen.",
+      "1. Telemetry-Tabelle → 'Aggregationen verwalten'. 2. Telemetry als Aggregationstabelle wählen. 3. Telemetry_Aggregate verwalten. 4. Speichermodus auf Import setzen. 5. Zusammenfassungstyp wählen.",
+      "1. Telemetry als Aggregationstabelle wählen. 2. Telemetry → 'Aggregationen verwalten'. 3. Telemetry_Aggregate erstellen. 4. Speichermodus auf Import setzen. 5. Zusammenfassungstyp wählen.",
+      "1. Telemetry_Aggregate erstellen. 2. Telemetry als Aggregationstabelle wählen. 3. Telemetry_Aggregate als Aggregationstabelle wählen. 4. Telemetry-Spalten auswählen. 5. Zusammenfassungstyp wählen."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q037",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are modeling sales data as shown in the below exhibit.",
+        "de": "Sie modellieren Verkaufsdaten: "
+      },
+      {
+        "type": "image",
+        "value": "q037.png"
+      },
+      {
+        "type": "text",
+        "eng": "You need to show the variance of sales for the different product types. You decide to use a Quick measure. How should you configure the Quick measure? Select the correct column names for the Quick Measure setup.",
+        "de": "Für Abweichungen nach Produkttypen verwenden Sie ein Quick Measure. Wie konfigurieren Sie es?"
+      },
+      {
+        "type": "image",
+        "value": "q037_2.png"
+      }
+    ],
+    "images": [
+      "q037.png",
+      "q037_2.png"
+    ],
+    "choices": [
+      {
+        "de": "Base Value = Order Number",
+        "en": "Base Value = Order Number"
+      },
+      {
+        "de": "Category = Amount",
+        "en": "Category = Amount"
+      },
+      {
+        "de": "Base Value = Amount",
+        "en": "Base Value = Amount"
+      },
+      {
+        "de": "Category = TypeName",
+        "en": "Category = TypeName"
+      },
+      {
+        "de": "Category = Order Number",
+        "en": "Category = Order Number"
+      },
+      {
+        "de": "Base Value = TypeName",
+        "en": "Base Value = TypeName"
+      }
+    ],
+    "isMulti": true,
+    "correct": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "q038",
+    "content": [
+      {
+        "type": "text",
+        "eng": "How can you automate the deployment and maintenance of your assets?",
+        "de": "Wie automatisieren Sie das Deployment und Maintenance Ihrer Assets?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Use Azure DevOps",
+      "Use GitHub Actions",
+      "Use Jenkins",
+      "Use Travis CI"
+    ],
+    "choices_ger": [
+      "Azure DevOps verwenden",
+      "GitHub Actions verwenden",
+      "Jenkins verwenden",
+      "Travis CI verwenden"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q039",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a Power BI dashboard that monitors the quality of manufacturing processes. The dashboard contains the following elements:✑ A line chart that shows the number of defective products manufactured by day -> A KPI visual that shows the current daily percentage of defective products manufacturedYou need to be notified when the daily percentage of defective products manufactured exceeds 3%.What should you create?",
+        "de": "Ihr Dashboard überwacht die Produktionsqualität mit:✑ Liniendiagramm (tägliche fehlerhafte Produkte)✑ KPI (tägliche Fehlerquote). Sie sollen benachrichtigt werden, wenn die Fehlerquote 3% übersteigt. Was erstellen Sie?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "a subscription",
+      "an alert",
+      "a smart narrative visual",
+      "a Q&A visual"
+    ],
+    "choices_ger": [
+      "ein Abonnement",
+      "eine Warnung",
+      "eine Smart Narrative-Visualisierung",
+      "eine Q&A-Visualisierung"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q040",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You want to create a data source that can be accessed by external users. Which type of data source should you use?",
+        "de": "Sie möchten eine Datenquelle für externe Nutzer erstellen. Welchen Typ verwenden Sie?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "SQL Server",
+      "Common Data Service",
+      "SharePoint",
+      "OneDrive"
+    ],
+    "choices_ger": [
+      "SQL Server",
+      "Common Data Service",
+      "SharePoint",
+      "OneDrive"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q041",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What is the difference between a measure and a calculated column in Power BI?",
+        "de": "Was ist der Unterschied zwischen Measures und berechneten Spalten in Power BI?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "A measure is an aggregation of data, while a calculated column is a new column created from existing data",
+      "A calculated column is an aggregation of data, while a measure is a new column created from existing data",
+      "A measure is a calculation based on a single column, while a calculated column is a calculation based on multiple columns",
+      "A calculated column is a calculation based on a single column, while a measure is a calculation based on multiple columns"
+    ],
+    "choices_ger": [
+      "Ein Measure aggregiert Daten, während berechnete Spalten neue Spalten aus existierenden Daten erstellen",
+      "Berechnete Spalten aggregieren Daten, während Measures neue Spalten erstellen",
+      "Ein Measure basiert auf einer Spalte, berechnete Spalten auf mehreren Spalten",
+      "Berechnete Spalten basieren auf einer Spalte, Measures auf mehreren Spalten"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q042",
+    "content": [
+      {
+        "type": "text",
+        "eng": "A user creates a Power BI report named ReportA that uses a custom theme.You create a dashboard named DashboardA.You need to ensure that DashboardA uses the custom theme. The solution must minimize development effort.Which two actions should you perform? Each correct answer presents part of the solution.NOTE: Each correct selection is worth one point.",
+        "de": "Ein Benutzer erstellt ReportA mit benutzerdefiniertem Theme. Sie erstellen DashboardA. Wie wenden Sie das Theme mit minimalem Aufwand an? (2 Antworten)"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Publish ReportA to Power BI.",
+      "From ReportA save the current theme.",
+      "Publish ReportA to the Microsoft Power BI Community theme gallery.",
+      "From DashboardA, create a custom theme.",
+      "From DashboardA, upload a JSON theme."
+    ],
+    "choices_ger": [
+      "ReportA in Power BI veröffentlichen.",
+      "Aktuelles Theme aus ReportA speichern.",
+      "ReportA im Power BI Community Theme Gallery veröffentlichen.",
+      "In DashboardA ein benutzerdefiniertes Theme erstellen.",
+      "In DashboardA ein JSON-Theme hochladen."
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "q043",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What is the purpose of a dataflow in Power BI?",
+        "de": "Wozu dienen Dataflows in Power BI?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "To transform and clean data",
+      "To create visualizations",
+      "foo",
+      "foo"
+    ],
+    "choices_ger": [
+      "Daten zu transformieren und zu bereinigen",
+      "Visualisierungen zu erstellen",
+      "foo",
+      "foo"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  }
+]

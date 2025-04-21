@@ -1,0 +1,6 @@
+EmployeeID,Name,Age,Gender,DepartmentID,Department
+1,John Doe,29,Male,101,Engineering
+2,Jane Smith,34,Female,102,Data
+3,Emily Jones,41,Female,103,Management
+4,Michael Brown,25,Male,102,Data
+5,Jessica Williams,30,Female,104,Consulting

@@ -1,0 +1,1124 @@
+[
+    {
+        "id": "q001",
+        "content": [
+            {
+                "type": "text",
+                "eng": "As part of a large Bl project, you have created a new dashboard for consumption by the HR team. After opening the Get Data menu option and selecting SQL Server, you are not sure which Data Connectivity mode to select. If you want the data to automatically refresh as you interact with visualizations which option should you choose?",
+                "de": "Als Teil eines großen BI-Projekts haben Sie ein neues Dashboard für das HR-Team erstellt. Nachdem Sie die 'Daten abrufen'-Option ausgewählt und SQL Server ausgewählt haben, sind Sie unsicher, welchen Datenverbindungsmodus Sie wählen sollen. Welche Option sollten Sie wählen, wenn Sie möchten, dass sich die Daten automatisch aktualisieren, während Sie mit Visualisierungen interagieren?"
+            }
+        ],
+        "images": [],
+        "choices": ["Import", "DirectQuery"],
+        "choices_ger": ["Import", "DirectQuery"],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q002",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You are analyzing data quality on a set of data that you imported with Power Query. You need to use the correct Data Preview options to analyze the data. Which Data Preview option should you use to find the below data quality issue? 'Find the number of distinct and unique rows for all columns'",
+                "de": "Sie analysieren die Datenqualität eines mit Power Query importierten Datensatzes. Welche Datenvorschau-Option sollten Sie verwenden, um folgendes Datenqualitätsproblem zu finden: 'Anzahl der unterschiedlichen und eindeutigen Zeilen für alle Spalten ermitteln'?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Column quality",
+            "Monospaced",
+            "Column profile",
+            "Column distribution",
+            "Show whitespace"
+        ],
+        "choices_ger": [
+            "Spaltenqualität",
+            "Nichtproportionalschrift",
+            "Spaltenprofil",
+            "Spaltenverteilung",
+            "Leerzeichen anzeigen"
+        ],
+        "isMulti": false,
+        "correct": [3]
+    },
+    {
+        "id": "q003",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You plan to use dataflows to perform extract, transform, and load processing on data stored in the Common Data Service to prepare it for Power Bl reports. You need to set up the dataflows to process and store data. Which components should you use for the following process? 'Create dataflows using....'",
+                "de": "Sie planen, Dataflows für ETL-Prozesse mit Daten aus dem Common Data Service zu verwenden, um sie für Power BI-Berichte vorzubereiten. Welche Komponenten sollten Sie für folgenden Prozess verwenden: 'Dataflows erstellen mit...'?"
+            }
+        ],
+        "images": [],
+        "choices": ["Azure Data Factory", "DAX", "Power Query"],
+        "choices_ger": ["Azure Data Factory", "DAX", "Power Query"],
+        "isMulti": false,
+        "correct": [2]
+    },
+    {
+        "id": "q004",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You are a business intelligence analyst for a worldwide organization. You create a Power Bl report that shows sales for your organization. You need to provide a version of the report that filters the data for a single country. Solution: 1) Add a parameter to the dataset for country. 2) Add a query parameter specifying the parameter and country. Does this solution meet the goal?",
+                "de": "Sie sind BI-Analyst in einem weltweit tätigen Unternehmen. Sie erstellen einen Power BI-Bericht mit Verkaufsdaten. Sie müssen eine Version bereitstellen, die Daten für ein einzelnes Land filtert. Lösung: 1) Parameter für Land zum Dataset hinzufügen 2) Abfrageparameter mit Parameter und Land hinzufügen. Erfüllt diese Lösung das Ziel?"
+            }
+        ],
+        "images": [],
+        "choices": ["No", "Yes"],
+        "choices_ger": ["Nein", "Ja"],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q005",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You import an HR dataset into Power Bl Desktop. You need to find distinct and unique rows for each column in a dataset appearing in a single view, as shown below.",
+                "de": "Sie importieren ein HR-Dataset in Power BI Desktop. Sie müssen unterschiedliche und eindeutige Zeilen für jede Spalte in einer einzelnen Ansicht finden, wie unten gezeigt."
+            },
+            {
+                "type": "image",
+                "value": "q005.png"
+            }
+        ],
+        "images": ["q005.png"],
+        "choices": [
+            "Column distribution",
+            "Column profile",
+            "Column quality",
+            "Custom column"
+        ],
+        "choices_ger": [
+            "Spaltenverteilung",
+            "Spaltenprofil",
+            "Spaltenqualität",
+            "Benutzerdefinierte Spalte"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q006",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Power Query emphasizes making changes using which of the following?",
+                "de": "Power Query betont Änderungen mit welcher der folgenden Optionen?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Formula bar",
+            "Server",
+            "Graphical user interface (GUI)",
+            "Command line"
+        ],
+        "choices_ger": [
+            "Formelleiste",
+            "Server",
+            "Grafische Benutzeroberfläche (GUI)",
+            "Befehlszeile"
+        ],
+        "isMulti": false,
+        "correct": [2]
+    },
+    {
+        "id": "q007",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You use the Power Bl Desktop to prepare data. You examine data quality in Power Query. You need to discover anomalies in the data. Which option should you use?",
+                "de": "Sie verwenden Power BI Desktop zur Datenaufbereitung. Sie untersuchen die Datenqualität in Power Query. Sie müssen Anomalien in den Daten entdecken. Welche Option sollten Sie verwenden?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Column distribution",
+            "Data connectivity mode",
+            "Column profile",
+            "Column quality"
+        ],
+        "choices_ger": [
+            "Spaltenverteilung",
+            "Datenverbindungsmodus",
+            "Spaltenprofil",
+            "Spaltenqualität"
+        ],
+        "isMulti": false,
+        "correct": [2]
+    },
+    {
+        "id": "q008",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You import sales data using Power Query to apply a series of transformation steps after the query has been executed. There are errors, as shown in the below exhibit for Cells.",
+                "de": "Sie importieren Verkaufsdaten mit Power Query und wenden Transformationsschritte an. Es treten Fehler auf, wie in der Abbildung für 'Cells' gezeigt."
+            },
+            {
+                "type": "image",
+                "value": "q008.png"
+            }
+        ],
+        "images": ["q008.png"],
+        "choices": [
+            "use the Remove Errors feature",
+            "use the Replace Errors feature",
+            "Remove the column."
+        ],
+        "choices_ger": [
+            "Fehler entfernen-Funktion verwenden",
+            "Fehler ersetzen-Funktion verwenden",
+            "Spalte entfernen"
+        ],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q009",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You are analyzing data quality on a set of data that you imported with Power Query. You need to use the correct Data Preview options to analyze the data. Which Data Preview option should you use to find the below data quality issue? 'Find the number of distinct, unique, and empty rows for a single column'",
+                "de": "Sie analysieren die Datenqualität eines mit Power Query importierten Datensatzes. Welche Datenvorschau-Option sollten Sie verwenden, um folgendes Datenqualitätsproblem zu finden: 'Anzahl der unterschiedlichen, eindeutigen und leeren Zeilen für eine einzelne Spalte ermitteln'?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Column distribution",
+            "Column quality",
+            "Monospaced",
+            "Show whitespace",
+            "Column profile"
+        ],
+        "choices_ger": [
+            "Spaltenverteilung",
+            "Spaltenqualität",
+            "Nichtproportionalschrift",
+            "Leerzeichen anzeigen",
+            "Spaltenprofil"
+        ],
+        "isMulti": false,
+        "correct": [4]
+    },
+    {
+        "id": "q010",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Your company's product data is held in an Azure SQL Server database. Your company has an endorsed dataset available in the Power Bl service that contains the company's product catalog and sales data in a common model that standardizes how product data is reported. You use Power BI Desktop to create reports. You need to create a new report on product data that is consistent with the standardized data.What should you do?",
+                "de": "Die Produktdaten Ihres Unternehmens sind in einer Azure SQL Server-Datenbank gespeichert. Ihr Unternehmen hat ein genehmigtes Dataset im Power BI Service, das den Produktkatalog und Verkaufsdaten in einem standardisierten Modell enthält. Sie verwenden Power BI Desktop zur Berichterstellung. Was sollten Sie tun, um einen neuen Bericht mit standardkonformen Produktdaten zu erstellen?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Create a new local dataset connecting to the Azure SQL database",
+            "Create a new .pbix file and use Power Bl dataflows to connect to the endorsed dataset",
+            "Edit a .pbix file with an existing connection to the Azure SQL database and connect to the endorsed dataset",
+            "Create a new .pbix file and connect to the endorsed dataset"
+        ],
+        "choices_ger": [
+            "Neues lokales Dataset mit Verbindung zur Azure SQL-Datenbank erstellen",
+            "Neue .pbix-Datei erstellen und Power BI Dataflows für Verbindung zum genehmigten Dataset verwenden",
+            ".pbix-Datei mit bestehender Azure SQL-Verbindung bearbeiten und mit genehmigtem Dataset verbinden",
+            "Neue .pbix-Datei erstellen und mit genehmigtem Dataset verbinden"
+        ],
+        "isMulti": false,
+        "correct": [3]
+    },
+    {
+        "id": "q011",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Overview: You work for a company that uses Power Bl for financial reporting. Analysis and insights for sales are now required. Existing Environment: Power Bl service is used and workspaces have been created. Power Bl Desktop is installed. Data Sources: Sales data is stored in an Azure SQL database. Dimension data for Territory and Country is held in an Excel workbook in SharePoint Online. Sales schema - The schema for the sales data is shown in the Schema exhibit. Product Ids are alphanumeric and consist of three letters followed by three numbers. The Sales amount is net of any taxes The Tax rate is 20 percent on all sales. Territory workbook - The data for territories is shown in the Territory workbook exhibit. Issues: You observe the following issues: The labels for the country are not consistent for territories. The labels used are not the commonly used names in your company. The labels do not follow naming corporate standards with capitalization, no special characters, and no abbreviations. Users must be able to analyze sales by product type. The tax amount on sales must be available in visualizations. Sales managers are unable to create visualizations for sales grouped by Product type. Sales managers must only be able to see sales for their territory. /Table/ QUESTION  You need to make sure that the labels for the country are consistent. What should you do?",
+                "de": "Übersicht: Sie arbeiten für ein Unternehmen, das Power BI für Finanzberichte verwendet. Jetzt werden Verkaufsanalysen benötigt. Bestehende Umgebung: Power BI Service mit vorhandenen Workspaces. Power BI Desktop ist installiert. Datenquellen: Verkaufsdaten in Azure SQL-Datenbank. Gebiets- und Ländedaten in Excel in SharePoint Online. Probleme: Länderbezeichnungen sind inkonsistent, entsprechen nicht den Unternehmensstandards. Benutzer müssen Verkäufe nach Produkttyp analysieren können. Steuerbeträge müssen in Visualisierungen verfügbar sein. Verkaufsleiter dürfen nur Daten für ihr Gebiet sehen. Frage: Was sollten Sie tun, um konsistente Länderbezeichnungen sicherzustellen?"
+            },
+            {
+                "type": "image",
+                "value": "q011.png"
+            }
+        ],
+        "images": ["q011.png"],
+        "choices": [
+            "Apply the Convert to a List transform to the Country column.",
+            "Apply the Replace Values transform to the Country column.",
+            "Apply the Remove duplicates transform to the Country column.",
+            "Set the Data category to Country."
+        ],
+        "choices_ger": [
+            "'In Liste umwandeln'-Transformation auf die Länderspalte anwenden",
+            "'Werte ersetzen'-Transformation auf die Länderspalte anwenden",
+            "'Duplikate entfernen'-Transformation auf die Länderspalte anwenden",
+            "Datenkategorie auf 'Land' setzen"
+        ],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q012",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You use Power BI Desktop to prepare data. You import a set of data using Power Query. You need to identify whether a column contains only unique values. Which two Data preview options can you use to meet your goal? Each correct answer presents a complete solution.",
+                "de": "Sie verwenden Power BI Desktop zur Datenaufbereitung. Sie importieren Daten mit Power Query. Sie müssen prüfen, ob eine Spalte nur eindeutige Werte enthält. Welche zwei Datenvorschau-Optionen können Sie verwenden? Jede richtige Antwort ist eine vollständige Lösung."
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Column profile",
+            "Column quality",
+            "Column distribution",
+            "Monospaced"
+        ],
+        "choices_ger": [
+            "Spaltenprofil",
+            "Spaltenqualität",
+            "Spaltenverteilung",
+            "Nichtproportionalschrift"
+        ],
+        "isMulti": true,
+        "correct": [0, 2]
+    },
+    {
+        "id": "q013",
+        "content": [
+            {
+                "type": "text",
+                "eng": "What can you accomplish with a data gateway?",
+                "de": "Was können Sie mit einem Daten-Gateway erreichen?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Download Report",
+            "Report Publish",
+            "View Report",
+            "Refresh Data"
+        ],
+        "choices_ger": [
+            "Bericht herunterladen",
+            "Bericht veröffentlichen",
+            "Bericht anzeigen",
+            "Daten aktualisieren"
+        ],
+        "isMulti": false,
+        "correct": [3]
+    },
+    {
+        "id": "q014",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You create a dataset using multiple data sources that contain similar tables. You need to reduce the number of tables in the dataset to make the data model simpler and the creation of visuals easier. Which method should you use to combine the tables for the below scenario? Select the appropriate method. Scenario: Multiple tables with the same columns containing data for each month",
+                "de": "Sie erstellen ein Dataset mit mehreren Datenquellen mit ähnlichen Tabellen. Sie müssen die Anzahl der Tabellen reduzieren, um das Datenmodell zu vereinfachen. Welche Methode sollten Sie für folgendes Szenario verwenden? Szenario: Mehrere Tabellen mit gleichen Spalten, die Monatsdaten enthalten"
+            }
+        ],
+        "images": [],
+        "choices": ["Combine Files", "Merge Queries", "Append Queries"],
+        "choices_ger": [
+            "Dateien kombinieren",
+            "Abfragen zusammenführen",
+            "Abfragen anfügen"
+        ],
+        "isMulti": false,
+        "correct": [2]
+    },
+    {
+        "id": "q015",
+        "content": [
+            {
+                "type": "text",
+                "eng": "When using the 'Split Column by Delimiter' transformation, which option may result in more than two new columns?",
+                "de": "Welche Option bei der 'Spalte nach Trennzeichen teilen'-Transformation kann zu mehr als zwei neuen Spalten führen?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "None of these",
+            "At the right-most delimiter",
+            "At the left-most delimiter",
+            "At each occurrence of the delimiter."
+        ],
+        "choices_ger": [
+            "Keine davon",
+            "Am rechtesten Trennzeichen",
+            "Am linkesten Trennzeichen",
+            "Bei jedem Vorkommen des Trennzeichens"
+        ],
+        "isMulti": false,
+        "correct": [3]
+    },
+    {
+        "id": "q016",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Overview: You work for a company that uses Power BI for financial reporting. Analysis and insights for sales are now required. Existing Environment: Power BI service is used and workspaces have been created. Power BI Desktop is installed. Data Sources: Sales data is stored in an Azure SQL database. Dimension data for Territory and Country is held in an Excel workbook in SharePoint Online. Sales schema – The schema for the sales data is shown in the Schema exhibit. Product Ids are alphanumeric and consist of three letters followed by three numbers. The Sales amount is net of any taxes The Tax rate is 20 percent on all sales. Territory workbook – The data for territories is shown in the Territory workbook exhibit. Issues:# You observe the following issues: The labels for country are not consistent for territories. The labels used are not the commonly used names in your company. The labels do not follow naming corporate standards with capitalization, no special characters, and no abbreviations. Users must be able to analyze sales by product type. The tax amount on sales must be available in visualizations. Sales managers are unable to create visualizations for sales grouped by Product type. Sales managers must only be able to see sales for their territory. /Table/ QUESTION You need to be able to show the amount of tax in visualizations. You use Power Query. Which three actions should you perform in sequence? Select the order in which the possible steps needs to be performed. Possible steps: 1) Add a custom column named Tax to Sales 2) Pivot the Amount column. 3) Set the formula to be [Amount]/5  4) Duplicate the Amount column. 5) Change the Data Type to Decimal number.",
+                "de": "Übersicht: Sie arbeiten für ein Unternehmen, das Power BI für die Finanzberichterstattung nutzt. Nun werden Analysen und Erkenntnisse für den Vertrieb benötigt. Vorhandene Umgebung: Der Power BI-Dienst wird genutzt und Workspaces wurden erstellt. Power BI Desktop ist installiert. Datenquellen: Vertriebsdaten werden in einer Azure SQL-Datenbank gespeichert. Dimensionsdaten für Territorium und Land befinden sich in einer Excel-Arbeitsmappe in SharePoint Online. Vertriebsschema – Das Schema für die Vertriebsdaten ist in der Schema-Abbildung dargestellt. Produkt-IDs sind alphanumerisch und bestehen aus drei Buchstaben gefolgt von drei Zahlen. Der Verkaufsbetrag ist netto, ohne Steuern. Der Steuersatz beträgt 20 Prozent auf alle Verkäufe. Territorium-Arbeitsmappe – Die Daten für die Territorien sind in der Territorium-Arbeitsmappen-Abbildung dargestellt. Probleme: Sie beobachten folgende Probleme: Die Bezeichnungen für Länder sind in den Territorien nicht einheitlich. Die verwendeten Bezeichnungen entsprechen nicht den gebräuchlichen Namen in Ihrem Unternehmen. Die Bezeichnungen folgen nicht den Corporate-Naming-Standards mit Großschreibung, ohne Sonderzeichen und ohne Abkürzungen. Benutzer müssen Verkäufe nach Produkttyp analysieren können. Der Steuerbetrag auf Verkäufe muss in Visualisierungen verfügbar sein. Vertriebsmanager können keine Visualisierungen für nach Produkttyp gruppierte Verkäufe erstellen. Vertriebsmanager dürfen nur Verkäufe für ihr Territorium sehen. /Tabelle/ FRAGE Sie müssen den Steuerbetrag in Visualisierungen anzeigen können. Sie verwenden Power Query. Welche drei Aktionen sollten Sie in welcher Reihenfolge ausführen? Wählen Sie die Reihenfolge, in der die möglichen Schritte ausgeführt werden müssen. Mögliche Schritte: 1) Fügen Sie eine benutzerdefinierte Spalte namens „Tax“ zu „Sales“ hinzu. 2) Pivotieren Sie die Spalte „Amount“. 3) Setzen Sie die Formel auf [Amount]/5. 4) Duplizieren Sie die Spalte „Amount“. 5) Ändern Sie den Datentyp auf Dezimalzahl."
+            },
+            {
+                "type": "image",
+                "value": "q016.png"
+            }
+        ],
+        "images": ["q016.png"],
+        "choices": [
+            "Step 1 > 3 > 5",
+            "Step 4 > 3 > 5",
+            "Step 2 > 1 > 5",
+            "Step 1 > 5 > 3"
+        ],
+        "choices_ger": [
+            "Schritt 1 > 3 > 5",
+            "Schritt 4 > 3 > 5",
+            "Schritt 2 > 1 > 5",
+            "Schritt 1 > 5 > 3"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q017",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You create a Power BI report using an Excel workbook stored on OneDrive for Business as the data source in Power BI Desktop. You need to replace the Excel workbook with a new version that contains updated data. For the following statement(s), select Yes if the statement is true. Otherwise, select No. “The Excel workbook can be edited in Power BI”",
+                "de": "Sie erstellen einen Power BI-Bericht mit einer Excel-Arbeitsmappe auf OneDrive for Business als Datenquelle in Power BI Desktop. Sie müssen die Excel-Arbeitsmappe durch eine neue Version mit aktualisierten Daten ersetzen. Wählen Sie für die folgende(n) Aussage(n) „Ja“, wenn die Aussage wahr ist. Andernfalls wählen Sie „Nein“. „Die Excel-Arbeitsmappe kann in Power BI bearbeitet werden.“"
+            }
+        ],
+        "images": [],
+        "choices": ["Yes", "No"],
+        "choices_ger": ["Ja", "Nein"],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q018",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You create a Power BI report using an Excel workbook stored on OneDrive for Business as the data source in Power BI Desktop. You need to replace the Excel workbook with a new version that contains updated data. For the following statement(s), select Yes if the statement is true. Otherwise, select No. “The Excel workbook must have the same file path and name as the original workbook.”",
+                "de": "Sie erstellen einen Power BI-Bericht mit einer Excel-Arbeitsmappe auf OneDrive for Business als Datenquelle in Power BI Desktop. Sie müssen die Excel-Arbeitsmappe durch eine neue Version mit aktualisierten Daten ersetzen. Wählen Sie für die folgende(n) Aussage(n) „Ja“, wenn die Aussage wahr ist. Andernfalls wählen Sie „Nein“. „Die Excel-Arbeitsmappe muss denselben Dateipfad und Namen wie die ursprüngliche Arbeitsmappe haben.“"
+            }
+        ],
+        "images": [],
+        "choices": ["No", "Yes"],
+        "choices_ger": ["Nein", "Ja"],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q019",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You use Power BI to create visualizations of the financial data in the below exhibit. /Table/ You need to create a measure for the average profit for products for use in visualizations. You need to ensure that the measure you create will behave correctly when used with CALCULATE functions. How should you create the measure? To answer, select the appropriate measure.",
+                "de": "Sie verwenden Power BI, um Visualisierungen der Finanzdaten in der untenstehenden Abbildung zu erstellen. /Tabelle/ Sie müssen ein Measure für den durchschnittlichen Produktgewinn für die Verwendung in Visualisierungen erstellen. Sie müssen sicherstellen, dass das von Ihnen erstellte Measure korrekt funktioniert, wenn es mit CALCULATE-Funktionen verwendet wird. Wie sollten Sie das Measure erstellen? Wählen Sie zur Beantwortung das entsprechende Measure aus."
+            },
+            {
+                "type": "image",
+                "value": "q019.png"
+            }
+        ],
+        "images": ["q019.png"],
+        "choices": [
+            "Average Product Profit = SUMMARIZE(CALCULATE(VALUES('financials'[Product])), CALCULATE(KEEPFILTERS('financials'[Profit]))",
+            "Average Product Profit = AVERAGEX(KEEPFILTERS(VALUES('financials'[Product])), CALCULATE(AVERAGE('financials'[Profit]))",
+            "Average Product Profit = FILTER(AVERAGE(VALUES('financials'[Product])), CALCULATE(ALL('financials'[Profit]))",
+            "Average Product Profit = AVERAGE(KEEPFILTERS(VALUES('financials'[Product])), CALCULATE(ALL('financials'[Profit]))",
+            "Average Product Profit = CALCULATE(AVERAGE(VALUES('financials'[Product])), CALCULATE(KEEPFILTERS('financials'[Profit]))"
+        ],
+        "choices_ger": [
+            "Durchschnittlicher Produktgewinn = SUMMARIZE(CALCULATE(VALUES('financials'[Product])), CALCULATE(KEEPFILTERS('financials'[Profit]))",
+            "Durchschnittlicher Produktgewinn = AVERAGEX(KEEPFILTERS(VALUES('financials'[Product])), CALCULATE(AVERAGE('financials'[Profit]))",
+            "Durchschnittlicher Produktgewinn = FILTER(AVERAGE(VALUES('financials'[Product])), CALCULATE(ALL('financials'[Profit]))",
+            "Durchschnittlicher Produktgewinn = AVERAGE(KEEPFILTERS(VALUES('financials'[Product])), CALCULATE(ALL('financials'[Profit]))",
+            "Durchschnittlicher Produktgewinn = CALCULATE(AVERAGE(VALUES('financials'[Product])), CALCULATE(KEEPFILTERS('financials'[Profit]))"
+        ],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q020",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You create a dataset and a report that contain several visuals in Power BI. The dataset uses the DirectQuery storage mode. Users complain of performance issues when using visuals on the Power BI report. You need to optimize the report. What should you do?",
+                "de": "Sie erstellen einen Datensatz und einen Bericht mit mehreren Visualisierungen in Power BI. Der Datensatz verwendet den DirectQuery-Speichermodus. Benutzer beschweren sich über Leistungsprobleme bei der Verwendung von Visualisierungen im Power BI-Bericht. Sie müssen den Bericht optimieren. Was sollten Sie tun?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Switch off interactions between visuals.",
+            "Turn off single select under Slicers.",
+            "Change the cross filter directions on relationships to 30th.",
+            "Use the CALCULATE DAX function with filters to define measures."
+        ],
+        "choices_ger": [
+            "Deaktivieren Sie die Interaktionen zwischen Visualisierungen.",
+            "Deaktivieren Sie die Einzelauswahl unter Slicern.",
+            "Ändern Sie die Kreuzfilterrichtungen in Beziehungen auf 30.",
+            "Verwenden Sie die CALCULATE-DAX-Funktion mit Filtern, um Measures zu definieren."
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q021",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You have tables named Employee and Region. These tables are connected through an active relationship using the RegionlD column. A group of employees can be assigned to a single region. You configure row-level security (RLS) for a Power BI report so regional managers can only see the data of assigned employees. You need to fix the relationship between the Employee and Region tables so RLS can work. Which two actions should you perform? Each correct answer presents part of the solution.",
+                "de": "Sie haben Tabellen namens Employee und Region. Diese Tabellen sind über eine aktive Beziehung mit der Spalte RegionID verbunden. Eine Gruppe von Mitarbeitern kann einer einzelnen Region zugewiesen werden. Sie konfigurieren die zeilenbasierte Sicherheit (RLS) für einen Power BI-Bericht, damit Regionalmanager nur die Daten der zugewiesenen Mitarbeiter sehen können. Sie müssen die Beziehung zwischen den Tabellen Employee und Region korrigieren, damit RLS funktioniert. Welche zwei Aktionen sollten Sie ausführen? Jede richtige Antwort stellt einen Teil der Lösung dar."
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Select Apply security filter in both directions",
+            "Set the Cross filter direction option to Single.",
+            "Set the Cross filter direction option to Both.",
+            "Set cardinality to one-to-one between the Employee to Region tables."
+        ],
+        "choices_ger": [
+            "Wählen Sie „Sicherheitsfilter in beide Richtungen anwenden“.",
+            "Legen Sie die Option „Kreuzfilterrichtung“ auf „Single“ fest.",
+            "Legen Sie die Option „Kreuzfilterrichtung“ auf „Both“ fest.",
+            "Legen Sie die Kardinalität auf 1:1 zwischen den Tabellen Employee und Region fest."
+        ],
+        "isMulti": true,
+        "correct": [0, 2]
+    },
+    {
+        "id": "q022",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You create a data model and report in Power BI desktop. The report runs well in the development environment, but when deployed to production, the model and report have performance issues. You need to improve the model’s performance. Solution: Summarize the data & create aggregations. Does this solution meet the goal?",
+                "de": "Sie erstellen ein Datenmodell und einen Bericht in Power BI Desktop. Der Bericht läuft gut in der Entwicklungsumgebung, aber nach dem Deployment in die Produktion gibt es Leistungsprobleme mit dem Modell und dem Bericht. Sie müssen die Leistung des Modells verbessern. Lösung: Fassen Sie die Daten zusammen und erstellen Sie Aggregationen. Erfüllt diese Lösung das Ziel?"
+            }
+        ],
+        "images": [],
+        "choices": ["Yes", "No"],
+        "choices_ger": ["Ja", "Nein"],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q023",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You have a table of Purchase Orders (POs), a sample of which is shown in the exhibit. /Table/ There are relationships with other tables on the PO Number, PO Date, and Vendor columns. You need to optimize model performance. Which two actions should you perform? Each correct answer presents part of the solution.",
+                "de": "Sie haben eine Tabelle mit Bestellungen (POs), deren Beispiel in der Abbildung dargestellt ist. /Tabelle/ Es gibt Beziehungen zu anderen Tabellen über die Spalten PO Number, PO Date und Vendor. Sie müssen die Modellleistung optimieren. Welche zwei Aktionen sollten Sie ausführen? Jede richtige Antwort stellt einen Teil der Lösung dar."
+            },
+            {
+                "type": "image",
+                "value": "q023.png"
+            }
+        ],
+        "images": ["q023.png"],
+        "choices": [
+            "Remove the PO prefix from the PO Number column and change the data type to Whole Number.",
+            "Change the format of the PO Amount column to Currency.",
+            "Mark the Purchase Orders table as the date table.",
+            "Add a new column to the Purchase Order table and perform a lookup to set the Vendor Id from Vendor column."
+        ],
+        "choices_ger": [
+            "Entfernen Sie das PO-Präfix aus der PO Number-Spalte und ändern Sie den Datentyp auf Ganzzahl.",
+            "Ändern Sie das Format der PO Amount-Spalte auf Währung.",
+            "Markieren Sie die Purchase Orders-Tabelle als Datumstabelle.",
+            "Fügen Sie der Purchase Order-Tabelle eine neue Spalte hinzu und führen Sie ein Lookup durch, um die Vendor ID aus der Vendor-Spalte zu setzen."
+        ],
+        "isMulti": true,
+        "correct": [0, 3]
+    },
+    {
+        "id": "q024",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You load sales data into Power BI. Your organization uses many different terms for sales data such as revenue, net sales, and total sales. You need to configure the Sales table and its columns for users to successfully use the Q&A feature in Dashboards.Solution: Manage aggregations on the Sales table. Does this solution meet the goal?",
+                "de": "Sie laden Vertriebsdaten in Power BI. Ihre Organisation verwendet viele verschiedene Begriffe für Vertriebsdaten wie Umsatz, Nettoverkäufe und Gesamtverkäufe. Sie müssen die Sales-Tabelle und ihre Spalten so konfigurieren, dass Benutzer die Q&A-Funktion in Dashboards erfolgreich nutzen können. Lösung: Verwalten Sie Aggregationen in der Sales-Tabelle. Erfüllt diese Lösung das Ziel?"
+            }
+        ],
+        "images": [],
+        "choices": ["No", "Yes"],
+        "choices_ger": ["Nein", "Ja"],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q025",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You are configuring row level security (RLS) roles for a Power BI report. You need to define which rows are available when creating a role. What should you create?",
+                "de": "Sie konfigurieren Rollen für die zeilenbasierte Sicherheit (RLS) für einen Power BI-Bericht. Sie müssen definieren, welche Zeilen beim Erstellen einer Rolle verfügbar sind. Was sollten Sie erstellen?"
+            }
+        ],
+        "images": [],
+        "choices": ["DAX expression", "Parameter", "Measure", "M formula"],
+        "choices_ger": ["DAX-Ausdruck", "Parameter", "Measure", "M-Formel"],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q026",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You have tables named Calendar and Transactions as shown in the below exhibits.",
+                "de": "Sie verfügen über Tabellen mit den Namen \"Kalender\" und \"Transaktionen\", wie in den folgenden Anlagen gezeigt."
+            },
+            {
+                "type": "image",
+                "value": "q026_1.png"
+            },
+            {
+                "type": "text",
+                "eng": "You have tables named Calendar and Transactions as shown in the below exhibits.",
+                "de": "Sie verfügen über Tabellen mit den Namen \"Kalender\" und \"Transaktionen\", wie in den folgenden Anlagen gezeigt."
+            },
+            {
+                "type": "text",
+                "eng": "Transactions",
+                "de": "Transaktionen"
+            },
+            {
+                "type": "image",
+                "value": "q026_2.png"
+            },
+            {
+                "type": "text",
+                "eng": "Calendar\nThe Transactions table has a column named Sales that contains the sales value of each transaction. The Sales column summarization property is set to Don’t summarize.\nYou need to calculate year-to-date sales using a quick measure.\nHow should you complete the measure as per the below quick measure setup fields?",
+                "de": "Die Tabelle \"Transaktionen\" verfügt über eine Spalte mit dem Namen \"Umsatz\", die den Verkaufswert jeder Transaktion enthält. Die Eigenschaft \"Umsatzspaltenzusammenfassung\" ist auf \"Nicht zusammenfassen\" festgelegt.\nSie müssen den Umsatz seit Jahresbeginn mit einer Schnellmessung berechnen.\nWie sollten Sie die Messung gemäß den unten stehenden Feldern für die Einrichtung von Schnellmaßnahmen abschließen?"
+            },
+            {
+                "type": "image",
+                "value": "q026_3.png"
+            },
+            {
+                "type": "text",
+                "eng": "Quick Measures",
+                "de": "Quick Measures"
+            }
+        ],
+        "images": ["q026_1.png", "q026_2.png", "q026_3.png"],
+        "choices": [
+            {
+                "de": "Berechnung: year-to-date total Basiswert: Sum of Sales Datum: Date",
+                "en": "Calculation: year-to-date total Base value: Sum of Sales Date: Date"
+            },
+            {
+                "de": "Berechnung: Sales Basiswert: year-to-date total Datum: [Calendar].[Day]",
+                "en": "Calculation: Sales Base value: year-to-date total Date: [Calendar].[Day]"
+            },
+            {
+                "de": "Berechnung: year-to-date total Basiswert: Sales Datum: [Calendar].[Day]",
+                "en": "Calculation: year-to-date total Base value: Sales Date: [Calendar].[Day]"
+            },
+            {
+                "de": "Berechnung: Sum of Sales Basiswert: Sales Datum: Date",
+                "en": "Calculation: Sum of Sales Base value: Sales Date: Date"
+            },
+            {
+                "de": "Berechnung: year-over-year change Basiswert: Sum of Sales Datum: Date",
+                "en": "Calculation: year-over-year change Base value: Sum of Sales Date: Date"
+            }
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q027",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You plan to create a report in Power BI for a manufacturing company. The company purchases parts and assemblies finished products. The company works from Monday to Friday and is closed on holidays. You have a date table created using DAX functions from the dates in the Productlnventory table. The schema for the tables is shown in the below exhibit. /Table/ You plan to create a visual that shows the trend over time of inventory levels for both parts and finished products on the last production day each month. You need to create a measure to determine the inventory level for the visual. Which two DAX functions can you use to meet the requirements? Each correct answer presents a complete solution.",
+                "de": "Sie planen, einen Bericht in Power BI für ein produzierendes Unternehmen zu erstellen. Das Unternehmen kauft Teile und montiert Fertigprodukte. Das Unternehmen arbeitet von Montag bis Freitag und ist an Feiertagen geschlossen. Sie haben eine Datumstabelle mit DAX-Funktionen aus den Datumsangaben in der Productlnventory-Tabelle erstellt. Das Schema der Tabellen ist in der untenstehenden Abbildung dargestellt. /Tabelle/ Sie planen, eine Visualisierung zu erstellen, die den Trend der Lagerbestände für Teile und Fertigprodukte an den letzten Produktionstagen jedes Monats zeigt. Sie müssen ein Measure erstellen, um den Lagerbestand für die Visualisierung zu bestimmen. Welche zwei DAX-Funktionen können Sie verwenden, um die Anforderungen zu erfüllen? Jede richtige Antwort stellt eine vollständige Lösung dar."
+            },
+            {
+                "type": "image",
+                "value": "q027.png"
+            }
+        ],
+        "images": ["q027.png"],
+        "choices": [
+            "CALCULATE (SUM(Productlnventory[lnventory Count] ), FILTER(Productlnventory, Productlnventory[lnventory Count] = MAX(Productlnventory[lnventory Count] )))",
+            "CALCULATE (SUM ( Productinventory[lnventory Count]), LASTNONBLANK ( Productlnventory[Date], SUM(Productlnventory[lnventory Count]) ))",
+            "CALCULATE (SUM ( Productinventory[lnventory Count]), LASTDATE ( DateTable[Date] ))",
+            "CALCULATE (SUM ( Productinventory[lnventory Count]), LASTDATE ( Productlnventory[Date] ))",
+            "CLOSINGBALANCEMONTH (SUMX( Productinventory, [Inventory Count]), Productinventory[Date] )"
+        ],
+        "choices_ger": [
+            "CALCULATE (SUM(Productlnventory[lnventory Count] ), FILTER(Productlnventory, Productlnventory[lnventory Count] = MAX(Productlnventory[lnventory Count] )))",
+            "CALCULATE (SUM ( Productinventory[lnventory Count]), LASTNONBLANK ( Productlnventory[Date], SUM(Productlnventory[lnventory Count]) ))",
+            "CALCULATE (SUM ( Productinventory[lnventory Count]), LASTDATE ( DateTable[Date] ))",
+            "CALCULATE (SUM ( Productinventory[lnventory Count]), LASTDATE ( Productlnventory[Date] ))",
+            "CLOSINGBALANCEMONTH (SUMX( Productinventory, [Inventory Count]), Productinventory[Date] )"
+        ],
+        "isMulti": true,
+        "correct": [1, 3]
+    },
+    {
+        "id": "q028",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You have an Orders table that contains two date columns: OrderDate and ShippingDate, as shown in the below exhibit. /Table/ A Date table has two relationships to the orders table for the two date fields. The relationship on the OrderDate column is the active relationship. You need to create visualizations that display the total price of orders for each quarter based on both the OrderDate and the ShippingDate columns. How should you create the measure for sales by shipping date?",
+                "de": "Sie haben eine Orders-Tabelle mit zwei Datumsspalten: OrderDate und ShippingDate, wie in der untenstehenden Abbildung dargestellt. /Tabelle/ Eine Date-Tabelle hat zwei Beziehungen zur Orders-Tabelle für die beiden Datumsfelder. Die Beziehung auf der OrderDate-Spalte ist die aktive Beziehung. Sie müssen Visualisierungen erstellen, die den Gesamtpreis der Bestellungen für jedes Quartal basierend auf den Spalten OrderDate und ShippingDate anzeigen. Wie sollten Sie das Measure für Verkäufe nach Versanddatum erstellen?"
+            },
+            {
+                "type": "image",
+                "value": "q028.png"
+            }
+        ],
+        "images": ["q028.png"],
+        "choices": [
+            "Sales by Shipping Date = SUMX(CALCULATE(Orders[Price]), USERELATIONSHIP(Orders[ShippingDate], 'Date'[Date]))",
+            "Sales by Shipping Date = SUM(CALCULATE(Orders[Price]), USERELATIONSHIP(Orders[ShippingDate], 'Date'[Date]))",
+            "Sales by Shipping Date = CALCULATE(SUM(Orders[Price]), RELATED(Orders[ShippingDate], 'Date'[Date]))",
+            "Sales by Shipping Date = CALCULATE(SUM(Orders[Price]), USERELATIONSHIP(Orders[ShippingDate], 'Date'[Date]))",
+            "Sales by Shipping Date = SUMX(CALCULATE(Orders[Price]), RELATED(Orders[ShippingDate], 'Date'[Date]))"
+        ],
+        "choices_ger": [
+            "Verkäufe nach Versanddatum = SUMX(CALCULATE(Orders[Price]), USERELATIONSHIP(Orders[ShippingDate], 'Date'[Date]))",
+            "Verkäufe nach Versanddatum = SUM(CALCULATE(Orders[Price]), USERELATIONSHIP(Orders[ShippingDate], 'Date'[Date]))",
+            "Verkäufe nach Versanddatum = CALCULATE(SUM(Orders[Price]), RELATED(Orders[ShippingDate], 'Date'[Date]))",
+            "Verkäufe nach Versanddatum = CALCULATE(SUM(Orders[Price]), USERELATIONSHIP(Orders[ShippingDate], 'Date'[Date]))",
+            "Verkäufe nach Versanddatum = SUMX(CALCULATE(Orders[Price]), RELATED(Orders[ShippingDate], 'Date'[Date]))"
+        ],
+        "isMulti": false,
+        "correct": [3]
+    },
+    {
+        "id": "q029",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Overview:\nCompany1 Pharmaceuticals develops, manufactures, and supplies healthcare products. Company1 has annual reporting requirements including a balance sheet, income statement, and a profit and loss report for the previous year with projections tor the current year. The reporting within the financial system is limited and does not meet the Company’s requirements. Historically, producing these statements and reports has taken significant manual effort that was error-prone, and it has not been possible to perform useful analysis on financial data.\nPlanned Changes:\nPower BI service and Power BI Desktop will be used to generate financial reports, statements, and analysis tor financial data.\nData Sources:\nThe finance system holds all financial data including sales and expenses. The finance system holds the chart of accounts. The finance system stores its data in an on-premises SQL Server. Sales prediction and budget plans are stored in Excel workbooks in SharePoint Online.\nReporting Requirements:\nThe following information should be produced:\n> Income trend\n> Expenditure trend\n> Comparison of income and expenditure for the current year with the previous year\n> Comparison of planned income and expenditure for next year with the current year.\nUsers should also be able to:\n> Drill down on data by country and territory.\n> Drill down using the chart of accounts structure.\n> Use the Q&A feature of Power BI.\nSecurity Requirements:\nC level executives should have access to all analysis. Country and Territory managers should only have access to data for their country/territory.\nChart of Accounts:",
+                "de": "Überblick:\nUnternehmen1 Pharmaceuticals entwickelt, produziert und vertreibt Produkte für das Gesundheitswesen. Unternehmen1 hat jährliche Berichtspflichten, einschließlich einer Bilanz, einer Gewinn- und Verlustrechnung und eines Gewinn- und Verlustberichts für das Vorjahr mit Hochrechnungen für das laufende Jahr. Die Berichterstattung innerhalb des Finanzsystems ist begrenzt und entspricht nicht den Anforderungen des Unternehmens. In der Vergangenheit war die Erstellung dieser Kontoauszüge und Berichte mit erheblichem manuellem Aufwand verbunden, der fehleranfällig war, und es war nicht möglich, nützliche Analysen von Finanzdaten durchzuführen.\nGeplante Änderungen:\nDer Power BI-Dienst und Power BI Desktop werden verwendet, um Finanzberichte, Kontoauszüge und Analysen für Finanzdaten zu generieren.\nDatenquellen:\nDas Finanzsystem enthält alle Finanzdaten, einschließlich Umsätze und Ausgaben. Das Finanzsystem führt den Kontenplan. Das Finanzsystem speichert seine Daten in einem lokalen SQL Server. Umsatzprognosen und Budgetpläne werden in Excel-Arbeitsmappen in SharePoint Online gespeichert.\nBerichtspflichten:\nFolgende Angaben sollten erstellt werden:\n> Einnahmenentwicklung\n> Ausgabenentwicklung\n> Vergleich der Einnahmen und Ausgaben des laufenden Jahres mit dem Vorjahr\n> Vergleich der geplanten Einnahmen und Ausgaben für das nächste Jahr mit dem laufenden Jahr.\nBenutzer sollten auch in der Lage sein:\n> Daten nach Ländern und Gebieten aufzuschlüsseln.\n> Führen Sie einen Drilldown anhand der Kontenplanstruktur durch.\n> Verwenden Sie die Q&A-Funktion von Power BI.\nSicherheitsanforderungen:\nFührungskräfte auf C-Ebene sollten Zugang zu allen Analysen haben. Länder- und Gebietsmanager sollten nur Zugriff auf Daten für ihr Land/Gebiet haben.\nKontenplan:"
+            },
+            {
+                "type": "image",
+                "value": "q029_1.png"
+            },
+            {
+                "type": "text",
+                "eng": "Expenditure:",
+                "de": "Ausgabe:"
+            },
+            {
+                "type": "image",
+                "value": "q029_2.png"
+            },
+            {
+                "type": "text",
+                "eng": "Income:",
+                "de": "Einkommen:"
+            },
+            {
+                "type": "image",
+                "value": "q029_3.png"
+            },
+            {
+                "type": "text",
+                "eng": "Income:",
+                "de": "Einkommen:"
+            },
+            {
+                "type": "image",
+                "value": "q029_4.png"
+            },
+            {
+                "type": "text",
+                "eng": "Question: You are planning to configure the relationship between the Chart of Accounts and Predicted Sales to meet the security requirements. You need to be able to apply the security filter in both directions. What should you do?",
+                "de": "Frage: Sie planen, die Beziehung zwischen dem Kontenplan und den prognostizierten Umsätzen so zu konfigurieren, dass sie den Sicherheitsanforderungen entspricht. Sie müssen in der Lage sein, den Sicherheitsfilter in beide Richtungen anzuwenden. Was sollten Sie tun?"
+            }
+        ],
+        "images": ["q029_1.png", "q029_2.png", "q029_3.png", "q029_4.png"],
+        "choices": [
+            "Set the cross filter direction to Both.",
+            "Set the cardinality to One to many from Chart of Accounts to Predicted Sales.",
+            "Set the cross filter direction to Single.",
+            "Select the Make this relationship active option."
+        ],
+        "choices_ger": [
+            "Legen Sie die Kardinalität auf „One to many“ vom Kontenplan zu den vorhergesagten Verkäufen fest.",
+            "Legen Sie die Kreuzfilterrichtung auf „Both“ fest.",
+            "Legen Sie die Kreuzfilterrichtung auf „Single“ fest.",
+            "Wählen Sie die Option „Diese Beziehung aktiv machen“."
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q030",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You load sales data into Power BI. Your organization uses many different terms for sales data such as revenue, net sales, and total sales. You need to configure the Sales table and its columns for users to successfully use the Q&A feature in Dashboards. Solution: Add Synonyms to the Sales table. Does this solution meet the goal?",
+                "de": "Sie laden Vertriebsdaten in Power BI. Ihre Organisation verwendet viele verschiedene Begriffe für Vertriebsdaten wie Umsatz, Nettoverkäufe und Gesamtverkäufe. Sie müssen die Sales-Tabelle und ihre Spalten so konfigurieren, dass Benutzer die Q&A-Funktion in Dashboards erfolgreich nutzen können. Lösung: Fügen Sie der Sales-Tabelle Synonyme hinzu. Erfüllt diese Lösung das Ziel?"
+            }
+        ],
+        "images": [],
+        "choices": ["No", "Yes"],
+        "choices_ger": ["Nein", "Ja"],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q031",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You create a data model and report in Power BI desktop. The report runs well in the development environment, but when deployed to production, the model and report have performance issues. You need to improve the model’s performance. Solution: Remove columns from the data model not used in reports. Does this solution meet the goal?",
+                "de": "Sie erstellen ein Datenmodell und einen Bericht in Power BI Desktop. Der Bericht läuft gut in der Entwicklungsumgebung, aber nach dem Deployment in die Produktion gibt es Leistungsprobleme mit dem Modell und dem Bericht. Sie müssen die Leistung des Modells verbessern. Lösung: Entfernen Sie Spalten aus dem Datenmodell, die nicht in Berichten verwendet werden. Erfüllt diese Lösung das Ziel?"
+            }
+        ],
+        "images": [],
+        "choices": ["Yes", "No"],
+        "choices_ger": ["Ja", "Nein"],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q032",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You are building a Power Bl data model.\nThere are multiple management levels in your organization. You have an Employee table with the columns shown in the below exhibits.",
+                "de": "Sie erstellen ein Power Bl-Datenmodell.\nIn Ihrer Organisation gibt es mehrere Verwaltungsebenen. Sie verfügen über eine Mitarbeitertabelle mit den Spalten, die in den folgenden Anlagen gezeigt werden."
+            },
+            {
+                "type": "image",
+                "value": "q032_1.png"
+            },
+            {
+                "type": "image",
+                "value": "q032_2.png"
+            },
+            {
+                "type": "text",
+                "eng": "Question: There is a self-join, one-to-many relationship on this table between Managerld and Employeeld.\nYou need to be able to see all levels of the management hierarchy and be able to create visualizations that show data at each level of the hierarchy.\nWhich three actions should you perform in sequence?",
+                "de": "Frage: \"Employee\" In dieser Tabelle besteht eine Eins-zu-Viele-Beziehung zwischen \"Managerld\" und \"Employeeld\".\nSie müssen in der Lage sein, alle Ebenen der Verwaltungshierarchie zu sehen und Visualisierungen zu erstellen, die Daten auf jeder Ebene der Hierarchie anzeigen.\nWelche drei Aktionen sollten Sie nacheinander ausführen?"
+            }
+        ],
+        "images": ["q032_1.png", "q032_2.png"],
+        "choices": [
+            "1. Use the PATHITEM DAX function to extract the management levels. 2. Use the PATH DAX function to extract a text column containing all the hierarchy of employee ids. 3. Create a new hierarchy and add the management levels.",
+            "1. Use the COMBINEVALUES DAX function to create a text column containing the manager id and employee id. 2. Create a new hierarchy and add the management levels. 3. Create a hierarchy on the Employeeld and add the Managerld as the second level in the hierarchy.",
+            "1. Use the PATH DAX function to extract a text column containing all the hierarchy of employee ids. 2. Use the PATHITEM DAX function to extract the management levels. 3. Create a new hierarchy and add the management levels.",
+            "1. Use the PATH DAX function to extract a text column containing all the hierarchy of employee ids. 2. Use the PATHITEM DAX function to extract the management levels. 3. Create a hierarchy on the Employeeld and add the Managerld as the second level in the hierarchy."
+        ],
+        "choices_ger": [
+            "1. Verwenden Sie die PATHITEM-DAX-Funktion, um die Management-Ebenen zu extrahieren. 2. Verwenden Sie die PATH-DAX-Funktion, um eine Textspalte mit der gesamten Hierarchie der Mitarbeiter-IDs zu extrahieren. 3. Erstellen Sie eine neue Hierarchie und fügen Sie die Management-Ebenen hinzu.",
+            "1. Verwenden Sie die COMBINEVALUES-DAX-Funktion, um eine Textspalte mit Manager-ID und Mitarbeiter-ID zu erstellen. 2. Erstellen Sie eine neue Hierarchie und fügen Sie die Management-Ebenen hinzu. 3. Erstellen Sie eine Hierarchie auf EmployeeId und fügen Sie ManagerId als zweite Ebene der Hierarchie hinzu.",
+            "1. Verwenden Sie die PATH-DAX-Funktion, um eine Textspalte mit der gesamten Hierarchie der Mitarbeiter-IDs zu extrahieren. 2. Verwenden Sie die PATHITEM-DAX-Funktion, um die Management-Ebenen zu extrahieren. 3. Erstellen Sie eine neue Hierarchie und fügen Sie die Management-Ebenen hinzu.",
+            "1. Verwenden Sie die PATH-DAX-Funktion, um eine Textspalte mit der gesamten Hierarchie der Mitarbeiter-IDs zu extrahieren. 2. Verwenden Sie die PATHITEM-DAX-Funktion, um die Management-Ebenen zu extrahieren. 3. Erstellen Sie eine Hierarchie auf EmployeeId und fügen Sie ManagerId als zweite Ebene der Hierarchie hinzu."
+        ],
+        "isMulti": false,
+        "correct": [2]
+    },
+    {
+        "id": "q033",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You load sales data into Power BI. Your organization uses many different terms for sales data such as revenue, net sales, and total sales. You need to configure the Sales table and its columns for users to successfully use the Q&A feature in Dashboards. Solution: Set the row label on the Sales table. Does this solution meet the goal?",
+                "de": "Sie laden Vertriebsdaten in Power BI. Ihre Organisation verwendet viele verschiedene Begriffe für Vertriebsdaten wie Umsatz, Nettoverkäufe und Gesamtverkäufe. Sie müssen die Sales-Tabelle und ihre Spalten so konfigurieren, dass Benutzer die Q&A-Funktion in Dashboards erfolgreich nutzen können. Lösung: Legen Sie die Zeilenbeschriftung für die Sales-Tabelle fest. Erfüllt diese Lösung das Ziel?"
+            }
+        ],
+        "images": [],
+        "choices": ["No", "Yes"],
+        "choices_ger": ["Nein", "Ja"],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q034",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You are creating a report of financial transactions showing monthly trends. The source transaction table has an excess of 10 million rows. You need to optimize the report’s performance. Which two actions should you perform? Each correct answer presents part of the solution.",
+                "de": "Sie erstellen einen Bericht über Finanztransaktionen, der monatliche Trends zeigt. Die Quelltransaktionstabelle hat mehr als 10 Millionen Zeilen. Sie müssen die Leistung des Berichts optimieren. Welche zwei Aktionen sollten Sie ausführen? Jede richtige Antwort stellt einen Teil der Lösung dar."
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Create a summary table in the data source with transaction data grouped by month.",
+            "Set the storage mode for the transaction table to DirectQuery.",
+            "Create all visualizations on a single report page.",
+            "Set the storage mode for the transaction table to Import."
+        ],
+        "choices_ger": [
+            "Erstellen Sie eine Zusammenfassungstabelle in der Datenquelle mit den nach Monat gruppierten Transaktionsdaten.",
+            "Legen Sie den Speichermodus für die Transaktionstabelle auf DirectQuery fest.",
+            "Erstellen Sie alle Visualisierungen auf einer einzelnen Berichtsseite.",
+            "Legen Sie den Speichermodus für die Transaktionstabelle auf Import fest."
+        ],
+        "isMulti": true,
+        "correct": [0, 3]
+    },
+    {
+        "id": "q035",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You create a Power BI report containing several visuals. Users report performance issues when using visuals on the Power BI report. You need to identify which visuals are taking the longest to process. Which five actions should you perform in sequence? To answer, select the appropriate actions in the correct order.",
+                "de": "Sie erstellen einen Power BI-Bericht mit mehreren Visualisierungen. Benutzer melden Leistungsprobleme bei der Verwendung der Visualisierungen im Power BI-Bericht. Sie müssen identifizieren, welche Visualisierungen am längsten zur Verarbeitung benötigen. Welche fünf Aktionen sollten Sie in welcher Reihenfolge ausführen? Wählen Sie zur Beantwortung die entsprechenden Aktionen in der richtigen Reihenfolge aus."
+            }
+        ],
+        "images": [],
+        "choices": [
+            "1. Start the query diagnostics. 2. Enable tracing in the diagnostic options. 3. Start recording in the Performance Analyzer. 4. Run the Azure speed test. 5. Restart Power BI Desktop.",
+            "1. Restart Power BI Desktop. 2. Enable tracing in the diagnostic options. 3. Add a blank report page. 4. Run the Azure speed test. 5. Stop the recording and review the results.",
+            "1. Add a blank report page. 2. Restart Power BI Desktop. 3. Start recording in the Performance Analyzer. 4. Interact with the visualizations. 5. Stop the recording and review the results.",
+            "1. Restart Power BI Desktop. 2. Start the query diagnostics. 3. Interact with the visualizations. 4. Run the Azure speed test. 5. Stop the recording and review the results."
+        ],
+        "choices_ger": [
+            "1. Starten Sie die Abfragediagnose. 2. Aktivieren Sie die Ablaufverfolgung in den Diagnoseoptionen. 3. Starten Sie die Aufzeichnung im Performance Analyzer. 4. Führen Sie den Azure-Geschwindigkeitstest durch. 5. Starten Sie Power BI Desktop neu.",
+            "1. Starten Sie Power BI Desktop neu. 2. Aktivieren Sie die Ablaufverfolgung in den Diagnoseoptionen. 3. Fügen Sie eine leere Berichtsseite hinzu. 4. Führen Sie den Azure-Geschwindigkeitstest durch. 5. Beenden Sie die Aufzeichnung und überprüfen Sie die Ergebnisse.",
+            "1. Fügen Sie eine leere Berichtsseite hinzu. 2. Starten Sie Power BI Desktop neu. 3. Starten Sie die Aufzeichnung im Performance Analyzer. 4. Interagieren Sie mit den Visualisierungen. 5. Beenden Sie die Aufzeichnung und überprüfen Sie die Ergebnisse.",
+            "1. Starten Sie Power BI Desktop neu. 2. Starten Sie die Abfragediagnose. 3. Interagieren Sie mit den Visualisierungen. 4. Führen Sie den Azure-Geschwindigkeitstest durch. 5. Beenden Sie die Aufzeichnung und überprüfen Sie die Ergebnisse."
+        ],
+        "isMulti": false,
+        "correct": [2]
+    },
+    {
+        "id": "q036",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Overview:\nCompany1 Pharmaceuticals develops, manufactures, and supplies healthcare products. Company1 has annual reporting requirements including a balance sheet, income statement, and a profit and loss report for the previous year with projections tor the current year. The reporting within the financial system is limited and does not meet the Company’s requirements. Historically, producing these statements and reports has taken significant manual effort that was error-prone, and it has not been possible to perform useful analysis on financial data.\nPlanned Changes:\nPower BI service and Power BI Desktop will be used to generate financial reports, statements, and analysis tor financial data.\nData Sources:\nThe finance system holds all financial data including sales and expenses. The finance system holds the chart of accounts. The finance system stores its data in an on-premises SQL Server. Sales prediction and budget plans are stored in Excel workbooks in SharePoint Online.\nReporting Requirements:\nThe following information should be produced:\n> Income trend\n> Expenditure trend\n> Comparison of income and expenditure for the current year with the previous year\n> Comparison of planned income and expenditure for next year with the current year.\nUsers should also be able to:\n> Drill down on data by country and territory.\n> Drill down using the chart of accounts structure.\n> Use the Q&A feature of Power BI.\nSecurity Requirements:\nC level executives should have access to all analysis. Country and Territory managers should only have access to data for their country/territory.",
+                "de": "Überblick:\nUnternehmen1 Pharmaceuticals entwickelt, produziert und vertreibt Produkte für das Gesundheitswesen. Unternehmen1 hat jährliche Berichtspflichten, einschließlich einer Bilanz, einer Gewinn- und Verlustrechnung und eines Gewinn- und Verlustberichts für das Vorjahr mit Hochrechnungen für das laufende Jahr. Die Berichterstattung innerhalb des Finanzsystems ist begrenzt und entspricht nicht den Anforderungen des Unternehmens. In der Vergangenheit war die Erstellung dieser Kontoauszüge und Berichte mit erheblichem manuellem Aufwand verbunden, der fehleranfällig war, und es war nicht möglich, nützliche Analysen von Finanzdaten durchzuführen.\nGeplante Änderungen:\nDer Power BI-Dienst und Power BI Desktop werden verwendet, um Finanzberichte, Kontoauszüge und Analysen für Finanzdaten zu generieren.\nDatenquellen:\nDas Finanzsystem enthält alle Finanzdaten, einschließlich Umsätze und Ausgaben. Das Finanzsystem führt den Kontenplan. Das Finanzsystem speichert seine Daten in einem lokalen SQL Server. Umsatzprognosen und Budgetpläne werden in Excel-Arbeitsmappen in SharePoint Online gespeichert.\nBerichtspflichten:\nFolgende Angaben sollten erstellt werden:\n> Einnahmenentwicklung\n> Ausgabenentwicklung\n> Vergleich der Einnahmen und Ausgaben des laufenden Jahres mit dem Vorjahr\n> Vergleich der geplanten Einnahmen und Ausgaben für das nächste Jahr mit dem laufenden Jahr.\nBenutzer sollten auch in der Lage sein:\n> Daten nach Ländern und Gebieten aufzuschlüsseln.\n> Führen Sie einen Drilldown anhand der Kontenplanstruktur durch.\n> Verwenden Sie die Q&A-Funktion von Power BI.\nSicherheitsanforderungen:\nFührungskräfte auf C-Ebene sollten Zugang zu allen Analysen haben. Länder- und Gebietsmanager sollten nur Zugriff auf Daten für ihr Land/Gebiet haben."
+            },
+            { "type": "image", "value": "q036_1.png" },
+            { "type": "image", "value": "q036_2.png" },
+            { "type": "image", "value": "q036_3.png" },
+            { "type": "image", "value": "q036_4.png" },
+            {
+                "type": "text",
+                "eng": "Question: You need to create a table containing unique countries, and a table of unique combinations of countries and territories.\nWhich DAX expressions should you use? To answer, select the appropriate options from the drop-down menus.",
+                "de": "Frage: Sie müssen eine Tabelle mit eindeutigen Ländern und eine Tabelle mit eindeutigen Kombinationen von Ländern und Gebieten erstellen.\nWelche DAX-Ausdrücke sollten verwendet werden? Um zu antworten, wählen Sie die entsprechenden Optionen aus den Dropdown-Menüs aus."
+            }
+        ],
+        "images": ["q036_1.png", "q036_2.png", "q036_3.png", "q036_4.png"],
+        "choices": [
+            "Country = VALUES('Predicted Sales'[Account Number]) Territory = SUMMARIZE('Predicted Sales', [Territory], [Account Number])",
+            "Country = VALUES('Predicted Sales'[Territory]) Territory = SUMMARIZE('Country', [Territory], [Account Number])",
+            "Country = DATATABLE('Predicted Sales'[Country]) Territory = SUMMARIZE('Predicted Sales', [Territory], [Country])",
+            "Country = VALUES ('Predicted Sales'[Country]) Territory = SUMMARIZE('Predicted Sales', [Territory], [Country])",
+            "Country = VALUES('Predicted Sales'[Country]) Territory = DISTINCT('Predicted Sales', [Territory], [Country])"
+        ],
+        "choices_ger": [
+            "Country = VALUES('Prognostizierte Verkäufe'[Kontonummer]) territory = SUMMARIZE('Prognostizierte Verkäufe', [Gebiet], [Kontonummer])",
+            "Country = VALUES('Prognostizierte Verkäufe'[Gebiet]) territory = SUMMARIZE('Land', [Gebiet], [Kontonummer])",
+            "Country = DATATABLE('Prognostizierter Umsatz'[Land]) territory = SUMMARIZE('Prognostizierte Verkäufe', [Gebiet], [Land])",
+            "Country = VALUES ('Prognostizierter Umsatz'[Land]) territory = SUMMARIZE('Prognostizierte Verkäufe', [Gebiet], [Land])",
+            "Country = VALUES('Prognostizierter Umsatz'[Land]) territory = DISTINCT('Prognostizierte Verkäufe', [Gebiet], [Land])"
+        ],
+        "isMulti": false,
+        "correct": [3]
+    },
+    {
+        "id": "q037",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You create a data model and report in Power BI desktop. The report runs well in the development environment, but when deployed to production, the model and report have performance issues. You need to improve the model’s performance. Solution: Hide the columns in the data model. Does this solution meet the goal?",
+                "de": "Sie erstellen ein Datenmodell und einen Bericht in Power BI Desktop. Der Bericht läuft gut in der Entwicklungsumgebung, aber nach dem Deployment in die Produktion gibt es Leistungsprobleme mit dem Modell und dem Bericht. Sie müssen die Leistung des Modells verbessern. Lösung: Blenden Sie die Spalten im Datenmodell aus. Erfüllt diese Lösung das Ziel?"
+            }
+        ],
+        "images": [],
+        "choices": ["Ja", "Nein"],
+        "choices_ger": ["Ja", "Nein"],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q038",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You work on the optimization of a Power BI report. The report has a table named Calendar and a table named Transactions as shown in the below exhibits. /Table/ The report uses a measure named [Sales YOY % Growth] to calculate year over year sales growth. The report also has a measure named [Sales] that calculates sales for a selected period. The measure definitions are as follows: Sales = SUM(Transactions [Sales]) Sales YOY % Growth = DIVIDE([Sales] – CALCULATE([Sales], SAMEPERIODLASTYEAR(‘Calendar'[Date])), CALCULATE([Sales], SAMEPERIODLASTYEAR(‘Calendar'[Date]))) You need to re-write the [Sales YOY % Growth] measure to improve report performance. To answer select the appropriate option of DAX measure.",
+                "de": "Sie arbeiten an der Optimierung eines Power BI-Berichts. Der Bericht hat eine Tabelle namens Calendar und eine Tabelle namens Transactions, wie in den untenstehenden Abbildungen dargestellt. /Tabelle/ Der Bericht verwendet ein Measure namens [Sales YOY % Growth], um das jährliche Umsatzwachstum zu berechnen. Der Bericht hat auch ein Measure namens [Sales], das die Verkäufe für einen ausgewählten Zeitraum berechnet. Die Measure-Definitionen lauten wie folgt: Sales = SUM(Transactions [Sales]) Sales YOY % Growth = DIVIDE([Sales] – CALCULATE([Sales], SAMEPERIODLASTYEAR(‘Calendar'[Date])), CALCULATE([Sales], SAMEPERIODLASTYEAR(‘Calendar'[Date]))) Sie müssen das [Sales YOY % Growth]-Measure neu schreiben, um die Berichtsleistung zu verbessern. Wählen Sie zur Beantwortung die entsprechende DAX-Messoption aus."
+            },
+            {
+                "type": "image",
+                "value": "q038.png"
+            }
+        ],
+        "images": ["q038.png"],
+        "choices": [
+            "Sales YOY % Growth = VAR SalesPrevYear = CALCULATE([Sales], PARALLELPERIOD('Calendar'[Date]) RETURN DIVIDE(([Sales] - SalesPrevYear), SalesPrevYear)",
+            "Sales YOY % Growth = VAR PrevYearSales = CALCULATE([Sales], PARALLELPERIOD(SAMEPERIODLASTYEAR) RETURN DIVIDE(([Sales] - SalesPrevYear), SalesPrevYear)",
+            "Sales YOY % Growth = VAR SalesPrevYear = CALCULATE([Sales], SAMEPERIODLASTYEAR('Calendar'[Date]) RETURN DIVIDE(([Sales] - SalesPrevYear), SalesPrevYear)",
+            "Sales YOY % Growth = VAR PrevYearSales = CALCULATE([Sales], SAMEPERIODLASTYEAR('Calendar'[Date]) RETURN DIVIDE(([Sales] - SalesPrevYear), SalesPrevYear)"
+        ],
+        "choices_ger": [
+            "Sales YOY % Growth = VAR SalesPrevYear = CALCULATE([Sales], PARALLELPERIOD('Calendar'[Date]) RETURN DIVIDE(([Sales] - SalesPrevYear), SalesPrevYear)",
+            "Sales YOY % Growth = VAR PrevYearSales = CALCULATE([Sales], PARALLELPERIOD(SAMEPERIODLASTYEAR) RETURN DIVIDE(([Sales] - SalesPrevYear), SalesPrevYear)",
+            "Sales YOY % Growth = VAR SalesPrevYear = CALCULATE([Sales], SAMEPERIODLASTYEAR('Calendar'[Date]) RETURN DIVIDE(([Sales] - SalesPrevYear), SalesPrevYear)",
+            "Sales YOY % Growth = VAR PrevYearSales = CALCULATE([Sales], SAMEPERIODLASTYEAR('Calendar'[Date]) RETURN DIVIDE(([Sales] - SalesPrevYear), SalesPrevYear)"
+        ],
+        "isMulti": false,
+        "correct": [2]
+    },
+    {
+        "id": "q039",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You are designing a data model for a non-profit organization. Which entity should you use to store information about donations?",
+                "de": "Sie entwerfen ein Datenmodell für eine gemeinnützige Organisation. Welche Entität sollten Sie verwenden, um Informationen über Spenden zu speichern?"
+            }
+        ],
+        "images": [],
+        "choices": ["A. Donation", "B. Donor", "C. Fundraiser", "D. Volunteer"],
+        "choices_ger": [
+            "A. Spende",
+            "B. Spender",
+            "C. Fundraiser",
+            "D. Freiwilliger"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q040",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You are modeling data by using Microsoft Power BI. Part of the data model is a large Microsoft SQL Server table named Order that has more than 100 million records.During the development process, you need to import a sample of the data from the Order table.Solution: You add a WHERE clause to the SQL statement.Does this meet the goal?",
+                "de": "Hinweis: Diese Frage ist Teil einer Reihe von Fragen, die dasselbe Szenario darstellen. Jede Frage in der Reihe enthält eine einzigartige Lösung, die die angegebenen Ziele erreichen könnte. Einige Fragensätze haben möglicherweise mehr als eine korrekte Lösung, während andere möglicherweise keine korrekte Lösung haben. Nachdem Sie eine Frage in diesem Abschnitt beantwortet haben, können Sie NICHT mehr darauf zurückgreifen. Daher werden diese Fragen nicht im Überprüfungsbildschirm angezeigt.Sie modellieren Daten mit Microsoft Power BI. Teil des Datenmodells ist eine große Microsoft SQL Server-Tabelle namens Order mit mehr als 100 Millionen Datensätzen.Während des Entwicklungsprozesses müssen Sie eine Stichprobe der Daten aus der Order-Tabelle importieren.Lösung: Sie fügen der SQL-Anweisung eine WHERE-Klausel hinzu.Erreicht dies das Ziel?"
+            }
+        ],
+        "images": [],
+        "choices": ["A. Yes", "B. No"],
+        "choices_ger": ["A. Ja", "B. Nein"],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q041",
+        "content": [
+            {
+                "type": "text",
+                "eng": "How can you create a calculated column in Power BI?",
+                "de": "Wie können Sie eine berechnete Spalte in Power BI erstellen?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Use Power BI Desktop",
+            "Use the Power BI Service",
+            "Use the Power BI Mobile App",
+            "Use Excel"
+        ],
+        "choices_ger": [
+            "Verwenden Sie Power BI Desktop",
+            "Verwenden Sie den Power BI-Dienst",
+            "Verwenden Sie die Power BI Mobile App",
+            "Verwenden Sie Excel"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q042",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You need to create a visualization that compares revenue and cost over time.Which type of visualization should you use?",
+                "de": "Sie müssen eine Visualisierung erstellen, die Einnahmen und Kosten im Zeitverlauf vergleicht.Welchen Visualisierungstyp sollten Sie verwenden?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "A. Waterfall Chart",
+            "B. Stacked Area Chart",
+            "C. Line Chart",
+            "D. Donut Chart"
+        ],
+        "choices_ger": [
+            "A. Wasserfalldiagramm",
+            "B. gestapeltes Flächendiagramm",
+            "C. Liniendiagramm",
+            "D. Donut-Diagramm"
+        ],
+        "isMulti": false,
+        "correct": [2]
+    },
+    {
+        "id": "q043",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You have a Power BI workspace that contains several reports.You need to provide a user with the ability to create a dashboard that will use the visuals from the reports.What should you do?",
+                "de": "Sie haben einen Power BI-Arbeitsbereich, der mehrere Berichte enthält.Sie müssen einem Benutzer die Möglichkeit geben, ein Dashboard zu erstellen, das die Visualisierungen aus den Berichten verwendet.Was sollten Sie tun?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "A. Create a role-based security role (RLS) and add the user to the role.",
+            "B. Share the reports with the user.",
+            "C. Grant the user read permission for the datasets.",
+            "D. Add the user as a member of the workspace.",
+            "E. Add the user as a viewer of the workspace."
+        ],
+        "choices_ger": [
+            "A. Erstellen Sie eine rollenbasierte Sicherheitsrolle (RLS) und fügen Sie den Benutzer zur Rolle hinzu.",
+            "B. Teilen Sie die Berichte mit dem Benutzer.",
+            "C. Gewähren Sie dem Benutzer die Leseberechtigung für die Datasets.",
+            "D. Fügen Sie den Benutzer als Mitglied des Arbeitsbereichs hinzu.",
+            "E. Fügen Sie den Benutzer als Betrachter des Arbeitsbereichs hinzu."
+        ],
+        "isMulti": false,
+        "correct": [3]
+    },
+    {
+        "id": "q044",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You need to create a data source that can be used offline. Which type of data source should you use?",
+                "de": "Sie müssen eine Datenquelle erstellen, die offline verwendet werden kann. Welchen Typ von Datenquelle sollten Sie verwenden?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "SQL Server",
+            "Common Data Service",
+            "SharePoint",
+            "OneDrive"
+        ],
+        "choices_ger": [
+            "SQL Server",
+            "Common Data Service",
+            "SharePoint",
+            "OneDrive"
+        ],
+        "isMulti": false,
+        "correct": [3]
+    },
+    {
+        "id": "q045",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You have a Power BI report that imports a date table and a sales table from an Azure SQL database data source. The sales table has the following date foreign keys:✑ Due Date✑ Order Date✑ Delivery DateYou need to support the analysis of sales over time based on all the date foreign keys.Solution: From Power Query Editor, you rename the date query as Due Date. You reference the Due Date query twice to make the queries for Order Date andDelivery Date.Does this meet the goal?",
+                "de": "Hinweis: Diese Frage ist Teil einer Reihe von Fragen, die dasselbe Szenario darstellen. Jede Frage in der Reihe enthält eine einzigartige Lösung, die die angegebenen Ziele erreichen könnte. Einige Fragensätze haben möglicherweise mehr als eine korrekte Lösung, während andere möglicherweise keine korrekte Lösung haben. Nachdem Sie eine Frage in diesem Abschnitt beantwortet haben, können Sie NICHT mehr darauf zurückgreifen. Daher werden diese Fragen nicht im Überprüfungsbildschirm angezeigt.Sie haben einen Power BI-Bericht, der eine Datumstabelle und eine Verkaufstabelle aus einer Azure SQL-Datenbank-Datenquelle importiert. Die Verkaufstabelle hat die folgenden Datums-Fremdschlüssel:✑ Fälligkeitsdatum✑ Bestelldatum✑ LieferdatumSie müssen die Analyse der Verkäufe über die Zeit basierend auf allen Datums-Fremdschlüsseln unterstützen.Lösung: Im Power Query-Editor benennen Sie die Datumsabfrage in Fälligkeitsdatum um. Sie verweisen zweimal auf die Fälligkeitsdatum-Abfrage, um die Abfragen für Bestelldatum und Lieferdatum zu erstellen.Erreicht dies das Ziel?"
+            }
+        ],
+        "images": [],
+        "choices": ["A. Yes", "B. No"],
+        "choices_ger": ["A. Ja", "B. Nein"],
+        "isMulti": false,
+        "correct": [1]
+    }
+]

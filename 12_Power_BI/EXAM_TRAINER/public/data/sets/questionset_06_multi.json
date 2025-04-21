@@ -1,0 +1,1076 @@
+[
+  {
+    "id": "q001",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your colleague has shared with you a file containing a dataset about global market sales. After importing it inside your Power BI Desktop, you want to get a quality profile of the dataset. How can you achieve this task?",
+        "de": "Ein Kollege hat Ihnen eine Datei mit einem Dataset zum globalen Marktumsatz geteilt. Nach dem Import in Power BI Desktop möchten Sie ein Qualitätsprofil des Datensatzes erstellen. Wie erreichen Sie das?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "From Power Query, check the data profiling functionalities.",
+      "Create a table visual which contains all the dataset columns, then order columns by errors and blank values.",
+      "Create a DAX calculated column that uses the FILTER function.",
+      "From Power BI Desktop, set a Page Filter that includes only errors and blank rows."
+    ],
+    "choices_ger": [
+      "Überprüfen Sie in Power Query die Datenprofilierungsfunktionen.",
+      "Erstellen Sie eine Tabellenvisualisierung, die alle Datensatzspalten enthält, und sortieren Sie die Spalten dann nach Fehlern und leeren Werten.",
+      "Erstellen Sie eine berechnete DAX-Spalte, die die FILTER-Funktion verwendet.",
+      "Legen Sie in Power BI Desktop einen Seitenfilter fest, der nur Fehler und leere Zeilen enthält."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q002",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider two tables named Tab1 and Tab2 that retrieve data from an Oracle database. Both tables have the same data structure. You plan to combine the data from Tab1 and Tab2. Select the right command to use.",
+        "de": "Sie haben zwei Tabellen (Tab1 und Tab2) aus einer Oracle-Datenbank mit identischer Struktur. Wie kombinieren Sie die Daten?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Append Queries",
+      "Combine Files",
+      "Merge Queries",
+      "Merge Rows"
+    ],
+    "choices_ger": [
+      "Abfragen anhängen (Append Queries)",
+      "Dateien kombinieren (Combine Files)",
+      "Abfragen zusammenführen (Merge Queries)",
+      "Zeilen zusammenführen (Merge Rows)"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q003",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider the tables shown in the picture:",
+        "de": "Betrachten Sie die im Bild gezeigten Tabellen:"
+      },
+      {
+        "type": "image",
+        "value": "q003.png"
+      },
+     {
+        "type": "text",
+        "eng": "The tables come from a Microsoft SQL Server database. The Enrollments table contains more than two million rows. You plan to import a sample of data from the Enrollments table in Power BI Desktop. There are two ways to achieve the goal from the following options, select them.",
+        "de": "Die Tabellen stammen aus einer Microsoft SQL Server-Datenbank.\nDie Tabelle „Einschreibungen“ enthält über zwei Millionen Zeilen. Sie möchten eine Stichprobe von Daten aus der Tabelle „Einschreibungen“ in Power BI Desktop importieren.\nWählen Sie dazu zwei der folgenden Optionen aus."
+      }
+    ],
+    "images": [
+      "q003.png"
+    ],
+    "choices": [
+      "From Query Editor, create a column by using Custom Column command",
+      "From Query Editor, filter the table by Enrollment_date.",
+      "From Query Editor, add a SELECT statement that uses a WHERE clause.",
+      "In the Power BI Service, create a calculated table.",
+      "From Query Editor, create a custom column that SAMPLE Function."
+    ],
+    "choices_ger": [
+      "Im Query Editor eine benutzerdefinierte Spalte erstellen.",
+      "Im Query Editor nach 'Enrollment_date' filtern.",
+      "Im Query Editor eine SELECT-Anweisung mit WHERE-Klausel hinzufügen.",
+      "In Power BI Service eine berechnete Tabelle erstellen.",
+      "Im Query Editor eine benutzerdefinierte Spalte mit SAMPLE-Funktion."
+    ],
+    "isMulti": true,
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "q004",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have imported a data source in Power BI Desktop, now you plan to use Power Query to add some data transformations.\nYou notice that the data model presents a huge list of queries that make it difficult to organize the transformation steps.\nWhich best practice can you adopt in Power Query to solve this issue?",
+        "de": "Sie haben eine Datenquelle in Power BI Desktop importiert und möchten nun mithilfe von Power Query einige Datentransformationen hinzufügen. Dabei\nfällt Ihnen auf, dass das Datenmodell eine riesige Liste von Abfragen enthält, die die Organisation der Transformationsschritte erschweren.\nWelche bewährte Methode können Sie in Power Query anwenden, um dieses Problem zu lösen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Append queries when it is possible.",
+      "Reduce the list of queries by importing small parts of the original dataset.",
+      "Create a group of queries to classify the data-transformations.",
+      "Re-name all the queries with a classification syntax."
+    ],
+    "choices_ger": [
+      "Abfragen nach Möglichkeit anhängen.",
+      "Nur Teile des Originaldatensatzes importieren.",
+      "Abfragen gruppieren, um Transformationen zu kategorisieren.",
+      "Abfragen mit einheitlichen Namen umbenennen."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q005",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider a Power BI Model containing the tables shown in the picture.",
+        "de": "Stellen Sie sich ein Power BI-Modell vor, das die im Bild gezeigten Tabellen enthält."
+      },
+      {
+        "type": "image",
+        "value": "q005.png"
+      },
+      {
+        "type": "text",
+        "eng": "Course[CourseName] contains NULL values. You plan to add a new column to the Course table that uses the following formula:\n=if [CourseName]=null then “NA” else [CourseName]\nSelect the option available in the Query Editor to meet the goal.",
+        "de": "Course[CourseName] enthält NULL-Werte. Sie möchten der Kurstabelle eine neue Spalte hinzufügen, die die folgende Formel verwendet:\n=if [CourseName]=null then „NA“ else [CourseName].\nWählen Sie die im Abfrage-Editor verfügbare Option aus, um das Ziel zu erreichen."
+      }
+    ],
+    "images": [
+      "q005.png"
+    ],
+    "choices": [
+      "Index Column.",
+      "Column From Examples.",
+      "Conditional Column.",
+      "Pivot Column."
+    ],
+    "choices_ger": [
+      "Indexspalte.",
+      "Spalte aus Beispielen.",
+      "Bedingte Spalte (Conditional Column).",
+      "Pivot-Spalte."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q006",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are working on the Contoso Sales report in Power BI. It relies on a large dataset.\nThe Sales[DateKey] column is in the Date/time format as shown:",
+        "de": "Sie arbeiten am Contoso-Umsatzbericht in Power BI. Dieser basiert auf einem großen Datensatz.\nDie Spalte „Sales[DateKey]“ weist das folgende Datums-/Uhrzeitformat auf:"
+      },
+      {
+        "type": "image",
+        "value": "q006.png"
+      },
+      {
+        "type": "text",
+        "eng": "What can you do to improve performance when you are getting data in Power BI?",
+        "de": "Was können Sie tun, um die Leistung beim Abrufen von Daten in Power BI zu verbessern?"
+      }
+    ],
+    "images": [
+      "q006.png"
+    ],
+    "choices": [
+      "Compress the database into a zip file.",
+      "Use the CALENDARAUTO function in DAX.",
+      "Separate date and time into two distinct columns before importing.",
+      "Delete the Sales[DateKey] column."
+    ],
+    "choices_ger": [
+      "Die Datenbank als ZIP-Datei komprimieren.",
+      "Die DAX-Funktion CALENDARAUTO verwenden.",
+      "Datum und Uhrzeit vor dem Import in separate Spalten trennen.",
+      "Die Spalte Sales[DateKey] löschen."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q007",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You want to import 50 Microsoft Excel files to Power BI Desktop. All the files share the same structure and are they stored in a unique desktop local folder. You plan to import all Excel files into one table.\nHow can you achieve the goal?",
+        "de": "Sie möchten 50 Microsoft Excel-Dateien in Power BI Desktop importieren. Alle Dateien haben dieselbe Struktur und sind in einem einzigen lokalen Desktop-Ordner gespeichert. Sie planen, alle Excel-Dateien in eine Tabelle zu importieren.\nWie erreichen Sie dieses Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Add a Microsoft Excel data source and select all the files in the folder",
+      "Add every single file to the model and then use the Merge Queries command.",
+      "Add a folder data source and use the Combine Files command.",
+      "Add a folder data source and use the Append Queries command."
+    ],
+    "choices_ger": [
+      "Eine Excel-Datenquelle hinzufügen und alle Dateien auswählen.",
+      "Jede Datei einzeln hinzufügen und dann 'Abfragen zusammenführen' verwenden.",
+      "Eine Ordner-Datenquelle hinzufügen und 'Dateien kombinieren' verwenden.",
+      "Eine Ordner-Datenquelle hinzufügen und 'Abfragen anhängen' verwenden."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q008",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider the table shown in the picture:",
+        "de": "Betrachten Sie die im Bild gezeigte Tabelle:"
+      },
+            {
+        "type": "image",
+        "value": "q008.png"
+      },
+      {
+        "type": "text",
+        "eng": "You want to create a custom column that hides the first seven digits of the NationalCode. The values in the new column should be displayed in the following format: xxx-xx-0000\nSelect the proper order of targets to complete the formula:",
+        "de": "Sie möchten eine benutzerdefinierte Spalte erstellen, die die ersten sieben Ziffern des Nationalcodes ausblendet. Die Werte in der neuen Spalte sollen im folgenden Format angezeigt werden: xxx-xx-0000.\nWählen Sie die richtige Reihenfolge der Ziele aus, um die Formel zu vervollständigen:"
+      },
+      {
+        "type": "image",
+        "value": "q008_2.png"
+      }
+    ],
+    "images": [
+      "q008.png",
+      "q008_2.png"
+    ],
+    "choices": [
+      {
+        "de": "Text.Insert - Text.Start",
+        "en": "Text.Insert - Text.Start"
+      },
+      {
+        "de": "Text.Insert - Text.Replace",
+        "en": "Text.Insert - Text.Replace"
+      },
+      {
+        "de": "Text.Replace - Text.Start",
+        "en": "Text.Replace - Text.Start"
+      },
+      {
+        "de": "Text.Insert - Text.end",
+        "en": "Text.Insert - Text.end"
+      }
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q009",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have connected a Microsoft SQL Server Analysis Services (SSAS) cube to Power BI Desktop, generating the following query:",
+        "de": "Sie haben einen Microsoft SQL Server Analysis Services (SSAS)-Cube mit Power BI Desktop verbunden und die folgende Abfrage generiert:"
+      },
+      {
+        "type": "image",
+        "value": "q009.png"
+      },
+      {
+        "type": "text",
+        "eng": "The query retrieves 10,200 records. After checking the data source, you discover that there are 21,300 records.\nHow can you ensure that the query retrieves all 21,300 records?",
+        "de": "Die Abfrage ruft 10.200 Datensätze ab. Nach der Überprüfung der Datenquelle stellen Sie fest, dass 21.300 Datensätze vorhanden sind.\nWie können Sie sicherstellen, dass die Abfrage alle 21.300 Datensätze abruft?"
+      }
+    ],
+    "images": [
+      "q009.png"
+    ],
+    "choices": [
+      "Delete the Remove Duplicates steps.",
+      "Change the query to use Direct Query mode.",
+      "Change the query to use Import connection mode.",
+      "From Power Query, select Unpivot Columns command."
+    ],
+    "choices_ger": [
+      "Die 'Remove Duplicates'-Schritte löschen.",
+      "Auf Direct Query-Modus umstellen.",
+      "Auf Import-Modus umstellen.",
+      "Die 'Unpivot Columns'-Funktion verwenden."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q010",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider the following tables:",
+        "de": "Betrachten Sie die folgenden Tabellen:"
+      },
+      {
+        "type": "image",
+        "value": "q010.png"
+      },
+      {
+        "type": "text",
+        "eng": "You plan to create a relationship between the Enrollments table and the Courses table on the Course_ID column.\nWhat task do you need to perform before creating the relationship?",
+        "de": "Sie möchten eine Beziehung zwischen der Tabelle „Einschreibungen“ und der Tabelle „Kurse“ in der Spalte „Kurs-ID“ erstellen.\nWelche Aufgabe müssen Sie vor dem Erstellen der Beziehung ausführen?"
+      }
+    ],
+    "images": [
+      "q010.png"
+    ],
+    "choices": [
+      "In the Courses table query, use the Table.TransformColumnTypes function.",
+      "In the Course table query, use the Table.TransformRows function.",
+      "In the Enrollments table query, use the Tables.GetRelationships function.",
+      "In the Enrollments table query, use the Table.TransformRows function."
+    ],
+    "choices_ger": [
+      "In der Courses-Tabelle mit Table.TransformColumnTypes den Spaltentyp anpassen.",
+      "In der Course-Tabelle Table.TransformRows verwenden.",
+      "In der Enrollments-Tabelle Tables.GetRelationships verwenden.",
+      "In der Enrollments-Tabelle Table.TransformRows verwenden."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q011",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have imported a dataset in Power BI Desktop from an Excel File. During the tables profiling, you discover two columns that need to be fixed:\n– ColumnA presents several values starting with space;\n– ColumnB contains several non-printable characters.\nWhich couple of commands should you use to fix the above column errors?",
+        "de": "Sie haben einen Datensatz aus einer Excel-Datei in Power BI Desktop importiert. Beim Tabellenprofiling entdecken Sie zwei Spalten, die korrigiert werden müssen:\n– Spalte A enthält mehrere Werte, die mit einem Leerzeichen beginnen;\n– Spalte B enthält mehrere nicht druckbare Zeichen.\nWelche Befehle sollten Sie verwenden, um die oben genannten Spaltenfehler zu beheben?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "ColumnA: TRIM - ColumnB: CLEAN",
+      "ColumnA: LENGTH - ColumnB: TRIM",
+      "ColumnA: CLEAN WHITE SPACES - ColumnB: TRIM",
+      "ColumnA: CAPITALIZE EACH WORD - ColumnB: CLEAN"
+    ],
+    "choices_ger": [
+      "ColumnA: TRIM - ColumnB: CLEAN",
+      "ColumnA: LENGTH - ColumnB: TRIM",
+      "ColumnA: CLEAN WHITE SPACES - ColumnB: TRIM",
+      "ColumnA: CAPITALIZE EACH WORD - ColumnB: CLEAN"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q012",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider the table named Courses shown in the picture:",
+        "de": "Betrachten Sie die im Bild gezeigte Tabelle mit dem Namen „Kurse“:"
+      },
+      {
+        "type": "image",
+        "value": "q012.png"
+      },
+      {
+        "type": "text",
+        "eng": "You plan to create a relationship between the Courses table and another table called Enrollments.\nWhich function let you optimize the query for Courses before creating the relationship?",
+        "de": "Sie möchten eine Beziehung zwischen der Tabelle „Kurse“ und einer anderen Tabelle namens „Einschreibungen“ erstellen.\nMit welcher Funktion können Sie die Abfrage für „Kurse“ optimieren, bevor Sie die Beziehung erstellen?"
+      }
+    ],
+    "images": [
+      "q012.png"
+    ],
+    "choices": [
+      "Table.IsDistinct",
+      "Table.Join",
+      "Table.Group",
+      "Table.Distinct"
+    ],
+    "choices_ger": [
+      "Table.IsDistinct",
+      "Table.Join",
+      "Table.Group",
+      "Table.Distinct"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q013",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider a column named Product_SKU. The values in the column have the following format:\n• 7271-1123×998\n• 7271-1123×945\n• 7271-1123×924\nThe values after x in the Product_SKU column indicate the SKU extension. You plan to create a custom column in Query Editor that contains only the SKU extensions.\nSelect the right order of functions to complete the following formula:",
+        "de": "Betrachten Sie eine Spalte mit dem Namen „Product_SKU“. Die Werte in dieser Spalte haben das folgende Format:\n• 7271-1123×998\n• 7271-1123×945\n• 7271-1123×924\nDie Werte nach dem „x“ in der Spalte „Product_SKU“ geben die SKU-Erweiterung an. Sie möchten im Abfrage-Editor eine benutzerdefinierte Spalte erstellen, die nur die SKU-Erweiterungen enthält.\nWählen Sie die richtige Reihenfolge der Funktionen, um die folgende Formel zu vervollständigen:"
+      },
+      {
+        "type": "image",
+        "value": "q013.png"
+      }
+    ],
+    "images": [
+      "q013.png"
+    ],
+    "choices": [
+      "AFTERDELIMITER - REMOVERANGE",
+      "POSITIONOF - REMOVERANGE",
+      "POSITIONOF - TRIMEND",
+      "AFTERDELIMITER - RELATIVEPOSITION"
+    ],
+    "choices_ger": [
+      "AFTERDELIMITER - REMOVERANGE",
+      "POSITIONOF - REMOVERANGE",
+      "POSITIONOF - TRIMEND",
+      "AFTERDELIMITER - RELATIVEPOSITION"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q014",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider a Power BI report that contains a Pie chart and a Line chart on the same page. The Line chart displays the total Enrollments by Year, while the Pie chart displays the total Enrollments by course.\nYou want to ensure that when you select a year on the Line chart, the Pie chart remains unchanged.\nHow can you perform this task?",
+        "de": "Stellen Sie sich einen Power BI-Bericht vor, der auf derselben Seite ein Kreisdiagramm und ein Liniendiagramm enthält. Das Liniendiagramm zeigt die Gesamtzahl der Anmeldungen nach Jahr, während das Kreisdiagramm die Gesamtzahl der Anmeldungen nach Kurs anzeigt.\nSie möchten sicherstellen, dass das Kreisdiagramm unverändert bleibt, wenn Sie im Liniendiagramm ein Jahr auswählen.\nWie können Sie diese Aufgabe durchführen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Edit the interactions from the Format menu.",
+      "Delete the relationship between the Enrollments table and the Date table.",
+      "Set a visual level filter on the report page.",
+      "Set a visual level filter on the Pie chart."
+    ],
+    "choices_ger": [
+      "Interaktionen über das Format-Menü anpassen.",
+      "Die Beziehung zwischen Enrollments- und Date-Tabelle löschen.",
+      "Einen Filter auf Berichtsebene einstellen.",
+      "Einen Filter direkt im Kreisdiagramm einstellen."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q015",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are configuring a Gauge Chart. Where do you set the Goal?",
+        "de": "Wo legen Sie das Ziel (Goal) für ein Messdiagramm (Gauge Chart) fest?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Power Query.",
+      "Calculated column.",
+      "Format settings.",
+      "DAX Formula."
+    ],
+    "choices_ger": [
+      "Power Query.",
+      "Berechnete Spalte.",
+      "Formatierungseinstellungen.",
+      "DAX-Formel."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q016",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider a table that contains the last two years of sales data. You want to identify the outliers. Which type of visual best fits your needs?",
+        "de": "Sie haben eine Tabelle mit Verkaufsdaten der letzten zwei Jahre und möchten Ausreißer identifizieren. Welcher Visualisierungstyp eignet sich am besten?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Key Influencers",
+      "Bar chart",
+      "Scatter plot",
+      "Area chart"
+    ],
+    "choices_ger": [
+      "Key Influencers",
+      "Balkendiagramm",
+      "Streudiagramm (Scatter Plot)",
+      "Flächendiagramm"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q017",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider a report in Power BI Desktop that contains several donut charts and a date slicer. You plan to create a slide show that displays the donut charts filtered by different years. You want that the slide show can be used from Power BI Service. What should you do before publishing the report?",
+        "de": "Stellen Sie sich einen Bericht in Power BI Desktop vor, der mehrere Ringdiagramme und einen Datumsslicer enthält.\nSie möchten eine Diashow erstellen, in der die Ringdiagramme nach verschiedenen Jahren gefiltert angezeigt werden. Sie möchten, dass die Diashow vom Power BI-Dienst aus verwendet werden kann.\nWas sollten Sie vor der Veröffentlichung des Berichts tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Filter the donut charts by using the slicer, then create bookmarks.",
+      "Configure page level filters, and then create groups that use the Bin group type.",
+      "Configure drillthrough filters for each bar chart, and then select Selection Pane.",
+      "Configure report level filters, and then create groups that use the List group type."
+    ],
+    "choices_ger": [
+      "Filtern Sie die Donut-Diagramme mit dem Slicer und erstellen Sie Lesezeichen.",
+      "Konfigurieren Sie Seitenfilter und erstellen Sie Gruppen mit dem Bin-Gruppentyp.",
+      "Konfigurieren Sie Drillthrough-Filter für jedes Balkendiagramm und verwenden Sie den Auswahlbereich.",
+      "Konfigurieren Sie Berichtsfilter und erstellen Sie Gruppen mit dem Listen-Gruppentyp."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q018",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You want to use Python Scripting in Power BI Desktop in order to create several visualizations. After you have installed and configured Python for Power BI Desktop, you try to run the following code:\nfrom matplotlib import pyplot;\nax = pyplot.gca();\ndataset.plot.line(x = ‘Courses’, y = ‘Total Enrollments’, color = ‘green’, ax = ax)\nPower BI Desktop returns the following error message:",
+        "de": "Sie möchten Python-Skripte in Power BI Desktop verwenden, um Visualisierungen zu erstellen. Nach dem Ausführen des Codes erhalten Sie eine Fehlermeldung. Wie beheben Sie das Problem?"
+      },
+      {
+        "type": "image",
+        "value": "q018.png"
+      },
+      {
+        "type": "text",
+        "eng": "How can you fix the issue?",
+        "de": "Wie können Sie das Problem beheben?"
+      }
+    ],
+    "images": [
+      "q018.png"
+    ],
+    "choices": [
+      "Add the following command: pyplot.show();",
+      "Enable Python Visuals before running code.",
+      "Refresh the IDE settings.",
+      "Refresh the dataset connection."
+    ],
+    "choices_ger": [
+      "Fügen Sie den Befehl hinzu: pyplot.show();",
+      "Aktivieren Sie Python-Visuals vor dem Ausführen des Codes.",
+      "Aktualisieren Sie die IDE-Einstellungen.",
+      "Aktualisieren Sie die Dataset-Verbindung."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q019",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a table named Enrollments with the following columns:\n– StudentID;\n– CourseID;\n– Date;\n– CourseName;\n– FeePaid.\nYou create a report that contains a Stacked Column Chart that shows the count of Students by CourseName, then you want to customize the information placed in the visualization tooltip for the chart.\nWhat should you do first?",
+        "de": "Sie haben eine Tabelle namens „Einschreibungen“ mit den folgenden Spalten:\n– StudentID;\n– CourseID;\n– Date;\n– CourseName;\n– FeePaid.\nSie erstellen einen Bericht mit einem gestapelten Säulendiagramm, das die Anzahl der Studierenden nach CourseName anzeigt. Anschließend möchten Sie die Informationen im Visualisierungs-Tooltip des Diagramms anpassen.\nWas sollten Sie zuerst tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Create a new report page and set it as Tooltip.",
+      "Disable the tooltip option in the Format pane.",
+      "Set CourseName as Tooltip field.",
+      "Set StudentID as Tooltip Field."
+    ],
+    "choices_ger": [
+      "Erstellen Sie eine neue Berichtsseite und definieren Sie sie als Tooltip.",
+      "Deaktivieren Sie den Tooltip im Formatbereich.",
+      "Definieren Sie Kursname als Tooltip-Feld.",
+      "Definieren Sie StudentenID als Tooltip-Feld."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q020",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a dashboard named Sales_01. Q&A is enabled on the dashboard. When users try to get the count of clients, the query fails. Instead, when users ask for the count of subscribers, they receive the expected results. You want to ensure that both queries will return the same results.\nWhich action should you perform?",
+        "de": "Sie haben ein Dashboard namens „Sales_01“. Q&A ist im Dashboard aktiviert. Wenn Benutzer versuchen, die Anzahl der Kunden abzurufen, schlägt die Abfrage fehl. Stattdessen erhalten Benutzer die erwarteten Ergebnisse, wenn sie nach der Anzahl der Abonnenten fragen. Sie möchten sicherstellen, dass beide Abfragen dieselben Ergebnisse liefern.\nWelche Aktion sollten Sie ausführen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "In Analytics pane, add a Percentile line set to 50%.",
+      "In Format pane, add a Constant line set to 0.5.",
+      "In Analytics pane, add a Constant line set to 0.5.",
+      "Add a Trend line in Analytics pane."
+    ],
+    "choices_ger": [
+      "Im Analysebereich: Perzentillinie auf 50% setzen.",
+      "Im Formatbereich: Konstante Linie auf 0,5 setzen.",
+      "Im Analysebereich: Konstante Linie auf 0,5 setzen.",
+      "Trendlinie im Analysebereich hinzufügen."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q021",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider a table named Students with the following columns:\n– StudentID;\n– StudentName;\n– City;\n– ProvState;\n– Country.\nYou are creating a Power BI report that includes a bar chart to display the number of students by location. You want that the report will show the number of students by Country, and drill down to ProvState, and in the end to City.\nSelect the right configuration of the drill down in the bar chart.",
+        "de": "Betrachten Sie eine Tabelle namens „Studenten“ mit den folgenden Spalten:\n– StudentID;\n– StudentName;\n– Stadt;\n– Bundesland;\n– Land.\nSie erstellen einen Power BI-Bericht mit einem Balkendiagramm, um die Anzahl der Studierenden nach Standort anzuzeigen. Der Bericht soll die Anzahl der Studierenden nach Land anzeigen und anschließend einen Drilldown zum Bundesland und schließlich zur Stadt durchführen.\nWählen Sie die richtige Konfiguration des Drilldowns im Balkendiagramm."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "In the Legend field, add ProvState. In the Axis field, add Country and City.",
+      "In the Value field add all the columns in the following order: Country, ProvState, City.",
+      "In the Value field, add Country. In the Axis field, add ProvState and City.",
+      "In the Axis field, add all the columns in the following order: Country at the top, followed by ProvState and City."
+    ],
+    "choices_ger": [
+      "Fügen Sie im Feld „Legende“ „ProvState“ hinzu. Fügen Sie im Feld „Achse“ „Land“ und „Stadt“ hinzu.",
+      "Fügen Sie im Feld „Wert“ alle Spalten in der folgenden Reihenfolge hinzu: Land, Provinzstaat, Stadt.",
+      "Fügen Sie im Feld „Wert“ „Land“ hinzu. Fügen Sie im Feld „Achse“ „ProvState“ und „Stadt“ hinzu.",
+      "Fügen Sie im Feld „Achse“ alle Spalten in der folgenden Reihenfolge hinzu: „Land“ oben, gefolgt von „ProvState“ und „Stadt“."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q022",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider a table named Students with the following columns: StudentID; StudentName; City; ProvState; Country. You are creating a Power BI report that includes a bar chart to display the number of students by location. You want that the report will show the number of students by Country, and drill down to ProvState, and in the end to City. Select the right configuration of the drill down in the bar chart.",
+        "de": "Sie erstellen einen komplexen Bericht in Power BI mit vielen visuellen Elementen.\nSie möchten sicherstellen, dass der Benutzer ihn mithilfe der Tastatur logisch liest.\nWoran sollten Sie arbeiten?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "In the Legend field, add ProvState. In the Axis field, add Country and City.",
+      "In the Value field add all the columns in the following order: Country, ProvState, City.",
+      "In the Value field, add Country. In the Axis field, add ProvState and City.",
+      "In the Axis field, add all the columns in the following order: Country at the top, followed by ProvState and City."
+    ],
+    "choices_ger": [
+      "Filterhierarchie.",
+      "Tabulatorreihenfolge.",
+      "Seitenreihenfolge.",
+      "Ebenenreihenfolge."
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q023",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider a table named Enrollments that contains enrollments data for Europe. Check the sample dataset in the picture:",
+        "de": "Betrachten Sie eine Tabelle mit dem Namen „Enrollments“, die Einschreibungsdaten für Europa enthält. Sehen Sie sich den Beispieldatensatz in der Abbildung an:"
+      },
+      {
+        "type": "image",
+        "value": "q023.png"
+      },
+      {
+        "type": "text",
+        "eng": "You try to create a map to show Enrollments by Area, but you find out that the map doesn’t work.\nWhat can you do to fix the map visualization?",
+        "de": "Sie versuchen, eine Karte zu erstellen, um die Einschreibungen nach Gebiet anzuzeigen, stellen jedoch fest, dass die Karte nicht funktioniert.\nWie können Sie die Kartenvisualisierung verbessern?"
+      }
+    ],
+    "images": ["q023.png"],
+    "choices": [
+      "Add a column that contains latitude and longitude.",
+      " Create a table named Country and create a relationship with the Enrollments table.",
+      " Select the Area field. From the Modeling tab, change the Data Category.",
+      " Select the Area field. From the Modeling tab, change the Data Type."
+    ],
+    "choices_ger": [
+      "Fügen Sie eine Spalte hinzu, die Breiten- und Längengrad enthält.",
+      "Erstellen Sie eine Tabelle mit dem Namen „Country“ und stellen Sie eine Beziehung zur Tabelle „Enrollments“ her.",
+      "Wählen Sie das Feld „Bereich“ aus. Ändern Sie auf der Registerkarte „Modellierung“ die Datenkategorie.",
+      "Wählen Sie das Feld „Bereich“ aus. Ändern Sie auf der Registerkarte „Modellierung“ den Datentyp."
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q024",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a Microsoft Excel file named Enrollments.csv that contains data about Student Enrollments by Region.\nAfter you have imported the Excel file to Power BI Desktop, you create a bar chart showing the Enrollments amount by region.\nUnfortunately, the Enrollments amount value appears as the count of Enrollments amount instead of the sum of Enrollments amount for each region.\nYou need to modify the query to ensure that the data appears correctly.\nHow can you fix the issue?",
+        "de": "Sie verfügen über eine Microsoft Excel-Datei namens „Enrollments.csv“, die Daten zu Studierendeneinschreibungen nach Regionen enthält.\nNachdem Sie die Excel-Datei in Power BI Desktop importiert haben, erstellen Sie ein Balkendiagramm, das die Anzahl der Einschreibungen nach Regionen anzeigt.\nLeider wird der Wert für die Einschreibungsanzahl als Anzahl der Einschreibungen und nicht als Summe der Einschreibungen pro Region angezeigt.\nSie müssen die Abfrage anpassen, um sicherzustellen, dass die Daten korrekt angezeigt werden.\nWie können Sie das Problem beheben?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Change the Data Type of Enrollments amount column to Whole Number.",
+      "Create a calculated column that use the SUM function.",
+      "Delete the query, import the data into Microsoft One Drive for Business, and then from Power BI Service connect to the Enrollments.csv by clicking import.",
+      "Create a calculated measure that uses the SUMX function."
+    ],
+    "choices_ger": [
+      "Ändern Sie den Datentyp der Spalte „Einschreibungsbetrag“ in „Ganze Zahl“.",
+      "Erstellen Sie eine berechnete Spalte, die die SUM-Funktion verwendet.",
+      "Löschen Sie die Abfrage, importieren Sie die Daten in Microsoft One Drive for Business und stellen Sie dann vom Power BI-Dienst aus eine Verbindung zur Datei „Enrollments.csv“ her, indem Sie auf „Importieren“ klicken.",
+      "Erstellen Sie eine berechnete Kennzahl, die die SUMX-Funktion verwendet."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q025",
+    "content": [
+      {
+        "type": "text",
+        "eng": "An area chart shows the discount quantity over years. Therefore, when you hover the mouse over a data point, you will see the discount quantity at a certain year: ",
+        "de": "Ein Flächendiagramm zeigt die Rabatthöhe über mehrere Jahre hinweg. Wenn Sie mit der Maus über einen Datenpunkt fahren, wird Ihnen die Rabatthöhe für ein bestimmtes Jahr angezeigt:"
+      },
+      {
+        "type": "image",
+        "value": "q025.png"
+      },
+      {
+        "type": "text",
+        "eng": "How could you provide additional information about the discount amount, on the black label?\n The result should be as the following picture:",
+        "de": "Wie könnten Sie zusätzliche Informationen zum Rabattbetrag auf dem schwarzen Etikett bereitstellen?\nDas Ergebnis sollte wie folgt aussehen:"
+      },
+      {
+        "type": "image",
+        "value": "q025_2.png"
+      }
+    ],
+    "images": [
+      "q025.png",
+      "q025_2.png"
+    ],
+    "choices": [
+      "Add the DiscountAmount column on the secondary values.",
+      "Add the DiscountAmount column on the tooltip.",
+      "Set a drillthrough option for the visual.",
+      "By right-clicking on the visual, select Analyze."
+      ],
+    "choices_ger": [
+      "Die DiscountAmount-Spalte zu den sekundären Werten hinzufügen.",
+      "Fügen Sie der QuickInfo die Spalte „DiscountAmount“ hinzu.",
+      "Legen Sie eine Drillthrough-Option für das Visual fest.",
+      "Klicken Sie mit der rechten Maustaste auf das Bild und wählen Sie „Analysieren“ aus."
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q026",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your principal asks you to print some Power BI reports in order to physically share them with the other colleagues during the next meeting. When you start to print the reports, you notice that some tables show less rows than they really have. How can you solve this issue?",
+        "de": "Ihr Chef bittet Sie, einige Power BI-Berichte auszudrucken, um sie im nächsten Meeting physisch mit den Kollegen zu teilen. Beim Drucken der Berichte stellen Sie fest, dass einige Tabellen weniger Zeilen anzeigen, als sie tatsächlich enthalten. Wie können Sie dieses Problem lösen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Change the table visual to a matrix visual.",
+      "Group the rows of the table to reduce its size.",
+      "Extend table visual to the whole page.",
+      "Create a Paginated Report."
+    ],
+    "choices_ger": [
+      "Die Tabellenvisualisierung in eine Matrixvisualisierung ändern.",
+      "Die Zeilen der Tabelle gruppieren, um ihre Größe zu reduzieren.",
+      "Die Tabellenvisualisierung auf die ganze Seite erweitern.",
+      "Einen paginierten Bericht erstellen."
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q027",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You plan to create a custom visualization for Power BI. What do you install first?",
+        "de": "Sie planen, eine benutzerdefinierte Visualisierung für Power BI zu erstellen. Was installieren Sie zuerst?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Microsoft Azure PowerShell",
+      "Node.js",
+      "Power BI Dienst",
+      "JavaScript"
+    ],
+    "choices_ger": [
+      "Microsoft Azure PowerShell",
+      "Node.js",
+      "Power BI Service",
+      "JavaScript"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q028",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are analyzing the Customer Sales monthly report and you notice that the Churn Rate metric is strangely increased.\nYou want to understand which variables may affect this result.\nWhich solutions can help you to explore the possible causes in Power BI Desktop?",
+        "de": "Sie analysieren den monatlichen Kundenumsatzbericht und stellen fest, dass die Kennzahl „Abwanderungsrate“ ungewöhnlich hoch ist.\nSie möchten wissen, welche Variablen dieses Ergebnis beeinflussen können.\nWelche Lösungen helfen Ihnen, die möglichen Ursachen in Power BI Desktop zu untersuchen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Decomposition tree visual.",
+      "Enable the Auto ML.",
+      "Use the Gauge visual.",
+      "Use the Key Influencer visual."
+    ],
+    "choices_ger": [
+      "Visueller Zerlegungsbaum.",
+      "Aktivieren Sie Auto ML.",
+      "Verwenden Sie die visuelle Anzeige „Messgerät“.",
+      "Verwenden Sie die visuelle Darstellung des wichtigsten Einflussnehmers."
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "q029",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a report named Sales in an app workspace named Sales_BI. User_01 is a member of the Sales_BI. You have enabled the option ”Allow users to build new content using the underlying dataset” from the report settings. What will happen to the underlying dataset? Select the true statements.",
+        "de": "Sie haben einen Bericht namens Sales in einem App-Arbeitsbereich namens Sales_BI. User_01 ist Mitglied von Sales_BI. Sie haben die Option „Benutzern erlauben, neue Inhalte mit dem zugrunde liegenden Dataset zu erstellen“ in den Berichtseinstellungen aktiviert. Was passiert mit dem zugrunde liegenden Dataset? Wählen Sie die wahren Aussagen aus."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Row-level security restrictions on the dataset are in effect.",
+      "You haven't made a copy of the dataset. The dataset still resides in its original location.",
+      "You have made a copy of the dataset. The dataset is duplicated in your workspace."
+    ],
+    "choices_ger": [
+      "Für den Datensatz gelten Sicherheitsbeschränkungen auf Zeilenebene.",
+      "Sie haben keine Kopie des Datensatzes erstellt. Der Datensatz befindet sich noch an seinem ursprünglichen Speicherort.",
+      "Sie haben eine Kopie des Datensatzes erstellt. Der Datensatz wird in Ihrem Arbeitsbereich dupliziert."
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "q030",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a Power BI app workspace that contains 30 reports shared with 55 users of your organization. You plan to start a reports maintenance program. You need to know which reports present a critical usage. How can you achieve this task?",
+        "de": "Sie verfügen über einen Power BI-App-Arbeitsbereich mit 30 Berichten, die mit 55 Benutzern Ihrer Organisation geteilt werden.\nSie planen, ein Berichtswartungsprogramm zu starten. Sie müssen wissen, welche Berichte kritisch genutzt werden.\nWie können Sie diese Aufgabe bewältigen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Check the activity log by using the Power BI Management cmdlets for PowerShell.",
+      "Request to the Power BI admin enabling usage metrics for content creators.",
+      "Go to the Health tab in the Capacity settings area in the Admin portal.",
+      "You can use the Power BI Premium Capacity Metrics App."
+    ],
+    "choices_ger": [
+      "Überprüfen Sie das Aktivitätsprotokoll mithilfe der Power BI-Verwaltungs-Cmdlets für PowerShell.",
+      "Anforderung an den Power BI-Administrator zum Aktivieren von Nutzungsmetriken für Inhaltsersteller.",
+      "Gehen Sie im Admin-Portal im Bereich „Kapazitätseinstellungen“ zur Registerkarte „Integrität“.",
+      "Sie können die Power BI Premium Capacity Metrics-App verwenden."
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q031",
+    "content": [
+      {
+        "type": "text",
+        "eng": "A Power BI user in your organization has published a report to the Web. The report contained sensitive data. What can you do to prevent the reports from being published on the Web?",
+        "de": "Ein Power BI-Benutzer in Ihrer Organisation hat einen Bericht im Web veröffentlicht. Der Bericht enthielt sensible Daten. Was können Sie tun, um zu verhindern, dass Berichte im Web veröffentlicht werden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "From Azure AD remove the PowerBI Pro license from the user.",
+      "From the app workspace settings remove the user as a member.",
+      "From the Power BI Admin portal, disable the Publish to web setting.",
+      "From the Power BI Pro, delete the embedded codes."
+    ],
+    "choices_ger": [
+      "Entfernen Sie aus Azure AD die PowerBI Pro-Lizenz vom Benutzer.",
+      "Entfernen Sie den Benutzer aus den Arbeitsbereichseinstellungen der App als Mitglied.",
+      "Deaktivieren Sie im Power BI-Verwaltungsportal die Einstellung „Im Web veröffentlichen“.",
+      "Löschen Sie die eingebetteten Codes aus Power BI Pro."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q032",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your organization owns a consistent number of dashboards on Power BI. Your goal is to ensure that when users browse the list of the available dashboard, they can see the ones that contain Personal Identifiable Information. Which function best fit your needs?",
+        "de": "Ihre Organisation verfügt über eine konsistente Anzahl von Dashboards in Power BI. Ihr Ziel ist es sicherzustellen, dass Benutzer beim Durchsuchen der Liste der verfügbaren Dashboards diejenigen sehen, die personenbezogene Daten enthalten.\nWelche Funktion passt am besten zu Ihren Anforderungen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Row Level Security",
+      "Tiles",
+      "KPIs",
+      "Microsoft Information Protection sensitivity labels"
+    ],
+    "choices_ger": [
+      "Sicherheit auf Zeilenebene.",
+      "Fliesen.",
+      "KPIs.",
+      "Microsoft Information Protection-Vertraulichkeitsbezeichnungen."
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q033",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your organization plan to use the Power BI Service to get several visualizations from data stored in a custom application. The developers ask for pushing data into the Power BI Service from the custom app. How can you ensure this task?",
+        "de": "Ihre Organisation plant, den Power BI Service zu nutzen, um mehrere Visualisierungen aus Daten einer benutzerdefinierten Anwendung zu erhalten. Die Entwickler möchten Daten aus der benutzerdefinierten App in den Power BI Service pushen. Wie können Sie diese Aufgabe sicherstellen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Go to Office 365 Admin portal and register a web app.",
+      "Go to Tenant Setting from PowerBI admin portal and set the API permissions.",
+      "Go to app.powerbi.com and create an empty report.",
+      "Go to dev.powerbi.com/apps and register an application."
+    ],
+    "choices_ger": [
+      "Gehen Sie zum Office 365 Admin-Portal und registrieren Sie eine Web-App.",
+      "Gehen Sie zu Tenant Setting im PowerBI Admin-Portal und setzen Sie die API-Berechtigungen.",
+      "Gehen Sie zu app.powerbi.com und erstellen Sie einen leeren Bericht.",
+      "Gehen Sie zu dev.powerbi.com/apps und registrieren Sie eine Anwendung."
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q035",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a report named Sales_01. You plan to publish Sales_01 to a Blog, but you need to be sure that the report will preserve its size as a set on the report page. Which View Mode should you set for the Sales_01 report?",
+        "de": "Sie haben einen Bericht namens Sales_01. Sie planen, Sales_01 in einem Blog zu veröffentlichen, müssen aber sicherstellen, dass der Bericht seine eingestellte Größe auf der Berichtsseite beibehält. Welchen Anzeigemodus sollten Sie für den Sales_01-Bericht einstellen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Fit to Width",
+      "Custom size",
+      "16:09",
+      "Actual Size"
+    ],
+    "choices_ger": [
+      "An Breite anpassen",
+      "Benutzerdefinierte Größe",
+      "16:09",
+      "Tatsächliche Größe"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q035",
+    "content": [
+      {
+        "type": "text",
+        "eng": "How do you connect to Excel files that contain target figures? The solution should involve minimum manual work when new Excel files are created.",
+        "de": "Wie stellen Sie eine Verbindung zu Excel-Dateien her, die Zielzahlen enthalten? Die Lösung sollte beim Erstellen neuer Excel-Dateien möglichst wenig manuellen Aufwand erfordern."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Connect to the files with Folder connector and use the Combine Binaries functionality",
+      "Connect to a new file each month, perform transformations, and use Append function in Power Query Editor to combine all targets in the same table"
+    ],
+    "choices_ger": [
+      "Stellen Sie über den Ordner-Connector eine Verbindung zu den Dateien her und nutzen Sie die Funktion „Binärdateien kombinieren“.",
+      "Stellen Sie jeden Monat eine Verbindung zu einer neuen Datei her, führen Sie Transformationen durch und verwenden Sie die Anfügefunktion im Power Query-Editor, um alle Ziele in derselben Tabelle zu kombinieren"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  }
+]

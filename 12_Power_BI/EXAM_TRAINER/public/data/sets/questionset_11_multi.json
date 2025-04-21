@@ -1,0 +1,1246 @@
+[
+  {
+    "id": "q001",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a Power BI report for regional sales data. You write a measure to calculate the Percentage of Sales. The measure is calculating the percentages incorrectly as shown in the exhibit named Incorrect below.",
+        "de": "Sie erstellen einen Power BI-Bericht für regionale Verkaufsdaten. Sie schreiben ein Maß, um den Prozentsatz der Verkäufe zu berechnen. Das Maß berechnet die Prozentsätze falsch, wie in der unten stehenden Tabelle mit dem Namen 'Inkorrekt' dargestellt."
+      },
+      {
+        "type": "image",
+        "value": "q001_1.png"
+      },
+      {
+        "type": "text",
+        "eng": "You need to re-write the measure so that the percentage is correct for each country and region and the total percentage is 100 percent. The measure should calculate the percentages as shown in the below exhibit named Correct.",
+        "de": "Sie müssen das Maß so umschreiben, dass der Prozentsatz für jedes Land und jede Region korrekt ist und der Gesamtprozentsatz 100 Prozent beträgt. Das Maß sollte die Prozentsätze wie in der unten stehenden Tabelle mit dem Namen 'Korrekt' berechnen."
+      },
+      {
+        "type": "image",
+        "value": "q001_2.png"
+      },
+      {
+        "type": "text",
+        "eng": "How should you re-write the measure? To answer, select the appropriate option from the drop-down menu.",
+        "de": "Wie sollten Sie das Maß umschreiben? Wählen Sie die entsprechende Option aus dem Dropdown-Menü."
+      }
+    ],
+    "images": [
+      "q001_1.png",
+      "q001_2.png"
+    ],
+    "choices": [
+      "Percentage of Sales = DIVIDE(SUM(RegionalSales[Sales]), CALCULATE(SUM(RegionalSales[Sales]), REMOVEFILTERS() ))",
+      "Percentage of Sales = DIVIDE(SUM(RegionalSales[Sales]), CALCULATE(SUM(RegionalSales[Sales]), ALL(RegionalSales[Country]) ))",
+      "Percentage of Sales = DIVIDE(SUM(RegionalSales[Sales]), CALCULATE(SUM(RegionalSales[Sales]), ALLSELECTED('RegionalSales'[Region]) ))"
+    ],
+    "choices_ger": [
+      "Prozentanteil Verkäufe = DIVIDE(SUM(RegionalSales[Verkäufe]), CALCULATE(SUM(RegionalSales[Verkäufe]), REMOVEFILTERS() ))",
+      "Prozentanteil Verkäufe = DIVIDE(SUM(RegionalSales[Verkäufe]), CALCULATE(SUM(RegionalSales[Verkäufe]), ALL(RegionalSales[Land]) ))",
+      "Prozentanteil Verkäufe = DIVIDE(SUM(RegionalSales[Verkäufe]), CALCULATE(SUM(RegionalSales[Verkäufe]), ALLSELECTED('RegionalSales'[Region]) ))"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q002",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Overview: Company1 Pharmaceuticals develops, manufactures, and supplies healthcare products. Company1 has annual reporting requirements including a balance sheet, income statement, and a profit and loss report for the previous year with projections for the current year. The reporting within the financial system is limited and does not meet the Company's requirements. Historically, producing these statements and reports has taken significant manual effort that was error-prone, and it has not been possible to perform useful analysis on financial data. Planned Changes: Power BI service and Power BI Desktop will be used to generate financial reports, statements, and analysis for financial data. Data Sources: The finance system holds all financial data including sales and expenses. The finance system holds the chart of accounts. The finance system stores its data in an on-premises SQL Server. Sales prediction and budget plans are stored in Excel workbooks in SharePoint Online. Reporting Requirements: The following information should be produced: > Income trend > Expenditure trend > Comparison of income and expenditure for the current year with the previous year > Comparison of planned income and expenditure for next year with the current year. Users should also be able to: > Drill down on data by country and territory. > Drill down using the chart of accounts structure. > Use the Q&A feature of Power BI. Security Requirements: C level executives should have access to all analysis. Country and Territory managers should only have access to data for their country/territory.",
+        "de": "Übersicht: Company1 Pharmaceuticals entwickelt, produziert und liefert Gesundheitsprodukte. Company1 hat jährliche Berichtsanforderungen, einschließlich einer Bilanz, einer Gewinn- und Verlustrechnung für das Vorjahr mit Prognosen für das laufende Jahr. Die Berichterstattung im Finanzsystem ist begrenzt und erfüllt nicht die Anforderungen des Unternehmens. Historisch gesehen war die Erstellung dieser Berichte mit erheblichem manuellen Aufwand verbunden, der fehleranfällig war, und es war nicht möglich, nützliche Analysen der Finanzdaten durchzuführen. Geplante Änderungen: Power BI Service und Power BI Desktop werden verwendet, um Finanzberichte, Aussagen und Analysen für Finanzdaten zu erstellen. Datenquellen: Das Finanzsystem enthält alle Finanzdaten, einschließlich Verkäufe und Ausgaben. Das Finanzsystem enthält den Kontenplan. Das Finanzsystem speichert seine Daten in einer lokalen SQL Server-Instanz. Verkaufsprognosen und Budgetpläne werden in Excel-Arbeitsmappen in SharePoint Online gespeichert. Berichtsanforderungen: Die folgenden Informationen sollen erstellt werden: > Einkommensentwicklung > Ausgabenentwicklung > Vergleich von Einkommen und Ausgaben für das laufende Jahr mit dem Vorjahr > Vergleich der geplanten Einkommen und Ausgaben für das nächste Jahr mit dem laufenden Jahr. Benutzer sollten auch in der Lage sein: > Nach Ländern und Regionen zu drillen. > Die Kontenplanstruktur für Drilldowns zu nutzen. > Die Q&A-Funktion von Power BI zu verwenden. Sicherheitsanforderungen: C-Level-Führungskräfte sollten Zugriff auf alle Analysen haben. Länder- und Regionsmanager sollten nur Zugriff auf Daten für ihr Land/ihre Region haben."
+      },
+      {
+        "type": "image",
+        "value": "q002_1.png"
+      },
+      {
+        "type": "image",
+        "value": "q002_2.png"
+      },
+      {
+        "type": "image",
+        "value": "q002_3.png"
+      },
+      {
+        "type": "image",
+        "value": "q002_4.png"
+      },
+      {
+        "type": "text",
+        "eng": "Question: You have a visualization that shows the Budget amount by Account Number. You need to enable the drill down on the chart of account structure on the visualization. Are the four actions mentioned below should be performed in sequence to achieve the goal? Select Yes if true, otherwise select No. 1. Click on the Parent Account Number column and select New hierarchy. 2. Click on the Account Number column and select Add to hierarchy. 3. In the visualization, replace the Account Number with the new hierarchy 4. Enable drill down on the visualization.",
+        "de": "Frage: Sie haben eine Visualisierung, die den Budgetbetrag nach Kontonummer anzeigt. Sie müssen den Drilldown auf die Kontenplanstruktur in der Visualisierung aktivieren. Sollen die vier unten genannten Aktionen in dieser Reihenfolge ausgeführt werden, um das Ziel zu erreichen? Wählen Sie Ja, wenn dies zutrifft, andernfalls wählen Sie Nein. 1. Klicken Sie auf die Spalte 'Parent Account Number' und wählen Sie 'New hierarchy'. 2. Klicken Sie auf die Spalte 'Account Number' und wählen Sie 'Add to hierarchy'. 3. Ersetzen Sie in der Visualisierung die 'Account Number' durch die neue Hierarchie. 4. Aktivieren Sie den Drilldown in der Visualisierung."
+      }
+    ],
+    "images": [
+      "q002_1.png",
+      "q002_2.png",
+      "q002_3.png",
+      "q002_4.png"
+    ],
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "choices_ger": [
+      "Nein",
+      "Ja"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q003",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work for a retail organization that uses Power BI. The schema for the tables is shown in the below exhibits. The Customer table contains the names and IDs of the customers. The Product table contains the ids and names of the products. When a customer purchases from the retail establishment, a record in the Basket table is created to link the Customer to that purchase. The Products added to their Basket are stored in the Basket Items table. You need to find the number of customers who purchased the same set of products. You add a slicer for Product Name to your report to choose the set of products. How should you create the measure to count the number of customers who purchased the products selected? To answer, select the appropriate option.",
+        "de": "Sie arbeiten für eine Einzelhandelsorganisation, die Power BI verwendet. Das Schema der Tabellen ist in den unten stehenden Abbildungen dargestellt. Die Kundentabelle enthält die Namen und IDs der Kunden. Die Produkttabelle enthält die IDs und Namen der Produkte. Wenn ein Kunde im Einzelhandel einkauft, wird ein Datensatz in der Warenkorbtabelle erstellt, um den Kunden mit dem Kauf zu verknüpfen. Die Produkte, die dem Warenkorb hinzugefügt werden, werden in der Warenkorb-Artikel-Tabelle gespeichert. Sie müssen die Anzahl der Kunden ermitteln, die denselben Satz von Produkten gekauft haben. Sie fügen Ihrem Bericht einen Slicer für den Produktnamen hinzu, um den Satz von Produkten auszuwählen. Wie sollten Sie das Maß erstellen, um die Anzahl der Kunden zu zählen, die die ausgewählten Produkte gekauft haben? Wählen Sie die entsprechende Option aus."
+      },
+      {
+        "type": "image",
+        "value": "q003_1.png"
+      },
+      {
+        "type": "image",
+        "value": "q003_2.png"
+      }
+    ],
+    "images": [
+      "q003_1.png",
+      "q003_2.png"
+    ],
+    "choices": [
+      "ProductsSelected = COUNT('Product'[ProductID]) PurchasedSelected = IF(COUNT('Basket Items'[ProductID]) [ProductsSelected], 1, 0) CustomerCount = SUM(VALUES(Customer[CustomerID]), [PurchasedSelected])",
+      "ProductsSelected = COUNTX('Product'[ProductID]) PurchasedSelected = SUM(COUNTX('Basket Items'[ProductID]) [ProductsSelected], 1, 0) CustomerCount = SUM(VALUES(Customer[CustomerID]), [PurchasedSelected])",
+      "ProductsSelected = DISTINCTCOUNT('Product'[ProductID]) PurchasedSelected = IF(DISTINCTCOUNT('Basket Items'[ProductID]) [ProductsSelected], 1, 0) CustomerCount = SUMX(VALUES(Customer[CustomerID]), [PurchasedSelected])",
+      "ProductsSelected = COUNTX('Product'[ProductID]) PurchasedSelected = SUMX(COUNTX('Basket Items'[ProductID]) [ProductsSelected], 1, 0) CustomerCount = IF(VALUES(Customer[CustomerID]), [PurchasedSelected])"
+    ],
+    "choices_ger": [
+      "ProductsSelected = COUNT('Product'[ProductID]) PurchasedSelected = IF(COUNT('Basket Items'[ProductID]) [ProductsSelected], 1, 0) CustomerCount = SUM(VALUES(Customer[CustomerID]), [PurchasedSelected])",
+      "ProductsSelected = COUNTX('Product'[ProductID]) PurchasedSelected = SUM(COUNTX('Basket Items'[ProductID]) [ProductsSelected], 1, 0) CustomerCount = SUM(VALUES(Customer[CustomerID]), [PurchasedSelected])",
+      "ProductsSelected = DISTINCTCOUNT('Product'[ProductID]) PurchasedSelected = IF(DISTINCTCOUNT('Basket Items'[ProductID]) [ProductsSelected], 1, 0) CustomerCount = SUMX(VALUES(Customer[CustomerID]), [PurchasedSelected])",
+      "ProductsSelected = COUNTX('Product'[ProductID]) PurchasedSelected = SUMX(COUNTX('Basket Items'[ProductID]) [ProductsSelected], 1, 0) CustomerCount = IF(VALUES(Customer[CustomerID]), [PurchasedSelected])"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q004",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You import a table into Power BI. The schema is shown in the below exhibit.",
+        "de": "Sie importieren eine Tabelle in Power BI. Das Schema ist in der unten stehenden Abbildung dargestellt."
+      },
+      {
+        "type": "image",
+        "value": "q004_1.png"
+      },
+      {
+        "type": "text",
+        "eng": "You need to configure the columns in the table. Which Summarize option should you recommend for aggregating the columns for use in visualizations?",
+        "de": "Sie müssen die Spalten in der Tabelle konfigurieren. Welche Zusammenfassungsoption sollten Sie für die Aggregation der Spalten zur Verwendung in Visualisierungen empfehlen?"
+      },
+      {
+        "type": "image",
+        "value": "q004_2.png"
+      }
+    ],
+    "images": [
+      "q004_1.png",
+      "q004_2.png"
+    ],
+    "choices": [
+      "Amount: Sum Order Number: Average DateKey: Count",
+      "Amount: Sum Order Number: Count DateKey: None",
+      "Amount: Sum Order Number: Sum DateKey: Average",
+      "Amount: None Order Number: Count DateKey: Average"
+    ],
+    "choices_ger": [
+      "Betrag: Summe Auftragsnummer: Durchschnitt DateKey: Anzahl",
+      "Betrag: Summe Auftragsnummer: Anzahl DateKey: Keine",
+      "Betrag: Summe Auftragsnummer: Summe DateKey: Durchschnitt",
+      "Betrag: Keine Auftragsnummer: Anzahl DateKey: Durchschnitt"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q005",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a data model and report in Power BI desktop. The data model contains multiple tables, many relationships, and a set of measures. Users report poor performance when using your report. How can you identify the source of the performance issues?",
+        "de": "Sie erstellen ein Datenmodell und einen Bericht in Power BI Desktop. Das Datenmodell enthält mehrere Tabellen, viele Beziehungen und eine Reihe von Measures. Benutzer melden eine schlechte Leistung bei der Verwendung Ihres Berichts. Wie können Sie die Quelle der Leistungsprobleme identifizieren?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "use the Performance analyzer.",
+      "use the ALM Toolkit.",
+      "use the Tabular Editor.",
+      "use the DAX Studio tool."
+    ],
+    "choices_ger": [
+      "Verwenden Sie den Performance Analyzer.",
+      "Verwenden Sie das ALM Toolkit.",
+      "Verwenden Sie den Tabular Editor.",
+      "Verwenden Sie das DAX Studio-Tool."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q006",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create reports using the data model shown in the below exhibit. You have the following measure that is performing poorly The measure calculates the change in sales each year. SalesChangeYoY = IF(SUM(Sales[Amount]), DIVIDE([SumofSales] – CALCULATE([SumofSales], SAMEPERIODLASTYEAR(Sales[Date])), CALCULATE([SumofSales], SAMEPERIODLASTYEAR(Sales[Date])))) You need to improve the performance of the measure. What should you do?",
+        "de": "Sie erstellen Berichte mit dem in der unten stehenden Abbildung gezeigten Datenmodell. Sie haben das folgende Measure, das eine schlechte Leistung zeigt. Das Measure berechnet die Veränderung der Verkäufe jedes Jahr. SalesChangeYoY = IF(SUM(Sales[Amount]), DIVIDE([SumofSales] – CALCULATE([SumofSales], SAMEPERIODLASTYEAR(Sales[Date])), CALCULATE([SumofSales], SAMEPERIODLASTYEAR(Sales[Date])))) Sie müssen die Leistung des Measures verbessern. Was sollten Sie tun?"
+      },
+      {
+        "type": "image",
+        "value": "q006.png"
+      }
+    ],
+    "images": [
+      "q006.png"
+    ],
+    "choices": [
+      "Change the cardinality of both relationships to many-to-many",
+      "Create a calculated column containing the sales amount for the previous year",
+      "Change the cross filter directions on both relationships to Both",
+      "Rewrite the measures using DAX variables"
+    ],
+    "choices_ger": [
+      "Ändern Sie die Kardinalität beider Beziehungen zu viele-zu-viele",
+      "Erstellen Sie eine berechnete Spalte mit dem Verkaufsbetrag des Vorjahres",
+      "Ändern Sie die Kreuzfilterrichtungen beider Beziehungen auf 'Beide'",
+      "Schreiben Sie die Measures mit DAX-Variablen um"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q007",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a table named Sales. You need to create a measure that calculates sales from the previous year based on a dynamic period, as shown in the below exhibit.",
+        "de": "Sie haben eine Tabelle namens Sales. Sie müssen ein Measure erstellen, das die Verkäufe des Vorjahres basierend auf einem dynamischen Zeitraum berechnet, wie in der unten stehenden Abbildung gezeigt."
+      },
+      {
+        "type": "image",
+        "value": "q007.png"
+      },
+      {
+        "type": "text",
+        "eng": "Which two DAX expressions can you use to achieve your goal? Each correct answer presents a complete solution.",
+        "de": "Welche zwei DAX-Ausdrücke können Sie verwenden, um Ihr Ziel zu erreichen? Jede richtige Antwort stellt eine vollständige Lösung dar."
+      }
+    ],
+    "images": [
+      "q007.png"
+    ],
+    "choices": [
+      "_PY Sales = CALCULATE(SUM(Sales[Sales]), DATEADD('Calendar'[Date].[Date], -1, MONTH))",
+      "_PY Sales = CALCULATE(SUM(Sales[Sales]), DATEADD('Calendar'[Date].[Date], -1, YEAR))",
+      "_PY Sales = CALCULATE(SUM(Sales[Sales]), PARALLELPERIOD('Calendar'[Date], -1, YEAR))",
+      "_PY Sales = CALCULATE(SUM(Sales[Sales]), SAMEPERIODLASTYEAR('Calendar'[Date]))"
+    ],
+    "choices_ger": [
+      "_PY Verkäufe = CALCULATE(SUM(Sales[Sales]), DATEADD('Calendar'[Date].[Date], -1, MONTH))",
+      "_PY Verkäufe = CALCULATE(SUM(Sales[Sales]), DATEADD('Calendar'[Date].[Date], -1, YEAR))",
+      "_PY Verkäufe = CALCULATE(SUM(Sales[Sales]), PARALLELPERIOD('Calendar'[Date], -1, YEAR))",
+      "_PY Verkäufe = CALCULATE(SUM(Sales[Sales]), SAMEPERIODLASTYEAR('Calendar'[Date]))"
+    ],
+    "isMulti": true,
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "q008",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a Product table and a Sales table that are connected through a one-to-many relationship using the ProductName column, as shown in the exhibit.",
+        "de": "Sie haben eine Produkttabelle und eine Verkaufstabelle, die über eine eins-zu-viele-Beziehung mit der Spalte ProductName verbunden sind, wie in der Abbildung gezeigt."
+      },
+      {
+        "type": "image",
+        "value": "q008.png"
+      },
+      {
+        "type": "text",
+        "eng": "You need to optimize model performance. Which two actions should you perform? Each correct answer presents part of the solution.",
+        "de": "Sie müssen die Modellleistung optimieren. Welche zwei Aktionen sollten Sie durchführen? Jede richtige Antwort stellt einen Teil der Lösung dar."
+      }
+    ],
+    "images": [
+      "q008.png"
+    ],
+    "choices": [
+      "Create a new one-to-many relationship between the Sales and Product tables using the ProductID column.",
+      "Create a new one-to-many relationship between the Product and Sales tables using the ProductID column.",
+      "Change the data type of the ProductName column from text to whole number in the Product table.",
+      "Remove the existing relationship based on the ProductName column between the Product and Sales tables."
+    ],
+    "choices_ger": [
+      "Erstellen Sie eine neue eins-zu-viele-Beziehung zwischen der Verkaufs- und der Produkttabelle mit der Spalte ProductID.",
+      "Erstellen Sie eine neue eins-zu-viele-Beziehung zwischen der Produkt- und der Verkaufstabelle mit der Spalte ProductID.",
+      "Ändern Sie den Datentyp der Spalte ProductName von Text zu Ganzzahl in der Produkttabelle.",
+      "Entfernen Sie die bestehende Beziehung basierend auf der Spalte ProductName zwischen der Produkt- und der Verkaufstabelle."
+    ],
+    "isMulti": true,
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "q009",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You load sales data into Power BI. Your organization uses many different terms for sales data such as revenue, net sales, and total sales. You need to configure the Sales table and its columns for users to successfully use the Q&A feature in Dashboards. Solution: Mark the Sales table as the date table. Does this solution meet the goal?",
+        "de": "Sie laden Verkaufsdaten in Power BI. Ihre Organisation verwendet viele verschiedene Begriffe für Verkaufsdaten wie Umsatz, Nettoumsatz und Gesamtumsatz. Sie müssen die Verkaufstabelle und ihre Spalten so konfigurieren, dass Benutzer die Q&A-Funktion in Dashboards erfolgreich nutzen können. Lösung: Markieren Sie die Verkaufstabelle als Datumstabelle. Erfüllt diese Lösung das Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "choices_ger": [
+      "Nein",
+      "Ja"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q010",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a report to help sales users understand their data. You need to use the appropriate type of visualization for each of the requirements of the sales team. Which visualizations should you use for each requirement stated below: Identify outliers in customers with sales opportunities.",
+        "de": "Sie erstellen einen Bericht, um Vertriebsmitarbeitern zu helfen, ihre Daten zu verstehen. Sie müssen den geeigneten Visualisierungstyp für jede Anforderung des Vertriebsteams verwenden. Welche Visualisierungen sollten Sie für die folgenden Anforderungen verwenden: Identifizieren Sie Ausreißer bei Kunden mit Verkaufschancen."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Scatter",
+      "Waterfall",
+      "Treemap",
+      "Card",
+      "Key influencers",
+      "KPI"
+    ],
+    "choices_ger": [
+      "Streudiagramm",
+      "Wasserfalldiagramm",
+      "Baumkarte",
+      "Karte",
+      "Key Influencers",
+      "KPI"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q011",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create multiple Power BI dashboards. You define the data classifications and tags. You need to show users how the data in the dashboards is classified. For each of the following statements, select Yes if the statement is true. Otherwise, select No. 1. Data classifications are defined at the tenant level. 2. Access to dashboards with data classification configured is controlled by Azure Active Directory (AD) security groups. 3. The data classification for a dashboard is always displayed.",
+        "de": "Sie erstellen mehrere Power BI-Dashboards. Sie definieren die Datenklassifizierungen und Tags. Sie müssen Benutzern zeigen, wie die Daten in den Dashboards klassifiziert sind. Wählen Sie für jede der folgenden Aussagen Ja, wenn die Aussage wahr ist. Andernfalls wählen Sie Nein. 1. Datenklassifizierungen werden auf Mandantenebene definiert. 2. Der Zugriff auf Dashboards mit konfigurierter Datenklassifizierung wird durch Azure Active Directory (AD)-Sicherheitsgruppen gesteuert. 3. Die Datenklassifizierung für ein Dashboard wird immer angezeigt."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "1. Yes 2. No 3. No",
+      "1. Yes 2. Yes 3. Yes",
+      "1. No 2. No 3. Yes",
+      "1. Yes 2. No 3. Yes",
+      "1. No 2. Yes 3. Yes",
+      "1. No 2. No 3. No"
+    ],
+    "choices_ger": [
+      "1. Ja 2. Nein 3. Nein",
+      "1. Ja 2. Ja 3. Ja",
+      "1. Nein 2. Nein 3. Ja",
+      "1. Ja 2. Nein 3. Ja",
+      "1. Nein 2. Ja 3. Ja",
+      "1. Nein 2. Nein 3. Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q012",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create the stacked column chart shown in the below exhibit.",
+        "de": "Sie erstellen das gestapelte Säulendiagramm, das in der unten stehenden Abbildung gezeigt wird."
+      },
+      {
+        "type": "image",
+        "value": "q012.png"
+      },
+      {
+        "type": "text",
+        "eng": "When you hover over a data point in the visual you need to also show the value of goods sold, Total sales. What are two possible ways to achieve this goal? Each correct answer presents a complete solution.",
+        "de": "Wenn Sie mit der Maus über einen Datenpunkt in der Visualisierung fahren, müssen Sie auch den Wert der verkauften Waren, Gesamtumsatz, anzeigen. Was sind zwei mögliche Möglichkeiten, um dieses Ziel zu erreichen? Jede richtige Antwort stellt eine vollständige Lösung dar."
+      }
+    ],
+    "images": [
+      "q012.png"
+    ],
+    "choices": [
+      "Enable Total labels on the visual",
+      "Add Total sales to Drill through on the visual",
+      "Enable Data labels on the visual",
+      "Add Total sales to Tooltips on the visual",
+      "Create a report tooltip page with a card visual for Total sales"
+    ],
+    "choices_ger": [
+      "Aktivieren Sie Gesamtbeschriftungen in der Visualisierung",
+      "Fügen Sie Gesamtumsatz zu 'Drillthrough' in der Visualisierung hinzu",
+      "Aktivieren Sie Datenbeschriftungen in der Visualisierung",
+      "Fügen Sie Gesamtumsatz zu Tooltips in der Visualisierung hinzu",
+      "Erstellen Sie eine Berichtstooltip-Seite mit einer Kartenvisualisierung für Gesamtumsatz"
+    ],
+    "isMulti": true,
+    "correct": [
+      3,
+      4
+    ]
+  },
+  {
+    "id": "q013",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have Power BI Premium with assigned capacity. You have a dataset containing employee key performance indicators (KPIs). You create a Power BI report with a visual that shows employees with low scoring KPIs. You pin the visual to a dashboard and share the dashboard with users in Human Resources (HR). HR users need to be able to generate a list of employees to investigate for poor performance and import that list into their HR system. What should you do?",
+        "de": "Sie haben Power BI Premium mit zugewiesener Kapazität. Sie haben einen Datensatz mit Mitarbeiter-KPIs. Sie erstellen einen Power BI-Bericht mit einer Visualisierung, die Mitarbeiter mit niedrigen KPI-Werten anzeigt. Sie heften die Visualisierung an ein Dashboard und teilen das Dashboard mit Benutzern in der Personalabteilung (HR). HR-Mitarbeiter müssen in der Lage sein, eine Liste von Mitarbeitern zu generieren, die aufgrund schlechter Leistung untersucht werden sollen, und diese Liste in ihr HR-System zu importieren. Was sollten Sie tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Configure Cloud App Security.",
+      "Grant HR users the Reshare permission on the dataset.",
+      "Grant HR users Build permission on the dataset.",
+      "Apply a sensitivity label in the dashboard settings."
+    ],
+    "choices_ger": [
+      "Konfigurieren Sie Cloud App Security.",
+      "Erteilen Sie HR-Benutzern die Berechtigung 'Reshare' für den Datensatz.",
+      "Erteilen Sie HR-Benutzern die Berechtigung 'Build' für den Datensatz.",
+      "Wenden Sie ein Sensitivity Label in den Dashboard-Einstellungen an."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q014",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What happens when you click on Focus mode of a tile in Power BI dashboard?",
+        "de": "Was passiert, wenn Sie auf den Fokusmodus einer Kachel in einem Power BI-Dashboard klicken?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "The tile you selected expands and takes the full space",
+      "The Power BI desktop file opens.",
+      "The Power BI desktop file gets downloaded",
+      "The report from which the tile was pinned opens."
+    ],
+    "choices_ger": [
+      "Die ausgewählte Kachel wird vergrößert und nimmt den gesamten Platz ein",
+      "Die Power BI Desktop-Datei wird geöffnet.",
+      "Die Power BI Desktop-Datei wird heruntergeladen",
+      "Der Bericht, von dem die Kachel angeheftet wurde, wird geöffnet."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q015",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a report to help sales users understand their data. You need to use the appropriate type of visualization for each of the requirements of the sales team. Which visualizations should you use for each requirement stated below: Show the factors that affect the outcome of sales opportunities.",
+        "de": "Sie erstellen einen Bericht, um Vertriebsmitarbeitern zu helfen, ihre Daten zu verstehen. Sie müssen den geeigneten Visualisierungstyp für jede Anforderung des Vertriebsteams verwenden. Welche Visualisierungen sollten Sie für die folgenden Anforderungen verwenden: Zeigen Sie die Faktoren an, die das Ergebnis von Verkaufschancen beeinflussen."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Waterfall",
+      "Treemap",
+      "KPI",
+      "Key influencers",
+      "Scatter",
+      "Card"
+    ],
+    "choices_ger": [
+      "Wasserfalldiagramm",
+      "Baumkarte",
+      "KPI",
+      "Key Influencers",
+      "Streudiagramm",
+      "Karte"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q016",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a Power BI report containing a corrplot R visual for a dataset that has 1 million rows of sales data. You publish the report to the Power BI service. Users can only see some of the sales data and an error is displayed. You need to identify the root cause of this issue. What is preventing all the data from be displayed?",
+        "de": "Sie erstellen einen Power BI-Bericht mit einer corrplot R-Visualisierung für einen Datensatz mit 1 Million Zeilen Verkaufsdaten. Sie veröffentlichen den Bericht im Power BI Service. Benutzer können nur einen Teil der Verkaufsdaten sehen und eine Fehlermeldung wird angezeigt. Sie müssen die Ursache dieses Problems identifizieren. Was verhindert die Anzeige aller Daten?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "The visual has too many rows.",
+      "The data rows are unique.",
+      "The report has been published in an app.",
+      "Corrplot is not supported in Powerbi.com."
+    ],
+    "choices_ger": [
+      "Die Visualisierung hat zu viele Zeilen.",
+      "Die Datenzeilen sind eindeutig.",
+      "Der Bericht wurde in einer App veröffentlicht.",
+      "Corrplot wird in Powerbi.com nicht unterstützt."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q017",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create several Power BI report pages. You need to make the report pages more interactive for users. To answer, drag the appropriate Power BI feature for the stated requirement. 'Create a view of a report page with the filters applied'",
+        "de": "Sie erstellen mehrere Power BI-Berichtsseiten. Sie müssen die Berichtsseiten für Benutzer interaktiver gestalten. Ziehen Sie die entsprechende Power BI-Funktion für die angegebene Anforderung. 'Erstellen Sie eine Ansicht einer Berichtsseite mit den angewendeten Filtern'"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Bookmarks",
+      "Buttons",
+      "Comments",
+      "Selection pane"
+    ],
+    "choices_ger": [
+      "Lesezeichen",
+      "Schaltflächen",
+      "Kommentare",
+      "Auswahlbereich"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q018",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work for a multinational company as a data analyst. You create a Power BI report for your company. The report has three pages containing visualizations of sales data. You need to filter the visuals for all three report pages whenever a country is selected. What are two possible ways to achieve this goal? Each correct answer presents a complete solution.",
+        "de": "Sie arbeiten als Datenanalyst für ein multinationales Unternehmen. Sie erstellen einen Power BI-Bericht für Ihr Unternehmen. Der Bericht enthält drei Seiten mit Visualisierungen von Verkaufsdaten. Sie müssen die Visualisierungen für alle drei Berichtsseiten filtern, wenn ein Land ausgewählt wird. Was sind zwei mögliche Möglichkeiten, um dieses Ziel zu erreichen? Jede richtige Antwort stellt eine vollständige Lösung dar."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Create a bookmark for each page and for each country.",
+      "Add a page level filter to each of the three pages using Country as the data field.",
+      "Add a report level filter using Country as the data field.",
+      "Add a slicer to each of the three pages with Country as the field and configure Sync slicers.",
+      "Create a visual for Country and set the interaction behavior for each of the other visuals"
+    ],
+    "choices_ger": [
+      "Erstellen Sie für jede Seite und jedes Land ein Lesezeichen.",
+      "Fügen Sie jeder der drei Seiten einen Seitenfilter mit Land als Datenfeld hinzu.",
+      "Fügen Sie einen Berichtsfilter mit Land als Datenfeld hinzu.",
+      "Fügen Sie jeder der drei Seiten einen Slicer mit Land als Feld hinzu und konfigurieren Sie Sync Slicers.",
+      "Erstellen Sie eine Visualisierung für Land und legen Sie das Interaktionsverhalten für jede andere Visualisierung fest"
+    ],
+    "isMulti": true,
+    "correct": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "q019",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a matrix visual that shows Sales % and Sales by Product Line as shown in the exhibit. /Table1/ The Sales % measure shows as a percentage the contribution of sales in that product line for overall sales. You need to add a background color to the Sales measure as follows: When the Sales % contribution is >= 15 and <=17 percent, highlight it in light yellow. What should you do to configure conditional formatting? To answer, select the appropriate options for each of the blank field. /Table2/",
+        "de": "Sie haben eine Matrixvisualisierung, die Verkaufs-% und Verkäufe nach Produktlinie anzeigt, wie in der Abbildung dargestellt. /Tabelle1/ Das Maß Verkaufs-% zeigt prozentual den Beitrag der Verkäufe in dieser Produktlinie zum Gesamtumsatz. Sie müssen dem Verkaufsmaß eine Hintergrundfarbe wie folgt hinzufügen: Wenn der Verkaufs-% Beitrag >= 15 und <=17 Prozent beträgt, markieren Sie ihn in hellgelb. Was sollten Sie tun, um die bedingte Formatierung zu konfigurieren? Wählen Sie die entsprechenden Optionen für jedes leere Feld aus. /Tabelle2/"
+      },
+      {
+        "type": "image",
+        "value": "q019_1.png"
+      },
+      {
+        "type": "image",
+        "value": "q019_2.png"
+      }
+    ],
+    "images": [
+      "q019_1.png",
+      "q019_2.png"
+    ],
+    "choices": [
+      "is greater than or equal to 0.15 Number",
+      "Based on field > Sales",
+      "Format by > Color Scale",
+      "Based on field > Sales %",
+      "Format by > Rules",
+      "is less than or equal to 0.17 Number"
+    ],
+    "choices_ger": [
+      "ist größer oder gleich 0,15 Zahl",
+      "Basierend auf Feld > Verkäufe",
+      "Formatieren nach > Farbskala",
+      "Basierend auf Feld > Verkaufs-%",
+      "Formatieren nach > Regeln",
+      "ist kleiner oder gleich 0,17 Zahl"
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "q020",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a Power BI report for your company. The report has four pages containing visualization of financial data. Page 1 contains visualizations that show income and expenditure. Page 2 contains visualizations that analyze Accounts Payable. Page 3 contains visualizations on Accounts Receivable. Page 4 contains visualizations on Fixed Assets. You add a fifth page, home page. How should you configure the home page to allow users to navigate to the report pages? Solution: • Create a bookmark for each report page. • Add four buttons to the home page and set action type to Bookmark. • On each button, select the bookmark for the page. Does this solution meet the goal?",
+        "de": "Sie erstellen einen Power BI-Bericht für Ihr Unternehmen. Der Bericht enthält vier Seiten mit Visualisierungen von Finanzdaten. Seite 1 enthält Visualisierungen, die Einnahmen und Ausgaben zeigen. Seite 2 enthält Visualisierungen, die Verbindlichkeiten analysieren. Seite 3 enthält Visualisierungen zu Forderungen. Seite 4 enthält Visualisierungen zu Anlagevermögen. Sie fügen eine fünfte Seite, die Startseite, hinzu. Wie sollten Sie die Startseite konfigurieren, damit Benutzer zu den Berichtsseiten navigieren können? Lösung: • Erstellen Sie für jede Berichtsseite ein Lesezeichen. • Fügen Sie der Startseite vier Schaltflächen hinzu und legen Sie den Aktionstyp auf Lesezeichen fest. • Wählen Sie für jede Schaltfläche das Lesezeichen für die Seite aus. Erfüllt diese Lösung das Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "choices_ger": [
+      "Nein",
+      "Ja"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q021",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a report to help sales users understand their data. You need to use the appropriate type of visualization for each of the requirements of the sales team. Which visualizations should you use for each requirement stated below: Show progress of sales opportunities won against target.",
+        "de": "Sie erstellen einen Bericht, um Vertriebsmitarbeitern zu helfen, ihre Daten zu verstehen. Sie müssen den geeigneten Visualisierungstyp für jede Anforderung des Vertriebsteams verwenden. Welche Visualisierungen sollten Sie für die folgende Anforderung verwenden: Zeigen Sie den Fortschritt der gewonnenen Verkaufschancen im Vergleich zum Ziel."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Scatter",
+      "Key influencers",
+      "Card",
+      "KPI",
+      "Waterfall",
+      "Treemap"
+    ],
+    "choices_ger": [
+      "Streudiagramm",
+      "Key Influencers",
+      "Karte",
+      "KPI",
+      "Wasserfalldiagramm",
+      "Baumkarte"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q022",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a dashboard in Power BI that has visuals created from data in the Common Data Service. The dashboard contains a KPI visual. You need to automate the notification of alerts when the KPI value exceeds a threshold. Which two options are available when configuring an alert in Power BI service? Each correct answer presents a complete solution.",
+        "de": "Sie haben ein Dashboard in Power BI mit Visualisierungen, die aus Daten im Common Data Service erstellt wurden. Das Dashboard enthält eine KPI-Visualisierung. Sie müssen die Benachrichtigung von Warnungen automatisieren, wenn der KPI-Wert einen Schwellenwert überschreitet. Welche zwei Optionen stehen bei der Konfiguration einer Warnung im Power BI Service zur Verfügung? Jede richtige Antwort stellt eine vollständige Lösung dar."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Push a notification to a mobile device",
+      "Send an email",
+      "Call a webhook",
+      "Run a Power Automate flow"
+    ],
+    "choices_ger": [
+      "Eine Benachrichtigung an ein mobiles Gerät senden",
+      "Eine E-Mail senden",
+      "Einen Webhook aufrufen",
+      "Einen Power Automate-Flow ausführen"
+    ],
+    "isMulti": true,
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "q023",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which fields are available when creating a Pie chart visualization?",
+        "de": "Welche Felder sind beim Erstellen einer Kreisdiagramm-Visualisierung verfügbar?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Group",
+      "Value",
+      "Details",
+      "Legend"
+    ],
+    "choices_ger": [
+      "Gruppe",
+      "Wert",
+      "Details",
+      "Legende"
+    ],
+    "isMulti": true,
+    "correct": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "q024",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a Power BI report for your company. The report has four pages containing visualization of financial data. Page 1 contains visualizations that show income and expenditure. Page 2 contains visualizations that analyze Accounts Payable. Page 3 contains visualizations on Accounts Receivable. Page 4 contains visualizations on Fixed Assets. You add a fifth page, home page. How should you configure the home page to allow users to navigate to the report pages? Solution: • Add four images to the home page and set action type to Page navigation. • Select the destination page for each image. Does this solution meet the goal?",
+        "de": "Sie erstellen einen Power BI-Bericht für Ihr Unternehmen. Der Bericht enthält vier Seiten mit Visualisierungen von Finanzdaten. Seite 1 enthält Visualisierungen, die Einnahmen und Ausgaben zeigen. Seite 2 enthält Visualisierungen, die Verbindlichkeiten analysieren. Seite 3 enthält Visualisierungen zu Forderungen. Seite 4 enthält Visualisierungen zu Anlagevermögen. Sie fügen eine fünfte Seite, die Startseite, hinzu. Wie sollten Sie die Startseite konfigurieren, damit Benutzer zu den Berichtsseiten navigieren können? Lösung: • Fügen Sie der Startseite vier Bilder hinzu und legen Sie den Aktionstyp auf Seitenavigation fest. • Wählen Sie für jedes Bild die Zielseite aus. Erfüllt diese Lösung das Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "choices_ger": [
+      "Nein",
+      "Ja"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q025",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a report in Power BI. You need to configure the page for use with screen reader software for partially sighted users. What should you configure on the report page so that the screen reader follows a logical sequence?",
+        "de": "Sie erstellen einen Bericht in Power BI. Sie müssen die Seite für die Verwendung mit Screenreader-Software für sehbehinderte Benutzer konfigurieren. Was sollten Sie auf der Berichtsseite konfigurieren, damit der Screenreader einer logischen Reihenfolge folgt?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Tab order",
+      "Focus mode",
+      "Layer order",
+      "Bookmark groups"
+    ],
+    "choices_ger": [
+      "Tab-Reihenfolge",
+      "Fokusmodus",
+      "Ebenenreihenfolge",
+      "Lesezeichengruppen"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q026",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which properties of a tile can be edited in the Power BI dashboard from the Tile details window? Choose the correct answers.",
+        "de": "Welche Eigenschaften einer Kachel können im Power BI-Dashboard im Fenster 'Kacheldetails' bearbeitet werden? Wählen Sie die richtigen Antworten aus."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Subtitle",
+      "Color scheme",
+      "Title",
+      "Destination link"
+    ],
+    "choices_ger": [
+      "Untertitel",
+      "Farbschema",
+      "Titel",
+      "Ziel-Link"
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "q027",
+    "content": [
+      {
+        "type": "text",
+        "eng": "By default, which filter level behaves the same as a slicer in a report in Power BI Desktop?",
+        "de": "Welche Filterebene verhält sich standardmäßig wie ein Slicer in einem Bericht in Power BI Desktop?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Report level filter",
+      "Visual level filter",
+      "Page level filter",
+      "Query level filter"
+    ],
+    "choices_ger": [
+      "Berichtsfilter",
+      "Visualisierungsfilter",
+      "Seitenfilter",
+      "Abfragefilter"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q028",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a Power BI report. You need to improve report navigation. Which options should you use for the stated task? 'Preserve visual selection of a specific report page'",
+        "de": "Sie erstellen einen Power BI-Bericht. Sie müssen die Berichtsnavigation verbessern. Welche Optionen sollten Sie für die angegebene Aufgabe verwenden? 'Behalten Sie die visuelle Auswahl einer bestimmten Berichtsseite bei'"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Button",
+      "Bookmarks"
+    ],
+    "choices_ger": [
+      "Schaltfläche",
+      "Lesezeichen"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q029",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a dashboard in Power BI with several visuals. You need to explain how the dashboard will appear on a mobile device using the Power BI app. For each of the following statements, select Yes if the statement is true. Otherwise, select No. 1. By default, in the Power BI mobile, all tiles on a dashboard appear with the same size in a vertical list. 2. Enabling Dashboard tile flow causes the tiles to be displayed on a mobile device as they are on a web browser. 3. Creating a Phone view of a dashboard, allows you to resize and rearrange the visuals for the Power BI mobile app.",
+        "de": "Sie erstellen ein Dashboard in Power BI mit mehreren Visualisierungen. Sie müssen erklären, wie das Dashboard auf einem mobilen Gerät mit der Power BI-App angezeigt wird. Wählen Sie für jede der folgenden Aussagen Ja, wenn die Aussage wahr ist. Andernfalls wählen Sie Nein. 1. Standardmäßig erscheinen alle Kacheln eines Dashboards in der Power BI Mobile-App in einer vertikalen Liste mit derselben Größe. 2. Durch Aktivieren von 'Dashboard-Kachelfluss' werden die Kacheln auf einem mobilen Gerät so angezeigt wie in einem Webbrowser. 3. Durch Erstellen einer Telefonansicht eines Dashboards können Sie die Visualisierungen für die Power BI Mobile-App in der Größe anpassen und neu anordnen."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "1. No 2. Yes 3. Yes",
+      "1. Yes 2. Yes 3. No",
+      "1. Yes 2. No 3. Yes",
+      "1. No 2. No 3. Yes",
+      "1. Yes 2. Yes 3. Yes",
+      "1. No 2. No 3. No"
+    ],
+    "choices_ger": [
+      "1. Nein 2. Ja 3. Ja",
+      "1. Ja 2. Ja 3. Nein",
+      "1. Ja 2. Nein 3. Ja",
+      "1. Nein 2. Nein 3. Ja",
+      "1. Ja 2. Ja 3. Ja",
+      "1. Nein 2. Nein 3. Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q030",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a report page named Sales which contains visual A, showing total sales for each city for the selected year, as shown in the below exhibit. /Table/ You need to configure an interaction for this visual. When clicking Drill through, it should redirect to a detail page that shows Sales for the selected city by Product Line and will preserve all the filters from the Sales page. Which four actions should you perform? Each correct answer presents part of the solution.",
+        "de": "Sie haben eine Berichtsseite namens 'Sales', die Visual A enthält, das den Gesamtumsatz für jede Stadt für das ausgewählte Jahr anzeigt, wie in der unten stehenden Abbildung dargestellt. /Tabelle/ Sie müssen eine Interaktion für diese Visualisierung konfigurieren. Beim Klicken auf 'Drillthrough' soll zu einer Detailseite weitergeleitet werden, die den Umsatz für die ausgewählte Stadt nach Produktlinie anzeigt und alle Filter von der Sales-Seite beibehält. Welche vier Aktionen sollten Sie durchführen? Jede richtige Antwort stellt einen Teil der Lösung dar."
+      },
+      {
+        "type": "image",
+        "value": "q030.png"
+      }
+    ],
+    "images": [
+      "q030.png"
+    ],
+    "choices": [
+      "On the Sales page, under the drill through option, set Keep all filters to On.",
+      "On the Sales page, under the drill through option, add City column as the drill through field.",
+      "Create a new page named Detail.",
+      "On the Detail page, under the drill through option, set Keep all filters to On.",
+      "Create a table visual named Visual B to show total sales by city and product line.",
+      "On the Detail page, under the drill through option, add City column as the drill through field."
+    ],
+    "choices_ger": [
+      "Auf der Sales-Seite unter der Drillthrough-Option 'Alle Filter beibehalten' auf 'Ein' setzen.",
+      "Auf der Sales-Seite unter der Drillthrough-Option die Spalte 'City' als Drillthrough-Feld hinzufügen.",
+      "Eine neue Seite namens 'Detail' erstellen.",
+      "Auf der Detail-Seite unter der Drillthrough-Option 'Alle Filter beibehalten' auf 'Ein' setzen.",
+      "Eine Tabellenvisualisierung namens 'Visual B' erstellen, die den Gesamtumsatz nach Stadt und Produktlinie anzeigt.",
+      "Auf der Detail-Seite unter der Drillthrough-Option die Spalte 'City' als Drillthrough-Feld hinzufügen."
+    ],
+    "isMulti": true,
+    "correct": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "q031",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You need to configure data alerts for a dashboard. Which three visuals can be configured for data alerts? Each correct answer presents a complete solution.",
+        "de": "Sie müssen Datenwarnungen für ein Dashboard konfigurieren. Welche drei Visualisierungen können für Datenwarnungen konfiguriert werden? Jede richtige Antwort stellt eine vollständige Lösung dar."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Gauge visual",
+      "KPI visual",
+      "Matrix visual",
+      "Card visual",
+      "Line visual"
+    ],
+    "choices_ger": [
+      "Messgerät-Visualisierung",
+      "KPI-Visualisierung",
+      "Matrix-Visualisierung",
+      "Karten-Visualisierung",
+      "Liniendiagramm-Visualisierung"
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "q032",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a report page in Power BI. You need to create a dashboard that will be simultaneously updated whenever the report page is updated. What should you do?",
+        "de": "Sie erstellen eine Berichtsseite in Power BI. Sie müssen ein Dashboard erstellen, das gleichzeitig aktualisiert wird, wenn die Berichtsseite aktualisiert wird. Was sollten Sie tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Pin the report to a new dashboard as a live page.",
+      "Enable Persistent filters in report settings.",
+      "Create a new dashboard and pin each of the visuals from the report page as individual tiles.",
+      "Enable Dashboard tile flow in dashboard settings."
+    ],
+    "choices_ger": [
+      "Den Bericht als Live-Seite an ein neues Dashboard anheften.",
+      "Persistente Filter in den Berichtseinstellungen aktivieren.",
+      "Ein neues Dashboard erstellen und jede Visualisierung der Berichtsseite als einzelne Kachel anheften.",
+      "Dashboard-Kachelfluss in den Dashboard-Einstellungen aktivieren."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q033",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a Power BI report to help users understand their data. You need to use the appropriate type of visualization for each of the requirements. Which visualizations should you use for the below-stated requirement? 'Use scikit learn machine learning in visuals'",
+        "de": "Sie erstellen einen Power BI-Bericht, um Benutzern zu helfen, ihre Daten zu verstehen. Sie müssen den geeigneten Visualisierungstyp für jede Anforderung verwenden. Welche Visualisierungen sollten Sie für die folgende Anforderung verwenden: 'Scikit-learn Machine Learning in Visualisierungen verwenden'"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Python",
+      "R",
+      "Power Apps",
+      "D3"
+    ],
+    "choices_ger": [
+      "Python",
+      "R",
+      "Power Apps",
+      "D3"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q034",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What is the file format used to define a theme for a Power BI report?",
+        "de": "Welches Dateiformat wird verwendet, um ein Thema für einen Power BI-Bericht zu definieren?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Power BI Markup Language (PBIML)",
+      "Cascading Style Sheets (CCS)",
+      "JavaScript Object Notation (JSON)",
+      "Extensible Markup Language (XML)"
+    ],
+    "choices_ger": [
+      "Power BI Markup Language (PBIML)",
+      "Cascading Style Sheets (CCS)",
+      "JavaScript Object Notation (JSON)",
+      "Extensible Markup Language (XML)"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q035",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a Power BI report to help users understand their data. You need to use the appropriate type of visualization for each of the requirements. Which visualizations should you use for the below-stated requirement? 'Use JavaScript to create visuals'",
+        "de": "Sie erstellen einen Power BI-Bericht, um Benutzern zu helfen, ihre Daten zu verstehen. Sie müssen den geeigneten Visualisierungstyp für jede Anforderung verwenden. Welche Visualisierungen sollten Sie für die folgende Anforderung verwenden: 'JavaScript zum Erstellen von Visualisierungen verwenden'"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Power Apps",
+      "Python",
+      "D3",
+      "R"
+    ],
+    "choices_ger": [
+      "Power Apps",
+      "Python",
+      "D3",
+      "R"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q036",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a report in Power BI Desktop containing many visualizations. You need to apply the fonts and colors to match your corporate standards. What should you do?",
+        "de": "Sie erstellen einen Bericht in Power BI Desktop mit vielen Visualisierungen. Sie müssen Schriftarten und Farben an Ihre Unternehmensstandards anpassen. Was sollten Sie tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Customize the theme.",
+      "Set the Data colors on each visualization.",
+      "Set the font family on the page display settings.",
+      "Change the font on each visualization."
+    ],
+    "choices_ger": [
+      "Das Thema anpassen.",
+      "Die Datenfarben für jede Visualisierung festlegen.",
+      "Die Schriftfamilie in den Seitenanzeigeeinstellungen festlegen.",
+      "Die Schriftart für jede Visualisierung ändern."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q037",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a dashboard tile that shows the manufacturing efficiency using a card visual. The manufacturing efficiency measure is formatted as a percentage. Your company requires a notification to be sent when efficiency drops below 70 percent. You need to configure email alerts to meet this requirement. Which four actions should you perform? Each correct answer presents part of the solution.",
+        "de": "Sie haben eine Dashboard-Kachel, die die Fertigungseffizienz mit einer Kartenvisualisierung anzeigt. Das Maß für die Fertigungseffizienz ist als Prozentsatz formatiert. Ihr Unternehmen verlangt, dass eine Benachrichtigung gesendet wird, wenn die Effizienz unter 70 Prozent fällt. Sie müssen E-Mail-Warnungen konfigurieren, um diese Anforderung zu erfüllen. Welche vier Aktionen sollten Sie durchführen? Jede richtige Antwort stellt einen Teil der Lösung dar."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Check the Send me email too checkbox and click Save and close.",
+      "Click the Save and close button.",
+      "Click the + Add alert rule button.",
+      "Choose Below in the Condition field and set the Threshold value to 0.7.",
+      "Choose Below in the Condition field and set the Threshold value to 70.",
+      "Choose More options on the Manufacturing efficiency card visual and click on Manage alerts."
+    ],
+    "choices_ger": [
+      "Aktivieren Sie das Kontrollkästchen 'Send me email too' und klicken Sie auf 'Save and close'.",
+      "Klicken Sie auf die Schaltfläche 'Save and close'.",
+      "Klicken Sie auf die Schaltfläche '+ Add alert rule'.",
+      "Wählen Sie im Feld 'Condition' 'Below' und setzen Sie den 'Threshold'-Wert auf 0,7.",
+      "Wählen Sie im Feld 'Condition' 'Below' und setzen Sie den 'Threshold'-Wert auf 70.",
+      "Wählen Sie 'More options' auf der 'Manufacturing efficiency'-Kartenvisualisierung und klicken Sie auf 'Manage alerts'."
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "q038",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work on the new filter pane experience for a Power BI report. What can you achieve by using the new filter pane experience? For each of the following statements, select Yes if the statement is true. Otherwise, select No. 1. Hide specific filters from report consumers. 2. Lock specific filters so report consumers cannot edit them. 3. Disable the search for the Filters pane.",
+        "de": "Sie arbeiten an der neuen Filterbereich-Oberfläche für einen Power BI-Bericht. Was können Sie mit der neuen Filterbereich-Oberfläche erreichen? Wählen Sie für jede der folgenden Aussagen Ja, wenn die Aussage wahr ist. Andernfalls wählen Sie Nein. 1. Bestimmte Filter vor Berichtskonsumenten verbergen. 2. Bestimmte Filter sperren, damit Berichtskonsumenten sie nicht bearbeiten können. 3. Die Suche im Filterbereich deaktivieren."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "1. Yes 2. Yes 3. No",
+      "1. No 2. No 3. No",
+      "1. Yes 2. No 3. No",
+      "1. Yes 2. Yes 3. Yes",
+      "1. No 2. Yes 3. No",
+      "1. No 2. Yes 3. Yes"
+    ],
+    "choices_ger": [
+      "1. Ja 2. Ja 3. Nein",
+      "1. Nein 2. Nein 3. Nein",
+      "1. Ja 2. Nein 3. Nein",
+      "1. Ja 2. Ja 3. Ja",
+      "1. Nein 2. Ja 3. Nein",
+      "1. Nein 2. Ja 3. Ja"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q039",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Months are sorted alphabetically in Stacked bar chart. What can you do to sort it by month number?",
+        "de": "Monate werden im gestapelten Balkendiagramm alphabetisch sortiert. Was können Sie tun, um sie nach Monatsnummer zu sortieren?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Right Click on field in report view and select sort by, then select MonthNumber",
+      "Click on ellipses on Right Top Corner of visual > Sort by - MonthNumber",
+      "Modeling > Select Month Column > Sort By - MonthNumber"
+    ],
+    "choices_ger": [
+      "Rechtsklick auf das Feld in der Berichtsansicht und 'Sort by' auswählen, dann 'MonthNumber' auswählen",
+      "Auf die Auslassungspunkte in der rechten oberen Ecke der Visualisierung klicken > 'Sort by' - 'MonthNumber'",
+      "Modellierung > Monatsspalte auswählen > 'Sort By' - 'MonthNumber'"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q040",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Using the bookmarking features in the report designer in Power BI Desktop, there is a limitation of creating only one bookmark per page in a report. Is this statement correct?",
+        "de": "Bei Verwendung der Lesezeichenfunktionen im Berichtsdesigner in Power BI Desktop gibt es eine Einschränkung, dass nur ein Lesezeichen pro Seite in einem Bericht erstellt werden kann. Ist diese Aussage richtig?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "choices_ger": [
+      "Nein",
+      "Ja"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  }
+]

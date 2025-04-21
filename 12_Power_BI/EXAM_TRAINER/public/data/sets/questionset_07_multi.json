@@ -1,0 +1,1026 @@
+[
+  {
+    "id": "q001",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your Power BI Desktop project contains a report named Sales_1. Sales_1 connects to a Microsoft SQL Server database by using DirectQuery connection. After you have published the Sales_1 report to the Power BI service, the visualizations don't work. How can you solve the issue?",
+        "de": "Ihr Power BI Desktop-Projekt enthält einen Bericht namens Sales_1. Sales_1 verbindet sich über eine DirectQuery-Verbindung mit einer Microsoft SQL Server-Datenbank. Nachdem Sie den Sales_1-Bericht im Power BI Service veröffentlicht haben, funktionieren die Visualisierungen nicht. Wie können Sie das Problem lösen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Install the on-premises data gateway (personal mode) and republish the report.",
+      "Install the on-premises data gateway and configure a data source.",
+      "Configure the Microsoft SQL Server database credentials on Power BI Service.",
+      "Refresh the Microsoft SQL Server database connection from Power BI Desktop and then republish the report."
+    ],
+    "choices_ger": [
+      "Installieren Sie das lokale Datengateway (Personal Mode) und veröffentlichen Sie den Bericht erneut.",
+      "Installieren Sie das lokale Datengateway und konfigurieren Sie eine Datenquelle.",
+      "Konfigurieren Sie die Anmeldeinformationen der Microsoft SQL Server-Datenbank im Power BI Service.",
+      "Aktualisieren Sie die Microsoft SQL Server-Datenbankverbindung in Power BI Desktop und veröffentlichen Sie den Bericht dann erneut."
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q002",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have got a YouTube channel where you weekly post Power BI tutorials. You want to add one of your videos to a tile in the Subscritions&Views dashboard. Which type of tile should you add?",
+        "de": "Sie haben einen YouTube-Kanal, auf dem Sie wöchentlich Power BI-Tutorials veröffentlichen. Sie möchten eines Ihrer Videos als Kachel im Subscriptions&Views-Dashboard hinzufügen. Welchen Kacheltyp sollten Sie verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Image Attachement",
+      "Video",
+      "Custom Streaming Data",
+      "Text Box"
+    ],
+    "choices_ger": [
+      "Bildanhänge",
+      "Video",
+      "Benutzerdefinierte Streaming-Daten",
+      "Textfeld"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q003",
+    "content": [
+      {
+        "type": "text",
+        "eng": "After you have created a report in Power BI Desktop, you want to embed it into the Microsoft SharePoint site of your organization. Select the three actions you should perform in sequence.",
+        "de": "Nachdem Sie einen Bericht in Power BI Desktop erstellt haben, möchten Sie ihn in die Microsoft SharePoint-Website Ihrer Organisation einbetten. Wählen Sie die drei Aktionen aus, die Sie in der richtigen Reihenfolge durchführen sollten."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Publish the report to the Power BI service - Obtain an embed link for SharePoint - Pin a live page.",
+      "Publish the report to the Power BI service - Obtain an embed link for SharePoint - Add a webpart to a page.",
+      "Save the report into a .pbix file - Import the .pbix file into Power BI Service - Publish the report into Microsoft OneDrive.",
+      "Publish the report to Power BI Service - Pin a live page - Add a webpart to a page."
+    ],
+    "choices_ger": [
+      "Bericht im Power BI Service veröffentlichen - Einbettungslink für SharePoint erstellen - Live-Seite anheften",
+      "Bericht im Power BI Service veröffentlichen - Einbettungslink für SharePoint erstellen - Webpart zu einer Seite hinzufügen",
+      "Bericht als .pbix-Datei speichern - .pbix-Datei in Power BI Service importieren - Bericht in Microsoft OneDrive veröffentlichen",
+      "Bericht im Power BI Service veröffentlichen - Live-Seite anheften - Webpart zu einer Seite hinzufügen"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q004",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You manage a Power BI dashboard named Restaurants_SalesData which contains some tiles that display the last week's sales performance for each restaurant. When the dashboard refreshes data it takes too much time to be ready, because the refresh involves the last five years' sales data. How can you optimize the data refresh performance?",
+        "de": "Sie verwalten ein Power BI-Dashboard namens Restaurants_SalesData, das einige Kacheln enthält, die die Verkaufsleistung der letzten Woche für jedes Restaurant anzeigen. Wenn das Dashboard Daten aktualisiert, dauert es zu lange, weil die Aktualisierung die Verkaufsdaten der letzten fünf Jahre umfasst. Wie können Sie die Leistung der Datenaktualisierung optimieren?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Enable the Incremental Refresh in Power BI Service.",
+      "Configure the Incremental Refresh in Power BI Desktop and enable it in Power BI Service.",
+      "Schedule the refresh daily at 00:00AM.",
+      "Configure the Gateway with DirectQuery Connection."
+    ],
+    "choices_ger": [
+      "Aktivieren Sie die inkrementelle Aktualisierung im Power BI Service.",
+      "Konfigurieren Sie die inkrementelle Aktualisierung in Power BI Desktop und aktivieren Sie sie im Power BI Service.",
+      "Planen Sie die Aktualisierung täglich um 00:00 Uhr.",
+      "Konfigurieren Sie das Gateway mit DirectQuery-Verbindung."
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q005",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You plan to create a dashboard that will be shared with all the members of your organization. You want to embed a company video hosted on the Company YouTube channel into the dashboard. What should you do?",
+        "de": "Sie planen, ein Dashboard zu erstellen, das mit allen Mitgliedern Ihrer Organisation geteilt wird. Sie möchten ein Unternehmensvideo, das auf dem YouTube-Kanal des Unternehmens gehostet wird, in das Dashboard einbetten. Was sollten Sie tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Edit the report in Power BI Desktop and add a Video visualization.",
+      "Download the video and Upload it on Microsoft OneDrive for Business, then paste the URL video in the dashboard from PowerBI Service.",
+      "To the dashboard, add a tile that uses a video content source.",
+      "To the dashboard, add a tile that uses a Web content source."
+    ],
+    "choices_ger": [
+      "Bearbeiten Sie den Bericht in Power BI Desktop und fügen Sie eine Video-Visualisierung hinzu.",
+      "Laden Sie das Video herunter und laden Sie es auf Microsoft OneDrive for Business hoch, dann fügen Sie die Video-URL im Dashboard über den PowerBI Service ein.",
+      "Fügen Sie dem Dashboard eine Kachel hinzu, die eine Video-Inhaltsquelle verwendet.",
+      "Fügen Sie dem Dashboard eine Kachel hinzu, die eine Web-Inhaltsquelle verwendet."
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q006",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your Company uses Power BI to manage sales reports. Often, these reports are exported as PDF files. The Company's policy requires that the exported reports are encrypted. What can you use to meet this requirement?",
+        "de": "Ihr Unternehmen verwendet Power BI zur Verwaltung von Verkaufsberichten. Oft werden diese Berichte als PDF-Dateien exportiert. Die Unternehmensrichtlinie verlangt, dass die exportierten Berichte verschlüsselt sind. Was können Sie verwenden, um diese Anforderung zu erfüllen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Edit export permissions options in the Company Tenant.",
+      "Edit datasets security options.",
+      "Use sensitivity labels.",
+      "Use Row Level Security."
+    ],
+    "choices_ger": [
+      "Bearbeiten Sie die Exportberechtigungen im Company Tenant.",
+      "Bearbeiten Sie die Sicherheitsoptionen für Datensätze.",
+      "Verwenden Sie Sensitivitätslabels.",
+      "Verwenden Sie Row Level Security."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q007",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have an Enrollments report that contains a set of visualization and a slicer to filter the data by year. After you publish the report in Power BI Service you want to create a dashboard that contains all the visualizations, slicer included. What should you do?",
+        "de": "Sie haben einen Einschreibungsbericht, der eine Reihe von Visualisierungen und einen Slicer zur Filterung der Daten nach Jahr enthält. Nachdem Sie den Bericht im Power BI Service veröffentlicht haben, möchten Sie ein Dashboard erstellen, das alle Visualisierungen einschließlich des Slicers enthält. Was sollten Sie tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Pin each visualization to the dashboard and then add a calendar tile.",
+      "Pin the report as a live page.",
+      "Create an app workspace.",
+      "Filter the report by year and then pin each visualization to the dashboard."
+    ],
+    "choices_ger": [
+      "Heften Sie jede Visualisierung an das Dashboard und fügen Sie dann eine Kalenderkachel hinzu.",
+      "Heften Sie den Bericht als Live-Seite an.",
+      "Erstellen Sie einen App-Arbeitsbereich.",
+      "Filtern Sie den Bericht nach Jahr und heften Sie dann jede Visualisierung an das Dashboard."
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q008",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a dashboard named Sales_01 hosted on your Company Workspace. You need to share the dashboard with external guest users giving them editing and manage content permissions. How guest users can be integrated into the Organization users Tenant?",
+        "de": "Sie haben ein Dashboard namens Sales_01, das in Ihrem Company Workspace gehostet wird. Sie müssen das Dashboard mit externen Gastbenutzern teilen und ihnen Bearbeitungs- und Inhaltsverwaltungsberechtigungen erteilen. Wie können Gastbenutzer in den Tenant der Organisationsbenutzer integriert werden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Enable Power BI Premium Capacity.",
+      "It is a tricky question: External users can have only view access.",
+      "Add guest users to Azure Active Directory.",
+      "Enable the Share content with 'external users' feature from the Power BI admin portal."
+    ],
+    "choices_ger": [
+      "Aktivieren Sie Power BI Premium Capacity.",
+      "Das ist eine Fangfrage: Externe Benutzer können nur Lesezugriff haben.",
+      "Fügen Sie Gastbenutzer zu Azure Active Directory hinzu.",
+      "Aktivieren Sie die Funktion 'Inhalte mit externen Benutzern teilen' im Power BI Admin-Portal."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q009",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You created a dashboard that contains a card visual that shows total enrollments in the current year. Your customer accesses to the dashboard from a workspace with the viewer role. The customer wants to receive a notification about the daily total enrollments shown on the card. How can you meet the goal?",
+        "de": "Sie haben ein Dashboard erstellt, das eine Kartenvisualisierung enthält, die die Gesamtzahl der Einschreibungen im aktuellen Jahr anzeigt. Ihr Kunde greift auf das Dashboard aus einem Arbeitsbereich mit der Viewer-Rolle zu. Der Kunde möchte eine Benachrichtigung über die täglichen Gesamteinschreibungen erhalten, die auf der Karte angezeigt werden. Wie können Sie dieses Ziel erreichen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Create a data alert.",
+      "Add the customer to a security group.",
+      "Share the dashboard with the user.",
+      "Create a subscription."
+    ],
+    "choices_ger": [
+      "Erstellen Sie eine Datenwarnung.",
+      "Fügen Sie den Kunden zu einer Sicherheitsgruppe hinzu.",
+      "Teilen Sie das Dashboard mit dem Benutzer.",
+      "Erstellen Sie ein Abonnement."
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q010",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your team plans to use Power BI for BI reporting activities. Which activities are allowed with a Power BI free license?",
+        "de": "Ihr Team plant, Power BI für BI-Reporting-Aktivitäten zu nutzen. Welche Aktivitäten sind mit einer kostenlosen Power BI-Lizenz erlaubt?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Access a published Power BI app.",
+      "None of them.",
+      "None of them.",
+      "Modify reports in an app workspace."
+    ],
+    "choices_ger": [
+      "Auf eine veröffentlichte Power BI-App zugreifen.",
+      "Keine davon.",
+      "Keine davon.",
+      "Berichte in einem App-Arbeitsbereich bearbeiten."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q011",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have created an app workplace in your PowerBI Service that contains several reports. You need to provide a user@01datapower.com with the ability to edit and publish reports. Select the right solution",
+        "de": "Sie haben einen App-Arbeitsbereich in Ihrem PowerBI Service erstellt, der mehrere Berichte enthält. Sie müssen user@01datapower.com die Möglichkeit geben, Berichte zu bearbeiten und zu veröffentlichen. Wählen Sie die richtige Lösung"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Modify the members of the app workspace.",
+      "Set the (RLS) Row LEvel Security from PowerBI Desktop.",
+      "From the app workplace, click Update app, and then configure the Access settings.",
+      "Configure security group from Azure AD."
+    ],
+    "choices_ger": [
+      "Ändern Sie die Mitglieder des App-Arbeitsbereichs.",
+      "Legen Sie die (RLS) Row Level Security in PowerBI Desktop fest.",
+      "Klicken Sie im App-Arbeitsbereich auf 'App aktualisieren' und konfigurieren Sie dann die Zugriffseinstellungen.",
+      "Konfigurieren Sie eine Sicherheitsgruppe in Azure AD."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q012",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider the previous question scenario. You have a Power BI Workspace named SalesTeamBI Workspace. Michael is a Power BI user who has access to SalesTeamBI Workspace. He is also a member of a Security Group named Sales_Team. You must prevent Michael from exporting data from SalesTeamBI Workspace. Solution: From the Microsoft Office 365 Admin center, you modify the properties of the Sales_Team Security Group. Does this solution resolve the issue?",
+        "de": "Betrachten Sie das Szenario der vorherigen Frage. Sie haben einen Power BI-Arbeitsbereich namens SalesTeamBI Workspace. Michael ist ein Power BI-Benutzer, der Zugriff auf SalesTeamBI Workspace hat. Er ist auch Mitglied einer Sicherheitsgruppe namens Sales_Team. Sie müssen verhindern, dass Michael Daten aus SalesTeamBI Workspace exportiert. Lösung: Im Microsoft Office 365 Admin Center ändern Sie die Eigenschaften der Sales_Team-Sicherheitsgruppe. Löst diese Lösung das Problem?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "choices_ger": [
+      "Nein",
+      "Ja"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q013",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your company asks you to create a Machine Learning Model in order to estimate next season sales. You plan to use Power BI to achieve this task, thanks to its straightforward Auto ML tool. Select the sequence of the right steps to enable and use the Auto ML tool.",
+        "de": "Ihr Unternehmen bittet Sie, ein Machine Learning-Modell zu erstellen, um die Verkäufe der nächsten Saison zu schätzen. Sie planen, Power BI für diese Aufgabe zu verwenden, dank seines benutzerfreundlichen Auto ML-Tools. Wählen Sie die richtige Abfolge der Schritte, um das Auto ML-Tool zu aktivieren und zu verwenden."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Get Power BI Premium - Create a Dataflow for the historical data - Add a Machine Learning Model.",
+      "Install the Auto ML addon in Power BI Desktop - Import a training dataset in Power BI Desktop - Launch the Auto ML tool.",
+      "Get Power BI PRO - Create a Dataflow for the historical data - Add a Machine Learning Model.",
+      "Create a Dataflow for the historical data - select the ML model to apply - Start the training of Auto ML."
+    ],
+    "choices_ger": [
+      "Power BI Premium beschaffen - Dataflow für die historischen Daten erstellen - Machine Learning-Modell hinzufügen",
+      "Auto ML-Addon in Power BI Desktop installieren - Trainingsdatensatz in Power BI Desktop importieren - Auto ML-Tool starten",
+      "Power BI PRO beschaffen - Dataflow für die historischen Daten erstellen - Machine Learning-Modell hinzufügen",
+      "Dataflow für die historischen Daten erstellen - ML-Modell zur Anwendung auswählen - Training des Auto ML starten"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q014",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your organization has subscribed a Microsoft Office 365 license. However, users who try to access the Power BI Service receive the error message shown in the picture. [IMAGE HERE] In order to ensure that all users can have access to the PowerBI Service, what should you do first?",
+        "de": "Ihre Organisation hat eine Microsoft Office 365-Lizenz abonniert. Dennoch erhalten Benutzer, die versuchen, auf den Power BI Service zuzugreifen, die im Bild gezeigte Fehlermeldung. [IMAGE HERE] Um sicherzustellen, dass alle Benutzer Zugriff auf den PowerBI Service haben, was sollten Sie zuerst tun?"
+      },
+      {
+        "type": "image",
+        "value": "q014.png"
+      }
+    ],
+    "images": [
+      "q014.png"
+    ],
+    "choices": [
+      "Refresh 'all users' security group from Azure AD.",
+      "From the properties of each app workspace, modify the member settings.",
+      "From Microsoft Azure PowerShell, run the Set-MsolCompanySettings cmdlet.",
+      "From Power BI Admin portal, modify the Tenant settings."
+    ],
+    "choices_ger": [
+      "Aktualisieren Sie die Sicherheitsgruppe 'Alle Benutzer' in Azure AD.",
+      "Ändern Sie in den Eigenschaften jedes App-Arbeitsbereichs die Mitgliedereinstellungen.",
+      "Führen Sie in Microsoft Azure PowerShell das Cmdlet Set-MsolCompanySettings aus.",
+      "Ändern Sie im Power BI Admin-Portal die Tenant-Einstellungen."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q015",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You need to create a Power BI app workspace that will be accessible by 10,000 users. The dashboard contains sensitive data and you want that it will be updated every 1 hour. What should you do?",
+        "de": "Sie müssen einen Power BI-App-Arbeitsbereich erstellen, der für 10.000 Benutzer zugänglich sein wird. Das Dashboard enthält sensible Daten und Sie möchten, dass es jede Stunde aktualisiert wird. Was sollten Sie tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Assign each user a Power BI Pro license.",
+      "Configure the app workspace for Premium capacity.",
+      "Create the app workspace by using an account with a Power BI Pro license.",
+      "Publish the dashboard on the Web."
+    ],
+    "choices_ger": [
+      "Weisen Sie jedem Benutzer eine Power BI Pro-Lizenz zu.",
+      "Konfigurieren Sie den App-Arbeitsbereich für Premium-Kapazität.",
+      "Erstellen Sie den App-Arbeitsbereich mit einem Konto, das über eine Power BI Pro-Lizenz verfügt.",
+      "Veröffentlichen Sie das Dashboard im Web."
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q016",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You need to use Power BI Embedded to distribute reports into a Web application. You want that reports display live data. Select the right data source to use",
+        "de": "Sie müssen Power BI Embedded verwenden, um Berichte in eine Webanwendung einzubetten. Die Berichte sollen Live-Daten anzeigen. Wählen Sie die richtige Datenquelle aus."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Microsoft SQL Server Analysis Services (SSAS) database.",
+      "Microsoft Azure Data Warehouse.",
+      "Microsoft Azure SQL Database.",
+      "Microsoft Azure LiveInsight."
+    ],
+    "choices_ger": [
+      "Microsoft SQL Server Analysis Services (SSAS)-Datenbank.",
+      "Microsoft Azure Data Warehouse.",
+      "Microsoft Azure SQL-Datenbank.",
+      "Microsoft Azure LiveInsight."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q017",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your customer owns a custom BI App based on PowerBI Embedded technology. He requests to scale up the capacity available for his custom BI App. What do you need to change?",
+        "de": "Ihr Kunde besitzt eine benutzerdefinierte BI-App auf Basis von Power BI Embedded. Er möchte die Kapazität für seine BI-App erhöhen. Was müssen Sie ändern?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "The licensing plan from Office 365 admin center.",
+      "Tenant settings from the PowerBI admin portal.",
+      "The Workspace settings from PowerBI Service.",
+      "Pricing tier from Azure Portal."
+    ],
+    "choices_ger": [
+      "Den Lizenzplan im Office 365 Admin Center.",
+      "Die Mandanteneinstellungen im Power BI Admin-Portal.",
+      "Die Arbeitsbereichseinstellungen im Power BI Service.",
+      "Den Tarif im Azure-Portal."
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q018",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are using Power BI Desktop optimized for Power BI Report Server to create a report. Select three types of visualizations that will work correctly when you will publish the report to the PowerBI Report Server.",
+        "de": "Sie verwenden Power BI Desktop (optimiert für Power BI Report Server) um einen Bericht zu erstellen. Wählen Sie drei Visualisierungstypen aus, die nach der Veröffentlichung auf dem Power BI Report Server korrekt funktionieren."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Funnel charts",
+      "Bubble maps",
+      "Breadcrumbs",
+      "Custom visuals",
+      "R Visuals"
+    ],
+    "choices_ger": [
+      "Trichterdiagramme",
+      "Blasenkarten",
+      "Breadcrumbs",
+      "Benutzerdefinierte Visuals",
+      "R-Visuals"
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "q019",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your organization has a Microsoft SharePoint Online site named Enrollments accessed by 1,000 users. After you have created a report in an app workspace on Power BI Service, you embed the report into a page on the Enrollments site by using the Power BI web part. You must ensure that all of the 1,000 users can view the report from the Enrollments Sharepoint site. Which option should you do first?",
+        "de": "Ihre Organisation hat eine Microsoft SharePoint Online-Website namens 'Enrollments', die von 1.000 Nutzern genutzt wird. Nachdem Sie einen Bericht in einem App-Arbeitsbereich im Power BI Service erstellt haben, betten Sie den Bericht mit dem Power BI Web Part in die Enrollments-Website ein. Sie müssen sicherstellen, dass alle 1.000 Nutzer den Bericht auf der SharePoint-Website sehen können. Was sollten Sie zuerst tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Disable the Embed content in apps setting from the Tenant settings in Power BI.",
+      "Configure the app workspace for Premium capacity.",
+      "Enable anonymous access for the Enrollments site.",
+      "Configure Sharepoint Online for public reports."
+    ],
+    "choices_ger": [
+      "Deaktivieren Sie die Einstellung 'Inhalte in Apps einbetten' in den Mandanteneinstellungen von Power BI.",
+      "Konfigurieren Sie den App-Arbeitsbereich für Premium-Kapazität.",
+      "Aktivieren Sie anonymen Zugriff für die Enrollments-Website.",
+      "Konfigurieren Sie SharePoint Online für öffentliche Berichte."
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q020",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are a Power BI admin and plan to add a specific user named User_01 as a member to a workspace named SalesData_01. You choose to use Powershell to achieve the task. Complete the following cmdlet: [IMAGE HERE]",
+        "de": "Sie sind Power BI-Administrator und möchten einen bestimmten Benutzer (User_01) als Mitglied zu einem Arbeitsbereich (SalesData_01) hinzufügen. Dazu verwenden Sie PowerShell. Vervollständigen Sie das folgende Cmdlet: [IMAGE HERE]"
+      },
+      {
+        "type": "image",
+        "value": "q020.png"
+      }
+    ],
+    "images": [
+      "q020.png"
+    ],
+    "choices": [
+      "-Id 3244f1c1-01cf-457f-9383-6035e4950fdc",
+      "report id 3244f1c1-01cf-457f-9383-6035e4950fdc",
+      "SalesData_01",
+      "DataGroup"
+    ],
+    "choices_ger": [
+      "-Id 3244f1c1-01cf-457f-9383-6035e4950fdc",
+      "Berichts-ID 3244f1c1-01cf-457f-9383-6035e4950fdc",
+      "SalesData_01",
+      "DataGroup"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q021",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have shared a Power BI app named OrgApp with your Organization by the AppSource. The privacy for the OrgApp is set to Private. A user reports that OrgApp does not appear in the My organization AppSource. What should you do to fix the problem?",
+        "de": "Sie haben eine Power BI-App (OrgApp) über AppSource für Ihre Organisation freigegeben. Die Privatsphäre-Einstellung für OrgApp ist auf 'Privat' gesetzt. Ein Benutzer meldet, dass OrgApp nicht in der 'Meine Organisation'-AppSource erscheint. Wie beheben Sie das Problem?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "From the app workspace settings, add all the organization's users as a member.",
+      "From the app workspace, share the datasets.",
+      "From the app workspace, click Update app, configure the Access setting, and then click Update app.",
+      "From the tenant settings in the PowerBI admin portal enable the privacy settings for the App."
+    ],
+    "choices_ger": [
+      "Fügen Sie im App-Arbeitsbereich alle Organisationsnutzer als Mitglieder hinzu.",
+      "Teilen Sie die Datasets im App-Arbeitsbereich.",
+      "Klicken Sie im App-Arbeitsbereich auf 'App aktualisieren', konfigurieren Sie die Zugriffseinstellungen und klicken Sie dann auf 'App aktualisieren'.",
+      "Aktivieren Sie in den Mandanteneinstellungen des Power BI Admin-Portals die Privatsphäre-Einstellungen für die App."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q022",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are the admin of an app workspace where you collaborate with the other 5 members. Select the action that the members of the app workspace can't perform.",
+        "de": "Sie sind Administrator eines App-Arbeitsbereichs, in dem Sie mit 5 weiteren Mitgliedern zusammenarbeiten. Wählen Sie die Aktion aus, die die Mitglieder des App-Arbeitsbereichs NICHT ausführen können."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Delete a report shared in the app workspace.",
+      "Delete dashboard shared in the app workspace.",
+      "Remove other member users.",
+      "Create a new dashboard."
+    ],
+    "choices_ger": [
+      "Einen im Arbeitsbereich freigegebenen Bericht löschen.",
+      "Ein im Arbeitsbereich freigegebenes Dashboard löschen.",
+      "Andere Mitglieder entfernen.",
+      "Ein neues Dashboard erstellen."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q023",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have set a parameter named ExcelDataSet which contains the location-path of a Microsoft Excel data source. Now, you want to update the query to get dynamic use of the parameter instead of copying the location-path in each query. Solution: Modify the source step of the queries and use ExcelDataSet as the file path. Does this solution meet the goal?",
+        "de": "Sie haben einen Parameter namens ExcelDataSet angelegt, der den Speicherpfad einer Microsoft Excel-Datenquelle enthält. Jetzt möchten Sie die Abfrage aktualisieren, um den Parameter dynamisch zu nutzen, anstatt den Speicherpfad in jeder Abfrage zu kopieren. Lösung: Ändern Sie den Quellschritt der Abfragen und verwenden Sie ExcelDataSet als Dateipfad. Erfüllt diese Lösung das Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q024",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider a Power BI model with the following tables: Course (Columns: CourseID, CourseName), Enrollments (Columns: EnrollmentsID, EnrollmentsDate, CourseID, TeacherID, TotalPaid), Teacher (Columns: TeacherID, TeacherName) You want to create the following measure: SoldCourse = DISTINCTCOUNT(Enrollments[CourseID]) You must create the following relationships: Enrollments to Course, Enrollments to Teacher N.B. The measures must display the number of courses sold and the teacher who is responsible for it. Select the right configuration of relationships.",
+        "de": "Betrachten Sie ein Power BI-Modell mit folgenden Tabellen: Course (Spalten: CourseID, CourseName), Enrollments (Spalten: EnrollmentsID, EnrollmentsDate, CourseID, TeacherID, TotalPaid), Teacher (Spalten: TeacherID, TeacherName). Sie möchten folgendes Measure erstellen: SoldCourse = DISTINCTCOUNT(Enrollments[CourseID]). Sie müssen folgende Beziehungen erstellen: Enrollments zu Course, Enrollments zu Teacher. Hinweis: Die Measures sollen die Anzahl verkaufter Kurse und den verantwortlichen Lehrer anzeigen. Wählen Sie die richtige Beziehungskonfiguration."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Relationship: Many-to-One and Cross Filter Direction: Both",
+      "Relationship: One-to-Many and Cross Filter Direction: Both",
+      "Relationship: One-to-One and Cross Filter Direction: Single",
+      "Relationship: Many-to-One and Cross Filter Direction: Single"
+    ],
+    "choices_ger": [
+      "Beziehung: Viele-zu-Eins und Kreuzfilterrichtung: Beide",
+      "Beziehung: Eins-zu-Viele und Kreuzfilterrichtung: Beide",
+      "Beziehung: Eins-zu-Eins und Kreuzfilterrichtung: Einfach",
+      "Beziehung: Viele-zu-Eins und Kreuzfilterrichtung: Einfach"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q025",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your colleague passes you a Power BI report named 'DeltaCompanySales' requesting support to optimize the report loading performances. DeltaCompanySales retrieves data from an imported dataset that contains one table with 15 million rows. The report is a single page with 12 PowerBI default visuals. The customer complains about the report performances when loading data and interacting with visuals. What do you suggest to increase report performances?",
+        "de": "Ein Kollege übergibt Ihnen einen Power BI-Bericht namens 'DeltaCompanySales' mit der Bitte um Unterstützung bei der Optimierung der Ladeleistung. Der Bericht bezieht Daten aus einem importierten Datensatz mit einer Tabelle von 15 Millionen Zeilen. Der Bericht hat eine einzelne Seite mit 12 Standard-PowerBI-Visualisierungen. Der Kunde beschwert sich über die Leistung beim Laden der Daten und bei der Interaktion mit Visualisierungen. Was schlagen Sie zur Leistungssteigerung vor?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Remove unused columns from tables in the data model.",
+      "Change the data connectivity to DirectQuery.",
+      "Convert all DAX Calculated Measures into Calculated Columns.",
+      "Change the data connectivity to Live."
+    ],
+    "choices_ger": [
+      "Nicht verwendete Spalten aus den Tabellen des Datenmodells entfernen.",
+      "Die Datenverbindung auf DirectQuery ändern.",
+      "Alle DAX-basierten Measures in berechnete Spalten umwandeln.",
+      "Die Datenverbindung auf Live ändern."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q026",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a CSV file that contains employees' badging. This file contains a column named 'Starting Time'. The data in 'Starting Time' is in the following format: 2021-01-10 at 09:00. You want to analyze the Badging trend by the Starting Time column and use a built-in date hierarchy. What should you do?",
+        "de": "Sie haben eine CSV-Datei mit Mitarbeiter-Zutrittsdaten. Die Datei enthält eine Spalte namens 'Starting Time' im Format: 2021-01-10 at 09:00. Sie möchten den Zutritts-Trend nach der Starting Time-Spalte analysieren und eine integrierte Datumshierarchie verwenden. Was sollten Sie tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Create a column by example that starts with 2021-01-10.",
+      "Create a column by example that starts with 2021-01-10, then set the data type of the new column to Date.",
+      "Create a new Date table using the CALENDAR function.",
+      "Duplicate the Starting Time column and use the TRIM function."
+    ],
+    "choices_ger": [
+      "Eine Spalte nach Beispiel erstellen, die mit 2021-01-10 beginnt.",
+      "Eine Spalte nach Beispiel erstellen, die mit 2021-01-10 beginnt, dann den Datentyp der neuen Spalte auf Datum setzen.",
+      "Eine neue Datumstabelle mit der CALENDAR-Funktion erstellen.",
+      "Die Starting Time-Spalte duplizieren und die TRIM-Funktion verwenden."
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q027",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider a Power BI model with two tables named Enrollments and Date. Enrollments contains five columns named StudentID, TotalPaid, EnrollmentDate, AttendanceDate, and StartingDate. The Date table contains only one column named Date. The tables have the following relationships: Enrollments[EnrollmentDate] and Date[Date], Enrollments[AttendanceDate] and Date[Date], Enrollments[StartingDate] and Date[Date]. The active relationship is on Enrollments[EnrollmentDate]. You plan to create measures to count both the number of Enrollments by [AttendanceDate] and the Enrollments by [StartingDate]. NOTE: You can't meet the goal by duplicating data or loading additional data. Solution: You should create two copies of the Date table named AttendanceDate and StartingDate, then you create a measure that uses the new tables. Does this solution resolve the issue?",
+        "de": "Betrachten Sie ein Power BI-Modell mit zwei Tabellen: Enrollments und Date. Enrollments enthält fünf Spalten: StudentID, TotalPaid, EnrollmentDate, AttendanceDate und StartingDate. Die Date-Tabelle enthält nur eine Spalte namens Date. Die Tabellen haben folgende Beziehungen: Enrollments[EnrollmentDate] zu Date[Date], Enrollments[AttendanceDate] zu Date[Date], Enrollments[StartingDate] zu Date[Date]. Die aktive Beziehung ist auf Enrollments[EnrollmentDate]. Sie möchten Measures erstellen, die sowohl die Anzahl der Anmeldungen nach [AttendanceDate] als auch nach [StartingDate] zählen. Hinweis: Das Ziel darf nicht durch Daten-Duplikation oder zusätzliche Daten erreicht werden. Lösung: Sie sollten zwei Kopien der Date-Tabelle (AttendanceDate und StartingDate) erstellen und dann ein Measure mit den neuen Tabellen erstellen. Löst diese Lösung das Problem?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q028",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider a Power BI model with two tables named Enrollments and Date. Enrollments table contains five columns named StudentID, TotalPaid, EnrollmentDate, AttendanceDate, and StartingDate. The Date Table contains only one column named Date. The tables have the following relationships: Enrollments [EnrollmentDate] to Date[Date] Enrollments [AttendanceDate] to Date[Date] Enrollments [StartingDate] to Date[Date] The active relationship is on Enrollments[EnrollmentDate]. You plan to create measures to count both the number of Enrollments by [AttendanceDate] and the Enrollments by [StartingDate]. N.B. You can't meet the goal by duplicating data or loading additional data. Solution: You create measures that use the CALCULATE, COUNT, and USERELATIONSHIP DAX functions. Does this solution resolve the issue?",
+        "de": "Betrachten Sie ein Power BI-Modell mit zwei Tabellen: Enrollments und Date. Die Enrollments-Tabelle enthält fünf Spalten: StudentID, TotalPaid, EnrollmentDate, AttendanceDate und StartingDate. Die Date-Tabelle enthält nur eine Spalte namens Date. Die Tabellen haben folgende Beziehungen: Enrollments[EnrollmentDate] zu Date[Date], Enrollments[AttendanceDate] zu Date[Date], Enrollments[StartingDate] zu Date[Date]. Die aktive Beziehung ist auf Enrollments[EnrollmentDate]. Sie möchten Measures erstellen, die sowohl die Anzahl der Anmeldungen nach [AttendanceDate] als auch nach [StartingDate] zählen. Hinweis: Das Ziel darf nicht durch Daten-Duplikation oder zusätzliche Daten erreicht werden. Lösung: Sie erstellen Measures mit den DAX-Funktionen CALCULATE, COUNT und USERELATIONSHIP. Löst diese Lösung das Problem?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "choices_ger": [
+      "Nein",
+      "Ja"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q029",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your company has a Microsoft Sharepoint Online portal that contains different document libraries. One of these libraries holds a list of sales reports saved as Microsoft Excel files which have all the same structure. You need to use Power BI Desktop to only download the sales reports library from Sharepoint. How can you meet the goal?",
+        "de": "Ihr Unternehmen hat ein Microsoft SharePoint Online-Portal mit verschiedenen Dokumentbibliotheken. Eine dieser Bibliotheken enthält Verkaufsberichte als Microsoft Excel-Dateien mit einheitlicher Struktur. Sie möchten mit Power BI Desktop nur die Verkaufsberichte-Bibliothek aus SharePoint herunterladen. Wie erreichen Sie das?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Get data from a SharePoint Online folder, enter the site URL, and then select Extract & Load.",
+      "Get data from a SharePoint Online folder and enter the site URL. Edit the query and filter by the path to the sales reports library.",
+      "Get data from a SharePoint Online list, enter the site URL, and then select Combine & Load.",
+      "Get data from a SharePoint Online library and enter the site URL. Filter by the path to the sales reports library."
+    ],
+    "choices_ger": [
+      "Daten aus einem SharePoint Online-Ordner abrufen, die Site-URL eingeben und dann 'Extrahieren & Laden' wählen.",
+      "Daten aus einem SharePoint Online-Ordner abrufen, die Site-URL eingeben. Die Abfrage bearbeiten und nach dem Pfad zur Verkaufsberichte-Bibliothek filtern.",
+      "Daten aus einer SharePoint Online-Liste abrufen, die Site-URL eingeben und dann 'Kombinieren & Laden' wählen.",
+      "Daten aus einer SharePoint Online-Bibliothek abrufen, die Site-URL eingeben. Nach dem Pfad zur Verkaufsberichte-Bibliothek filtern."
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q030",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider a Power BI model with two tables named Enrollments and Date. Enrollments contains five columns named StudentID, TotalPaid, EnrollmentDate, AttendanceDate, and StartingDate. The Date table contains only one column named Date. The tables have the following relationships: Enrollments[EnrollmentDate] and Date[Date], Enrollments[AttendanceDate] and Date[Date], Enrollments[StartingDate] and Date[Date] The active relationship is on Enrollments[EnrollmentDate]. You plan to create measures to count both the number of Enrollments by [AttendanceDate] and the Enrollments by [StartingDate]. N.B. You can't meet the goal by duplicating data or loading additional data. Solution: You create measures that use the following functions: CALCULATE, COUNT, and FILTER DAX function. Does this solution resolve the issue?",
+        "de": "Betrachten Sie ein Power BI-Modell mit zwei Tabellen: Enrollments und Date. Enrollments enthält fünf Spalten: StudentID, TotalPaid, EnrollmentDate, AttendanceDate und StartingDate. Die Date-Tabelle enthält nur eine Spalte namens Date. Die Tabellen haben folgende Beziehungen: Enrollments[EnrollmentDate] zu Date[Date], Enrollments[AttendanceDate] zu Date[Date], Enrollments[StartingDate] zu Date[Date]. Die aktive Beziehung ist auf Enrollments[EnrollmentDate]. Sie möchten Measures erstellen, die sowohl die Anzahl der Anmeldungen nach [AttendanceDate] als auch nach [StartingDate] zählen. Hinweis: Das Ziel darf nicht durch Daten-Duplikation oder zusätzliche Daten erreicht werden. Lösung: Sie erstellen Measures mit den DAX-Funktionen CALCULATE, COUNT und FILTER. Löst diese Lösung das Problem?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "choices_ger": [
+      "Nein",
+      "Ja"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q031",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider the Power BI model shown in the picture. [IMAGE HERE] The Product Table has a relationship to the Product Category Table on the SKU column. Here, you can check a sample of data inside the tables: Product Table: SKU: HD-001, Product: GymSmartwatch, Color: Blue SKU: HD-002, Product: XSound Headphones, Color: Black SKU: HD-003, Product: Laptop Pro 2000, Color: Green Product Category Table: SKU: HD-001, Category: Smartwatch SKU: HD-002, Category: Headphone SKU: HD-003, Category: Computer You need to use in your Power BI report a Hierarchy that shows two levels: product and category. Solution: From Power Query, merge the tables and then create the hierarchy. Does this solution meet the goal?",
+        "de": "Betrachten Sie das Power BI-Modell im Bild. [IMAGE HERE] Die Product-Tabelle hat eine Beziehung zur Product Category-Tabelle über die SKU-Spalte. Beispieldaten: Product-Tabelle: SKU: HD-001, Product: GymSmartwatch, Color: Blue SKU: HD-002, Product: XSound Headphones, Color: Black SKU: HD-003, Product: Laptop Pro 2000, Color: Green Product Category-Tabelle: SKU: HD-001, Category: Smartwatch SKU: HD-002, Category: Headphone SKU: HD-003, Category: Computer Sie benötigen eine Hierarchie mit zwei Ebenen (Produkt und Kategorie) in Ihrem Bericht. Lösung: In Power Query die Tabellen zusammenführen und dann die Hierarchie erstellen. Erfüllt diese Lösung das Ziel?"
+      },
+      {
+        "type": "image",
+        "value": "q031.png"
+      }
+    ],
+    "images": [
+      "q031.png"
+    ],
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "choices_ger": [
+      "Nein",
+      "Ja"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q032",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider two tables named Document and Users. You can check the structure of the tables in the following picture: [IMAGE HERE] The columns Checked_by, Approved_by and Not_Approved_by present a Many-to-One relationship on the column User_ID in the Users table. N.B. Only the relationship between Checked_by and User_ID is marked as Active Relationship. You need to count the number of documents edited by each User, filtered by 'Checked_by', 'Approved_by' and 'Not_Approved_by'. Solution: Create a table visualization in Power BI Report tab and add User_ID, Checked_by, Approved_by and Not_Approved_by to the Values field. Does this solution meet the goal?",
+        "de": "Betrachten Sie zwei Tabellen: Document und Users. Die Struktur sehen Sie im Bild. [IMAGE HERE] Die Spalten Checked_by, Approved_by und Not_Approved_by haben eine Viele-zu-Eins-Beziehung zur User_ID-Spalte in der Users-Tabelle. Hinweis: Nur die Checked_by-User_ID-Beziehung ist aktiv. Sie müssen die Anzahl der von jedem User bearbeiteten Dokumente zählen, gefiltert nach 'Checked_by', 'Approved_by' und 'Not_Approved_by'. Lösung: Erstellen Sie eine Tabellenvisualisierung im Power BI-Bericht und fügen Sie User_ID, Checked_by, Approved_by und Not_Approved_by zum Wertebereich hinzu. Erfüllt diese Lösung das Ziel?"
+      },
+      {
+        "type": "image",
+        "value": "q032.png"
+      }
+    ],
+    "images": [
+      "q032.png"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q033",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are modeling data in Microsoft Power BI. Your data model is made of a Microsoft SQL Server table named Enrollments that has 20 million records. You need to import a sample of the data from the Enrollments table. Solution: Add a WHERE clause to the SQL statement. Does this meet the goal?",
+        "de": "Sie modellieren Daten in Microsoft Power BI. Ihr Datenmodell enthält eine Microsoft SQL Server-Tabelle namens 'Enrollments' mit 20 Millionen Datensätzen. Sie müssen einen Datenauszug aus der Enrollments-Tabelle importieren. Lösung: Fügen Sie der SQL-Anweisung eine WHERE-Klausel hinzu. Erfüllt dies das Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q034",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider a Power BI model with two tables named Enrollments and Date. Enrollments contains five columns named StudentID, TotalPaid, EnrollmentDate, AttendanceDate, and StartingDate. The Date table contains only one column named Date. The tables have the following relationships: Enrollments[EnrollmentDate] and Date[Date], Enrollments[AttendanceDate] and Date[Date], Enrollments[StartingDate] and Date[Date] The active relationship is on Enrollments[EnrollmentDate]. You plan to create measures to count both the number of Enrollments by [AttendanceDate] and the Enrollments by [StartingDate]. N.B. You can't meet the goal by duplicating data or loading additional data. Solution: You should create a calculated table, then you create a measure that uses the new table. Does this solution resolve the issue?",
+        "de": "Betrachten Sie ein Power BI-Modell mit zwei Tabellen: Enrollments und Date. Enrollments enthält fünf Spalten: StudentID, TotalPaid, EnrollmentDate, AttendanceDate und StartingDate. Die Date-Tabelle enthält nur eine Spalte namens Date. Die Tabellen haben folgende Beziehungen: Enrollments[EnrollmentDate] zu Date[Date], Enrollments[AttendanceDate] zu Date[Date], Enrollments[StartingDate] zu Date[Date]. Die aktive Beziehung ist auf Enrollments[EnrollmentDate]. Sie möchten Measures erstellen, die sowohl die Anzahl der Anmeldungen nach [AttendanceDate] als auch nach [StartingDate] zählen. Hinweis: Das Ziel darf nicht durch Daten-Duplikation oder zusätzliche Daten erreicht werden. Lösung: Sie sollten eine berechnete Tabelle erstellen und dann ein Measure, das diese neue Tabelle verwendet. Löst diese Lösung das Problem?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "choices_ger": [
+      "Nein",
+      "Ja"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q035",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider two tables named Courses and Teachers. Check a sample of data tables in the following picture:",
+        "de": "Betrachten Sie zwei Tabellen: Courses und Teachers. Eine Datenbeispiel sehen Sie im Bild."
+      },
+      {
+        "type": "image",
+        "value": "q035.png"
+      },
+      {
+        "type": "text",
+        "eng": "You want to set a many-to-one cardinality between tables, but it appears as not available in the relationship settings as shown in the picture.",
+        "de": "Sie möchten eine Viele-zu-Eins-Kardinalität zwischen den Tabellen einstellen, aber die Option erscheint in den Beziehungseinstellungen als nicht verfügbar (siehe Bild)."
+      },
+      {
+        "type": "image",
+        "value": "q035_2.png"
+      },
+      {
+        "type": "text",
+        "eng": "What should you do before creating the Many-to-One relationship?",
+        "de": "Was sollten Sie tun, bevor Sie die Viele-zu-Eins-Beziehung erstellen?"
+      }
+    ],
+    "images": [
+      "q035.png",
+      "q035_2.png"
+    ],
+    "choices": [
+      {
+        "de": "Im Abfrage-Editor 'Doppelte entfernen' für die Teachers-Tabelle auswählen.",
+        "en": "From Query Editor, click Remove Duplicates from Teachers Table."
+      },
+      {
+        "de": "Der Courses-Tabelle eine neue Indexspalte namens 'Teacher Name' hinzufügen.",
+        "en": "Add a new index column to the Courses Table named Teacher Name."
+      },
+      {
+        "de": "Im Abfrage-Editor leere Werte aus der Teacher-Tabelle filtern.",
+        "en": "From Query Editor, filter out Blank Values from Teacher Table."
+      },
+      {
+        "de": "Im Abfrage-Editor 'Fehler entfernen' für die Courses-Tabelle auswählen.",
+        "en": "From Query Editor, click Remove Errors from Courses Table."
+      }
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q036",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a Power BI report that retrieves data from an SQL database named CompanyBI_01. Your company wants to build a second SQL database that works as a development database. The data structure available in the new development database is the same as the CompanyBI_01 one. Now, you need to easily switch the data source in your Power BI Desktop environment between the development database and the CompanyBI_01 one. Which is the simplest action that ensures you do that?",
+        "de": "Sie haben einen Power BI-Bericht, der Daten aus einer SQL-Datenbank namens CompanyBI_01 bezieht. Ihr Unternehmen möchte eine zweite SQL-Datenbank als Entwicklungsdatenbank einrichten. Die Datenstruktur der neuen Entwicklungsdatenbank ist identisch zu CompanyBI_01. Sie müssen nun die Datenquelle in Ihrer Power BI Desktop-Umgebung einfach zwischen der Entwicklungsdatenbank und CompanyBI_01 wechseln können. Welche ist die einfachste Aktion, die dies ermöglicht?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Use the REPLACE function in DAX.",
+      "Create a XML file with both the database names, then import it to the dataset.",
+      "In the Power Query Editor, create a new parameter based on the data source and set it as the report source.",
+      "Enable the DirectQuery connection mode."
+    ],
+    "choices_ger": [
+      "Die REPLACE-Funktion in DAX verwenden.",
+      "Eine XML-Datei mit beiden Datenbanknamen erstellen und in den Datensatz importieren.",
+      "Im Power Query-Editor einen neuen Parameter basierend auf der Datenquelle erstellen und als Berichtsquelle festlegen.",
+      "Den DirectQuery-Verbindungsmodus aktivieren."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q037",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider the table shown in the picture: [IMAGE HERE] All cells in the date column must contain a date. You want to replace null values with the date from the previous row. Which command should you run in Power Query?",
+        "de": "Betrachten Sie die im Bild gezeigte Tabelle: [IMAGE HERE] Alle Zellen in der Datumsspalte müssen ein Datum enthalten. Sie möchten Null-Werte mit dem Datum aus der vorherigen Zeile ersetzen. Welchen Befehl sollten Sie in Power Query ausführen?"
+      },
+      {
+        "type": "image",
+        "value": "q037.png"
+      }
+    ],
+    "images": [
+      "q037.png"
+    ],
+    "choices": [
+      "Fill, and then Down.",
+      "Replace Errors.",
+      "Remove errors.",
+      "Date, and then Earliest."
+    ],
+    "choices_ger": [
+      "Füllen und dann Nach unten.",
+      "Fehler ersetzen.",
+      "Fehler entfernen.",
+      "Datum und dann Frühestes."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  }
+]

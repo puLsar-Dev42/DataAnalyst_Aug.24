@@ -1,0 +1,1046 @@
+[
+  {
+    "id": "q001",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have the below relationship between sales, product and employees. The employees table is joined to the product table by category, and the product table is joined to the sales table by ProductKey. Your boss asks you to build a visual for each Managers sales by Subcategory.\nWhat do you need to configure to solve that problem?",
+        "de": "Sie haben die folgende Beziehung zwischen Verkäufen, Produkten und Mitarbeitern. Die Mitarbeitertabelle ist mit der Produkttabelle nach Kategorie verknüpft, und die Produkttabelle ist mit der Verkaufstabelle über ProductKey verknüpft. Ihr Chef bittet Sie, eine Visualisierung für die Verkäufe jedes Managers nach Unterkategorie zu erstellen.\nWas müssen Sie konfigurieren, um dieses Problem zu lösen?"
+      },
+      {
+        "type": "image",
+        "value": "Q001.webp"
+      }
+    ],
+    "images": [
+      "Q001.webp"
+    ],
+    "choices": [
+      "Create a hierarchy in the product table for subcategory",
+      "In the employees table, change EmployeeID to type text",
+      "Set the cross-filter between product and employees to both",
+      "In the Model view, change the product tables toggle is hidden to True"
+    ],
+    "choices_ger": [
+      "Eine Hierarchie in der Produkttabelle für Unterkategorien erstellen",
+      "In der Mitarbeitertabelle EmployeeID in Text umwandeln",
+      "Das Cross-Filtering zwischen Produkt und Mitarbeitern auf 'Beide' setzen",
+      "In der Modellansicht die Produkttabellen-Option 'ist ausgeblendet' auf True setzen"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q002",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work as a Power BI professional within your company's HR group. The report you created for retention analysis worked fine in the development environment, but when deployed has performance issues.\nSolution: Hide columns and tables from the data model not used in reports\nDoes this solution meet the goal?",
+        "de": "Sie arbeiten als Power BI-Experte in der Personalabteilung Ihres Unternehmens. Der Bericht, den Sie für die Fluktuationsanalyse erstellt haben, funktionierte in der Entwicklungsumgebung gut, zeigt aber nach dem Deployment Leistungsprobleme.\nLösung: Nicht verwendete Spalten und Tabellen aus dem Datenmodell in Berichten ausblenden\nErreicht diese Lösung das Ziel?"
+      },
+      {
+        "type": "image",
+        "value": "Q002.webp"
+      }
+    ],
+    "images": [
+      "Q002.webp"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q003",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You find an interesting visualization using the Python programming language that you want to run in Power BI.\nWhat are the three steps required before you can use Python in Power BI?",
+        "de": "Sie finden eine interessante Visualisierung mit der Programmiersprache Python, die Sie in Power BI ausführen möchten.\nWelche drei Schritte sind erforderlich, bevor Sie Python in Power BI verwenden können?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Install Python on your local machine",
+      "Enable R scripting",
+      "Install the libraries matplotlib and pandas",
+      "Enable Python scripting",
+      "Install the libraries seaborn and keras"
+    ],
+    "choices_ger": [
+      "Python auf Ihrem lokalen Rechner installieren",
+      "R-Skripting aktivieren",
+      "Die Bibliotheken matplotlib und pandas installieren",
+      "Python-Skripting aktivieren",
+      "Die Bibliotheken seaborn und keras installieren"
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "q004",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your boss has scrolled through the Theme Gallery on the website https://community.powerbi.com/.\nShe asks you to use a particular theme for your companys report in Power BI Service.\nHow do you incorporate the theme in your report?",
+        "de": "Ihr Chef hat die Theme-Galerie auf der Website https://community.powerbi.com/ durchsucht.\nSie bittet Sie, ein bestimmtes Theme für den Unternehmensbericht im Power BI Service zu verwenden.\nWie binden Sie das Theme in Ihren Bericht ein?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Download the JSON file and in Custom Dashboard theme > Upload JSON theme",
+      "Download the CSS file and in Custom Dashboard theme > Upload CSS theme",
+      "Download the PNG file and right-click on a tile > Upload PNG theme",
+      "Download the PDF file and right-click on the dashboard > Upload PDF theme"
+    ],
+    "choices_ger": [
+      "JSON-Datei herunterladen und unter Benutzerdefiniertes Dashboard-Theme > JSON-Theme hochladen",
+      "CSS-Datei herunterladen und unter Benutzerdefiniertes Dashboard-Theme > CSS-Theme hochladen",
+      "PNG-Datei herunterladen und rechtsklicken auf ein Kachelelement > PNG-Theme hochladen",
+      "PDF-Datei herunterladen und rechtsklicken auf das Dashboard > PDF-Theme hochladen"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q005",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a data set that shows employees and their bosses, as per the exhibit below. There is a field for each Employee called Employee_Name and a field for their boss Parent_Employee_Name.\nHow would you create the Employee_Hierarchy column with a delimited hierarchy list in DAX?",
+        "de": "Sie haben einen Datensatz, der Mitarbeiter und ihre Vorgesetzten zeigt, wie in der folgenden Abbildung. Es gibt ein Feld für jeden Mitarbeiter namens Employee_Name und ein Feld für ihren Vorgesetzten Parent_Employee_Name.\nWie würden Sie die Spalte Employee_Hierarchy mit einer durch Trennzeichen getrennten Hierarchieliste in DAX erstellen?"
+      },
+      {
+        "type": "image",
+        "value": "Q005.webp"
+      }
+    ],
+    "images": [
+      "Q005.webp"
+    ],
+    "choices": [
+      "PATHITEM(employees[Employee_Name], employees[Parent_Employee_Name])",
+      "RELATED(employees[Parent_Employee_Name], employees[Employee_Name])",
+      "CONCATENATE(employees[Parent_Employee_Name], employees[Employee_Name])",
+      "PATH(employees[Employee_Name], employees[Parent_Employee_Name])"
+    ],
+    "choices_ger": [
+      "PATHITEM(employees[Employee_Name], employees[Parent_Employee_Name])",
+      "RELATED(employees[Parent_Employee_Name], employees[Employee_Name])",
+      "CONCATENATE(employees[Parent_Employee_Name], employees[Employee_Name])",
+      "PATH(employees[Employee_Name], employees[Parent_Employee_Name])"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q006",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work for a consulting company that has a contract with a large government department. Part of the requirements for the report is to configure the page for use with a screen reader for sight-impaired users.\nWhat should you configure in your report such that the page follows a logical sequence?",
+        "de": "Sie arbeiten für eine Beratungsfirma, die einen Vertrag mit einer großen Regierungsabteilung hat. Teil der Anforderungen für den Bericht ist die Konfiguration der Seite für die Verwendung mit einem Screenreader für sehbehinderte Benutzer.\nWas sollten Sie in Ihrem Bericht konfigurieren, damit die Seite einer logischen Reihenfolge folgt?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Bookmarks",
+      "Tab order",
+      "Filters on all pages",
+      "Layer order"
+    ],
+    "choices_ger": [
+      "Lesezeichen",
+      "Tab-Reihenfolge",
+      "Filter auf allen Seiten",
+      "Ebenenreihenfolge"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q007",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work at a sports betting company and have a table with US soccer scores and a second table with betting odds. Both tables share a common key called GameID. Your boss asks you to create a new combined table.\nWhich transform should you use to create the dataset?",
+        "de": "Sie arbeiten bei einem Sportwettenunternehmen und haben eine Tabelle mit US-Fußballergebnissen und eine zweite Tabelle mit Wettquoten. Beide Tabellen haben einen gemeinsamen Schlüssel namens GameID. Ihr Chef bittet Sie, eine neue kombinierte Tabelle zu erstellen.\nWelche Transformation sollten Sie verwenden, um den Datensatz zu erstellen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Append queries as new",
+      "Append queries",
+      "Merge queries as new",
+      "Merge queries"
+    ],
+    "choices_ger": [
+      "Abfragen als neu anhängen",
+      "Abfragen anhängen",
+      "Abfragen als neu zusammenführen",
+      "Abfragen zusammenführen"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q008",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work for a transportation company that uses Azure IoT devices to monitor the temperature within containers. The head of Supply Chain has asked you to create a dashboard for the streaming data from the IoT devices and you need to configure Power BI appropriately.\nFor each of the following statements, select  Yes is the statement is true. Otherwise, select No.",
+        "de": "Sie arbeiten für ein Transportunternehmen, das Azure IoT-Geräte zur Temperaturüberwachung in Containern einsetzt. Der Leiter der Lieferkette hat Sie gebeten, ein Dashboard für die Streaming-Daten der IoT-Geräte zu erstellen, und Sie müssen Power BI entsprechend konfigurieren.\nWählen Sie für jede der folgenden Aussagen Ja aus, wenn die Aussage zutrifft. Andernfalls wählen Sie Nein."
+      },
+      {
+        "type": "image",
+        "value": "Q008.webp"
+      }
+    ],
+    "images": [
+      "Q008.webp"
+    ],
+    "choices": [
+      "No / Yes / No",
+      "Yes / Yes / No",
+      "No / No / Yes",
+      "No / No / No"
+    ],
+    "choices_ger": [
+      "Nein / Ja / Nein",
+      "Ja / Ja / Nein",
+      "Nein / Nein / Ja",
+      "Nein / Nein / Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q009",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are part of a planning team and are investigating the forecast accuracy across multiple plants, various products and a series of demand types (e.g. stable, seasonal, growing etc.) You use Power BI and know that there is a visual that can help you with the root cause of low forecast accuracy.\nWhich visual should you choose?",
+        "de": "Sie sind Teil eines Planungsteams und untersuchen die Prognosegenauigkeit über mehrere Werke, verschiedene Produkte und eine Reihe von Nachfragetypen (z.B. stabil, saisonal, wachsend usw.) hinweg. Sie verwenden Power BI und wissen, dass es eine Visualisierung gibt, die Ihnen bei der Ermittlung der Ursache für die geringe Prognosegenauigkeit helfen kann.\nWelche Visualisierung sollten Sie wählen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Waterfall",
+      "Treemap",
+      "Key influencers",
+      "Decomposition tree"
+    ],
+    "choices_ger": [
+      "Wasserfalldiagramm",
+      "Baumkarte",
+      "Key Influencers",
+      "Zerlegungsbaum"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q010",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work for a baseball hat retailer and you need to create a table of the top 3 team names by the total number of transactions. You have a table called Hat Sales and another for Team.\nSelect the proper DAX functions to correctly complete the formula by replacing the [VALUE] field:\nTop Hat Sales = [VALUE] ( 3,\n[VALUE] ( HatSales, HatTeams[Team Name], \"Transactions\", COUNT(HatSales[TransactionID])\n), [Transactions],DESC)",
+        "de": "Sie arbeiten für einen Baseballkappen-Händler und müssen eine Tabelle der Top 3 Teamnamen nach der Gesamtzahl der Transaktionen erstellen. Sie haben eine Tabelle namens Hat Sales und eine weitere für Team.\nWählen Sie die richtigen DAX-Funktionen aus, um die Formel korrekt zu vervollständigen, indem Sie das [VALUE]-Feld ersetzen:\nTop Hat Sales = [VALUE] ( 3,\n[VALUE] ( HatSales, HatTeams[Team Name], \"Transactions\", COUNT(HatSales[TransactionID])\n), [Transactions],DESC)"
+      },
+      {
+        "type": "image",
+        "value": "Q0010.webp"
+      }
+    ],
+    "images": [
+      "Q0010.webp"
+    ],
+    "choices": [
+      "RANKX - CALCULATE",
+      "TOPN - CALCULATE",
+      "FILTER - SUMMARIZE",
+      "TOPN SUMMARIZE"
+    ],
+    "choices_ger": [
+      "RANKX - CALCULATE",
+      "TOPN - CALCULATE",
+      "FILTER - SUMMARIZE",
+      "TOPN SUMMARIZE"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q011",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work for a shoe distribution company and your firm uses Power BI for reporting. One of the reports you have created is exported as a PDF so the warehouse staff can check off items on a hard copy. Your company, however, has a policy that all exported reports need to be encrypted.\nHow can you meet this requirement?",
+        "de": "Sie arbeiten für ein Schuhvertriebsunternehmen und Ihr Unternehmen verwendet Power BI für Berichte. Einer der von Ihnen erstellten Berichte wird als PDF exportiert, damit das Lagerpersonal die Artikel auf einem Ausdruck abhaken kann. Ihr Unternehmen hat jedoch eine Richtlinie, dass alle exportierten Berichte verschlüsselt werden müssen.\nWie können Sie diese Anforderung erfüllen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Use Row Level Security (RLS)",
+      "Set the PDF options in the tenant settings",
+      "Configure the dataset build permission security options",
+      "Use sensitivity labels"
+    ],
+    "choices_ger": [
+      "Row Level Security (RLS) verwenden",
+      "PDF-Optionen in den Mandanteneinstellungen festlegen",
+      "Sicherheitsoptionen für Dataset-Build-Berechtigungen konfigurieren",
+      "Vertraulichkeitskennzeichnungen verwenden"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q012",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work for a share trading software company and have a dashboard for user trading times. The data set used for the analysis goes back seven years.\nWhen the data reloads, it takes excessive time as the full seven years are refreshed.\nHow can you improve the dataset performance?",
+        "de": "Sie arbeiten für ein Aktienhandelssoftware-Unternehmen und haben ein Dashboard für Benutzerhandelszeiten. Der für die Analyse verwendete Datensatz reicht sieben Jahre zurück.\nWenn die Daten neu geladen werden, dauert es übermäßig lange, da die vollen sieben Jahre aktualisiert werden.\nWie können Sie die Leistung des Datensatzes verbessern?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Use an on-premises data gateway",
+      "Configure incremental refresh in Power BI Desktop and enable it in Power BI service",
+      "Enable incremental refresh directly in Power BI service",
+      "Manually refresh the database when users are not active"
+    ],
+    "choices_ger": [
+      "Ein lokales Datengateway verwenden",
+      "Inkrementelle Aktualisierung in Power BI Desktop konfigurieren und im Power BI Service aktivieren",
+      "Inkrementelle Aktualisierung direkt im Power BI Service aktivieren",
+      "Die Datenbank manuell aktualisieren, wenn Benutzer nicht aktiv sind"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q013",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have one report page with multiple visuals that is running slow, leading to complaints from users.\nWhat TWO solutions will help optimize your visuals?",
+        "de": "Sie haben eine Berichtsseite mit mehreren Visualisierungen, die langsam läuft, was zu Beschwerden von Benutzern führt.\nWelche ZWEI Lösungen helfen bei der Optimierung Ihrer Visualisierungen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Don't use multiple colors on bar charts",
+      "Apply filters to reduce the max number of items that a visual displays",
+      "Replace the default visuals with custom visuals",
+      "Limit the use of bar charts",
+      "Limit the number of visuals on a particular report page to only what is necessary"
+    ],
+    "choices_ger": [
+      "Verwenden Sie nicht mehrere Farben in Balkendiagrammen",
+      "Filter anwenden, um die maximale Anzahl der in einer Visualisierung angezeigten Elemente zu reduzieren",
+      "Standardvisualisierungen durch benutzerdefinierte Visualisierungen ersetzen",
+      "Die Verwendung von Balkendiagrammen einschränken",
+      "Die Anzahl der Visualisierungen auf einer bestimmten Berichtsseite auf das Notwendige beschränken"
+    ],
+    "isMulti": true,
+    "correct": [
+      1,
+      4
+    ]
+  },
+  {
+    "id": "q014",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are asked to create a category percentage measure that will reflect the values selected when using a slicer. In the output below, you will see that the Bikes category is not selected in the slicer and the category percentage reflects the current filter context. All category percentage values add to 100% of the filter context.\nYou are given a measure that sums the sales called Sales Total.\nHow would you create a category percentage measure in DAX?",
+        "de": "Sie werden gebeten, eine Kategorie-Prozent-Kennzahl zu erstellen, die die bei Verwendung eines Slicers ausgewählten Werte widerspiegelt. In der untenstehenden Ausgabe sehen Sie, dass die Kategorie Bikes im Slicer nicht ausgewählt ist und der Kategorie-Prozentsatz den aktuellen Filterkontext widerspiegelt. Alle Kategorie-Prozentwerte addieren sich zu 100% des Filterkontexts.\nIhnen wird eine Kennzahl gegeben, die die Verkäufe summiert, genannt Sales Total.\nWie würden Sie eine Kategorie-Prozent-Kennzahl in DAX erstellen?"
+      },
+      {
+        "type": "image",
+        "value": "Q0014.webp"
+      }
+    ],
+    "images": [
+      "Q0014.webp"
+    ],
+    "choices": [
+      "VAR categoryTotal = CALCULATE([Sales Total],ALL('product'[Category]))\nVAR categoryPercentage = DIVIDE([Sales Total],categoryTotal)\nRETURN categoryPercentage",
+      "VAR categoryTotal = [Sales Total]\nVAR categoryPercentage = DIVIDE([Sales Total],categoryTotal)\nRETURN categoryPercentage",
+      "VAR categoryTotal = CALCULATE([Sales Total],ALLSELECTED('product'[Category]))\nVAR categoryPercentage = DIVIDE([Sales Total],categoryTotal)\nRETURN categoryPercentage",
+      "VAR categoryTotal = CALCULATE([Sales Total],REMOVEFILTERS('product'[Category]))\nVAR categoryPercentage = DIVIDE([Sales Total],categoryTotal)\nRETURN categoryPercentage"
+    ],
+    "choices_ger": [
+      "VAR categoryTotal = CALCULATE([Sales Total],ALL('product'[Category]))\nVAR categoryPercentage = DIVIDE([Sales Total],categoryTotal)\nRETURN categoryPercentage",
+      "VAR categoryTotal = [Sales Total]\nVAR categoryPercentage = DIVIDE([Sales Total],categoryTotal)\nRETURN categoryPercentage",
+      "VAR categoryTotal = CALCULATE([Sales Total],ALLSELECTED('product'[Category]))\nVAR categoryPercentage = DIVIDE([Sales Total],categoryTotal)\nRETURN categoryPercentage",
+      "VAR categoryTotal = CALCULATE([Sales Total],REMOVEFILTERS('product'[Category]))\nVAR categoryPercentage = DIVIDE([Sales Total],categoryTotal)\nRETURN categoryPercentage"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q015",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work in the spare parts department of an oil and gas company as a BI expert. The company has hundreds of parts, ten years of historic data, and hundreds of different order sizes from suppliers. You create a report in Power BI with aggregations for the following visuals:\n· A column chart of parts on the axis, but there are too many products showing\n· A stacked column chart of month number and order type, but too many months show\n· A histogram of supplier order sizes, but there are too many order sizes\nYou need to combine the data to make the visual more readable.\nHow should you combine the data? Select the GROUPING TYPE for each of the THREE solutions below from top to bottom.\n1. Combined the product into categories of product\n2. Combine the columns into 3 month number blocks\n3. Combine order sizes into 8 groups",
+        "de": "Sie arbeiten als BI-Experte in der Ersatzteileabteilung eines Öl- und Gasunternehmens. Das Unternehmen hat Hunderte von Teilen, zehn Jahre historische Daten und Hunderte von verschiedenen Bestellgrößen von Lieferanten. Sie erstellen einen Bericht in Power BI mit Aggregationen für die folgenden Visualisierungen:\n· Ein Säulendiagramm von Teilen auf der Achse, aber es werden zu viele Produkte angezeigt\n· Ein gestapeltes Säulendiagramm von Monatsnummer und Bestelltyp, aber es werden zu viele Monate angezeigt\n· Ein Histogramm der Bestellgrößen von Lieferanten, aber es werden zu viele Bestellgrößen angezeigt\nSie müssen die Daten kombinieren, um die Visualisierung besser lesbar zu machen.\nWie sollten Sie die Daten kombinieren? Wählen Sie den GRUPPIERUNGSTYP für jede der DREI Lösungen von oben nach unten aus.\n1. Die Produkte in Produktkategorien zusammenfassen\n2. Die Spalten in 3 Monatsnummernblöcke zusammenfassen\n3. Bestellgrößen in 8 Gruppen zusammenfassen"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "LIST / BIN / LIST",
+      "LIST / BIN / BIN",
+      "BIN / LIST / LIST",
+      "BIN / LIST / BIN"
+    ],
+    "choices_ger": [
+      "LISTE / BIN / LISTE",
+      "LISTE / BIN / BIN",
+      "BIN / LISTE / LISTE",
+      "BIN / LISTE / BIN"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q016",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You want to use insights in Power BI Desktop to understand the increase from one quarter to the next in your sales column chart. Normally you would right-click the appropriate column and click on Analyze > Explain increase. However, this time insights does not appear to be available.\nWhat are TWO possible reasons insights is not working?",
+        "de": "Sie möchten in Power BI Desktop die Erkenntnisfunktion nutzen, um den Anstieg von Quartal zu Quartal in Ihrem Säulendiagramm für Verkäufe zu verstehen. Normalerweise würden Sie auf die entsprechende Säule rechtsklicken und auf Analyse > Anstieg erklären klicken. Diesmal scheint die Erkenntnisfunktion jedoch nicht verfügbar zu sein.\nWas sind ZWEI mögliche Gründe, warum die Erkenntnisfunktion nicht funktioniert?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "You use hierarchies",
+      "You use TOPN filters",
+      "You have filtered measures",
+      "You use a stacked column chart"
+    ],
+    "choices_ger": [
+      "Sie verwenden Hierarchien",
+      "Sie verwenden TOPN-Filter",
+      "Sie haben gefilterte Measures",
+      "Sie verwenden ein gestapeltes Säulendiagramm"
+    ],
+    "isMulti": true,
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "q017",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work for an aerospace company in their satellite division. You build a workspace called satellite apps in Power BI service that contains several reports and management level apps. You have a new analyst come on board and need to allow them to edit and publish reports.\nHow would you achieve this goal?",
+        "de": "Sie arbeiten für ein Luft- und Raumfahrtunternehmen in der Satellitenabteilung. Sie haben einen Arbeitsbereich namens 'satellite apps' im Power BI Service erstellt, der mehrere Berichte und Management-Apps enthält. Ein neuer Analyst kommt ins Team und Sie müssen ihm die Möglichkeit geben, Berichte zu bearbeiten und zu veröffentlichen.\nWie erreichen Sie dieses Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Configure the security group from Azure Active Directory",
+      "Add the user as a member in the role section of the satellite apps workspace",
+      "In Power BI Desktop set Row Level Security (RLS)",
+      "Within the satellite apps workspace, select update app"
+    ],
+    "choices_ger": [
+      "Konfigurieren Sie die Sicherheitsgruppe in Azure Active Directory",
+      "Fügen Sie den Benutzer als Mitglied im Rollenbereich des 'satellite apps'-Arbeitsbereichs hinzu",
+      "Legen Sie in Power BI Desktop Row Level Security (RLS) fest",
+      "Wählen Sie im 'satellite apps'-Arbeitsbereich 'App aktualisieren' aus"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q018",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a line chart that shows units manufactured by month. You want to add the on-time delivery metric for each month when you hover the mouse over a data point.\nHow would you provide the additional piece of data?",
+        "de": "Sie haben ein Liniendiagramm, das die monatlich produzierten Einheiten zeigt. Sie möchten die Kennzahl für termingerechte Lieferung für jeden Monat hinzufügen, wenn Sie mit der Maus über einen Datenpunkt fahren.\nWie würden Sie diese zusätzliche Information bereitstellen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Add on-time delivery to the drillthrough fields",
+      "Add the on-time delivery column to the secondary values field",
+      "Add on-time delivery column to the tooltips field",
+      "Add the on-time delivery column to the small multiples field"
+    ],
+    "choices_ger": [
+      "Fügen Sie termingerechte Lieferung zu den Drillthrough-Feldern hinzu",
+      "Fügen Sie die Spalte für termingerechte Lieferung zum sekundären Wertefeld hinzu",
+      "Fügen Sie die Spalte für termingerechte Lieferung zu den Tooltip-Feldern hinzu",
+      "Fügen Sie die Spalte für termingerechte Lieferung zu den Small Multiples-Feldern hinzu"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q019",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a Power BI report with a line chart as per the below exhibit.\nHow do you add the dotted horizontal line for the mean values?",
+        "de": "Sie erstellen einen Power BI-Bericht mit einem Liniendiagramm wie in der folgenden Abbildung.\nWie fügen Sie die gepunktete horizontale Linie für die Durchschnittswerte hinzu?"
+      },
+      {
+        "type": "image",
+        "value": "Q0019.webp"
+      }
+    ],
+    "images": [
+      "Q0019.webp"
+    ],
+    "choices": [
+      "Add a fixed forecast line for the time series in the analytics pane",
+      "Add an Average line for Sales Total in the analytics pane",
+      "Add a trend line across years in the analytics pane",
+      "Add a min line in the analytics pane"
+    ],
+    "choices_ger": [
+      "Fügen Sie eine feste Prognoselinie für die Zeitreihe im Analysebereich hinzu",
+      "Fügen Sie eine Durchschnittslinie für 'Sales Total' im Analysebereich hinzu",
+      "Fügen Sie eine Trendlinie über Jahre im Analysebereich hinzu",
+      "Fügen Sie eine Minimum-Linie im Analysebereich hinzu"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q020",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have built several DAX measures. A senior Power BI member of your team asks you to improve the performance and readability of the below DAX expression?\nHow would you achieve this goal?\nAnnual Sales Growth % =\nDIVIDE(\n([Sales] – CALCULATE([Sales], PARALLELPERIOD('Date'[Date], -12, MONTH))),\nCALCULATE([Sales], PARALLELPERIOD('Date'[Date], -12, MONTH))\n)",
+        "de": "Sie haben mehrere DAX-Measures erstellt. Ein erfahrenes Power BI-Teammitglied bittet Sie, die Leistung und Lesbarkeit des folgenden DAX-Ausdrucks zu verbessern.\nWie würden Sie dieses Ziel erreichen?\nAnnual Sales Growth % =\nDIVIDE(\n([Sales] – CALCULATE([Sales], PARALLELPERIOD('Date'[Date], -12, MONTH))),\nCALCULATE([Sales], PARALLELPERIOD('Date'[Date], -12, MONTH))\n)"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Replace DIVIDE with a simple divide calculation using the symbol",
+      "Instead of PARALLELPERIOD(), use DATEADD()",
+      "Mark date table as date",
+      "Use VARIABLES and a RETURN statement"
+    ],
+    "choices_ger": [
+      "Ersetzen Sie DIVIDE durch eine einfache Divisionsberechnung mit dem Symbol",
+      "Verwenden Sie DATEADD() anstelle von PARALLELPERIOD()",
+      "Markieren Sie die Datumstabelle als Datumstabelle",
+      "Verwenden Sie VARIABLEN und eine RETURN-Anweisung"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q021",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work for an eCommerce company that sells ergonomic office products. You are tasked with creating a Power BI report from your company's transactional sales data in a table called ergoSales. Before you do anything with the data, you want to check that there are no negative amounts in the ergoSales [quantity] field.\nWhat is the most efficient way to check your data for negatives before creating the data model?",
+        "de": "Sie arbeiten für ein E-Commerce-Unternehmen, das ergonomische Büroprodukte verkauft. Sie haben den Auftrag, einen Power BI-Bericht aus den Transaktionsverkaufsdaten Ihres Unternehmens in einer Tabelle namens ergoSales zu erstellen. Bevor Sie etwas mit den Daten tun, möchten Sie überprüfen, ob es keine negativen Beträge im Feld ergoSales [quantity] gibt.\nWas ist der effizienteste Weg, um Ihre Daten vor der Erstellung des Datenmodells auf Negative zu überprüfen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Select Column profile and then click on ergoSales [quantity]",
+      "Select Column quality and then click on ergoSales [quantity]",
+      "Click on ergoSales [quantity] and select replace values",
+      "Create a custom column using a conditional statement to filter negatives out"
+    ],
+    "choices_ger": [
+      "Wählen Sie Spaltenprofil und klicken Sie dann auf ergoSales [quantity]",
+      "Wählen Sie Spaltenqualität und klicken Sie dann auf ergoSales [quantity]",
+      "Klicken Sie auf ergoSales [quantity] und wählen Sie Werte ersetzen",
+      "Erstellen Sie eine benutzerdefinierte Spalte mit einer bedingten Anweisung, um Negative herauszufiltern"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q022",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are the head of analytics for a software company, and you want to understand the importance of factors that drive sales in your pre-sales team.\nWhat visual in Power BI can help you achieve your goal?",
+        "de": "Sie sind der Leiter der Analytikabteilung eines Softwareunternehmens und möchten die Bedeutung der Faktoren verstehen, die den Vertrieb in Ihrem Pre-Sales-Team antreiben.\nWelche Visualisierung in Power BI kann Ihnen helfen, Ihr Ziel zu erreichen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Custom R Dumbell Plot",
+      "Q&A",
+      "Decomposition Tree",
+      "Key Influencers"
+    ],
+    "choices_ger": [
+      "Benutzerdefiniertes R-Dumbbell-Diagramm",
+      "Q&A",
+      "Zerlegungsbaum",
+      "Key Influencers"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q023",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a busy report page called Sales and decide to use a detailed chart in a separate page using the drill through feature. The Sales page shows a visual of total sales by month.\nWhen you click on drill through on the sales by month chart, it should redirect to a detail page called Sales Detail that shows sales for the selected month by category. The Sales Detail page should also preserve the filters from the original sales page.\nWhat FOUR actions should you perform?",
+        "de": "Sie haben eine umfangreiche Berichtsseite namens 'Sales' und entscheiden sich, ein detailliertes Diagramm auf einer separaten Seite mit der Drillthrough-Funktion zu verwenden. Die 'Sales'-Seite zeigt eine Visualisierung der Gesamtverkäufe nach Monat.\nWenn Sie auf Drillthrough im Verkaufsdiagramm nach Monat klicken, soll es zu einer Detailseite namens 'Sales Detail' weiterleiten, die die Verkäufe für den ausgewählten Monat nach Kategorie anzeigt. Die 'Sales Detail'-Seite sollte auch die Filter von der ursprünglichen Verkaufsseite beibehalten.\nWelche VIER Aktionen sollten Sie durchführen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "On the Sales Detail page, under drill through option add month as the drill through field",
+      "On the Sales page, under drill through option add month as the drill through field",
+      "Create a new page called Sales Detail",
+      "On the Sales Detail page under Drill through, toggle Keep all filters on",
+      "Create a table visual to show total sales by month and category",
+      "On the Sales page under Drill through, toggle Keep all filters on"
+    ],
+    "choices_ger": [
+      "Fügen Sie auf der 'Sales Detail'-Seite unter der Drillthrough-Option Monat als Drillthrough-Feld hinzu",
+      "Fügen Sie auf der 'Sales'-Seite unter der Drillthrough-Option Monat als Drillthrough-Feld hinzu",
+      "Erstellen Sie eine neue Seite namens 'Sales Detail'",
+      "Aktivieren Sie auf der 'Sales Detail'-Seite unter Drillthrough 'Alle Filter beibehalten'",
+      "Erstellen Sie eine Tabellenvisualisierung, die Gesamtverkäufe nach Monat und Kategorie anzeigt",
+      "Aktivieren Sie auf der 'Sales'-Seite unter Drillthrough 'Alle Filter beibehalten'"
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      2,
+      3,
+      4
+    ]
+  },
+  {
+    "id": "q024",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are asked to present your findings on your company's warehousing performance across several years. You have a number of column and line charts and a date slicer. You decide you will create a presentation using Power BI and will create a narrative using the date slicer.\nWhat should you do to save the views across different years for your presentation?",
+        "de": "Sie sollen Ihre Erkenntnisse zur Lagerleistung Ihres Unternehmens über mehrere Jahre präsentieren. Sie haben mehrere Säulen- und Liniendiagramme sowie einen Datumsslicer. Sie entscheiden sich, eine Präsentation mit Power BI zu erstellen und eine Erzählung mit dem Datumsslicer zu gestalten.\nWas sollten Sie tun, um die Ansichten für verschiedene Jahre für Ihre Präsentation zu speichern?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Create page level filters and create a new groups",
+      "Filter the charts using the date slicer, then create bookmarks",
+      "Create drill throughs for each of the warehouse charts",
+      "Create report level filters and create a new groups"
+    ],
+    "choices_ger": [
+      "Erstellen Sie Seitenfilter und neue Gruppen",
+      "Filtern Sie die Diagramme mit dem Datumsslicer und erstellen Sie dann Lesezeichen",
+      "Erstellen Sie Drillthroughs für jedes der Lagerdiagramme",
+      "Erstellen Sie Berichtsfilter und neue Gruppen"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q025",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work in a marketing department as a Power BI professional.\nYou are asked to create three different types of visuals for the marketing department.\nWhich visualization should you use for the below three requirements?\n1. Show progress of conversion rates against a target\n2. Identify outliers in sentiment scores\n3. Show the factors that influence sentiment scores",
+        "de": "Sie arbeiten in einer Marketingabteilung als Power BI-Experte.\nSie sollen drei verschiedene Arten von Visualisierungen für die Marketingabteilung erstellen.\nWelche Visualisierung sollten Sie für die folgenden drei Anforderungen verwenden?\n1. Fortschritt der Konversionsraten gegenüber einem Ziel anzeigen\n2. Ausreißer in Sentiment-Werten identifizieren\n3. Die Faktoren anzeigen, die Sentiment-Werte beeinflussen"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "KPI / Waterfall / Treemap",
+      "Card / Scatter / Funnel",
+      "KPI / Scatter / Key influencers",
+      "Card / Funnel / Scatter"
+    ],
+    "choices_ger": [
+      "KPI / Wasserfalldiagramm / Baumdiagramm",
+      "Karte / Punktdiagramm / Trichterdiagramm",
+      "KPI / Punktdiagramm / Key Influencers",
+      "Karte / Trichterdiagramm / Punktdiagramm"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q026",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work for a College Football team as a Power BI sports analyst. You have built a report in Power BI Desktop that contains many visuals. The coaching team is pleased with the content of the visuals but wants the colors to match the college's color style guide.\nWhat should you do?",
+        "de": "Sie arbeiten als Power BI-Sportanalyst für ein College-Football-Team. Sie haben einen Bericht in Power BI Desktop erstellt, der viele Visualisierungen enthält. Das Trainerteam ist mit dem Inhalt der Visualisierungen zufrieden, möchte aber, dass die Farben dem Farbstilguide des Colleges entsprechen.\nWas sollten Sie tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Adjust the report CSS file",
+      "Customize the current theme",
+      "Change the fonts on each text box",
+      "Change the colors on each visual"
+    ],
+    "choices_ger": [
+      "Passen Sie die CSS-Datei des Berichts an",
+      "Passen Sie das aktuelle Design an",
+      "Ändern Sie die Schriftarten in jedem Textfeld",
+      "Ändern Sie die Farben in jeder Visualisierung"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q027",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your company uses Power BI Premium and your manager wants to create printed invoices. However, the reports must fit perfectly on a page.\nWhat would you suggest to your manager?",
+        "de": "Ihr Unternehmen verwendet Power BI Premium und Ihr Manager möchte gedruckte Rechnungen erstellen. Die Berichte müssen jedoch perfekt auf eine Seite passen.\nWas würden Sie Ihrem Manager vorschlagen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Change the page view in Power BI Desktop",
+      "Use paginated reports",
+      "Use gridlines and snap to grid",
+      "Use lock objects"
+    ],
+    "choices_ger": [
+      "Ändern Sie die Seitenansicht in Power BI Desktop",
+      "Verwenden Sie paginierte Berichte",
+      "Verwenden Sie Rasterlinien und Rastereinrastung",
+      "Verwenden Sie Objektsperren"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q028",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work in a shoe company's reporting team and have been tasked with building a Power BI report showing procurement analytics. You have an on-premises Microsoft SQL Server database that you use to build the procurement report using a DirectQuery connection.\nYou thoroughly test the report and then upload it to Power BI Service. However, once in Power BI Service, the visualizations no longer work.\nHow would you solve this problem?",
+        "de": "Sie arbeiten im Berichtsteam eines Schuhunternehmens und haben den Auftrag, einen Power BI-Bericht zu erstellen, der Beschaffungsanalysen zeigt. Sie haben eine lokale Microsoft SQL Server-Datenbank, die Sie für den Bericht mit einer DirectQuery-Verbindung verwenden.\nSie testen den Bericht gründlich und laden ihn dann in den Power BI Service hoch. Sobald er im Power BI Service ist, funktionieren die Visualisierungen jedoch nicht mehr.\nWie würden Sie dieses Problem lösen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Change the permissions on your Microsoft SQL Server database",
+      "Upgrade your Power BI Desktop",
+      "Install an on-premise data gateway",
+      "Install Power BI Report Builder"
+    ],
+    "choices_ger": [
+      "Ändern Sie die Berechtigungen für Ihre Microsoft SQL Server-Datenbank",
+      "Aktualisieren Sie Ihr Power BI Desktop",
+      "Installieren Sie ein lokales Datengateway",
+      "Installieren Sie Power BI Report Builder"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q029",
+    "content": [
+      {
+        "type": "text",
+        "eng": "CASE 1\nYou work as a BI analyst for a software company that allows users to manipulate images online.\nYou have built a report that shows the conversion from free customers to premium customers.\nYour boss has asked you to provide a filter for the marketing industry.\nSolution:\n· Create a text parameter for industry\n· Set the parameter equal to marketing\n· Create a query parameter on the industry column\nDoes this solution meet the requirements?",
+        "de": "FALL 1\nSie arbeiten als BI-Analyst für ein Softwareunternehmen, das Benutzern ermöglicht, Bilder online zu bearbeiten.\nSie haben einen Bericht erstellt, der die Konversion von kostenlosen Kunden zu Premium-Kunden zeigt.\nIhr Chef hat Sie gebeten, einen Filter für die Marketing-Branche bereitzustellen.\nLösung:\n· Erstellen Sie einen Textparameter für die Branche\n· Setzen Sie den Parameter auf Marketing\n· Erstellen Sie einen Abfrageparameter für die Branchenspalte\nErfüllt diese Lösung die Anforderungen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "YES",
+      "NO"
+    ],
+    "choices_ger": [
+      "JA",
+      "NEIN"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q030",
+    "content": [
+      {
+        "type": "text",
+        "eng": "CASE 1\nYou work as a BI analyst for a software company that allows users to manipulate images online.\nYou have built a report that shows the conversion from free customers to premium customers.\nYour boss has asked you to provide a filter for the marketing industry.\nSolution:\n· Add a slicer to the report and select the marketing industry\n· Sync slicers to all relevant pages of the report\nDoes this solution meet the requirements?",
+        "de": "FALL 1\nSie arbeiten als BI-Analyst für ein Softwareunternehmen, das Benutzern ermöglicht, Bilder online zu bearbeiten.\nSie haben einen Bericht erstellt, der die Konversion von kostenlosen Kunden zu Premium-Kunden zeigt.\nIhr Chef hat Sie gebeten, einen Filter für die Marketing-Branche bereitzustellen.\nLösung:\n· Fügen Sie dem Bericht einen Slicer hinzu und wählen Sie die Marketing-Branche aus\n· Synchronisieren Sie die Slicer mit allen relevanten Seiten des Berichts\nErfüllt diese Lösung die Anforderungen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "YES",
+      "NO"
+    ],
+    "choices_ger": [
+      "JA",
+      "NEIN"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q031",
+    "content": [
+      {
+        "type": "text",
+        "eng": "CASE 2\nYou work for a financial institution, and you have built a data model and report in Power BI desktop. The report ran fine during testing, but when in production, users are complaining of performance issues.\nHow can you improve the model's performance?\nSolution: Hide intermediate tables in the model view\nDoes this help improve performance?",
+        "de": "FALL 2\nSie arbeiten für ein Finanzinstitut und haben ein Datenmodell und einen Bericht in Power BI Desktop erstellt. Der Bericht funktionierte während der Tests einwandfrei, aber in der Produktion beschweren sich die Benutzer über Leistungsprobleme.\nWie können Sie die Leistung des Modells verbessern?\nLösung: Zwischentabellen in der Modellansicht ausblenden\nTrägt dies zur Leistungsverbesserung bei?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "YES",
+      "NO"
+    ],
+    "choices_ger": [
+      "JA",
+      "NEIN"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q032",
+    "content": [
+      {
+        "type": "text",
+        "eng": "CASE 2\nYou work for a financial institution, and you have built a data model and report in Power BI desktop. The report ran fine during testing, but when in production, users are complaining of performance issues.\nHow can you improve the model's performance?\nSolution: Remove unnecessary columns\nDoes this help improve performance?",
+        "de": "FALL 2\nSie arbeiten für ein Finanzinstitut und haben ein Datenmodell und einen Bericht in Power BI Desktop erstellt. Der Bericht funktionierte während der Tests einwandfrei, aber in der Produktion beschweren sich die Benutzer über Leistungsprobleme.\nWie können Sie die Leistung des Modells verbessern?\nLösung: Unnötige Spalten entfernen\nTrägt dies zur Leistungsverbesserung bei?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "YES",
+      "NO"
+    ],
+    "choices_ger": [
+      "JA",
+      "NEIN"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q033",
+    "content": [
+      {
+        "type": "text",
+        "eng": "CASE 3\nYou have the schema for the tables used in a bicycle franchise. In your role as a BI consultant, you have been asked to generate some insights from the data.\nCompany data schema:",
+        "de": "FALL 3\nSie haben das Schema für die Tabellen einer Fahrradfranchise. In Ihrer Rolle als BI-Berater wurden Sie gebeten, Erkenntnisse aus den Daten zu gewinnen.\nUnternehmensdatenschema:"
+      },
+      {
+        "type": "image",
+        "value": "Q0019.webp"
+      }
+    ],
+    "images": [
+      "Q0019.webp"
+    ],
+    "choices": [
+      "Change the data type of Sales[ProductKey] to fixed decimal",
+      "Create a calculated column of Product[ProductKey]",
+      "Change the data type of Product[ProductKey] to whole number",
+      "Create a measure for the sum of Sales[Order Quantity]"
+    ],
+    "choices_ger": [
+      "Den Datentyp von Sales[ProductKey] in Festkommazahl ändern",
+      "Eine berechnete Spalte für Product[ProductKey] erstellen",
+      "Den Datentyp von Product[ProductKey] in Ganzzahl ändern",
+      "Ein Measure für die Summe von Sales[Order Quantity] erstellen"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q034",
+    "content": [
+      {
+        "type": "text",
+        "eng": "CASE 3\nYou have the schema for the tables used in a bicycle franchise. In your role as a BI consultant, you have been asked to generate some insights from the data.\nCompany data schema:\n\n",
+        "de": "FALL 3\nSie haben das Schema für die Tabellen einer Fahrradfranchise. In Ihrer Rolle als BI-Berater wurden Sie gebeten, Erkenntnisse aus den Daten zu gewinnen.\nUnternehmensdatenschema:"
+      },
+      {
+        "type": "image",
+        "value": "Q0034.webp"
+      }
+    ],
+    "images": [
+      "Q0034.webp"
+    ],
+    "choices": [
+      "Use add columns from examples to fix discrepancies",
+      "Use transform and then adjust the rounding",
+      "Go to the transform ribbon and click on Use first row as header",
+      "Make sure the postcode data type is text and not whole number"
+    ],
+    "choices_ger": [
+      "„Spalten aus Beispielen hinzufügen“ verwenden, um Diskrepanzen zu beheben",
+      "„Transformieren“ verwenden und dann die Rundung anpassen",
+      "Zum Transformationsmenü gehen und „Erste Zeile als Header verwenden“ auswählen",
+      "Sicherstellen, dass der Datentyp der Postleitzahl Text und nicht Ganzzahl ist"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q035",
+    "content": [
+      {
+        "type": "text",
+        "eng": "CASE 1\nYou are a Power BI specialist at your organization. In your finance table, you have a column called margin, which is defined as margin = revenue cost of goods sold. In your company, there are several different ways people refer to margin. Some people call margin by other terms such as income, profit or profit margin.\nTo use the Q&A feature successfully in your dashboard, you need to configure your dataset columns to enable users to type in variations for margin.\nSolution: Add a detailed description of how you defined margin\nDoes this solution meet the goal?",
+        "de": "FALL 1\nSie sind Power BI-Spezialist in Ihrem Unternehmen. In Ihrer Finanztabelle gibt es eine Spalte namens „margin“, die als margin = revenue - cost of goods sold definiert ist. In Ihrem Unternehmen gibt es mehrere verschiedene Bezeichnungen für margin. Einige nennen margin auch income, profit oder profit margin.\nUm die Q&A-Funktion in Ihrem Dashboard erfolgreich zu nutzen, müssen Sie Ihre Dataset-Spalten so konfigurieren, dass Benutzer Varianten für margin eingeben können.\nLösung: Eine detaillierte Beschreibung hinzufügen, wie Sie margin definiert haben\nErreicht diese Lösung das Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q036",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are working on a fast moving R&D project for an autonomous vehicle company. You create a dashboard but find that management wants you to make quick changes to both content and layout that they can see immediately on the dashboard. Management is only comfortable using a dashboard.\nWhat should you do to achieve this goal?",
+        "de": "Sie arbeiten an einem schnelllebigen F&E-Projekt für ein autonomes Fahrzeugunternehmen. Sie erstellen ein Dashboard, stellen aber fest, dass die Geschäftsführung schnelle Änderungen an Inhalt und Layout wünscht, die sie sofort im Dashboard sehen können. Die Geschäftsführung ist nur mit der Verwendung eines Dashboards vertraut.\nWas sollten Sie tun, um dieses Ziel zu erreichen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Create an app",
+      "Add management to the workspace as viewer roles",
+      "Create a refresh schedule for twice a day",
+      "Pin the report as a live page"
+    ],
+    "choices_ger": [
+      "Eine App erstellen",
+      "Die Geschäftsführung dem Arbeitsbereich als Viewer-Rolle hinzufügen",
+      "Einen Aktualisierungsplan für zweimal täglich erstellen",
+      "Den Bericht als Live-Seite anheften"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q037",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You want to show the trend of website traffic over time. Which chart type would be best to use?",
+        "de": "Sie möchten den Trend der Website-Besucher über die Zeit anzeigen. Welcher Diagrammtyp wäre am besten geeignet?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "A. Line chart",
+      "B. Bar chart",
+      "C. Scatter chart",
+      "D. Pie chart"
+    ],
+    "choices_ger": [
+      "A. Liniendiagramm",
+      "B. Balkendiagramm",
+      "C. Punktdiagramm",
+      "D. Kuchendiagramm"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  }
+]

@@ -1,0 +1,1066 @@
+[
+  {
+    "id": "q001",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You build a map of 3,40,000 students using an R visual. You ensure that the values of student_id, longitude, and latitude are added in the fields sent to the visual. Each Student_id is unique representing an individual student. But when the visual is loaded by the users in Power BI, it shows the details for only some of the students; not all. What is the reason behind this issue?",
+        "de": "Sie erstellen eine Karte mit 340.000 Schülern mithilfe eines R-Visuals in Power BI. Sie stellen sicher, dass die Felder student_id (eindeutige ID pro Schüler), longitude (Längengrad) und latitude (Breitengrad) an das Visual übergeben werden. Beim Laden des Visuals werden jedoch nur einige Schüler angezeigt, nicht alle. Was ist die Ursache für dieses Problem?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "The data was duplicated",
+      "The number of records to be shown were higher than the capacity of R visuals",
+      "A different version of R was used to build the visual",
+      "The data originates from a Microsoft SQL Server source"
+    ],
+    "choices_ger": [
+      "Die Daten waren dupliziert",
+      "Die Anzahl der Datensätze überschreitet die Kapazität des R-Visuals",
+      "Eine andere R-Version wurde für das Visual verwendet",
+      "Die Daten stammen aus einer Microsoft SQL Server-Quelle"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q002",
+    "content": [
+      {
+        "type": "text",
+        "eng": "True or False: In Power BI, by default column profiling is based on the top 1,000 rows.",
+        "de": "Richtig oder Falsch: In Power BI basiert die Spaltenprofilierung standardmäßig auf den ersten 1.000 Zeilen."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "FALSE",
+      "TRUE"
+    ],
+    "choices_ger": [
+      "FALSCH",
+      "RICHTIG"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q003",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What does it mean to 'assume referential integrity' when developing relationships between tables in Power BI Desktop?",
+        "de": "Was bedeutet es, 'referenzielle Integrität annehmen' (Assume Referential Integrity) beim Erstellen von Beziehungen zwischen Tabellen in Power BI Desktop?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "It is considered that there are no null or empty values in any data table in the relations.",
+      "The Require Referential Integrity setting causes queries to use INNER JOIN statements instead of OUTER JOIN statements, which increases the efficiency of the query.",
+      "It automatically considers the relationship as one to one.",
+      "It allows the calculated columns to be considered as relationship columns between the tables."
+    ],
+    "choices_ger": [
+      "Es wird angenommen, dass es in den verknüpften Tabellen keine NULL- oder leeren Werte gibt.",
+      "Die Einstellung 'Require Referential Integrity' führt dazu, dass Abfragen INNER JOIN anstelle von OUTER JOIN verwenden, was die Abfrageeffizienz erhöht.",
+      "Die Beziehung wird automatisch als 1:1-Beziehung betrachtet.",
+      "Berechnete Spalten können als Beziehungsspalten zwischen den Tabellen verwendet werden."
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q004",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which of the following options is not a privacy level in Power BI desktop?",
+        "de": "Welche der folgenden Optionen ist kein Datenschutzlevel in Power BI Desktop?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Private",
+      "Confidential",
+      "Public",
+      "Organizational"
+    ],
+    "choices_ger": [
+      "Private",
+      "Confidential",
+      "Public",
+      "Organizational"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q005",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Select from the list below the types that are not valid in the M programming language?",
+        "de": "Welche der folgenden Typen sind nicht gültig in der M-Sprache (Power Query-Formelsprache)?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Table",
+      "Record",
+      "Point",
+      "List"
+    ],
+    "choices_ger": [
+      "Table",
+      "Record",
+      "Point",
+      "List"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q006",
+    "content": [
+      {
+        "type": "text",
+        "eng": "In Power BI, column _____ include(s) characteristics like count, error, empty, distinct, unique, zero, min, max, and average.",
+        "de": "In Power BI beinhalten Spalten-_____ Merkmale wie Anzahl, Fehler, Leerwerte, eindeutige Werte, Nullen, Minimum, Maximum und Durchschnitt."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "wide",
+      "statistics",
+      "analytics",
+      "charts"
+    ],
+    "choices_ger": [
+      "wide",
+      "statistics",
+      "analytics",
+      "charts"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q007",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What is the first parameter in the DAX function PATHITEM?",
+        "de": "Was ist der erste Parameter in der DAX-Funktion PATHITEM?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "the level you want to be returned",
+      "type",
+      "the text path describing the hierarchy",
+      "the name of the field you're interested in"
+    ],
+    "choices_ger": [
+      "Die Ebene, die zurückgegeben werden soll",
+      "Der Datentyp",
+      "Der Textpfad, der die Hierarchie beschreibt",
+      "Der Name des Felds, das Sie analysieren möchten"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q008",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You need to register an app for embedding Power BI content. You are thinking of using an account which does not have a Power BI Pro license. Will it work for you?",
+        "de": "Sie müssen eine App registrieren, um Power BI-Inhalte einzubetten. Sie überlegen, ein Konto ohne Power BI Pro-Lizenz zu verwenden. Wird das funktionieren?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q009",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which of the following is a way to improve performance when retrieving data in Power BI?",
+        "de": "Welche der folgenden Methoden verbessert die Performance beim Abrufen von Daten in Power BI?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Pulling the data only in Power BI Service and not in Power BI Desktop.",
+      "Combining the date and time columns into a single column.",
+      "Using the SELECT SQL statement in SQL queries when retrieving data from a relational database.",
+      "Performing some calculations in the original data source."
+    ],
+    "choices_ger": [
+      "Die Daten nur im Power BI Service und nicht in Power BI Desktop abrufen.",
+      "Datum- und Zeit-Spalten zu einer einzigen Spalte kombinieren.",
+      "SELECT-SQL-Statements in SQL-Abfragen verwenden, wenn Daten aus einer relationalen Datenbank abgerufen werden.",
+      "Berechnungen bereits in der ursprünglichen Datenquelle durchführen."
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q010",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are creating a sales report that should consist of several pages. Each page is to contain the response to a specific business query. You decide to create a menu page that displays all business queries. Users should be able to click on any business query and then be redirected to the page with the answer to the query they clicked on. You also need to make sure that the menu page works when it is published to any workspace. What would you do to make this work?",
+        "de": "Sie erstellen einen Verkaufsbericht mit mehreren Seiten, wobei jede Seite eine Antwort auf eine bestimmte Geschäftsanfrage enthält. Sie möchten eine Menüseite erstellen, die alle Geschäftsanfragen anzeigt. Benutzer sollen auf eine Anfrage klicken und zur entsprechenden Seite weitergeleitet werden. Wichtig: Das Menü muss nach dem Veröffentlichen in jedem Workspace funktionieren. Was müssen Sie tun, um dies umzusetzen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Add a text box and link for each business query.",
+      "Create a Power Apps visual with a dropdown list. This list will consist of all business queries.",
+      "Add filters to the menu page.",
+      "Add a button for each business query and set the action type to Bookmark."
+    ],
+    "choices_ger": [
+      "Ein Textfeld mit Link für jede Geschäftsanfrage hinzufügen.",
+      "Ein Power Apps-Visual mit Dropdown-Liste erstellen, die alle Geschäftsanfragen enthält.",
+      "Filter zur Menüseite hinzufügen.",
+      "Eine Schaltfläche für jede Geschäftsanfrage erstellen und den Aktionstyp auf 'Lesezeichen' (Bookmark) setzen."
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q011",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your team is working on a project where there will be different scenarios for using the decomposition tree. For which purposes would you NOT recommend using the decomposition tree?",
+        "de": "Ihr Team arbeitet an einem Projekt, bei dem verschiedene Szenarien für die Verwendung des Zerlegungsbaums (Decomposition Tree) in Betracht gezogen werden. Für welche der folgenden Zwecke würden Sie den Zerlegungsbaum NICHT empfehlen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "To perform a root cause analysis.",
+      "To perform what-if analysis with integrated parameters.",
+      "To automatically analyze the selected dimensions to check where the metric has the lowest or highest value.",
+      "To visualize the data across multiple dimensions."
+    ],
+    "choices_ger": [
+      "Um eine Ursachenanalyse (Root Cause Analysis) durchzuführen.",
+      "Um eine Was-wäre-wenn-Analyse (What-If Analysis) mit integrierten Parametern durchzuführen.",
+      "Um automatisch ausgewählte Dimensionen zu analysieren und zu prüfen, wo der Metrikwert am niedrigsten/ höchsten ist.",
+      "Um Daten über mehrere Dimensionen hinweg zu visualisieren."
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q012",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which Power BI license type is the standard license required for most Power BI development work?",
+        "de": "Welcher Power BI-Lizenztyp ist die Standardlizenz, die für die meisten Power BI-Entwicklungsarbeiten benötigt wird?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Embedded",
+      "Premium Per User",
+      "Premium Per Capacity",
+      "Pro"
+    ],
+    "choices_ger": [
+      "Embedded",
+      "Premium Per User",
+      "Premium Per Capacity",
+      "Pro"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q013",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are developing a Power BI report for a large data set. You want to improve the performance of the dataset update by performing an incremental update. Which of the following statements about this scenario are true?",
+        "de": "Sie entwickeln einen Power BI-Bericht für einen großen Datensatz. Sie möchten die Performance bei der Aktualisierung des Datensatzes verbessern, indem Sie eine inkrementelle Aktualisierung (Incremental Refresh) durchführen. Welche der folgenden Aussagen zu diesem Szenario sind wahr?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "RangeStart and RangeEnd are two PowerQuery parameters needed for incremental refresh.",
+      "Use the 'Incremental Update' function for all data sources",
+      "A date field is required in a table in the dataset.",
+      "Use the Incremental Refresh feature only for data sources that support query folding."
+    ],
+    "choices_ger": [
+      "RangeStart und RangeEnd sind zwei PowerQuery-Parameter, die für die inkrementelle Aktualisierung benötigt werden.",
+      "Verwenden Sie die Funktion 'Inkrementelle Aktualisierung' für alle Datenquellen.",
+      "Ein Datum-Feld ist in einer Tabelle des Datensatzes erforderlich.",
+      "Verwenden Sie die Inkrementelle Aktualisierung nur für Datenquellen, die Query Folding unterstützen."
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "q014",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Why is it advisable to avoid NULL values in a numeric column?",
+        "de": "Warum ist es ratsam, NULL-Werte in numerischen Spalten zu vermeiden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "A DAX expression with the MAX function over such data gives wrong results.",
+      "A DAX expression with an AVERAGE function over such data returns incorrect results.",
+      "A DAX expression with the SUM function over such data will give wrong results.",
+      "None of these"
+    ],
+    "choices_ger": [
+      "Eine DAX-Formel mit der MAX-Funktion liefert falsche Ergebnisse.",
+      "Eine DAX-Formel mit der AVERAGE-Funktion liefert falsche Ergebnisse.",
+      "Eine DAX-Formel mit der SUM-Funktion liefert falsche Ergebnisse.",
+      "Keine der genannten Optionen."
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q015",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which of the following statements correctly defines the rules for creating table relationships when designing a data model? (Choose two)",
+        "de": "Welche der folgenden Aussagen definieren korrekt die Regeln für das Erstellen von Tabellenbeziehungen beim Entwurf eines Datenmodells? (Wählen Sie zwei aus.)"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "A relationship between two tables can be created using multiple fields from each table.",
+      "A relationship between two tables must be created with a single field from each table.",
+      "You can create several relations between two tables and all of these relations can be marked as active.",
+      "You can create multiple relationships between two tables, but only one of these relationships can be marked as active."
+    ],
+    "choices_ger": [
+      "Eine Beziehung zwischen zwei Tabellen kann mit mehreren Feldern aus jeder Tabelle erstellt werden.",
+      "Eine Beziehung zwischen zwei Tabellen muss mit genau einem Feld aus jeder Tabelle erstellt werden.",
+      "Sie können mehrere Beziehungen zwischen zwei Tabellen erstellen, und alle können als aktiv markiert werden.",
+      "Sie können mehrere Beziehungen zwischen zwei Tabellen erstellen, aber nur eine kann als aktiv markiert werden."
+    ],
+    "isMulti": true,
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "q016",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which of the following statements about calculated columns in Power BI is false?",
+        "de": "Welche der folgenden Aussagen über berechnete Spalten (calculated columns) in Power BI ist falsch?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "A calculated column is populated when it's created.",
+      "A calculated column does not add to the dataset size.",
+      "A calculated column's values are updated when the dataset is refreshed.",
+      "Calculated column values are stored in the Power BI dataset like those of a standard column."
+    ],
+    "choices_ger": [
+      "Eine berechnete Spalte wird beim Erstellen mit Werten gefüllt.",
+      "Eine berechnete Spalte erhöht nicht die Größe des Datensatzes.",
+      "Die Werte einer berechneten Spalte werden bei der Aktualisierung des Datensatzes aktualisiert.",
+      "Die Werte einer berechnete Spalte werden wie bei einer Standardspalte im Power BI-Datensatz gespeichert."
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q017",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which of the following elements can you set in a bookmark? (Choose three)",
+        "de": "Welche der folgenden Elemente können Sie in einem Lesezeichen (Bookmark) in Power BI festlegen? (Wählen Sie drei aus.)"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Sort order",
+      "Slicers, including slicer type and slicer state",
+      "Visual selection state",
+      "Properties of fields"
+    ],
+    "choices_ger": [
+      "Sortierreihenfolge",
+      "Slicer (inkl. Slicer-Typ und Slicer-Zustand)",
+      "Auswahlzustand von Visuals",
+      "Eigenschaften von Feldern"
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "q018",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You develop a dataset named from the flat files and use incremental refresh. The dataset is deployed to Premium Power BI along with other related reports. You discover that the incremental refresh for the dataset fails due to lack of resources. Which of the following could be a possible reason for this issue?",
+        "de": "Sie entwickeln einen Datensatz aus Flatfiles und verwenden eine inkrementelle Aktualisierung. Der Datensatz wird zusammen mit anderen Berichten in Power BI Premium bereitgestellt. Sie stellen fest, dass die inkrementelle Aktualisierung des Datensatzes aufgrund von Ressourcenmangel fehlschlägt. Welcher der folgenden Gründe könnte dafür verantwortlich sein?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "None of these",
+      "Data type for the column that is utilized for data partition has changed.",
+      "Query folding is not happening.",
+      "No filter is applied to the file."
+    ],
+    "choices_ger": [
+      "Keiner der genannten Gründe.",
+      "Der Datentyp der Spalte, die für die Datenpartitionierung verwendet wird, hat sich geändert.",
+      "Query Folding findet nicht statt.",
+      "Es wurde kein Filter auf die Datei angewendet."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q019",
+    "content": [
+      {
+        "type": "text",
+        "eng": "True or False: The queries in the query editor do not have to be loaded into the data model. You can decide and select whether they should be loaded or not.",
+        "de": "Richtig oder Falsch: Die Abfragen im Abfrage-Editor (Power Query) müssen nicht in das Datenmodell geladen werden. Sie können entscheiden und auswählen, ob sie geladen werden sollen oder nicht."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "FALSE",
+      "TRUE"
+    ],
+    "choices_ger": [
+      "FALSCH",
+      "RICHTIG"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q020",
+    "content": [
+      {
+        "type": "text",
+        "eng": "True or False: The nodes in a decomposition tree are fixed and cannot be changed by the end users viewing the report.",
+        "de": "Richtig oder Falsch: Die Knoten in einem Zerlegungsbaum (Decomposition Tree) sind fest vordefiniert und können von Endbenutzern, die den Bericht ansehen, nicht verändert werden."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "TRUE",
+      "FALSE"
+    ],
+    "choices_ger": [
+      "RICHTIG",
+      "FALSCH"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q021",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your team leader has asked you to print some Power BI reports and distribute them to team members during the meeting. Before you start printing the reports, you notice that some tables show fewer rows than there actually are. Which of the following is the correct method to fix this problem?",
+        "de": "Ihr Teamleiter hat Sie gebeten, einige Power BI-Berichte zu drucken und an die Teammitglieder zu verteilen. Bevor Sie mit dem Drucken beginnen, stellen Sie fest, dass einige Tabellen weniger Zeilen anzeigen als tatsächlich vorhanden sind. Welche der folgenden Methoden ist die richtige, um dieses Problem zu beheben?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Expand the table to the whole page",
+      "Reduce the table size by grouping the rows",
+      "Create a paginated report",
+      "Create a customize tooltip"
+    ],
+    "choices_ger": [
+      "Erweitern Sie die Tabelle auf die gesamte Seite",
+      "Reduzieren Sie die Tabellengröße durch Gruppieren der Zeilen",
+      "Erstellen Sie einen paginierten Bericht",
+      "Erstellen Sie ein benutzerdefiniertes Tooltip"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q022",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Can you create a relationship between two columns with different DATA TYPE?",
+        "de": "Kann man eine Beziehung zwischen zwei Spalten mit unterschiedlichen DATENTYPEN erstellen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Yes, but the cardinality of the relationship must be set as one to many.",
+      "Yes, but the cardinality of the relationship must be set as many to many.",
+      "No, the columns in a relationship must have the same data type.",
+      "Yes, the latest versions of Power BI Desktops fully support the creation of relationships between such columns."
+    ],
+    "choices_ger": [
+      "Ja, aber die Kardinalität der Beziehung muss als \"1 zu n\" (eins zu viele) eingestellt werden.",
+      "Ja, aber die Kardinalität der Beziehung muss als \"m zu n\" (viele zu viele) eingestellt werden.",
+      "Nein, die Spalten in einer Beziehung müssen den gleichen Datentyp haben.",
+      "Ja, die neuesten Versionen von Power BI Desktop unterstützen die Erstellung von Beziehungen zwischen solchen Spalten vollständig."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q023",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You model the data using Microsoft Power BI. The data model consists of a large Microsoft SQL Server table called 'Transactions' and more than 120 million records. During the development phase, it is necessary to import a sample of data from the 'Transactions' table. You decide to write a DAX expression that uses a filter function. Will this help you achieve your goal?",
+        "de": "Sie modellieren Daten mit Microsoft Power BI. Das Datenmodell besteht aus einer großen Microsoft SQL Server-Tabelle namens 'Transactions' mit mehr als 120 Millionen Datensätzen. Während der Entwicklungsphase ist es notwendig, eine Stichprobe der Daten aus der 'Transactions'-Tabelle zu importieren. Sie entscheiden sich, einen DAX-Ausdruck zu schreiben, der eine Filterfunktion verwendet. Wird Ihnen dies helfen, Ihr Ziel zu erreichen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "choices_ger": [
+      "Nein",
+      "Ja"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q024",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You want to split your query into two parts. Which of the following options would you use in Power BI?",
+        "de": "Sie möchten Ihre Abfrage in zwei Teile aufteilen. Welche der folgenden Optionen würden Sie in Power BI verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Format Query",
+      "Extract previous",
+      "None of these",
+      "Split Query"
+    ],
+    "choices_ger": [
+      "Abfrage formatieren (Format Query)",
+      "Vorherige extrahieren (Extract previous)",
+      "Keine davon (None of these)",
+      "Abfrage teilen (Split Query)"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q025",
+    "content": [
+      {
+        "type": "text",
+        "eng": "For what reasons is the Lineage view in Power BI important? (Choose three)",
+        "de": "Wofür ist die Lineage-Ansicht (Datenherkunft) in Power BI wichtig? (Wählen Sie drei Antworten aus.)"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Saves time by simplifying your task of identifying reports and dashboards that haven't been refreshed.",
+      "It helps in analyzing the data sets and finding the patterns, trends, and outliers.",
+      "Allows you to manage your workspaces and observe the impact of a single change in one dataset to reports and dashboards.",
+      "Simplifies the troubleshooting process because you can see the path that the data takes from source to destination and determine pain points and bottlenecks."
+    ],
+    "choices_ger": [
+      "Spart Zeit, indem sie die Identifizierung von Berichten und Dashboards vereinfacht, die nicht aktualisiert wurden.",
+      "Hilft bei der Analyse von Datensätzen, um Muster, Trends und Ausreißer zu finden.",
+      "Ermöglicht die Verwaltung von Arbeitsbereichen und zeigt die Auswirkungen einer einzelnen Änderung in einem Datensatz auf Berichte und Dashboards.",
+      "Vereinfacht die Fehlerbehebung, da der Datenfluss von der Quelle zum Ziel nachvollzogen werden kann, um Engpässe und Probleme zu identifizieren."
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "q026",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You need to create Power BI reports which are to be deployed to Power BI Report Server. Which of the following tools would you use?",
+        "de": "Sie müssen Power BI Reports erstellen, die auf dem Power BI Report Server bereitgestellt werden sollen. Welches der folgenden Tools würden Sie verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Power BI Report Builder",
+      "Power BI Desktop optimized for Report Server",
+      "None of these",
+      "Power BI Desktop"
+    ],
+    "choices_ger": [
+      "Power BI Report Builder",
+      "Power BI Desktop (optimiert für Report Server)",
+      "Keines davon",
+      "Power BI Desktop"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q027",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a clustered bar chart that contains a measure named Salary as the value and a field named Employee as the axis. Salary is present in the data as a numerical amount representing US dollars. You need to create a reference line to show which employees are above the median salary. Solution: You create a percentile line by using the Salary measure and set the percentile to 50%. Does this meet the goal?",
+        "de": "Sie haben ein gruppiertes Balkendiagramm, das eine Kennzahl namens \"Gehalt\" (Salary) als Wert und ein Feld namens \"Mitarbeiter\" (Employee) als Achse enthält. \"Gehalt\" ist in den Daten als numerischer Betrag in US-Dollar vorhanden. Sie müssen eine Referenzlinie erstellen, um anzuzeigen, welche Mitarbeiter über dem Durchschnittsgehalt liegen. Lösung: Sie erstellen eine Perzentillinie mit der Kennzahl \"Gehalt\" und setzen das Perzentil auf 50 %. Erfüllt dies das Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q028",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What is the difference between a calculated column and a measure in Power BI?",
+        "de": "Was ist der Unterschied zwischen einer berechneten Spalte (calculated column) und einer Kennzahl (measure) in Power BI?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "A calculated column is computed at the row level, while a measure is computed at the aggregate level",
+      "A calculated column is computed at the aggregate level, while a measure is computed at the row level",
+      "A calculated column is used for filtering data, while a measure is used for sorting data",
+      "A calculated column is used for sorting data, while a measure is used for filtering data"
+    ],
+    "choices_ger": [
+      "Eine berechnete Spalte wird auf Zeilenebene berechnet, während eine Kennzahl auf Aggregationsebene berechnet wird",
+      "Eine berechnete Spalte wird auf Aggregationsebene berechnet, während eine Kennzahl auf Zeilenebene berechnet wird",
+      "Eine berechnete Spalte wird zum Filtern von Daten verwendet, während eine Kennzahl zum Sortieren von Daten verwendet wird",
+      "Eine berechnete Spalte wird zum Sortieren von Daten verwendet, während eine Kennzahl zum Filtern von Daten verwendet wird"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q029",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have multiple dashboards. You need to ensure that when users browse the available dashboards from powerbi.com, they can see which dashboards contain Personally Identifiable Information (PII). The solution must minimize configuration effort and impact on the dashboard design. What should you use?",
+        "de": "Sie verfügen über mehrere Dashboards. Sie müssen sicherstellen, dass Benutzer beim Durchsuchen der verfügbaren Dashboards auf powerbi.com erkennen können, welche Dashboards personenbezogene Daten (PII) enthalten. Die Lösung muss den Konfigurationsaufwand und die Auswirkungen auf das Dashboard-Design minimieren. Was sollten Sie verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Microsoft Information Protection sensitivity labels",
+      "tiles",
+      "comments",
+      "Active Directory groups"
+    ],
+    "choices_ger": [
+      "Microsoft Information Protection-Sensitivity-Labels (Empfindlichkeitslabels)",
+      "Kacheln (Tiles)",
+      "Kommentare (Comments)",
+      "Active Directory-Gruppen"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q030",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a Power BI report that imports a date table and a sales table from an Azure SQL database data source. The sales table has the following date foreign keys: Due Date, Order Date, Delivery Date. You need to support the analysis of sales over time based on all the date foreign keys. Solution: For each date foreign key, you add inactive relationships between the sales table and the date table. Does this meet the goal?",
+        "de": "Sie haben einen Power BI-Bericht, der eine Datumstabelle und eine Verkaufstabelle aus einer Azure SQL-Datenbank-Datenquelle importiert. Die Verkaufstabelle enthält die folgenden Datums-Fremdschlüssel: Fälligkeitsdatum (Due Date), Bestelldatum (Order Date), Lieferdatum (Delivery Date). Sie müssen die Analyse der Verkäufe über die Zeit basierend auf allen Datums-Fremdschlüsseln unterstützen. Lösung: Für jeden Datums-Fremdschlüssel fügen Sie inaktive Beziehungen zwischen der Verkaufstabelle und der Datumstabelle hinzu. Erfüllt dies das Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q031",
+    "content": [
+      {
+        "type": "text",
+        "eng": "How can you ensure that a report is up-to-date in Power BI?",
+        "de": "Wie können Sie sicherstellen, dass ein Bericht in Power BI auf dem neuesten Stand ist?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Manually refresh the report",
+      "Use a scheduled refresh",
+      "Use a live connection to the data source",
+      "Use a direct query to the data source"
+    ],
+    "choices_ger": [
+      "Manuelles Aktualisieren des Berichts",
+      "Geplante Aktualisierung verwenden",
+      "Live-Verbindung zur Datenquelle nutzen",
+      "DirectQuery zur Datenquelle verwenden"
+    ],
+    "isMulti": true,
+    "correct": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "q032",
+    "content": [
+      {
+        "type": "text",
+        "eng": "A business intelligence (BI) developer creates a dataflow in Power BI that uses DirectQuery to access tables from an on-premises Microsoft SQL server. The Enhanced Dataflows Compute Engine is turned on for the dataflow. You need to use the dataflow in a report. The solution must meet the following requirements: Minimize online processing operations. Minimize calculation times and render times for visuals. Include data from the current year, up to and including the previous day. What should you do?",
+        "de": "Ein Business Intelligence (BI)-Entwickler erstellt einen Dataflow in Power BI, der DirectQuery verwendet, um auf Tabellen eines lokalen Microsoft SQL-Servers zuzugreifen. Die \"Enhanced Dataflows Compute Engine\" ist für den Dataflow aktiviert. Sie müssen den Dataflow in einem Bericht verwenden. Die Lösung muss folgende Anforderungen erfüllen: Online-Verarbeitungsoperationen minimieren. Berechnungs- und Darstellungszeiten für Visuals minimieren. Daten des laufenden Jahres bis einschließlich des Vortages enthalten. Was sollten Sie tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Create a dataflows connection that has DirectQuery mode selected",
+      "Create a dataflows connection that has DirectQuery mode selected and configure a gateway connection for the dataset",
+      "Create a dataflows connection that has Import mode selected and schedule a daily refresh",
+      "Create a dataflows connection that has Import mode selected and create a Microsoft Power Automate solution to refresh the data hourly"
+    ],
+    "choices_ger": [
+      "Eine Dataflow-Verbindung erstellen, bei der der DirectQuery-Modus ausgewählt ist",
+      "Eine Dataflow-Verbindung erstellen, bei der der DirectQuery-Modus ausgewählt ist und eine Gateway-Verbindung für das Dataset konfigurieren",
+      "Eine Dataflow-Verbindung erstellen, bei der der Import-Modus ausgewählt ist und eine tägliche Aktualisierung planen",
+      "Eine Dataflow-Verbindung erstellen, bei der der Import-Modus ausgewählt ist und eine Microsoft Power Automate-Lösung zur stündlichen Aktualisierung erstellen"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q033",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You need to create a data source that can be used by Power Automate. Which type of data source should you use?",
+        "de": "Sie müssen eine Datenquelle erstellen, die von Power Automate genutzt werden kann. Welchen Typ von Datenquelle sollten Sie verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "SQL Server",
+      "Common Data Service",
+      "SharePoint",
+      "OneDrive"
+    ],
+    "choices_ger": [
+      "SQL Server",
+      "Common Data Service",
+      "SharePoint",
+      "OneDrive"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q034",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a Power BI workspace named Inventory that contains a dataset, a report, and a dashboard. You need to add an additional tile to the dashboard. The tile must show inventory by location. This information is NOT visualized in the report. The solution must minimize the impact on the report. Which two actions should you perform?",
+        "de": "Sie haben einen Power BI-Arbeitsbereich namens Inventory, der ein Dataset, einen Bericht und ein Dashboard enthält. Sie müssen dem Dashboard eine zusätzliche Kachel hinzufügen, die den Bestand nach Standort anzeigt. Diese Information ist im Bericht nicht visualisiert. Die Lösung muss die Auswirkungen auf den Bericht minimieren. Welche zwei Aktionen sollten Sie durchführen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Ask a question by using Q&A",
+      "Hide the report page",
+      "Pin the visual to the dashboard",
+      "Use quick insights on the dashboard",
+      "Add the visual to the report"
+    ],
+    "choices_ger": [
+      "Eine Frage mit Q&A stellen",
+      "Die Berichtsseite ausblenden",
+      "Das Visual an das Dashboard anheften",
+      "Schnelle Erkenntnisse im Dashboard verwenden",
+      "Das Visual zum Bericht hinzufügen"
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "q035",
+    "content": [
+      {
+        "type": "text",
+        "eng": "How can you handle data that is not in the correct format for analysis?",
+        "de": "Wie können Sie mit Daten umgehen, die nicht im richtigen Format für die Analyse vorliegen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Use data transformation tools",
+      "Use data modeling tools",
+      "Use data visualization tools",
+      "Use data profiling tools"
+    ],
+    "choices_ger": [
+      "Daten-Transformationstools verwenden",
+      "Daten-Modellierungstools verwenden",
+      "Daten-Visualisierungstools verwenden",
+      "Daten-Profiling-Tools verwenden"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q036",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a collection of reports for the HR department of your company. You need to create a visualization for the HR department that shows historical employee counts and predicts trends during the next six months. Which type of visualization should you use?",
+        "de": "Sie haben eine Sammlung von Berichten für die Personalabteilung Ihres Unternehmens. Sie müssen eine Visualisierung für die Personalabteilung erstellen, die historische Mitarbeiterzahlen anzeigt und Trends für die nächsten sechs Monate vorhersagt. Welchen Visualisierungstyp sollten Sie verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "ribbon chart",
+      "scatter chart",
+      "line chart",
+      "key influencers"
+    ],
+    "choices_ger": [
+      "Banddiagramm (Ribbon Chart)",
+      "Punktdiagramm (Scatter Chart)",
+      "Liniendiagramm (Line Chart)",
+      "Schlüsselfaktoren (Key Influencers)"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q037",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a report that contains a donut chart and a clustered column chart. Interactions between the visuals use the default settings. You need to modify the report so that when you select a column in the column chart, the donut chart redraws by using the data from the selected column. What should you do?",
+        "de": "Sie haben einen Bericht, der ein Ringdiagramm (Donut Chart) und ein gruppiertes Säulendiagramm (Clustered Column Chart) enthält. Die Interaktionen zwischen den Visualisierungen verwenden die Standardeinstellungen. Sie müssen den Bericht so anpassen, dass bei Auswahl einer Säule im Säulendiagramm das Ringdiagramm die Daten der ausgewählten Säule anzeigt. Was sollten Sie tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Select the donut chart and set the column chart interaction to Filter",
+      "Select the column chart and set the donut chart interaction to Filter",
+      "Select the donut chart and set the column chart interaction to None",
+      "Select the column chart and set the donut chart interaction to None"
+    ],
+    "choices_ger": [
+      "Das Ringdiagramm auswählen und die Interaktion mit dem Säulendiagramm auf \"Filter\" setzen",
+      "Das Säulendiagramm auswählen und die Interaktion mit dem Ringdiagramm auf \"Filter\" setzen",
+      "Das Ringdiagramm auswählen und die Interaktion mit dem Säulendiagramm auf \"Keine\" setzen",
+      "Das Säulendiagramm auswählen und die Interaktion mit dem Ringdiagramm auf \"Keine\" setzen"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q038",
+    "content": [
+      {
+        "type": "text",
+        "eng": "From Power BI Desktop, you publish a new dataset and report to a Power BI workspace. The dataset has a row-level security (RLS) role named HR. You need to ensure that the HR team members have RLS applied when they view reports based on the dataset. What should you do?",
+        "de": "Sie veröffentlichen ein neues Dataset und einen Bericht aus Power BI Desktop in einen Power BI-Arbeitsbereich. Das Dataset hat eine Row-Level-Security (RLS)-Rolle namens \"HR\". Sie müssen sicherstellen, dass für Teammitglieder der Personalabteilung RLS angewendet wird, wenn sie Berichte auf Basis dieses Datensatzes ansehen. Was sollten Sie tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "From powerbi.com, add users to the HR role for the dataset",
+      "From powerbi.com, share the dataset to the HR team members",
+      "From Power BI Desktop, change the Row-Level Security settings",
+      "From Power BI Desktop, import a table that contains the HR team members"
+    ],
+    "choices_ger": [
+      "In powerbi.com Benutzer zur HR-Rolle für das Dataset hinzufügen",
+      "In powerbi.com das Dataset für die HR-Teammitglieder freigeben",
+      "In Power BI Desktop die Row-Level-Security-Einstellungen ändern",
+      "In Power BI Desktop eine Tabelle importieren, die die HR-Teammitglieder enthält"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q039",
+    "content": [
+      {
+        "type": "text",
+        "eng": "How can you ensure that a report is using the correct dataset in Power BI?",
+        "de": "Wie können Sie sicherstellen, dass ein Bericht in Power BI das korrekte Dataset verwendet?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Use a data source filter",
+      "Use a report-level filter",
+      "Use a page-level filter",
+      "Use a visual-level filter"
+    ],
+    "choices_ger": [
+      "Einen Datenquellenfilter verwenden",
+      "Einen berichtseitigen Filter verwenden",
+      "Einen seitenweiten Filter verwenden",
+      "Einen visualisierungsspezifischen Filter verwenden"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q040",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a Power BI report. You have a table named Data1 that contains 10 million rows. Data1 is used in the following visuals: A card that shows the number of records. A bar chart that shows total transaction amount by territory. A scatter plot that shows transaction amount and profit amount on the axes and points colored by territory. You need to modify the scatter plot to make it easier for users to identify meaningful patterns. The solution must not affect the accuracy of the other visuals. What should you do?",
+        "de": "Sie haben einen Power BI-Bericht mit einer Tabelle namens \"Data1\", die 10 Millionen Zeilen enthält. \"Data1\" wird in folgenden Visualisierungen verwendet: Eine Karte, die die Anzahl der Datensätze anzeigt. Ein Balkendiagramm, das den Transaktionsbetrag nach Region zeigt. Ein Punktdiagramm (Scatter Plot), das Transaktionsbetrag und Gewinnbetrag auf den Achsen darstellt, wobei die Punkte nach Region eingefärbt sind. Sie müssen das Punktdiagramm so anpassen, dass Benutzer leichter aussagekräftige Muster erkennen können. Die Lösung darf die Genauigkeit der anderen Visualisierungen nicht beeinträchtigen. Was sollten Sie tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Add a count field of the transaction amount to the size bucket of the scatter plot",
+      "Add a trend line to the scatter plot",
+      "Enable high-density sampling on the scatter plot",
+      "Apply a row filter to the Data1 query in Power Query Editor"
+    ],
+    "choices_ger": [
+      "Dem Punktdiagramm ein Zählfeld des Transaktionsbetrags im Größenbereich hinzufügen",
+      "Dem Punktdiagramm eine Trendlinie hinzufügen",
+      "Hochdichte-Sampling für das Punktdiagramm aktivieren",
+      "Einen Zeilenfilter auf die \"Data1\"-Abfrage im Power Query Editor anwenden"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  }
+]

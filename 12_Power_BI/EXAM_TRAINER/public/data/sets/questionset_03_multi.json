@@ -1,0 +1,1112 @@
+[
+  {
+    "id": "q001",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a time series chart for your sales and you need to display a line to show the direction the data has moved over your selected period.How would you add this black dotted line? See the exhibit below.",
+        "de": "Sie haben ein Zeitreihendiagramm für Ihre Verkaufsdaten und müssen eine Linie einfügen, die die Richtung der Daten im ausgewählten Zeitraum anzeigt. Wie würden Sie diese schwarz gepunktete Linie hinzufügen? Siehe Abbildung unten."
+      },
+      {
+        "type": "image",
+        "value": "q001.png"
+      }
+    ],
+    "images": [
+      "q001.png"
+    ],
+    "choices": [
+      "Add an Average line in the Analytics pane",
+      "Add a Trend line in the Analytics pane",
+      "Add a Forecast line in the Analytics pane",
+      "Add a Play Axis to the visual"
+    ],
+    "choices_ger": [
+      "Eine Durchschnittslinie im Analysebereich hinzufügen",
+      "Eine Trendlinie im Analysebereich hinzufügen",
+      "Eine Prognoselinie im Analysebereich hinzufügen",
+      "Eine Play-Achse zum Visual hinzufügen"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q002",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work at a bike company and have two tables that use DirectQuery – Product and Category (see the below exhibit.) These two tables are joined with a relationship from Product to Category using the CategoryID column. To increase the efficiency in your join you decide to check 'Assume referential integrity' in the relationship.Will this help the join between your tables?",
+        "de": "Sie arbeiten bei einem Fahrradunternehmen und haben zwei Tabellen, die DirectQuery verwenden – Product und Category (siehe Abbildung unten). Diese beiden Tabellen sind über eine Beziehung von Product zu Category mit der Spalte CategoryID verknüpft. Um die Effizienz des Joins zu erhöhen, aktivieren Sie die Option 'Referenzielle Integrität annehmen' (Assume Referential Integrity). Wird dies den Join zwischen Ihren Tabellen verbessern?"
+      },
+      {
+        "type": "image",
+        "value": "q002.png"
+      }
+    ],
+    "images": [
+      "q002.png"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q003",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are a Power BI consultant and you are doing some remote work for a mining company in Western Australia. You need to build a date table that starts from November 2010 and ends in December 2025. You decide you will use DAX to create a table.How should you create the DAX expression?",
+        "de": "Sie sind ein Power BI-Berater und arbeiten remote für ein Bergbauunternehmen in Westaustralien. Sie müssen eine Datumstabelle erstellen, die von November 2010 bis Dezember 2025 reicht. Sie entscheiden sich, dafür einen DAX-Ausdruck zu verwenden. Wie sollte der DAX-Ausdruck aussehen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "DATE ( 2010/11/1, 2025/12/31)",
+      "CALCULATE( CALENDAR('2010/11/1', '2025/12/31') )",
+      "CALENDAR( DATE(2010,11,1), DATE(2025,12,31) )",
+      "CALENDAR( 2010/11/1, 2025/12/31)"
+    ],
+    "choices_ger": [
+      "DATE ( 2010/11/1, 2025/12/31)",
+      "CALCULATE( CALENDAR('2010/11/1', '2025/12/31') )",
+      "CALENDAR( DATE(2010,11,1), DATE(2025,12,31) )",
+      "CALENDAR( 2010/11/1, 2025/12/31)"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q004",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You import a TXT file that contains package delivery times. The format in the DeliveryDate column is in datetime format. For example, the first row is 2022-03-20 0831 EST. You want to analyze the dates, but you are not interested in the time stamp.How could you easily extract the date into a new column?",
+        "de": "Sie importieren eine TXT-Datei mit Paketzustellzeiten. Das Format in der Spalte DeliveryDate ist ein Datum/Uhrzeit-Format (z. B. erste Zeile: 2022-03-20 0831 EST). Sie möchten die Daten analysieren, aber nicht den Zeitstempel berücksichtigen. Wie könnten Sie einfach das Datum in eine neue Spalte extrahieren?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Use the TRIM function in a new column, then set the data type to Date",
+      "Use the VALUE function in a new column, then set the data type to Date",
+      "Add a Column by example and type 2022-03-20, then set the data type to Date",
+      "Use the CONCATENATE function in a new column, then set the data type to Date"
+    ],
+    "choices_ger": [
+      "Die TRIM-Funktion in einer neuen Spalte verwenden und den Datentyp auf Datum setzen",
+      "Die VALUE-Funktion in einer neuen Spalte verwenden und den Datentyp auf Datum setzen",
+      "Eine Spalte nach Beispiel hinzufügen und 2022-03-20 eingeben, dann den Datentyp auf Datum setzen",
+      "Die CONCATENATE-Funktion in einer neuen Spalte verwenden und den Datentyp auf Datum setzen"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q005",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work for an established mobile App game company, and you have a large dataset for in-app purchases. The dataset contains over 300k rows.What visual should you use to identify outliers in the data?",
+        "de": "Sie arbeiten für ein etabliertes Mobile-App-Game-Unternehmen und haben einen großen Datensatz zu In-App-Käufen (über 300.000 Zeilen). Welches Visual sollten Sie verwenden, um Ausreißer in den Daten zu identifizieren?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Key influencers",
+      "Decomposition tree",
+      "Scatter",
+      "Area"
+    ],
+    "choices_ger": [
+      "Key Influencers",
+      "Zerlegungsbaum",
+      "Streudiagramm",
+      "Flächendiagramm"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q006",
+    "content": [
+      {
+        "type": "text",
+        "eng": "One of your queries in Power Query Editor seems to be taking a lot longer to refresh than you expect. You need to understand what Power Query is doing at authoring and at refresh time.How would you go about this?",
+        "de": "Eine Ihrer Abfragen im Power Query Editor benötigt deutlich mehr Zeit für die Aktualisierung als erwartet. Sie möchten nachvollziehen, was Power Query während der Erstellung und Aktualisierung tut. Wie gehen Sie vor?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Run Performance Analyzer",
+      "Run Q&A",
+      "Run Query Diagnostics",
+      "Run the ALM toolkit"
+    ],
+    "choices_ger": [
+      "Performance Analyzer ausführen",
+      "Q&A ausführen",
+      "Abfragediagnose ausführen",
+      "ALM-Toolkit ausführen"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q007",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have created a supplier quality report and are asked to add row-level security to your data model. You decide to add dynamic row-level security that uses a user's email address. You have a column for a user's email address called UserEmail.What DAX function would you use to create a new role using the UserEmail field?",
+        "de": "Sie haben einen Lieferantenqualitätsbericht erstellt und sollen eine Sicherheit auf Zeilenebene (RLS) hinzufügen. Sie entscheiden sich für dynamische RLS basierend auf der E-Mail-Adresse des Benutzers (Spalte: UserEmail). Welche DAX-Funktion würden Sie verwenden, um eine neue Rolle mit dem UserEmail-Feld zu erstellen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "USEROBJECTID",
+      "USERPRINCIPALNAME",
+      "PATH",
+      "USERDOMAIN"
+    ],
+    "choices_ger": [
+      "USEROBJECTID",
+      "USERPRINCIPALNAME",
+      "PATH",
+      "USERDOMAIN"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q008",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work for a bank and have a large dataset for credit card transactions for a city. The data is in a Microsoft SQL Server database and has over 15 million rows. Before you use the dataset, you want to import a sample of the credit card data.How could you achieve this goal?",
+        "de": "Sie arbeiten für eine Bank und haben einen großen Datensatz zu Kreditkartentransaktionen einer Stadt (über 15 Mio. Zeilen in einer SQL Server-Datenbank). Bevor Sie den Datensatz nutzen, möchten Sie eine Stichprobe importieren. Wie erreichen Sie das?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Import all the data and then add a filter to the data",
+      "Add a WHERE clause to SQL statement in the advanced options",
+      "Change the data connectivity option to TOPN",
+      "Check HEAD to sample data from the advanced options"
+    ],
+    "choices_ger": [
+      "Alle Daten importieren und dann einen Filter hinzufügen",
+      "Eine WHERE-Klausel zur SQL-Anweisung in den erweiterten Optionen hinzufügen",
+      "Die Datenkonnektivitätsoption auf TOPN ändern",
+      "HEAD in den erweiterten Optionen aktivieren, um eine Stichprobe zu importieren"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q009",
+    "content": [
+      {
+        "type": "text",
+        "eng": "CASE 1 You have built a report with many pages for a manufacturing company. Your client's feedback is that it is hard to navigate to the important pages of the report. You suggest creating a homepage with links to help guide users to important pages on the report.How would you go about building the homepage? Solution:· Add pictures that describe the report page · Set the image action type to 'Q&A.' an this technique be used for the homepage?",
+        "de": "FALL 1: Sie haben einen mehrseitigen Bericht für ein Fertigungsunternehmen erstellt. Der Kunde bemängelt die Navigation zu wichtigen Seiten. Sie schlagen eine Startseite mit Verlinkungen vor. Lösung: · Bilder mit Seitenbeschreibungen hinzufügen · Aktionstyp der Bilder auf 'Q&A' setzen. Ist diese Technik für die Startseite geeignet?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q010",
+    "content": [
+      {
+        "type": "text",
+        "eng": "CASE 1 You have built a report with many pages for a manufacturing company. Your client's feedback is that it is hard to navigate to the important pages of the report. You suggest creating a homepage with links to help guide users to important pages on the report. How would you go about building the homepage? Solution:· Create a bookmark for each page · On the homepage, create buttons to link to those pages · On the button, change the action type to bookmark for the corresponding page Can this technique be used for the homepage?",
+        "de": "FALL 1: Sie haben einen mehrseitigen Bericht für ein Fertigungsunternehmen erstellt. Der Kunde bemängelt die Navigation zu wichtigen Seiten. Sie schlagen eine Startseite mit Verlinkungen vor. Lösung: · Lesezeichen für jede Seite erstellen · Schaltflächen auf der Startseite hinzufügen · Aktionstyp der Schaltflächen auf 'Lesezeichen' setzen. Ist diese Technik für die Startseite geeignet?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q011",
+    "content": [
+      {
+        "type": "text",
+        "eng": "CASE 2 You have a dataset for a market basket analysis as per the below exhibit. Each row represents a transaction, and each column contains an item purchased. For instance, in TransactionID 8 there are 3 products: Product1 = 'peanut butter', Product2 = frozen pizza' and Product3 =' ice cream'.",
+        "de": "FALL 2: Sie haben einen Datensatz für eine Warenkorbanalyse (siehe Abbildung). Jede Zeile entspricht einer Transaktion, jede Spalte einem gekauften Artikel (z. B. TransaktionID 8: Product1 = ‚Erdnussbutter', Product2 = ‚Tiefkühlpizza', Product3 = ‚Eiscreme')."
+      },
+      {
+        "type": "image",
+        "value": "q011.png"
+      },
+      {
+        "type": "text",
+        "eng": "You need to transform your data into the below exhibit. The first column is TransactionID, the second is Attribute and the third column is Value. How would you transform the data into these 3 columns?",
+        "de": "Sie müssen die Daten in drei Spalten umwandeln: TransactionID, Attribute, Value. Wie gehen Sie vor?"
+      },
+      {
+        "type": "image",
+        "value": "q011_2.png"
+      }
+    ],
+    "images": [
+      "q011.png",
+      "q011_2.png"
+    ],
+    "choices": [
+      "Select all columns -> Pivot columns",
+      "Select TransactionID -> Select Pivot columns",
+      "Select all columns -> Select Unpivot columns",
+      "Select TransactionID -> Select Unpivot other columns"
+    ],
+    "choices_ger": [
+      "Alle Spalten auswählen -> Pivot-Spalten",
+      "TransactionID auswählen -> Pivot-Spalten auswählen",
+      "Alle Spalten auswählen -> Spalten entpivotieren",
+      "TransactionID auswählen -> Andere Spalten entpivotieren"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q012",
+    "content": [
+      {
+        "type": "text",
+        "eng": "CASE 2 For your Market Basket Analysis, you now need to create a new table with all possible combinations of products as per the below exhibit. What DAX function would you use in the [VALUE] position in the expression? Basket Analysis = FILTER([VALUE] (VALUES('MarketBasket'[Value]),SELECTCOLUMNS(VALUES(MarketBasket[Value]),\"Value2\", [Value])),[Value]>[Value2] )",
+        "de": "FALL 2: Für Ihre Warenkorbanalyse müssen Sie eine Tabelle mit allen möglichen Produktkombinationen erstellen (siehe Abbildung). Welche DAX-Funktion würden Sie an der Stelle [VALUE] im Ausdruck verwenden? Basket Analysis = FILTER([VALUE] (VALUES('MarketBasket'[Value]),SELECTCOLUMNS(VALUES(MarketBasket[Value]),„Value2\", [Value])),[Value]>[Value2] )"
+      },
+      {
+        "type": "image",
+        "value": "q012.png"
+      }
+    ],
+    "images": [
+      "q012.png"
+    ],
+    "choices": [
+      "INTERSECT",
+      "EXCEPT",
+      "SUMMARIZE",
+      "CROSSJOIN"
+    ],
+    "choices_ger": [
+      "INTERSECT",
+      "EXCEPT",
+      "SUMMARIZE",
+      "CROSSJOIN"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q013",
+    "content": [
+      {
+        "type": "text",
+        "eng": "CASE 2 You want to use a custom network chart to display your market basket analysis called 'Network and add the Advanced Network Visual.' However, your company policy is to not allow custom visuals as a default. How could you enable this specific custom visual?",
+        "de": "FALL 2: Sie möchten ein benutzerdefiniertes Netzwerkdiagramm ('Advanced Network Visual') für Ihre Warenkorbanalyse verwenden. Die Unternehmensrichtlinie verbietet jedoch standardmäßig benutzerdefinierte Visuals. Wie könnten Sie dieses Visual dennoch aktivieren?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Temporarily allow all visuals",
+      "Add to organizational visuals",
+      "Reproduce the visual in R or Python",
+      "Place a request to Microsoft to add the custom visual to the standard charts"
+    ],
+    "choices_ger": [
+      "Alle Visuals temporär erlauben",
+      "Zu den organisationalen Visuals hinzufügen",
+      "Das Visual in R oder Python nachbauen",
+      "Bei Microsoft anfragen, das Visual zu den Standardcharts hinzuzufügen"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q014",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a dashboard that is an important part of collaborative planning in your organization. Since the team is remote, you have been asked to allow users to provide feedback on the dashboard that will be visible to other team members. How would you achieve this goal?",
+        "de": "Sie haben ein Dashboard für die kollaborative Planung in Ihrem Unternehmen. Da das Team remote arbeitet, sollen Benutzer Feedback geben können, das für alle sichtbar ist. Wie setzen Sie das um?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Add sticky notes",
+      "Add comments",
+      "Add to group email",
+      "Add to alerts"
+    ],
+    "choices_ger": [
+      "Haftnotizen hinzufügen",
+      "Kommentare hinzufügen",
+      "Gruppen-E-Mail verwenden",
+      "Warnhinweise hinzufügen"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q015",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have an HR dataset divided into regions. You use row-level security to ensure each manager can only see their region's data. After you publish your report to Power BI Service, an HR manager calls and complains they cannot see all their data in the APAC region. How would you verify what the HR manager is seeing in Power BI Desktop?",
+        "de": "Sie haben einen HR-Datensatz, der nach Regionen unterteilt ist. Sie verwenden Sicherheit auf Zeilenebene (RLS), damit Manager nur Daten ihrer Region sehen. Nach dem Veröffentlichen beschwert sich ein APAC-Manager, dass er nicht alle Daten sieht. Wie überprüfen Sie in Power BI Desktop, was der Manager sieht?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Validate the HR manager's role using 'View as' and select the region",
+      "Use Track user activities",
+      "Remove the HR manager from the role and re-assign",
+      "Send the user your Power BI Desktop file"
+    ],
+    "choices_ger": [
+      "Die Rolle des Managers mit ‚Ansicht als' überprüfen und die Region auswählen",
+      "Benutzeraktivitäten nachverfolgen",
+      "Den Manager aus der Rolle entfernen und neu zuweisen",
+      "Die PBIX-Datei an den Manager senden"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q016",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your company has a Microsoft SharePoint site with all your manufacturing Bill of Materials (BOM) files in a subfolder. These files are all stores as Excel documents and have the same schema. As part of your analysis for the procurement team, you need to load all the Bill of Materials files together into a table in Power BI for analysis. You also need to edit some of the columns after the data has been loaded. How would you achieve this goal?",
+        "de": "Ihr Unternehmen verfügt über eine Microsoft SharePoint-Website, auf der sich alle Stücklisten-Dateien (BOM) in einem Unterordner befinden. Diese Dateien sind als Excel-Dokumente gespeichert und haben das gleiche Schema. Für die Analyse des Beschaffungsteams müssen Sie alle Stücklisten-Dateien zusammen in eine Tabelle in Power BI laden und nach dem Laden Spalten bearbeiten. Wie erreichen Sie dies?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "From Get data, select SharePoint folder, enter the URL and click import",
+      "From Get data, select SharePoint folder, enter the URL, navigate to the specific folder and Combine & Transform Data",
+      "From Get data, enter the URL, select SharePoint folder and navigate to the specific folder",
+      "From Get data, select SharePoint folder, navigate to the specific folder, select import or DirectQuery and specify any custom SQL code"
+    ],
+    "choices_ger": [
+      "Unter *Daten abrufen* den SharePoint-Ordner auswählen, URL eingeben und auf *Importieren* klicken",
+      "Unter *Daten abrufen* den SharePoint-Ordner auswählen, URL eingeben, zum Zielordner navigieren und *Daten kombinieren und transformieren*",
+      "Unter *Daten abrufen* die URL eingeben, SharePoint-Ordner auswählen und zum Zielordner navigieren",
+      "Unter *Daten abrufen* den SharePoint-Ordner auswählen, zum Zielordner navigieren und *Import* oder *DirectQuery* mit benutzerdefiniertem SQL-Code festlegen"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q017",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a Date table with a date field called Date. You want to create a new column with the full month name and the year e.g. 03 October 2022. How would you create this DAX expression?",
+        "de": "Sie haben eine Datumstabelle mit einem Feld *Date*. Wie erstellen Sie eine neue Spalte mit dem vollständigen Monatsnamen und Jahr (z. B. *03 Oktober 2022*) in DAX?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "FORMAT(Date[Date], \"D M Y\")",
+      "FORMAT(Date[Date], \"D MM YYYY\")",
+      "FORMAT(Date[Date], \"DD MMM YYYY\")",
+      "FORMAT(Date[Date], \"DD MMMM YYYY\")"
+    ],
+    "choices_ger": [
+      "FORMAT(Date[Date], \"D M Y\")",
+      "FORMAT(Date[Date], \"D MM YYYY\")",
+      "FORMAT(Date[Date], \"DD MMM YYYY\")",
+      "FORMAT(Date[Date], \"DD MMMM YYYY\")"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q018",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have sales data for a bike company and you calculate a measure of the sales percentage within each category. You need to format the visualization to match the one shown in the exhibit. How should you configure the visual?",
+        "de": "Sie haben Verkaufsdaten einer Fahrradfirma und berechnen den Umsatzanteil pro Kategorie. Wie formatieren Sie die Visualisierung (laut Ausstellungsbeispiel) mit Datenbalken?"
+      },
+      {
+        "type": "image",
+        "value": "q018.png"
+      }
+    ],
+    "images": [
+      "q018.png"
+    ],
+    "choices": [
+      "In conditional formatting select 'Sales % Category' and turn on background color",
+      "In conditional formatting select 'Sales Total' and turn on data bars",
+      "In conditional formatting select 'Sales % Category' and turn on data bars",
+      "In conditional formatting select 'Sales Total' and turn on background color"
+    ],
+    "choices_ger": [
+      "In *Bedingte Formatierung* 'Sales % Category' auswählen und Hintergrundfarbe aktivieren",
+      "In *Bedingte Formatierung* 'Sales Total' auswählen und Datenbalken aktivieren",
+      "In *Bedingte Formatierung* 'Sales % Category' auswählen und Datenbalken aktivieren",
+      "In *Bedingte Formatierung* 'Sales Total' auswählen und Hintergrundfarbe aktivieren"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q019",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work for an airline company and have a dataset with a DirectQuery storage mode. You have built a report with several visuals on the page. Users complain of performance issues when using the visuals in the Power BI report. How would you optimize the report?",
+        "de": "Sie erstellen einen Bericht mit DirectQuery-Daten. Nutzer klagen über langsame Performance. Wie optimieren Sie die Interaktionen zwischen Visuals?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Under relationships, turn off security filters in both directions",
+      "Switch off single select under slicers",
+      "Switch off interactions between visuals",
+      "Remove any background images"
+    ],
+    "choices_ger": [
+      "Sicherheitsfilter in Beziehungen deaktivieren",
+      "Einzelauswahl in Slicern abschalten",
+      "Interaktionen zwischen Visuals deaktivieren",
+      "Hintergrundbilder entfernen"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q020",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What data preview type would give you the below exhibit when you click on the Standard cost column?",
+        "de": "Welche Datenvorschau zeigt die Verteilung der Werte in der Spalte *Standard cost* (laut Ausstellungsbild)?"
+      },
+      {
+        "type": "image",
+        "value": "q020.png"
+      }
+    ],
+    "images": [
+      "q020.png"
+    ],
+    "choices": [
+      "Column quality",
+      "Monospaced",
+      "Column distribution",
+      "Column profile"
+    ],
+    "choices_ger": [
+      "Spaltenqualität",
+      "Nichtproportionale Schrift",
+      "Spaltenverteilung",
+      "Spaltenprofil"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q021",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your company is looking to expand your Power BI resources. Some of the feedback from your team is that it is hard to test Power BI Service dashboards fully prior to release. Is there a better way to handle the lifecycle of your Power BI report and dashboard creation? What is the best solution to achieve this goal?",
+        "de": "Wie verbessert man den Lebenszyklus von Power BI-Berichten, um Tests vor der Veröffentlichung zu ermöglichen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Install Power BI Report server to test reports",
+      "Create a deployment pipeline across development, test and production stages",
+      "Create separate workspaces for your team across the reporting lifecycle",
+      "Change to paginated reports for your reporting lifecycle"
+    ],
+    "choices_ger": [
+      "Power BI Report Server für Tests installieren",
+      "Eine Bereitstellungspipeline mit Entwicklungs-, Test- und Produktionsphasen erstellen",
+      "Separate Arbeitsbereiche für den Lebenszyklus erstellen",
+      "Auf paginierte Berichte umstellen"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q022",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You lead a Power BI team for a turbine manufacturer. Your boss has asked your team to develop a custom 'pbiviz' visual in Power BI that shades the turbine areas according to the number of defects. Before you put together a team to develop the custom visual, you look into the steps to develop a custom visual to understand the skills required. When setting up an environment for developing a Power BI visual, what software do you first need to install?",
+        "de": "Welche Software wird benötigt, um eine Entwicklungsumgebung für benutzerdefinierte Power BI-Visuals (pbiviz) einzurichten?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "C++",
+      "Node.js",
+      "Python",
+      "R"
+    ],
+    "choices_ger": [
+      "C++",
+      "Node.js",
+      "Python",
+      "R"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q023",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have recently set up Power BI Service at your company. One of the senior managers expresses concern about publishing reports to the web with sensitive data. What can you do to prevent users from publishing content on the web?",
+        "de": "Wie verhindern Sie, dass Nutzer Berichte mit sensiblen Daten über *Publish to web* veröffentlichen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "In the Admin portal, go to tenant settings and disable 'Allow content sharing with external users'",
+      "In the Admin portal, go to tenant settings and disable 'Publish to web'",
+      "In the Admin portal, disable 'Allow URL links'",
+      "In the Admin portal, enable 'Block embedded links'"
+    ],
+    "choices_ger": [
+      "Im Admin-Portal unter Mandanteneinstellungen *Externe Freigabe* deaktivieren",
+      "Im Admin-Portal unter Mandanteneinstellungen *Publish to web* deaktivieren",
+      "Im Admin-Portal *URL-Links zulassen* deaktivieren",
+      "Im Admin-Portal *Eingebettete Links blockieren* aktivieren"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q024",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Using the bookmarking features in the report designer in Power BI Desktop, there is a limitation of creating only one bookmark per page in a report. Is this statement correct?",
+        "de": "Ist die Aussage korrekt, dass in Power BI Desktop nur ein Lesezeichen pro Berichtsseite erstellt werden kann?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "True",
+      "False"
+    ],
+    "choices_ger": [
+      "Richtig",
+      "Falsch"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q025",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What is the file format used to define a theme for a Power BI report?",
+        "de": "In welchem Dateiformat werden Designvorlagen (*Themes*) für Power BI-Berichte definiert?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Cascading Style Sheets (CCS)",
+      "JavaScript Object Notation (JSON)",
+      "Extensible Markup Language (XML)",
+      "Power BI Markup Language (PBIML)"
+    ],
+    "choices_ger": [
+      "Cascading Style Sheets (CCS)",
+      "JavaScript Object Notation (JSON)",
+      "Extensible Markup Language (XML)",
+      "Power BI Markup Language (PBIML)"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q026",
+    "content": [
+      {
+        "type": "text",
+        "eng": "In Power BI Desktop Report view, which three options will create a measure in the Sales table?",
+        "de": "Welche drei Optionen erstellen ein Maß in der Tabelle *Sales*?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Create the measure from any table, and then set the Home Table properties to Sales.",
+      "Select the Sales table in the Fields list, and then click New Measure in the Modeling ribbon.",
+      "On the Fields list, click the ellipsis next to the Sales table or right-click any field in the Sales table, and then click New Measure.",
+      "Click New Measure, and then type in the formula Home Table = Sales"
+    ],
+    "choices_ger": [
+      "Ein Maß in einer beliebigen Tabelle erstellen und *Home Table* auf *Sales* setzen.",
+      "Die Tabelle *Sales* in der Feldliste auswählen und im *Modellierung*-Tab *Neues Maß* anklicken.",
+      "In der Feldliste auf die Auslassungspunkte der Tabelle *Sales* klicken oder ein Feld rechtsklicken und *Neues Maß* wählen.",
+      "*Neues Maß* anklicken und die Formel *Home Table = Sales* eingeben."
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "q027",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which three fields are available when creating a Pie chart visualization?",
+        "de": "Welche drei Felder sind für ein Kreisdiagramm verfügbar?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Group",
+      "Legend",
+      "Details",
+      "Value"
+    ],
+    "choices_ger": [
+      "Gruppe",
+      "Legende",
+      "Details",
+      "Wert"
+    ],
+    "isMulti": true,
+    "correct": [
+      1,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "q028",
+    "content": [
+      {
+        "type": "text",
+        "eng": "By default, which filter level behaves the same as a slicer in a report in Power BI Desktop?",
+        "de": "Welcher Filter verhält sich standardmäßig wie ein Slicer in Power BI Desktop?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Visual level filter",
+      "Report level filter",
+      "Page level filter",
+      "Query level filter"
+    ],
+    "choices_ger": [
+      "Filter auf Visualebene",
+      "Filter auf Berichtsebene",
+      "Filter auf Seitenebene",
+      "Filter auf Abfrageebene"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q029",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What is true about using variables in DAX?",
+        "de": "Was trifft auf die Verwendung von Variablen in DAX zu?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Variables are created only one time in the current context",
+      "Maximum of 5 variables can be created per formula.",
+      "Variables must be defined inside return"
+    ],
+    "choices_ger": [
+      "Variablen werden nur einmal im aktuellen Kontext erstellt.",
+      "Maximal 5 Variablen pro Formel sind möglich.",
+      "Variablen müssen innerhalb von RETURN definiert werden."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q030",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You're creating a fancy little dashboard using Power BI Service. The dashboard shows the accumulative increase in the global population over the last several decades. The dashboard will contain an introductory YouTube video that you have uploaded to the YouTube website. After uploading the video you copy the embedded HTML code and paste it into your dashboard. Unfortunately the video is fixed to 560 pixels wide and you would like it to expand to fit the tile size. What should you do?",
+        "de": "Wie passen Sie die Größe eines eingebetteten YouTube-Videos an die Kachelgröße in Power BI an?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Change the iFrame width and height attribute values to 100%",
+      "Remove the allowfullscreen parameter from the code",
+      "Add an extra outer DIV with a style width:auto and height:auto value",
+      "Videos are fixed size and can't expand to fit tiles"
+    ],
+    "choices_ger": [
+      "Die iFrame-Attribute *width* und *height* auf 100% setzen",
+      "Den *allowfullscreen*-Parameter aus dem Code entfernen",
+      "Ein äußeres DIV mit *width:auto* und *height:auto* hinzufügen",
+      "Videogrößen sind fest und können nicht angepasst werden"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q031",
+    "content": [
+      {
+        "type": "text",
+        "eng": "In order to use the Power BI web part in SharePoint Online, the report author as well as all the report consumers require a Power BI Pro license. Is this statement true?",
+        "de": "Um das Power BI-Webpart in SharePoint Online nutzen zu können, benötigen sowohl der Berichtsautor als auch alle Berichtsnutzer eine Power BI Pro-Lizenz. Ist diese Aussage wahr?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Wahr",
+      "Falsch"
+    ],
+    "choices_ger": [
+      "Wahr",
+      "Falsch"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q032",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which of the following are advantages that Power BI reports have over Power BI dashboards?",
+        "de": "Welche der folgenden Aussagen sind Vorteile von Power BI-Berichten gegenüber Power BI-Dashboards?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Reports provide a better interactive filtering and drilldown experience",
+      "Reports provide story telling capabilities using bookmarks.",
+      "Reports provide a better real-time experience when displaying data from a streaming dataset.",
+      "Report definitions can be saved using an external file format (PBIX) and checked into source control."
+    ],
+    "choices_ger": [
+      "Berichte bieten ein besseres interaktives Filter- und Drilldown-Erlebnis.",
+      "Berichte ermöglichen Storytelling-Funktionen durch die Verwendung von Lesezeichen.",
+      "Berichte bieten ein besseres Echtzeiterlebnis bei der Anzeige von Daten aus einem Streaming-Datensatz.",
+      "Berichtsdefinitionen können in einem externen Dateiformat (PBIX) gespeichert und in die Quellcodeverwaltung eingecheckt werden."
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "q033",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which three properties of a tile can be edited in the Power BI dashboard from the Tile details window?",
+        "de": "Welche drei Eigenschaften eines Kachels können im Power BI-Dashboard im Fenster 'Kacheldetails' bearbeitet werden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Title",
+      "Subtitle",
+      "Destination link",
+      "Color scheme"
+    ],
+    "choices_ger": [
+      "Titel",
+      "Untertitel",
+      "Ziel-Link",
+      "Farbschema"
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      1,
+      2
+    ]
+  },
+  {
+    "id": "q034",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which feature is used to create alternative name for fields in tables. It will make it much easier for users to ask questions on dashboards?",
+        "de": "Welche Funktion wird verwendet, um alternative Namen für Felder in Tabellen zu erstellen? Dies erleichtert Benutzern das Stellen von Fragen in Dashboards erheblich."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Duplicate Name",
+      "Alternative",
+      "Synonyms"
+    ],
+    "choices_ger": [
+      "Doppelter Name",
+      "Alternative",
+      "Synonyme"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q035",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What is the primary purpose of the on-premises data gateway?",
+        "de": "Was ist der Hauptzweck der lokalen Daten-Gateway?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "To allow refreshing on-premises data sources from the Power BI Service",
+      "To store SSAS tabular models locally",
+      "To allow refreshing on-premises data sources from the Power BI Report Server",
+      "To allow the rendering of mobile reports outside of the corporate network"
+    ],
+    "choices_ger": [
+      "Ermöglicht das Aktualisieren lokaler Datenquellen aus dem Power BI Service.",
+      "Speichert SSAS-Tabellenmodelle lokal.",
+      "Ermöglicht das Aktualisieren lokaler Datenquellen vom Power BI Report Server.",
+      "Ermöglicht das Rendern von mobilen Berichten außerhalb des Unternehmensnetzwerks."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q036",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which feature allows different users to view the same report but access different subsets of data?",
+        "de": "Welche Funktion ermöglicht es verschiedenen Benutzern, denselben Bericht anzuzeigen, aber auf unterschiedliche Datenuntergruppen zuzugreifen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Office 365 Groups",
+      "Two factor authentication",
+      "Row-level security",
+      "Query folding"
+    ],
+    "choices_ger": [
+      "Office 365-Gruppen",
+      "Zwei-Faktor-Authentifizierung",
+      "Sicherheit auf Zeilenebene (Row-Level Security)",
+      "Abfragefaltung (Query Folding)"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q037",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You possess a Power BI Report with 5 tables arranged in a star schema. The data set is approximately 50 megabytes in size. Your report currently connects to the SQL Server backend using DirectQuery. What would you do to enable Quick Insights?",
+        "de": "Sie besitzen einen Power BI-Bericht mit 5 Tabellen in einem Sternschema. Der Datensatz ist etwa 50 Megabyte groß. Ihr Bericht verbindet sich derzeit über DirectQuery mit dem SQL Server-Backend. Was würden Sie tun, um Quick Insights zu aktivieren?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Set up an Azure Machine Learning account in your Azure tenant",
+      "Convert the report from DirectQuery mode to Import mode",
+      "Migrate the data from SQL Server to the Azure SQL database",
+      "Denormalize the data so it is one flat table"
+    ],
+    "choices_ger": [
+      "Ein Azure Machine Learning-Konto in Ihrem Azure-Mandanten einrichten",
+      "Den Bericht vom DirectQuery-Modus in den Import-Modus umwandeln",
+      "Die Daten von SQL Server zur Azure SQL-Datenbank migrieren",
+      "Die Daten denormalisieren, sodass sie eine flache Tabelle bilden"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q038",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You encounter the 1 GB size limitation when uploading and refreshing your PBIX files. What is one way to work around this limitation?",
+        "de": "Sie stoßen auf die 1-GB-Größenbeschränkung beim Hochladen und Aktualisieren Ihrer PBIX-Dateien. Was ist eine Möglichkeit, diese Einschränkung zu umgehen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Use the SUMMARIZE function in your DAX measures",
+      "Convert to DirectQuery for your data connections",
+      "Migrate your source database to Azure SQL database",
+      "Turn on run-length encoding and compression in the DAX storage engine"
+    ],
+    "choices_ger": [
+      "Die SUMMARIZE-Funktion in Ihren DAX-Measures verwenden",
+      "Auf DirectQuery für Ihre Datenverbindungen umstellen",
+      "Ihre Quelldatenbank zur Azure SQL-Datenbank migrieren",
+      "Lauflängenkodierung und Kompression in der DAX-Speicher-Engine aktivieren"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q039",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which option describes when you categorize a numerical identifier into specific ranges?",
+        "de": "Welche Option beschreibt, wenn Sie einen numerischen Bezeichner in bestimmte Bereiche kategorisieren?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "List Grouping",
+      "Aggregating",
+      "Summing",
+      "Binning"
+    ],
+    "choices_ger": [
+      "Listen Gruppierung",
+      "Aggregieren",
+      "Summieren",
+      "Binning (Klassierung)"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q040",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What does the Manage Relationships button accomplish?",
+        "de": "Was bewirkt der Button 'Beziehungen verwalten'?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Allows you to edit relationships in the Data Analysis Expressions (DAX) data model",
+      "Allows you to edit relationships between tables in your data model.",
+      "Automatically normalises your data model",
+      "Allows you to define relationships for SQL tables to improve query performance"
+    ],
+    "choices_ger": [
+      "Ermöglicht das Bearbeiten von Beziehungen im Data Analysis Expressions (DAX)-Datenmodell",
+      "Ermöglicht das Bearbeiten von Beziehungen zwischen Tabellen in Ihrem Datenmodell.",
+      "Normalisiert Ihr Datenmodell automatisch",
+      "Ermöglicht das Definieren von Beziehungen für SQL-Tabellen zur Verbesserung der Abfrageleistung"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  }
+]

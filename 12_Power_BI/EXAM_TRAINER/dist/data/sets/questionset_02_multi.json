@@ -1,0 +1,1328 @@
+[
+  {
+    "id": "q001",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You need to register an app for embedding Power BI content. You are thinking of using an account which does not have a Power BI Pro license. Will it work for you?",
+        "de": "Sie müssen eine App für das Einbetten von Power BI-Inhalten registrieren. Sie überlegen, ein Konto ohne Power BI Pro-Lizenz zu verwenden. Wird das funktionieren?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Ja",
+      "Nein"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q002",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have created a line visual that displays the number of students getting scholarships over time. Now, you are interested in seeing the total scholarship cost of the students when you hover over a data point. Which of the following are the possible options to accomplish this goal?",
+        "de": "Sie haben ein Liniendiagramm erstellt, das die Anzahl der Stipendiaten über die Zeit anzeigt. Nun möchten Sie die gesamten Stipendienkosten sehen, wenn Sie mit der Maus über einen Datenpunkt fahren. Welche der folgenden Optionen sind möglich, um dieses Ziel zu erreichen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Add a Scholarship_amount to the Tooltips",
+      "Add a Scholarship_amount to the drill through fields",
+      "Add a Scholarship_amount to the Visual Filters",
+      "None of the above"
+    ],
+    "choices_ger": [
+      "Scholarship_amount zu den Tooltips hinzufügen",
+      "Scholarship_amount zu den Drillthrough-Feldern hinzufügen",
+      "Scholarship_amount zu den visuellen Filtern hinzufügen",
+      "Keine der oben genannten"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q003",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which of the following chart is the great choice to identify or display the outliers?",
+        "de": "Welches der folgenden Diagramme eignet sich am besten zur Identifizierung oder Anzeige von Ausreißern?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Line Chart",
+      "Scatter Chart",
+      "Bar chart",
+      "Donut chart"
+    ],
+    "choices_ger": [
+      "Liniendiagramm",
+      "Punktdiagramm (Streudiagramm)",
+      "Balkendiagramm",
+      "Donut-Diagramm"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q004",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You need to create a report that will demonstrate the sales performance of the company. The sales team has requested you to add a single visualization (if possible) that might help them in identifying the factors that drive the sales and affect the success. Which of the following visualization would you use?",
+        "de": "Sie müssen einen Bericht erstellen, der die Verkaufsleistung des Unternehmens zeigt. Das Vertriebsteam möchte eine einzige Visualisierung (wenn möglich), die hilft, die treibenden Faktoren für den Verkaufserfolg zu identifizieren. Welche der folgenden Visualisierungen würden Sie verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Key influencers",
+      "Funnel chart",
+      "Donut Chart",
+      "Q&A visualization"
+    ],
+    "choices_ger": [
+      "Key Influencers (Haupteinflussfaktoren)",
+      "Trichterdiagramm",
+      "Donut-Diagramm",
+      "Q&A-Visualisierung"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q005",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which of the following is not the feature of the Lineage view in Power BI?",
+        "de": "Welche der folgenden Optionen ist KEINE Funktion der Datenherkunftsansicht (Lineage View) in Power BI?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "It allows the users to troubleshoot the flow of data from its source to its destination",
+      "It allows the users to manage the workspaces and analyze the impact of a single change in one dataset to dashboards and reports",
+      "It simplifies the task of identifying the dashboards and reports that haven‘t been refreshed",
+      "It helps in analyzing the data sets and finding the patterns, trends, and outliers"
+    ],
+    "choices_ger": [
+      "Benutzer können den Datenfluss von der Quelle zum Ziel nachvollziehen",
+      "Benutzer können Workspaces verwalten und die Auswirkungen von Änderungen in einem Dataset auf Dashboards und Berichte analysieren",
+      "Es vereinfacht die Identifizierung nicht aktualisierter Dashboards und Berichte",
+      "Es hilft bei der Analyse von Datensätzen und der Identifizierung von Mustern, Trends und Ausreißern"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q006",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You need to create Power BI reports which are to be deployed to Power BI Report Server. Which of the following tools would you use?",
+        "de": "Sie müssen Power BI-Berichte erstellen, die auf dem Power BI Report Server bereitgestellt werden sollen. Welches der folgenden Tools würden Sie verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Power BI Desktop",
+      "Power BI Desktop optimized for Report Server",
+      "Power BI desktop optimized for Paginated reports",
+      "Power BI Report Builder"
+    ],
+    "choices_ger": [
+      "Power BI Desktop",
+      "Power BI Desktop (für Report Server optimiert)",
+      "Power BI Desktop (für paginierte Berichte optimiert)",
+      "Power BI Report Builder"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q007",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which of the following might be the possible considerations for using the 'Add Column From Examples' feature in the query editor?",
+        "de": "Welche der folgenden Punkte sind mögliche Gründe für die Verwendung der Funktion 'Spalte aus Beispielen hinzufügen' im Abfrage-Editor?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "You're sure about the data that you need in your new column, but you are not sure about the transformation or set of transformations, that will get you the same",
+      "You're confirmed about all the transformations that you need using a Custom Column expression in M language, but one (or more) of these expressions are not available in the UI",
+      "You're sure about the transformations that you need, but you are not sure what to choose in the UI to let them happen",
+      "All the above"
+    ],
+    "choices_ger": [
+      "Sie wissen, welche Daten Sie in der neuen Spalte benötigen, sind sich aber nicht sicher über die erforderlichen Transformationen",
+      "Sie kennen die benötigten Transformationen (in M-Sprache), aber einige sind in der UI nicht verfügbar",
+      "Sie kennen die benötigten Transformationen, wissen aber nicht, wie Sie sie in der UI auswählen",
+      "Alle oben genannten"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q008",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Select the types from the below-given list which is not valid in the M Programming language?",
+        "de": "Welcher der folgenden Typen ist in der M-Programmiersprache NICHT gültig?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "DataFrame",
+      "List",
+      "Record",
+      "Table",
+      "Type",
+      "Function"
+    ],
+    "choices_ger": [
+      "DataFrame",
+      "Liste",
+      "Record",
+      "Tabelle",
+      "Typ",
+      "Funktion"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q009",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider the below given Power BI model. This model shows the relationship of Product table with Product category on column SKU. Here is the sample of the data that both the tables have: Product Table SKU: E-01, Product: Lenovo Ideapad Slim 5i, Color: Grey SKU: E-02, Product - Sony headset, Color: Red SKU: E-03, product- Samsung TVs , Color : Black Product Category SKU: E-01, Category: laptops SKU: E-02, Category: Headsets SKU: E-03, category: Televisions In your Power BI report, you need to create a Hierarchy that demonstrates two levels i.e. Product and Category. Solution: From Power Query, merge the tables and then create the hierarchy. Will the given solution help in achieving the goal?",
+        "de": "Betrachten Sie das folgende Power BI-Modell. Es zeigt die Beziehung zwischen Produkttabelle und Produktkategorie über die Spalte SKU. Beispieldaten: Produkttabelle: SKU: E-01, Produkt: Lenovo Ideapad Slim 5i, Farbe: Grau | SKU: E-02, Produkt: Sony-Kopfhörer, Farbe: Rot | SKU: E-03: Samsung-Fernseher, Farbe: Schwarz. Produktkategorie: SKU: E-01: Laptops | SKU: E-02: Kopfhörer | SKU: E-03: Fernseher. Sie müssen eine Hierarchie mit zwei Ebenen (Produkt und Kategorie) erstellen. Lösung: Tabellen in Power Query zusammenführen und dann die Hierarchie erstellen. Wird dies das Ziel erreichen?"
+      },
+      {
+        "type": "image",
+        "value": "q009.webp"
+      }
+    ],
+    "images": [
+      "q009.webp"
+    ],
+    "choices": [
+      "True",
+      "False"
+    ],
+    "choices_ger": [
+      "Wahr",
+      "Falsch"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q010",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a custom connector that returns email-ID, From, To, Body and attachments for each email sent in a specified year and more than 10 million records have been returned by this connector. Your manager has asked you to build a report to analyze the internal network of employees depending upon whom they send mails to. Also, the report recipients should not be able to read the analyzed emails. The solution is supposed to minimize the size of the model. What would you do?",
+        "de": "Sie haben einen benutzerdefinierten Connector, der E-Mail-ID, Absender, Empfänger, Body und Anhänge für jede E-Mail eines bestimmten Jahres zurückgibt (über 10 Mio. Datensätze). Sie sollen ein Bericht erstellen, der das interne Kommunikationsnetzwerk der Mitarbeiter analysiert - aber die Berichtsempfänger dürfen die E-Mails nicht lesen können. Die Lösung soll die Modellgröße minimieren. Was tun Sie?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Implement row-level security to allow the report recipients to only to view the results depending upon the emails they sent",
+      "During the import, Remove the columns Subject and Body",
+      "Through Model view, set the columns Subject and Body to Hidden",
+      "Implementing Dynamic row-level security"
+    ],
+    "choices_ger": [
+      "Zeilenebenen-Sicherheit implementieren, damit Empfänger nur ihre eigenen E-Mail-Ergebnisse sehen",
+      "Beim Import die Spalten 'Subject' und 'Body' entfernen",
+      "Im Modell-View die Spalten 'Subject' und 'Body' ausblenden",
+      "Dynamische zeilenebenen-Sicherheit implementieren"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q011",
+    "content": [
+      {
+        "type": "text",
+        "eng": "There is a product dataset with the columns Unit_Price and ordered_quantity. You have been asked to build a visualization that displays the relationship between Unit_Price and Ordered_Quantity and the orders having similar unit price and ordered_quantity should be highlighted. Which of the following visualization and feature would you use?",
+        "de": "Sie haben ein Produktdataset mit den Spalten Unit_Price und ordered_quantity. Sie sollen eine Visualisierung erstellen, die die Beziehung zwischen Preis und Bestellmenge zeigt - Bestellungen mit ähnlichen Werten sollen hervorgehoben werden. Welche Visualisierung und Funktion würden Sie verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Visualization: A column chart for Unit_Price and Quantity_ordered by year and Feature: Automatically finds clusters",
+      "Visualization: A column chart for Unit_Price and Quantity_ordered by year and Feature: Find where the distribution is different",
+      "Visualization: A scatter Plot for Unit_price and Quantity_ordered by item and Feature: Automatically Finds Clusters",
+      "Visualization: A scatter Plot for Unit_price and Quantity_ordered by item and Feature: Find where the distribution is different",
+      "Visualization: A Line chart for Unit_Price and Quantity_ordered by year and Feature: Automatically Finds Clusters"
+    ],
+    "choices_ger": [
+      "Visualisierung: Säulendiagramm (nach Jahr) | Funktion: Cluster automatisch finden",
+      "Visualisierung: Säulendiagramm (nach Jahr) | Funktion: Verteilungsunterschiede finden",
+      "Visualisierung: Streudiagramm (nach Artikel) | Funktion: Cluster automatisch finden",
+      "Visualisierung: Streudiagramm (nach Artikel) | Funktion: Verteilungsunterschiede finden",
+      "Visualisierung: Liniendiagramm (nach Jahr) | Funktion: Cluster automatisch finden"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q012",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Select the correct Power BI report settings that you can customize with the help of a report theme?",
+        "de": "Welche der folgenden Power BI-Berichtseinstellungen können Sie mit einem Berichtsthema anpassen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Background color for the report",
+      "Set of the custom colors that are utilized by the visuals throughout the report",
+      "Default features of the new visuals which are included in the report",
+      "All of these"
+    ],
+    "choices_ger": [
+      "Hintergrundfarbe des Berichts",
+      "Farbpalette für Visuals im gesamten Bericht",
+      "Standardeinstellungen neuer Visuals",
+      "Alle oben genannten"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q013",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are developing a visual to demonstrate the ranking of the product types by sales revenues. As per your company's security policies, you can't send the data outside of your Power BI tenant. Which of the following approach would provide the widest variety of visuals while sticking to the security policies?",
+        "de": "Sie entwickeln eine Visualisierung für die Umsatzrangfolge von Produkttypen. Laut Sicherheitsrichtlinien dürfen Daten den Power BI-Mandanten nicht verlassen. Welcher Ansatz bietet die größte Auswahl an Visuals bei Einhaltung der Richtlinien?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Using only the default visuals",
+      "Using default or custom visuals from the .pbiviz file",
+      "Using default visuals or custom visuals from the marketplace",
+      "Using default visuals or certified custom visuals"
+    ],
+    "choices_ger": [
+      "Nur Standard-Visuals verwenden",
+      "Standard- oder benutzerdefinierte Visuals aus .pbiviz-Dateien",
+      "Standard-Visuals oder Custom Visuals aus dem Marketplace",
+      "Standard-Visuals oder zertifizierte Custom Visuals"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q014",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are creating a complex report having a lot of visuals in Power BI. You want to ensure that the users read it in a logical way when they use the keyboard. From the following list, select the right option which you need to work on.",
+        "de": "Sie erstellen einen komplexen Power BI-Bericht mit vielen Visuals. Sie möchten sicherstellen, dass Benutzer ihn logisch mit der Tastatur navigieren können. Welche Option müssen Sie anpassen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Page Order",
+      "Tab Order",
+      "Layer Order",
+      "Field Hierarchy",
+      "Bookmark Order"
+    ],
+    "choices_ger": [
+      "Seitenreihenfolge",
+      "Tab-Reihenfolge",
+      "Ebenenreihenfolge",
+      "Feldhierarchie",
+      "Lesezeichenreihenfolge"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q015",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which of the following are the potential ways to enhance the performance of a report?",
+        "de": "Welche der folgenden Methoden können die Leistung eines Berichts verbessern?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Aggregate the data to reduce the number of rows. For example, the transactions can be grouped by the month rather than showing them by date",
+      "Restrict the number of data points shown in a visual for example in a table with the help of the Top N filter",
+      "Optimize the DAX expressions to iterate through fewer rows",
+      "Split out the dimensions and associated attributes into their own tables minimizing the number of columns within a fact tables",
+      "Reduce the number of bookmarks applied to a report."
+    ],
+    "choices_ger": [
+      "Daten aggregieren (z.B. Transaktionen nach Monat statt Tag gruppieren)",
+      "Anzahl der angezeigten Datenpunkte begrenzen (z.B. mit Top N-Filter)",
+      "DAX-Ausdrücke optimieren (weniger Zeilen durchlaufen)",
+      "Dimensionen in separate Tabellen auslagern (Spalten in Faktentabellen reduzieren)",
+      "Anzahl der Lesezeichen im Bericht reduzieren"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q016",
+    "content": [
+      {
+        "type": "text",
+        "eng": "There is a dataset containing the survey results for the percentage of Facebook usage by Gender, year, and age. The age of the survey respondents lies between 10 and 70 years. You need to build a bar chart demonstrating the percentage of Facebook usage for equal age ranges of 15 years. Here is the list of some actions that might be performed. a. Set the group type to Bin b. Set the Bin size to 4 c. Set the Bin Count to 15 d. Set the Bin count to 4 e. Set Group type to list f. Set the Bin type to the number of Bins g. Right-click on the column Age and Choose New Group Choose the correct sequence of the actions (you may choose some or all actions from the given list) that you would perform.",
+        "de": "Ein Dataset enthält Umfrageergebnisse zur Facebook-Nutzung nach Geschlecht, Jahr und Alter (10-70 Jahre). Sie benötigen ein Balkendiagramm, das die Nutzung in gleichgroßen Altersgruppen (15 Jahre) zeigt. Mögliche Aktionen: a. Gruppierungstyp auf 'Bin' setzen b. Bin-Größe auf 4 setzen c. Bin-Anzahl auf 15 setzen d. Bin-Anzahl auf 4 setzen e. Gruppierungstyp 'Liste' f. Bin-Typ auf 'Anzahl der Bins' setzen g. Rechtsklick auf Altersspalte → 'Neue Gruppe'. Wählen Sie die korrekte Aktionssequenz."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "a-b-c-f-g",
+      "a-c-b-g-h",
+      "a-b-c-e-g",
+      "g-a-f-d",
+      "a-g-f-d"
+    ],
+    "choices_ger": [
+      "a-b-c-f-g",
+      "a-c-b-g-h",
+      "a-b-c-e-g",
+      "g-a-f-d",
+      "a-g-f-d"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q017",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which of the below-given settings are possible to be managed in a dataset in Power BI Service?",
+        "de": "Welche der folgenden Einstellungen können in einem Dataset im Power BI Service verwaltet werden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Adding a new data source",
+      "Adding a new DAX measure",
+      "Configure Scheduled Refreshes",
+      "View the refresh history",
+      "Creating a new table relationship",
+      "If you are not the current owner, you can take over the dataset."
+    ],
+    "choices_ger": [
+      "Hinzufügen einer neuen Datenquelle",
+      "Hinzufügen eines neuen DAX-Maßes",
+      "Geplante Aktualisierungen konfigurieren",
+      "Aktualisierungsverlauf anzeigen",
+      "Erstellen einer neuen Tabellenbeziehung",
+      "Wenn Sie nicht der aktuelle Besitzer sind, können Sie das Dataset übernehmen."
+    ],
+    "isMulti": true,
+    "correct": [
+      2,
+      3,
+      5
+    ]
+  },
+  {
+    "id": "q018",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You develop a Power BI Report for a huge dataset. You are looking to enhance the performance of dataset refresh through an incremental refresh. Which of the following statements are true regarding this scenario?",
+        "de": "Sie entwickeln einen Power BI-Bericht für einen großen Datensatz. Sie möchten die Leistung der Dataset-Aktualisierung durch inkrementelle Aktualisierung verbessern. Welche der folgenden Aussagen sind in diesem Szenario wahr?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Use Incremental Refresh feature only for the data sources supporting query folding",
+      "RangeStart and RangeEnd are two PowerQuery parameters that are needed for the incremental Refresh",
+      "Use Incremental Refresh feature for all data sources",
+      "A date field is needed on a table in the dataset"
+    ],
+    "choices_ger": [
+      "Verwenden Sie die inkrementelle Aktualisierung nur für Datenquellen, die Query Folding unterstützen",
+      "RangeStart und RangeEnd sind zwei PowerQuery-Parameter, die für die inkrementelle Aktualisierung benötigt werden",
+      "Verwenden Sie die inkrementelle Aktualisierung für alle Datenquellen",
+      "Ein Datumsfeld wird in einer Tabelle des Datensatzes benötigt"
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "q019",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider the below given Power BI model.This model shows the relationship of the Product table with the Product category on column SKU. Here is the sample of the data that both the tables have: Product Table SKU: E-01, Product: Lenovo Ideapad Slim 5i, Color: Grey SKU: E-02, Product Sony headset, Color: Red SKU: E-03, product- Samsung TVs, Color: Black Product Category SKU: E-01, Category: laptops SKU: E-02, Category: Headsets SKU: E-03, category: Televisions You need to utilize a Hierarchy in your Power BI report that demonstrates two levels i.e product and category. To achieve the goal, you decide to create a DAX expression with the CONCATENATEX function between the Product and Category columns. Will it really help you in achieving the goal?",
+        "de": "Betrachten Sie das folgende Power BI-Modell. Dieses Modell zeigt die Beziehung zwischen der Produkttabelle und der Produktkategorie über die Spalte SKU. Hier sind Beispieldaten beider Tabellen: Produkttabelle SKU: E-01, Produkt: Lenovo Ideapad Slim 5i, Farbe: Grau SKU: E-02, Produkt: Sony-Kopfhörer, Farbe: Rot SKU: E-03, Produkt: Samsung-Fernseher, Farbe: Schwarz Produktkategorie SKU: E-01, Kategorie: Laptops SKU: E-02, Kategorie: Kopfhörer SKU: E-03, Kategorie: Fernseher Sie müssen eine Hierarchie in Ihrem Power BI-Bericht verwenden, die zwei Ebenen zeigt, nämlich Produkt und Kategorie. Um das Ziel zu erreichen, entscheiden Sie sich, einen DAX-Ausdruck mit der CONCATENATEX-Funktion zwischen den Spalten Produkt und Kategorie zu erstellen. Wird dies Ihnen wirklich helfen, das Ziel zu erreichen?"
+      },
+      {
+        "type": "image",
+        "value": "q019.webp"
+      }
+    ],
+    "images": [
+      "q019.webp"
+    ],
+    "choices": [
+      "True",
+      "False"
+    ],
+    "choices_ger": [
+      "Wahr",
+      "Falsch"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q020",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You can create some very powerful data analysis solutions with the help of measures. Which of the following statement is true about the measures in Power BI?",
+        "de": "Mit Hilfe von Measures können Sie sehr leistungsfähige Datenanalyselösungen erstellen. Welche der folgenden Aussagen über Measures in Power BI ist wahr?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "A new measure can be created by clicking the New Measure button present in the Home tab of Power BI Desktop",
+      "A measure can be referenced in a DAX expression by writing the bracket",
+      "Whenever you do interact with the report, the context in which the measure calculates and shows its results changes",
+      "All of the above"
+    ],
+    "choices_ger": [
+      "Ein neues Measure kann durch Klicken auf die Schaltfläche 'Neues Measure' auf der Registerkarte 'Start' in Power BI Desktop erstellt werden",
+      "Ein Measure kann in einem DAX-Ausdruck durch Schreiben der Klammern referenziert werden",
+      "Wenn Sie mit dem Bericht interagieren, ändert sich der Kontext, in dem das Measure berechnet und seine Ergebnisse anzeigt",
+      "Alle oben genannten"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q021",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What does Assume Referential Integrity mean in Power BI Desktop while developing the relationships between the tables?",
+        "de": "Was bedeutet 'Referenzielle Integrität annehmen' in Power BI Desktop beim Entwickeln von Beziehungen zwischen Tabellen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Setting Assume referential integrity makes queries utilize INNER JOIN statements instead of OUTER JOIN, which increases the query efficiency",
+      "It considers that there are no null or blank values in any data table in the relationships",
+      "It automatically considers the relationship as one to one (instead of one to many or many to one)",
+      "It permits the calculated columns to be considered as the relationship column between the tables",
+      "Setting Assume referential integrity makes queries to utilize OUTER JOIN statements instead of INNER JOIN, which increases the query efficiency"
+    ],
+    "choices_ger": [
+      "Die Einstellung 'Referenzielle Integrität annehmen' bewirkt, dass Abfragen INNER JOIN anstelle von OUTER JOIN verwenden, was die Abfrageeffizienz erhöht",
+      "Es wird angenommen, dass es in den verknüpften Tabellen keine NULL- oder leeren Werte gibt",
+      "Es betrachtet die Beziehung automatisch als 1:1 (anstelle von 1:n oder n:1)",
+      "Es erlaubt, dass berechnete Spalten als Beziehungsspalten zwischen den Tabellen betrachtet werden",
+      "Die Einstellung 'Referenzielle Integrität annehmen' bewirkt, dass Abfragen OUTER JOIN anstelle von INNER JOIN verwenden, was die Abfrageeffizienz erhöht"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q022",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a Consumer Sales Revenue monthly report. You analyze and notice that the attrition Rate metric is sharply increased. You are interested in understanding the variables that might affect this result. Which of the following visuals can you use to understand and explore the potential causes in Power BI Desktop?",
+        "de": "Sie haben einen monatlichen Bericht über den Verbraucherumsatz. Sie analysieren und stellen fest, dass die Abwanderungsrate stark angestiegen ist. Sie möchten die Variablen verstehen, die dieses Ergebnis beeinflussen könnten. Welche der folgenden Visualisierungen können Sie in Power BI Desktop verwenden, um die potenziellen Ursachen zu verstehen und zu untersuchen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Decomposition tree visuals",
+      "Funnel Visual",
+      "Key Influencer Visual",
+      "Combo visual",
+      "Waterfall Visual"
+    ],
+    "choices_ger": [
+      "Zerlegungsbaum-Visualisierung",
+      "Trichterdiagramm",
+      "Key Influencer Visualisierung",
+      "Kombinationsdiagramm",
+      "Wasserfalldiagramm"
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      2
+    ]
+  },
+  {
+    "id": "q023",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have the responsibility to configure the Microsoft Power BI dashboard. You need to add the feature that the users of the dashboard can provide you with feedback and that feedback should be visible to the other users of the dashboard? In this case, what would you use?",
+        "de": "Sie sind dafür verantwortlich, ein Microsoft Power BI-Dashboard zu konfigurieren. Sie müssen eine Funktion hinzufügen, mit der die Benutzer des Dashboards Feedback geben können, und dieses Feedback sollte für andere Benutzer des Dashboards sichtbar sein. Was würden Sie in diesem Fall verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Comments",
+      "Mark as favorite",
+      "Subscribe",
+      "Feedback",
+      "Bookmark"
+    ],
+    "choices_ger": [
+      "Kommentare",
+      "Als Favorit markieren",
+      "Abonnieren",
+      "Feedback",
+      "Lesezeichen"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q024",
+    "content": [
+      {
+        "type": "text",
+        "eng": "There is a dashboard named Salary_Cost having Q&A enabled on it. When a user tries to get the count of Employees, the query gets failed. On the other hand, when the user asks for the count of workers, the query returns the expected result. You need to ensure that the same result is returned by both queries. Which of the following actions would you perform?",
+        "de": "Es gibt ein Dashboard namens Salary_Cost, auf dem Q&A aktiviert ist. Wenn ein Benutzer versucht, die Anzahl der Mitarbeiter zu erhalten, schlägt die Abfrage fehl. Wenn der Benutzer jedoch nach der Anzahl der Arbeiter fragt, gibt die Abfrage das erwartete Ergebnis zurück. Sie müssen sicherstellen, dass beide Abfragen dasselbe Ergebnis zurückgeben. Welche der folgenden Aktionen würden Sie durchführen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Editing synonyms from the Power BI service",
+      "Editing Relationships from the Power BI Desktop",
+      "Editing synonyms from the Power BI Desktop",
+      "Editing tables from the Power Query in Power BI Desktop"
+    ],
+    "choices_ger": [
+      "Synonyme im Power BI Service bearbeiten",
+      "Beziehungen in Power BI Desktop bearbeiten",
+      "Synonyme in Power BI Desktop bearbeiten",
+      "Tabellen in Power Query in Power BI Desktop bearbeiten"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q025",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You need to import a dataset into the Power BI Desktop from an Excel document. While performing the tables profiling, you notice that two columns require some fixings where Column1 is having many values starting with space and column2 is having a number of non-printable characters. Which of the following commands can help you in fixing the errors in Column1 and Column2?",
+        "de": "Sie müssen einen Datensatz aus einem Excel-Dokument in Power BI Desktop importieren. Bei der Profilerstellung der Tabellen stellen Sie fest, dass zwei Spalten korrigiert werden müssen: Spalte1 enthält viele Werte, die mit einem Leerzeichen beginnen, und Spalte2 enthält eine Reihe nicht druckbarer Zeichen. Welche der folgenden Befehle können Ihnen helfen, die Fehler in Spalte1 und Spalte2 zu beheben?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Column1: Capitalize Each Word Column2: Clean",
+      "Column1: Clean White Spaces Column2: Trim",
+      "Column1: Clean White Spaces Column2: Clean",
+      "Column1: Length Column2: TRIM",
+      "Column1: Trim Column2: Clean",
+      "Column1: Capitalize Each Word Column2: Trim"
+    ],
+    "choices_ger": [
+      "Spalte1: Jedes Wort großschreiben Spalte2: Bereinigen",
+      "Spalte1: Leerzeichen bereinigen Spalte2: Trimmen",
+      "Spalte1: Leerzeichen bereinigen Spalte2: Bereinigen",
+      "Spalte1: Länge Spalte2: TRIM",
+      "Spalte1: Trimmen Spalte2: Bereinigen",
+      "Spalte1: Jedes Wort großschreiben Spalte2: Trimmen"
+    ],
+    "isMulti": false,
+    "correct": [
+      4
+    ]
+  },
+  {
+    "id": "q026",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider the statement below: Queries in the Query editor don´t need to be loaded to the data model. You can decide and select whether to load them or not.",
+        "de": "Betrachten Sie die folgende Aussage: Abfragen im Abfrage-Editor müssen nicht in das Datenmodell geladen werden. Sie können entscheiden und auswählen, ob Sie sie laden möchten oder nicht."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "True",
+      "False"
+    ],
+    "choices_ger": [
+      "Wahr",
+      "Falsch"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q027",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider the two tables Courses and Teachers with the following snapshots",
+        "de": "Betrachten Sie die beiden Tabellen Kurse und Lehrer mit den folgenden Momentaufnahmen"
+      },
+      {
+        "type": "image",
+        "value": "q027.webp"
+      },
+      {
+        "type": "text",
+        "eng": "You desire to set a relationship between the tables courses and teachers with many-to-one cardinality, but it is not available in the relationship settings (as demonstrated in the below picture).",
+        "de": "Sie möchten eine Beziehung zwischen den Tabellen Kursen und Lehrern mit einer n:1-Kardinalität einrichten, aber diese ist in den Beziehungseinstellungen nicht verfügbar (wie im folgenden Bild gezeigt)."
+      },
+      {
+        "type": "image",
+        "value": "q027_.webp"
+      }
+    ],
+    "images": [
+      "q027.webp",
+      "q027_.webp"
+    ],
+    "choices": [
+      "Use the 'Remove Errors' command for the Courses table",
+      "Filter out the blank values from the Teachers table",
+      "Add a new index column Teacher Name to the table Courses",
+      "Use the 'Remove Duplicates' command for the Teachers table",
+      "Use the 'Remove Duplicates' command for the Courses table"
+    ],
+    "choices_ger": [
+      "Verwenden Sie den Befehl 'Fehler entfernen' für die Tabelle Kurse",
+      "Filtern Sie die leeren Werte aus der Tabelle Lehrer heraus",
+      "Fügen Sie der Tabelle Kurse eine neue Indexspalte 'Lehrer Name' hinzu",
+      "Verwenden Sie den Befehl 'Duplikate entfernen' für die Tabelle Lehrer",
+      "Verwenden Sie den Befehl 'Duplikate entfernen' für die Tabelle Kurse"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q028",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What is the use of Row Level Security (RLS) in Power BI?",
+        "de": "Wozu dient die Sicherheit auf Zeilenebene (Row Level Security, RLS) in Power BI?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Assigning the security permissions for the underlying Power BI Azure SQL Database",
+      "Adding the ability to link Power BI Log-in to organizational Active Directory or Window Login through Single Sign On (SSO)",
+      "Restricting data access for the given users (By assigning users to roles)",
+      "Restrictions to specific measures within Power BI reports to some specific users",
+      "All the above"
+    ],
+    "choices_ger": [
+      "Zuweisen der Sicherheitsberechtigungen für die zugrunde liegende Power BI Azure SQL-Datenbank",
+      "Hinzufügen der Möglichkeit, die Power BI-Anmeldung über Single Sign-On (SSO) mit dem organisationalen Active Directory oder Windows Login zu verknüpfen",
+      "Einschränken des Datenzugriffs für bestimmte Benutzer (durch Zuweisen von Benutzern zu Rollen)",
+      "Einschränkungen für bestimmte Measures in Power BI-Berichten für bestimmte Benutzer",
+      "Alle oben genannten"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q029",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Choose the correct return type for the FILTER function in DAX.",
+        "de": "Wählen Sie den richtigen Rückgabetyp für die FILTER-Funktion in DAX."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Row",
+      "Column",
+      "Table",
+      "Integer",
+      "Character"
+    ],
+    "choices_ger": [
+      "Zeile",
+      "Spalte",
+      "Tabelle",
+      "Ganzzahl",
+      "Zeichen"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q030",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Consider that you want to split your query into two parts. Which of the following options would you use in Power BI?",
+        "de": "Angenommen, Sie möchten Ihre Abfrage in zwei Teile aufteilen. Welche der folgenden Optionen würden Sie in Power BI verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Format Query",
+      "Split Query",
+      "Extract previous",
+      "Mark Query"
+    ],
+    "choices_ger": [
+      "Abfrage formatieren",
+      "Abfrage teilen",
+      "Vorherige extrahieren",
+      "Abfrage markieren"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q031",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You need to create some visualizations in Power BI Desktop using Python Scripting. After installing and configuring Python for Power BI Desktop, you run the below-given code:",
+        "de": "Sie müssen einige Visualisierungen in Power BI Desktop mit Python-Skripting erstellen. Nach der Installation und Konfiguration von Python für Power BI Desktop führen Sie den folgenden Code aus:"
+      },
+      {
+        "type": "image",
+        "value": "q031.webp"
+      },
+      {
+        "type": "text",
+        "eng": "In the response, you get the following error message.",
+        "de": "Als Antwort erhalten Sie die folgende Fehlermeldung."
+      },
+      {
+        "type": "image",
+        "value": "q031_.webp"
+      },
+      {
+        "type": "text",
+        "eng": "How would you fix this issue?",
+        "de": "Wie würden Sie dieses Problem beheben?"
+      }
+    ],
+    "images": [
+      "q031.webp",
+      "q031_.webp"
+    ],
+    "choices": [
+      "By refreshing the IDE settings",
+      "By adding the command pyplot.show to the script",
+      "By refreshing the dataset origin connection",
+      "How would you fix this issue?"
+    ],
+    "choices_ger": [
+      "Durch Aktualisieren der IDE-Einstellungen",
+      "Durch Hinzufügen des Befehls pyplot.show zum Skript",
+      "Durch Aktualisieren der Ursprungsverbindung des Datensatzes",
+      "Wie würden Sie dieses Problem beheben?"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q032",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are publishing a report to Consumer Services Workspace. The report basically identifies the consumers having data quality problems that need to be investigated by the consumer services department of the company. You want to allow the consumer service managers to create the task lists in Microsoft Excel depending upon the data. How would you configure the report setting?",
+        "de": "Sie veröffentlichen einen Bericht im Consumer Services Workspace. Der Bericht identifiziert im Wesentlichen Verbraucher mit Datenqualitätsproblemen, die von der Kundendienstabteilung des Unternehmens untersucht werden müssen. Sie möchten den Kundendienstmanagern ermöglichen, Aufgabenlisten in Microsoft Excel basierend auf den Daten zu erstellen. Wie würden Sie die Berichtseinstellung konfigurieren?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Modify the default visual interaction from cross highlighting to cross-filtering",
+      "Dont permit the end users to save filters on the report",
+      "Permit the users to include the comments in the report",
+      "Enable the modified filter pane and display the filters in the visual header of the report",
+      "Select the type of data you want to allow the end-users to export"
+    ],
+    "choices_ger": [
+      "Ändern Sie die standardmäßige visuelle Interaktion von Kreuzhervorhebung zu Kreuzfilterung",
+      "Erlauben Sie den Endbenutzern nicht, Filter im Bericht zu speichern",
+      "Erlauben Sie den Benutzern, Kommentare in den Bericht aufzunehmen",
+      "Aktivieren Sie den modifizierten Filterbereich und zeigen Sie die Filter in der visuellen Kopfzeile des Berichts an",
+      "Wählen Sie den Datentyp aus, den die Endbenutzer exportieren dürfen"
+    ],
+    "isMulti": false,
+    "correct": [
+      4
+    ]
+  },
+  {
+    "id": "q033",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which of the following are the benefits of Power BI Reports over Power BI Dashboards?",
+        "de": "Welche der folgenden Vorteile bieten Power BI-Berichte gegenüber Power BI-Dashboards?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Report offers storytelling capability with the help of bookmarks",
+      "Reports offer a better real-time experience while showing data from a streaming dataset",
+      "Report definitions are possible to save using PBIX, an external file format, and checked into source control",
+      "Reports offer a better interactive drill down and filtering experience",
+      "Reports update automatically whenever the data of the underlying dataset is updated"
+    ],
+    "choices_ger": [
+      "Berichte bieten Storytelling-Fähigkeiten mit Hilfe von Lesezeichen",
+      "Berichte bieten eine bessere Echtzeiterfahrung beim Anzeigen von Daten aus einem Streaming-Datensatz",
+      "Berichtsdefinitionen können als PBIX-Datei gespeichert und in die Quellcodeverwaltung eingecheckt werden",
+      "Berichte bieten ein besseres interaktives Drilldown- und Filtererlebnis",
+      "Berichte aktualisieren sich automatisch, wenn die Daten des zugrunde liegenden Datensatzes aktualisiert werden"
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      2,
+      3
+    ]
+  },
+  {
+    "id": "q034",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your team manager has asked you to print some Power BI reports and distribute them among the team members during the Review meeting. Before starting the printing of reports, you notice that some tables are showing fewer rows as compared to the actual rows present there. Which of the following is the right method to resolve this issue?",
+        "de": "Ihr Teamleiter hat Sie gebeten, einige Power BI-Berichte zu drucken und während des Review-Meetings an die Teammitglieder zu verteilen. Bevor Sie mit dem Drucken der Berichte beginnen, stellen Sie fest, dass einige Tabellen weniger Zeilen anzeigen als tatsächlich vorhanden sind. Welche der folgenden Methoden ist die richtige, um dieses Problem zu lösen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Change the visual from the table to Matrix",
+      "Create a paginated report",
+      "Create a customize tooltip",
+      "Reduce the table size by grouping the rows",
+      "Expand the table to the whole page"
+    ],
+    "choices_ger": [
+      "Ändern Sie die Visualisierung von Tabelle zu Matrix",
+      "Erstellen Sie einen paginierten Bericht",
+      "Erstellen Sie ein angepasstes Tooltip",
+      "Reduzieren Sie die Tabellengröße durch Gruppieren der Zeilen",
+      "Erweitern Sie die Tabelle auf die ganze Seite"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q035",
+    "content": [
+      {
+        "type": "text",
+        "eng": "For the custom column Formula:             =if[state]= LA then Los Angeles else[state] Select the statement that rightly describes the value for the custom column formula.",
+        "de": "Für die benutzerdefinierte Spaltenformel:             =if[state]= LA then Los Angeles else[state] Wählen Sie die Aussage, die den Wert der benutzerdefinierten Spaltenformel richtig beschreibt."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "The value of the formula will be 'Los Angeles'",
+      "The value of the formula will be 'LA'",
+      "The value of the formula will either be 'Los Angeles' or whatever the value for the State column is",
+      "The value of the formula will be the same value as the State column"
+    ],
+    "choices_ger": [
+      "Der Wert der Formel wird 'Los Angeles' sein",
+      "Der Wert der Formel wird 'LA' sein",
+      "Der Wert der Formel wird entweder 'Los Angeles' sein oder der Wert der State-Spalte",
+      "Der Wert der Formel wird der gleiche sein wie der Wert der State-Spalte"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q036",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You work for a Bike company and create a report of Sales and Category. You build a measure for the Sales % of Categories and want to add conditional formatting such that the colors for low values are red, center values are orange and high values are green. How would you achieve this goal?",
+        "de": "Sie arbeiten für ein Fahrradunternehmen und erstellen einen Bericht über Verkäufe und Kategorien. Sie erstellen ein Maß für den Verkaufsanteil der Kategorien und möchten eine bedingte Formatierung hinzufügen, sodass die Farben für niedrige Werte rot, mittlere Werte orange und hohe Werte grün sind. Wie würden Sie dieses Ziel erreichen?"
+      },
+      {
+        "type": "image",
+        "value": "q036.webp"
+      }
+    ],
+    "images": [
+      "q036.webp"
+    ],
+    "choices": [
+      "Use conditional formatting with a Color scale using default settings",
+      "Use conditional formatting with Rules",
+      "Use conditional formatting with a Color scale and check the diverging setting",
+      "Use conditional formatting with Field values"
+    ],
+    "choices_ger": [
+      "Verwenden Sie die bedingte Formatierung mit einer Farbskala und Standardeinstellungen",
+      "Verwenden Sie die bedingte Formatierung mit Regeln",
+      "Verwenden Sie die bedingte Formatierung mit einer Farbskala und aktivieren Sie die divergierende Einstellung",
+      "Verwenden Sie die bedingte Formatierung mit Feldwerten"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q037",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.You have a clustered bar chart that contains a measure named Salary as the value and a field named Employee as the axis. Salary is present in the data as a numerical amount representing US dollars.You need to create a reference line to show which employees are above the median salary.Solution: You create an average line by using the Salary measure.Does this meet the goal?",
+        "de": "Hinweis: Diese Frage ist Teil einer Reihe von Fragen, die dasselbe Szenario darstellen. Jede Frage in der Reihe enthält eine eindeutige Lösung, die die angegebenen Ziele erreichen könnte. Einige Fragensätze haben möglicherweise mehr als eine richtige Lösung, während andere möglicherweise keine richtige Lösung haben. Nachdem Sie eine Frage in diesem Abschnitt beantwortet haben, können Sie nicht mehr darauf zurückkommen. Daher werden diese Fragen nicht auf dem Übersichtsbildschirm angezeigt. Sie haben ein gruppiertes Balkendiagramm, das ein Maß namens Salary als Wert und ein Feld namens Employee als Achse enthält. Salary ist in den Daten als numerischer Betrag in US-Dollar vorhanden. Sie müssen eine Referenzlinie erstellen, um anzuzeigen, welche Mitarbeiter über dem Durchschnittsgehalt liegen. Lösung: Sie erstellen eine Durchschnittslinie mit dem Salary-Maß. Erfüllt dies das Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q038",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What is the purpose of a dataset in Power BI?",
+        "de": "Was ist der Zweck eines Datensatzes in Power BI?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "To store data",
+      "To create reports",
+      "To share data",
+      "To manage data sources"
+    ],
+    "choices_ger": [
+      "Daten speichern",
+      "Berichte erstellen",
+      "Daten teilen",
+      "Datenquellen verwalten"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q039",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What is the purpose of a data type in Power BI?",
+        "de": "Was ist der Zweck eines Datentyps in Power BI?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "To define the format and behavior of a column",
+      "To define the format and behavior of a measure",
+      "To define the format and behavior of a visualization",
+      "To define the format and behavior of a report"
+    ],
+    "choices_ger": [
+      "Das Format und Verhalten einer Spalte definieren",
+      "Das Format und Verhalten eines Maßes definieren",
+      "Das Format und Verhalten einer Visualisierung definieren",
+      "Das Format und Verhalten eines Berichts definieren"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q040",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a report that contains four pages. Each page contains slicers for the same four fields.Users report that when they select values in a slicer on one page, the selections are not persisted on other pages.You need to recommend a solution to ensure that users can select a value once to filter the results on all the pages.What are two possible recommendations to achieve this goal? Each correct answer presents a complete solution.NOTE: Each correct selection is worth one point.",
+        "de": "Sie haben einen Bericht mit vier Seiten. Jede Seite enthält Slicer für dieselben vier Felder. Benutzer melden, dass die Auswahl in einem Slicer auf einer Seite nicht auf anderen Seiten beibehalten wird. Sie müssen eine Lösung empfehlen, um sicherzustellen, dass Benutzer einen Wert einmal auswählen können, um die Ergebnisse auf allen Seiten zu filtern. Welche zwei Empfehlungen sind möglich, um dieses Ziel zu erreichen? Jede richtige Antwort stellt eine vollständige Lösung dar. HINWEIS: Jede richtige Auswahl ist einen Punkt wert."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Create a bookmark for each slicer value.",
+      "Replace the slicers with report-level filters.",
+      "Sync the slicers across the pages.",
+      "Replace the slicers with page-level filters.",
+      "Replace the slicers with visual-level filters."
+    ],
+    "choices_ger": [
+      "Erstellen Sie ein Lesezeichen für jeden Slicer-Wert.",
+      "Ersetzen Sie die Slicer durch Berichtsebenenfilter.",
+      "Synchronisieren Sie die Slicer über die Seiten hinweg.",
+      "Ersetzen Sie die Slicer durch Seitenebenenfilter.",
+      "Ersetzen Sie die Slicer durch Visualebenenfilter."
+    ],
+    "isMulti": true,
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "q041",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What is the best way to organize datasets in Power BI?",
+        "de": "Was ist der beste Weg, um Datensätze in Power BI zu organisieren?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Use folders to group related datasets",
+      "Use tags to categorize datasets",
+      "Use a naming convention to identify datasets",
+      "Use a separate workspace for each dataset"
+    ],
+    "choices_ger": [
+      "Verwenden Sie Ordner, um zusammengehörige Datensätze zu gruppieren",
+      "Verwenden Sie Tags, um Datensätze zu kategorisieren",
+      "Verwenden Sie eine Namenskonvention, um Datensätze zu identifizieren",
+      "Verwenden Sie einen separaten Arbeitsbereich für jeden Datensatz"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q042",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a line chart that shows the number of employees in a department over time.You need to see the total salary costs of the employees when you hover over a data point.What should you do?",
+        "de": "Sie haben ein Liniendiagramm, das die Anzahl der Mitarbeiter in einer Abteilung über die Zeit anzeigt. Sie möchten die gesamten Gehaltskosten der Mitarbeiter sehen, wenn Sie mit der Maus über einen Datenpunkt fahren. Was sollten Sie tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Add salary to the drillthrough fields.",
+      "Add salary to the visual filters.",
+      "Add salary to the tooltips."
+    ],
+    "choices_ger": [
+      "Fügen Sie Gehalt zu den Drillthrough-Feldern hinzu.",
+      "Fügen Sie Gehalt zu den visuellen Filtern hinzu.",
+      "Fügen Sie Gehalt zu den Tooltips hinzu."
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q043",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What is the purpose of the Power BI Q&A feature?",
+        "de": "Was ist der Zweck der Power BI Q&A-Funktion?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "To allow users to ask natural language questions and get answers in the form of visualizations",
+      "To allow users to create custom visuals",
+      "To allow users to share reports with others",
+      "To allow users to create dashboards"
+    ],
+    "choices_ger": [
+      "Benutzern zu ermöglichen, Fragen in natürlicher Sprache zu stellen und Antworten in Form von Visualisierungen zu erhalten",
+      "Benutzern zu ermöglichen, benutzerdefinierte Visuals zu erstellen",
+      "Benutzern zu ermöglichen, Berichte mit anderen zu teilen",
+      "Benutzern zu ermöglichen, Dashboards zu erstellen"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q044",
+    "content": [
+      {
+        "type": "text",
+        "eng": "How can you create a drill-through report in Power BI?",
+        "de": "Wie können Sie einen Drillthrough-Bericht in Power BI erstellen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Use the Drillthrough feature in the Power BI Desktop",
+      "Use the Drillthrough feature in the Power BI Service",
+      "Use the Drillthrough feature in the Power BI Mobile App",
+      "Use the Drillthrough feature in Excel"
+    ],
+    "choices_ger": [
+      "Verwenden Sie die Drillthrough-Funktion in Power BI Desktop",
+      "Verwenden Sie die Drillthrough-Funktion im Power BI Service",
+      "Verwenden Sie die Drillthrough-Funktion in der Power BI Mobile App",
+      "Verwenden Sie die Drillthrough-Funktion in Excel"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q045",
+    "content": [
+      {
+        "type": "text",
+        "eng": "In a sales report, which chart type would be best to show the total sales for each product category?",
+        "de": "Welcher Diagrammtyp eignet sich am besten, um den Gesamtumsatz pro Produktkategorie in einem Verkaufsbericht darzustellen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Pie chart",
+      "Bar chart",
+      "Line chart",
+      "Scatter chart"
+    ],
+    "choices_ger": [
+      "Kuchendiagramm",
+      "Balkendiagramm",
+      "Liniendiagramm",
+      "Streudiagramm"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q046",
+    "content": [
+      {
+        "type": "text",
+        "eng": "How can you manage workspaces in Power BI?",
+        "de": "Wie können Sie Arbeitsbereiche in Power BI verwalten?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      " Create a new workspace",
+      " Delete a workspace",
+      " Rename a workspace",
+      " Share a workspace"
+    ],
+    "choices_ger": [
+      " Einen neuen Arbeitsbereich erstellen",
+      " Einen Arbeitsbereich löschen",
+      " Einen Arbeitsbereich umbenennen",
+      " Einen Arbeitsbereich freigeben"
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ]
+  }
+]

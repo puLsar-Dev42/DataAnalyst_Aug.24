@@ -3,13 +3,6 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="C:\Users\Admin\Downloads\restaurant.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\03_Excel\DashBoardSideProject\healthcare_dataset.csv">
           <value>
             <Attribute>
@@ -25,6 +18,20 @@
           </value>
         </entry>
         <entry key="\07_Python_für_Datenanalysten\Tag_10_virtuel-environment-venv\Tutorium\autoscout24-germany-dataset.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\07_Python_für_Datenanalysten\Tag_6_Aggregation\Tutorium\data_science_salaries.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\07_Python_für_Datenanalysten\Tag_7_Diagramme-Pandas\Tutorium\data_science_salaries.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -52,7 +59,42 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\database\cleaned_exoplanet_data.csv">
+        <entry key="\11_Datenvisualisierung_mit_Python\Tag_10_Dash\Tutorium\restaurant.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\11_Datenvisualisierung_mit_Python\Tag_10_Dash\Vorlesung\data_science_salaries.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\11_Datenvisualisierung_mit_Python\Tag_11_StreamLit\Tutorium\AmazonSalesData.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\11_Datenvisualisierung_mit_Python\Tag_11_StreamLit\Tutorium\googleplaystore_user_reviews.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\11_Datenvisualisierung_mit_Python\Tag_11_StreamLit\Vorlesung\Customers.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\11_Datenvisualisierung_mit_Python\Tag_11_StreamLit\Vorlesung\penguins.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

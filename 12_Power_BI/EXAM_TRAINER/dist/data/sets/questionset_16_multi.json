@@ -1,0 +1,1554 @@
+[
+  {
+    "id": "q001",
+    "content": [
+      {
+        "type": "text",
+        "eng": "This question is part of repeated scenario questions that contain the same stem but with a different solution for each question. You need to identify if the given solution solves a particular problem. Each set of repeated scenario questions might contain either none, one, or many solutions.\nYou have a data model with the Date table related to the Offline Sales table by columns of date data type (Date[Date] -> 'Offline Sales'[Due Date]). The Date table is marked as a date table.",
+        "de": "Diese Frage ist Teil von wiederholten Szenariofragen, die denselben Stamm haben, aber für jede Frage eine andere Lösung. Sie müssen feststellen, ob die gegebene Lösung ein bestimmtes Problem löst. Jede Gruppe wiederholter Szenariofragen kann keine, eine oder mehrere Lösungen enthalten.\nSie haben ein Datenmodell mit einer Datumstabelle, die mit der Offline-Verkaufstabelle über Spalten vom Datentyp Datum verknüpft ist (Date[Date] -> 'Offline Sales'[Due Date]). Die Datumstabelle ist als Datumstabelle markiert."
+      },
+      {
+        "type": "image",
+        "value": "q001_1.png"
+      },
+      {
+        "type": "text",
+        "eng": "Goal: You have to use the appropriate date field to create a quick measure for calculating the Month-over-month change of the Sales Amount.\nSolution: You use the Date column from the Date table in the Date field.\n/Table2\nDoes the solution meet the stated goal?",
+        "de": "Ziel: Sie müssen das entsprechende Datumsfeld verwenden, um ein schnelles Measure zur Berechnung der monatlichen Veränderung des Verkaufsbetrags zu erstellen.\nLösung: Sie verwenden die Spalte Date aus der Datumstabelle im Datumsfeld."
+      },
+      {
+        "type": "image",
+        "value": "q001_2.png"
+      },
+      {
+        "type": "text",
+        "eng": "",
+        "de": "Erfüllt die Lösung das angegebene Ziel?"
+      }
+    ],
+    "images": [
+      "q001_1.png",
+      "q001_2.png"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q002",
+    "content": [
+      {
+        "type": "text",
+        "eng": "This question is part of repeated scenario questions that contain the same stem but with a different solution for each question. You need to identify if the given solution solves a particular problem. Each set of repeated scenario questions might contain either none, one, or many solutions.\nYou have a data model with the Date table related to the Offline Sales table by columns of date data type (Date[Date] -> 'Offline Sales'[Due Date]). The Date table is marked as a date table.",
+        "de": "Diese Frage ist Teil von wiederholten Szenariofragen, die denselben Stamm haben, aber für jede Frage eine andere Lösung. Sie müssen feststellen, ob die gegebene Lösung ein bestimmtes Problem löst. Jede Gruppe wiederholter Szenariofragen kann keine, eine oder mehrere Lösungen enthalten.\nSie haben ein Datenmodell mit einer Datumstabelle, die mit der Offline-Verkaufstabelle über Spalten vom Datentyp Datum verknüpft ist (Date[Date] -> 'Offline Sales'[Due Date]). Die Datumstabelle ist als Datumstabelle markiert."
+      },
+      {
+        "type": "image",
+        "value": "q002_1.png"
+      },
+      {
+        "type": "text",
+        "eng": "Goal: You have to use the appropriate date field to create a quick measure for calculating the Month-over-month change of the Sales Amount.\nSolution: You use the Due Date column from the Offline Sales table in the Date field.",
+        "de": "Ziel: Sie müssen das entsprechende Datumsfeld verwenden, um ein schnelles Measure zur Berechnung der monatlichen Veränderung des Verkaufsbetrags zu erstellen.\nLösung: Sie verwenden die Spalte Due Date aus der Offline-Verkaufstabelle im Datumsfeld."
+      },
+      {
+        "type": "image",
+        "value": "q002_2.png"
+      },
+      {
+        "type": "text",
+        "eng": "Does the solution meet the stated goal?",
+        "de": "Erfüllt die Lösung das angegebene Ziel?"
+      }
+    ],
+    "images": [
+      "q002_1.png",
+      "q002_2.png"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q003",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You enable users to naturally interact with your Power BI report using the Q&A feature. You create a Date hierarchy (contains Year and Month) in the Date table to visualize Affiliate Income.\nWhen users run a query Affiliate Income by date hierarchy, they get correct results. But, when they run Affiliate Income by Calendar, they do not get any results.\nYou have to set up the model so that the users can query the model with Affiliate Income by Calendar and get the same results.\nWhat would you do?",
+        "de": "Sie ermöglichen Benutzern die natürliche Interaktion mit Ihrem Power BI-Bericht über die Q&A-Funktion. Sie erstellen eine Datumshierarchie (enthält Jahr und Monat) in der Datumstabelle, um Affiliate-Einkommen zu visualisieren.\nWenn Benutzer eine Abfrage 'Affiliate Income by date hierarchy' ausführen, erhalten sie korrekte Ergebnisse. Aber wenn sie 'Affiliate Income by Calendar' ausführen, erhalten sie keine Ergebnisse.\nSie müssen das Modell so einrichten, dass Benutzer das Modell mit 'Affiliate Income by Calendar' abfragen können und dieselben Ergebnisse erhalten.\nWas würden Sie tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "You add a synonym to the Date hierarchy",
+      "You add a description to the Date hierarchy",
+      "You add a synonym to the Date table, as you cannot add a synonym to a hierarchy",
+      "You add a synonym to the year and month fields of the hierarchy"
+    ],
+    "choices_ger": [
+      "Sie fügen der Datumshierarchie ein Synonym hinzu",
+      "Sie fügen der Datumshierarchie eine Beschreibung hinzu",
+      "Sie fügen der Datumstabelle ein Synonym hinzu, da Sie einer Hierarchie kein Synonym hinzufügen können",
+      "Sie fügen den Feldern Jahr und Monat der Hierarchie Synonyme hinzu"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q004",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are analyzing a Power BI data model with only a Sales table. From the Order Date hierarchy, you can analyze the sales values by Year, Month, and Day.\n/Table\nYou want to view the sales value every week. Which of the following is the easiest/elegant option?",
+        "de": "Sie analysieren ein Power BI-Datenmodell mit nur einer Verkaufstabelle. Aus der Bestelldatum-Hierarchie können Sie die Verkaufswerte nach Jahr, Monat und Tag analysieren."
+      },
+      {
+        "type": "image",
+        "value": "q004.png"
+      },
+      {
+        "type": "text",
+        "eng": "",
+        "de": "Sie möchten die Verkaufswerte wöchentlich anzeigen. Welche der folgenden Optionen ist die einfachste/elegantere Lösung?"
+      }
+    ],
+    "images": [
+      "q004.png"
+    ],
+    "choices": [
+      "Create a new group with Group type set to 'Bin' and Bin Type set to 'Number of bins'",
+      "Create a new Date table with CALENDARAUTO and WEEKNUM function",
+      "Create a new group with Group type set to 'List'",
+      "Create a new group with Group type set to 'Bin' and Bin Type set to 'Size of bins'"
+    ],
+    "choices_ger": [
+      "Erstellen Sie eine neue Gruppe mit Gruppentyp 'Bin' und Bin-Typ 'Number of bins'",
+      "Erstellen Sie eine neue Datumstabelle mit CALENDARAUTO und WEEKNUM Funktion",
+      "Erstellen Sie eine neue Gruppe mit Gruppentyp 'List'",
+      "Erstellen Sie eine neue Gruppe mit Gruppentyp 'Bin' und Bin-Typ 'Size of bins'"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q005",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You plot an R visual that maps the global locations of active COVID-19 cases in Power BI.",
+        "de": "Sie erstellen ein R-Visual, das die globalen Standorte aktiver COVID-19-Fälle in Power BI abbildet."
+      },
+      {
+        "type": "image",
+        "value": "q005.png"
+      },
+      {
+        "type": "text",
+        "eng": "By looking at the above chart, you realize that data is missing in Iceland, Northern Russia, Scandinavian & several other countries (marked ?).\nWhat do you think is the reason behind the missing data?",
+        "de": "Wenn Sie sich das obige Diagramm ansehen, stellen Sie fest, dass Daten für Island, Nordrussland, Skandinavien und mehrere andere Länder fehlen (markiert mit ?).\nWas ist Ihrer Meinung nach der Grund für die fehlenden Daten?"
+      }
+    ],
+    "images": [
+      "q005.png"
+    ],
+    "choices": [
+      "The script calculating the R visual times out",
+      "The R script encounters an error",
+      "The R script failed to run correctly due to a missing R package",
+      "Data size limitations for the R visual is exceeded"
+    ],
+    "choices_ger": [
+      "Das Skript zur Berechnung des R-Visuals läuft ab",
+      "Das R-Skript stößt auf einen Fehler",
+      "Das R-Skript konnte aufgrund eines fehlenden R-Pakets nicht korrekt ausgeführt werden",
+      "Die Datenbegrenzung für das R-Visual wurde überschritten"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q006",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a clustered column chart that displays Units Sold by Year and Country.",
+        "de": "Sie haben ein gruppiertes Säulendiagramm, das verkaufte Einheiten nach Jahr und Land anzeigt."
+      },
+      {
+        "type": "image",
+        "value": "q006.png"
+      },
+      {
+        "type": "text",
+        "eng": "What is the best way to split this chart into multiple visuals so you can analyze the data side-by-side across different Years?",
+        "de": "Was ist die beste Möglichkeit, dieses Diagramm in mehrere Visuals aufzuteilen, damit Sie die Daten nebeneinander für verschiedene Jahre analysieren können?"
+      }
+    ],
+    "images": [
+      "q006.png"
+    ],
+    "choices": [
+      "By creating several column charts",
+      "By creating small multiples",
+      "By creating Sparklines",
+      "By creating Bookmarks"
+    ],
+    "choices_ger": [
+      "Durch Erstellen mehrerer Säulendiagramme",
+      "Durch Erstellen von Small Multiples",
+      "Durch Erstellen von Sparklines",
+      "Durch Erstellen von Lesezeichen"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q007",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You perform transformations in Power Query to import table rows of only the top 40 frequently purchasing customers from a fact table in SQL Server.\nWhich tool cannot indicate whether all the performed transformations are folded (i.e., if query folding occurs) to SQL Server?",
+        "de": "Sie führen Transformationen in Power Query durch, um nur die Tabellenzeilen der 40 häufigsten kaufenden Kunden aus einer Faktentabelle in SQL Server zu importieren.\nWelches Tool kann nicht anzeigen, ob alle durchgeführten Transformationen an SQL Server zurückgegeben werden (d.h. ob Query Folding stattfindet)?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "View Native Query option",
+      "Query Diagnostics",
+      "Performance Analyzer",
+      "SQL Server Profiler"
+    ],
+    "choices_ger": [
+      "Option 'Native Query anzeigen'",
+      "Query Diagnostics",
+      "Performance Analyzer",
+      "SQL Server Profiler"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q008",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You need to test your reports in multiple environments like Dev, UAT & Prod (DTAP street). The data source for each environment is on a different physical machine running a separate instance of SQL Server 2019.\nWhich of the following is the best way to test your reports across all the environments?",
+        "de": "Sie müssen Ihre Berichte in mehreren Umgebungen wie Dev, UAT & Prod (DTAP-Straße) testen. Die Datenquelle für jede Umgebung befindet sich auf einer anderen physischen Maschine mit einer separaten Instanz von SQL Server 2019.\nWelche der folgenden Möglichkeiten ist die beste, um Ihre Berichte in allen Umgebungen zu testen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Create Power BI variables",
+      "Create Power BI what-if parameters",
+      "Create Power Query parameters",
+      "In the Power Query M code, replace the references to the server"
+    ],
+    "choices_ger": [
+      "Power BI-Variablen erstellen",
+      "Power BI Was-wäre-wenn-Parameter erstellen",
+      "Power Query-Parameter erstellen",
+      "In den Power Query M-Code die Serverreferenzen ersetzen"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q009",
+    "content": [
+      {
+        "type": "text",
+        "eng": "In the Power BI Desktop, we have an imported table that details a list of Ordered Products for each Invoice Number (shown below).",
+        "de": "In Power BI Desktop haben wir eine importierte Tabelle, die eine Liste der bestellten Produkte für jede Rechnungsnummer detailliert (siehe unten)."
+      },
+      {
+        "type": "image",
+        "value": "q009.png"
+      },
+      {
+        "type": "text",
+        "eng": "You need to ensure that each Ordered Product belongs to a separate row. Which operation would you use?",
+        "de": "Sie müssen sicherstellen, dass jedes bestellte Produkt in einer separaten Zeile steht. Welche Operation würden Sie verwenden?"
+      }
+    ],
+    "images": [
+      "q009.png"
+    ],
+    "choices": [
+      "Pivot the table",
+      "Split the column",
+      "Unpivot the table",
+      "Transpose"
+    ],
+    "choices_ger": [
+      "Tabelle pivotieren",
+      "Spalte teilen",
+      "Tabelle entpivotieren",
+      "Transponieren"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q010",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are working with the Wide World Importers Data Warehouse. You need to do the following:\n· Import a sample data into Power BI Desktop from the Sales fact table that contains more than 350,000 transactions.\n· Choose the most efficient method to fetch the data.\nWhich of the following solutions would you implement? Choose two options.",
+        "de": "Sie arbeiten mit dem Wide World Importers Data Warehouse. Sie müssen Folgendes tun:\n· Importieren Sie Beispieldaten in Power BI Desktop aus der Sales-Faktentabelle, die mehr als 350.000 Transaktionen enthält.\n· Wählen Sie die effizienteste Methode zum Abrufen der Daten.\nWelche der folgenden Lösungen würden Sie implementieren? Wählen Sie zwei Optionen."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "You write a native SQL query during import.",
+      "You use the Power Query editor to filter the data.",
+      "You create a DAX expression with the FILTER function.",
+      "You use Power BI report-level filters."
+    ],
+    "choices_ger": [
+      "Sie schreiben eine native SQL-Abfrage während des Imports.",
+      "Sie verwenden den Power Query-Editor, um die Daten zu filtern.",
+      "Sie erstellen einen DAX-Ausdruck mit der FILTER-Funktion.",
+      "Sie verwenden Power BI-Berichtsfilter."
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "q011",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Microsoft stock is traded on the NASDAQ stock exchange, operational on all days except weekends and market holidays.\nBelow is a data model with details of daily Microsoft's stock prices for the year 2021.",
+        "de": "Microsoft-Aktien werden an der NASDAQ-Börse gehandelt, die an allen Tagen außer Wochenenden und Börsenfeiertagen geöffnet ist.\nUnten sehen Sie ein Datenmodell mit Details der täglichen Microsoft-Aktienkurse für das Jahr 2021."
+      },
+      {
+        "type": "image",
+        "value": "q011.png"
+      },
+      {
+        "type": "text",
+        "eng": "Which of the following DAX formulas would you use to display the Close value of the Microsoft stock each month?\nNote:\nMS Close Price =\nSUM ( 'MS Stock Prices'[Close] )",
+        "de": "Welche der folgenden DAX-Formeln würden Sie verwenden, um den Schlusskurs der Microsoft-Aktie jeden Monat anzuzeigen?\nHinweis:\nMS Close Price =\nSUM ( 'MS Stock Prices'[Close] )"
+      }
+    ],
+    "images": [
+      "q011.png"
+    ],
+    "choices": [
+      "Month Closing Price =\nCALCULATE ( SUM ( 'MS Stock Prices'[Close] ), LASTDATE ( 'Date'[Date] ) )",
+      "Month Closing Price = CALCULATE ( SUM ( 'MS Stock Prices'[Close] ), LASTNONBLANK ( 'Date'[Date], [MS Close Price] ) )",
+      "Month Closing Price =\nCALCULATE (\n[MS Close Price],\nLASTNONBLANK ( 'Date'[Date], SUM ( 'MS Stock Prices'[Close] ) )\n)",
+      "Month Closing Price =\nCALCULATE ( [MS Close Price], LASTDATE ( 'Date'[Date] ) )"
+    ],
+    "choices_ger": [
+      "Month Closing Price =\nCALCULATE ( SUM ( 'MS Stock Prices'[Close] ), LASTDATE ( 'Date'[Date] ) )",
+      "Month Closing Price = CALCULATE ( SUM ( 'MS Stock Prices'[Close] ), LASTNONBLANK ( 'Date'[Date], [MS Close Price] ) )",
+      "Month Closing Price =\nCALCULATE (\n[MS Close Price],\nLASTNONBLANK ( 'Date'[Date], SUM ( 'MS Stock Prices'[Close] ) )\n)",
+      "Month Closing Price =\nCALCULATE ( [MS Close Price], LASTDATE ( 'Date'[Date] ) )"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q012",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You (a developer) build and deploy a production analytics dashboard for a manufacturing team to analyze the operational efficiency metrics of the product lines.\nAfter some months, you have a request from the sales team to build a sales dashboard.\nWhile developing sales reports, you observe that you apply a similar set of multiple-step transformations to create the Product dimension table in Power Query. You realize this is a duplication of efforts and want to streamline the data transformation process for future requests.\nWhich of the following would you do?",
+        "de": "Sie (ein Entwickler) erstellen und implementieren ein Produktionsanalyse-Dashboard für ein Fertigungsteam, um die betrieblichen Effizienzkennzahlen der Produktlinien zu analysieren.\nNach einigen Monaten erhalten Sie eine Anfrage vom Vertriebsteam, ein Vertriebs-Dashboard zu erstellen.\nBei der Entwicklung von Vertriebsberichten stellen Sie fest, dass Sie einen ähnlichen Satz mehrstufiger Transformationen anwenden, um die Produktdimensionstabelle in Power Query zu erstellen. Sie erkennen, dass dies eine Doppelung von Aufwand ist und möchten den Datenumwandlungsprozess für zukünftige Anfragen optimieren.\nWelche der folgenden Maßnahmen würden Sie ergreifen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Build a data flow for the Product table",
+      "Copy the M query from the PBIX file used to build the production analytics dashboard",
+      "Use the shared dataset of the production analytics report/dashboard",
+      "Create a Power BI datamart"
+    ],
+    "choices_ger": [
+      "Einen Datenfluss für die Produkttabelle erstellen",
+      "Die M-Abfrage aus der PBIX-Datei kopieren, die zum Erstellen des Produktionsanalyse-Dashboards verwendet wurde",
+      "Den freigegebenen Datensatz des Produktionsanalyse-Berichts/Dashboards verwenden",
+      "Ein Power BI-Datamart erstellen"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q013",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You analyze sales data of a sports equipment company. You observe a lot of fluctuations in the data, such as low sales mid-week and high sales on Friday and Saturday.",
+        "de": "Sie analysieren Verkaufsdaten eines Sportartikelherstellers. Sie beobachten viele Schwankungen in den Daten, wie z.B. niedrige Verkäufe in der Wochenmitte und hohe Verkäufe am Freitag und Samstag."
+      },
+      {
+        "type": "image",
+        "value": "q013_1.png"
+      },
+      {
+        "type": "text",
+        "eng": "Your manager asked you to create a quick measure for the weekly rolling average to smooth out daily fluctuations.",
+        "de": "Ihr Manager hat Sie gebeten, ein schnelles Measure für den wöchentlichen gleitenden Durchschnitt zu erstellen, um tägliche Schwankungen auszugleichen."
+      },
+      {
+        "type": "image",
+        "value": "q013_2.png"
+      },
+      {
+        "type": "text",
+        "eng": "How would you complete the quick measure?",
+        "de": "Wie würden Sie das schnelle Measure vervollständigen?"
+      },
+      {
+        "type": "image",
+        "value": "q013_3.png"
+      }
+    ],
+    "images": [
+      "q013_1.png",
+      "q013_2.png",
+      "q013_3.png"
+    ],
+    "choices": [
+      "Days, 7, 7",
+      "Days, 6, 6",
+      "Days, 6, 0",
+      "Days, 7, 0",
+      "Days 7, 1"
+    ],
+    "choices_ger": [
+      "Tage, 7, 7",
+      "Tage, 6, 6",
+      "Tage, 6, 0",
+      "Tage, 7, 0",
+      "Tage 7, 1"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q014",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create the below KPI visual in Power BI to understand your sales team's performance compared to their sales target this year.",
+        "de": "Sie erstellen das folgende KPI-Visual in Power BI, um die Leistung Ihres Vertriebsteams im Vergleich zum Verkaufsziel dieses Jahres zu verstehen."
+      },
+      {
+        "type": "image",
+        "value": "q014.png"
+      },
+      {
+        "type": "text",
+        "eng": "What does the value 19462 indicate?",
+        "de": "Was zeigt der Wert 19462 an?"
+      }
+    ],
+    "images": [
+      "q014.png"
+    ],
+    "choices": [
+      "Average sales value for all the years",
+      "Sales value for all the years",
+      "Average sales value for all the previous years",
+      "Sales value for the current year"
+    ],
+    "choices_ger": [
+      "Durchschnittlicher Verkaufswert für alle Jahre",
+      "Verkaufswert für alle Jahre",
+      "Durchschnittlicher Verkaufswert für alle vorherigen Jahre",
+      "Verkaufswert für das aktuelle Jahr"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q015",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your HR team gives you a dataset with a list of employees who left/joined the organization last year since its beginning on Jan 1, 2020.",
+        "de": "Ihr HR-Team gibt Ihnen einen Datensatz mit einer Liste von Mitarbeitern, die seit Beginn am 1. Januar 2020 im letzten Jahr das Unternehmen verlassen haben oder beigetreten sind."
+      },
+      {
+        "type": "image",
+        "value": "q015.png"
+      },
+      {
+        "type": "text",
+        "eng": "You have to visualize the running headcount of the organization (as employees leave/join) each month. Which chart would you use?\nNote: Status 1 indicates that an employee is hired. Status -1 indicates that the employee is terminated/resigned.",
+        "de": "Sie müssen die laufende Mitarbeiterzahl des Unternehmens (wenn Mitarbeiter gehen/kommen) jeden Monat visualisieren. Welches Diagramm würden Sie verwenden?\nHinweis: Status 1 zeigt an, dass ein Mitarbeiter eingestellt wurde. Status -1 zeigt an, dass der Mitarbeiter gekündigt/ausgeschieden ist."
+      }
+    ],
+    "images": [
+      "q015.png"
+    ],
+    "choices": [
+      "Waterfall chart",
+      "Line chart",
+      "Gantt chart",
+      "Stacked area chart"
+    ],
+    "choices_ger": [
+      "Wasserfalldiagramm",
+      "Liniendiagramm",
+      "Gantt-Diagramm",
+      "Gestapeltes Flächendiagramm"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q016",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are a new Power BI developer hired by your company. You need to develop a table matrix visual that displays the organization's last year's Revenue for each month. Which of the following DAX formulas would you use?\n(Select 2 options)",
+        "de": "Sie sind ein neuer Power BI-Entwickler in Ihrem Unternehmen. Sie müssen eine Tabellenmatrix erstellen, die den Umsatz des letzten Jahres für jeden Monat anzeigt. Welche der folgenden DAX-Formeln würden Sie verwenden?\n(Wählen Sie 2 Optionen)"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "CALCULATE ( [Revenue], DATEADD ( 'Date'[Date], -1, YEAR ) )",
+      "CALCULATE ( [Revenue], PARALLELPERIOD ( 'Date'[Date], -1, YEAR ) )",
+      "CALCULATE ( [Revenue], PREVIOUSYEAR ('Date'[Date] ) )",
+      "CALCULATE ( [Revenue], SAMEPERIODLASTYEAR ( 'Date'[Date] ) )"
+    ],
+    "choices_ger": [
+      "CALCULATE ( [Revenue], DATEADD ( 'Date'[Date], -1, YEAR ) )",
+      "CALCULATE ( [Revenue], PARALLELPERIOD ( 'Date'[Date], -1, YEAR ) )",
+      "CALCULATE ( [Revenue], PREVIOUSYEAR ('Date'[Date] ) )",
+      "CALCULATE ( [Revenue], SAMEPERIODLASTYEAR ( 'Date'[Date] ) )"
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "q017",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Below is a line chart that plots Apple stock's daily closing price for the past five years and the 200-Day Simple Moving Average (200 DMA). Some traders use 200 DMA to enter/exit positions in a stock.\nAs a trader, if Apple's stock price goes above 200 DMA, you enter a position. If Apple's stock goes below 200 DMA, you exit a position.",
+        "de": "Unten sehen Sie ein Liniendiagramm, das den täglichen Schlusskurs der Apple-Aktie der letzten fünf Jahre und den 200-Tage einfachen gleitenden Durchschnitt (200 DMA) darstellt. Einige Händler verwenden den 200 DMA, um Positionen in einer Aktie zu eröffnen/zu schließen.\nAls Händler eröffnen Sie eine Position, wenn der Apple-Aktienkurs über den 200 DMA steigt. Wenn der Apple-Aktienkurs unter den 200 DMA fällt, schließen Sie eine Position."
+      },
+      {
+        "type": "image",
+        "value": "q017.png"
+      },
+      {
+        "type": "text",
+        "eng": "Accordingly, you want Power BI to notify you of such price movements. What would you do?",
+        "de": "Dementsprechend möchten Sie, dass Power BI Sie über solche Kursbewegungen benachrichtigt. Was würden Sie tun?"
+      }
+    ],
+    "images": [
+      "q017.png"
+    ],
+    "choices": [
+      "Create a Subscription",
+      "Create a data alert",
+      "Integrate Power BI notifications with Power Automate",
+      "It's not possible to achieve the goal with the above options"
+    ],
+    "choices_ger": [
+      "Ein Abonnement erstellen",
+      "Eine Datenwarnung erstellen",
+      "Power BI-Benachrichtigungen mit Power Automate integrieren",
+      "Das Ziel ist mit den oben genannten Optionen nicht erreichbar"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q018",
+    "content": [
+      {
+        "type": "text",
+        "eng": "This question is part of repeated scenario questions that contain the same stem but with a different solution for each question. You need to identify if the given solution solves a particular problem. Each set of repeated scenario questions might contain either none, one, or many solutions.\nYou have a simple data model with the Product & the Sales table. You have to compute the highest total sales value for any product each month.",
+        "de": "Diese Frage ist Teil von wiederholten Szenariofragen mit gleichem Stamm aber unterschiedlichen Lösungen. Sie müssen prüfen, ob die gegebene Lösung das Problem löst.\nSie haben ein einfaches Datenmodell mit Produkt- und Verkaufstabellen. Sie müssen den höchsten Gesamtumsatz pro Produkt und Monat berechnen."
+      },
+      {
+        "type": "image",
+        "value": "q018.png"
+      },
+      {
+        "type": "text",
+        "eng": "Solution: You write the below DAX formula:\nHighest sales value for any Product =\nMAXX (\n'Product',\nSUMX ( Sales, Sales[Quantity] * Sales[Unit Price] )\n)\nDoes the solution meet the stated goal?",
+        "de": "Lösung: Sie verwenden folgende DAX-Formel:\nHighest sales value for any Product =\nMAXX (\n'Product',\nSUMX ( Sales, Sales[Quantity] * Sales[Unit Price] )\n)\nErfüllt die Lösung das Ziel?"
+      }
+    ],
+    "images": [
+      "q018.png"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q019",
+    "content": [
+      {
+        "type": "text",
+        "eng": "This question is part of repeated scenario questions that contain the same stem but with a different solution for each question. You need to identify if the given solution solves a particular problem. Each set of repeated scenario questions might contain either none, one, or many solutions.\nYou have a simple data model with the Product & the Sales table. You have to compute the highest total sales value for any product each month.",
+        "de": "Diese Frage ist Teil von wiederholten Szenariofragen mit gleichem Stamm aber unterschiedlichen Lösungen. Sie müssen prüfen, ob die gegebene Lösung das Problem löst.\nSie haben ein einfaches Datenmodell mit Produkt- und Verkaufstabellen. Sie müssen den höchsten Gesamtumsatz pro Produkt und Monat berechnen."
+      },
+      {
+        "type": "image",
+        "value": "q019.png"
+      },
+      {
+        "type": "text",
+        "eng": "Solution: You write the below DAX formula:\nHighest sales value for any Product =\nMAXX (\n'Product',\nSUMX ( RELATEDTABLE ( Sales ), Sales[Quantity] * Sales[Unit Price] )\n)\nDoes the solution meet the stated goal?",
+        "de": "Lösung: Sie verwenden folgende DAX-Formel:\nHighest sales value for any Product =\nMAXX (\n'Product',\nSUMX ( RELATEDTABLE ( Sales ), Sales[Quantity] * Sales[Unit Price] )\n)\nErfüllt die Lösung das Ziel?"
+      }
+    ],
+    "images": [
+      "q019.png"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q020",
+    "content": [
+      {
+        "type": "text",
+        "eng": "This question is part of repeated scenario questions that contain the same stem but with a different solution for each question. You need to identify if the given solution solves a particular problem. Each set of repeated scenario questions might contain either none, one, or many solutions.\nYou have a simple data model with the Product & the Sales table. You have to compute the highest total sales value for any product each month.",
+        "de": "Diese Frage ist Teil von wiederholten Szenariofragen mit gleichem Stamm aber unterschiedlichen Lösungen. Sie müssen prüfen, ob die gegebene Lösung das Problem löst.\nSie haben ein einfaches Datenmodell mit Produkt- und Verkaufstabellen. Sie müssen den höchsten Gesamtumsatz pro Produkt und Monat berechnen."
+      },
+      {
+        "type": "image",
+        "value": "q020.png"
+      },
+      {
+        "type": "text",
+        "eng": "Solution: You write the below DAX formula:\nHighest sales value for any Product =\nMAXX (\n'Product',\nCALCULATE ( SUMX ( Sales, Sales[Quantity] * Sales[Unit Price] ) )\n)\nDoes the solution meet the stated goal?",
+        "de": "Lösung: Sie verwenden folgende DAX-Formel:\nHighest sales value for any Product =\nMAXX (\n'Product',\nCALCULATE ( SUMX ( Sales, Sales[Quantity] * Sales[Unit Price] ) )\n)\nErfüllt die Lösung das Ziel?"
+      }
+    ],
+    "images": [
+      "q020.png"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q021",
+    "content": [
+      {
+        "type": "text",
+        "eng": "This question is part of repeated scenario questions that contain the same stem but with a different solution for each question. You need to identify if the given solution solves a particular problem. Each set of repeated scenario questions might contain either none, one, or many solutions.\nYou have a simple data model with the Product & the Sales table. You have to compute the highest total sales value for any product each month.",
+        "de": "Diese Frage ist Teil von wiederholten Szenariofragen mit gleichem Stamm aber unterschiedlichen Lösungen. Sie müssen prüfen, ob die gegebene Lösung das Problem löst.\nSie haben ein einfaches Datenmodell mit Produkt- und Verkaufstabellen. Sie müssen den höchsten Gesamtumsatz pro Produkt und Monat berechnen."
+      },
+      {
+        "type": "image",
+        "value": "q021.png"
+      },
+      {
+        "type": "text",
+        "eng": "Solution: You write the below DAX formula:\nHighest sales value for any Product =\nMAXX ( 'Product', [Total Sales] )\nDoes the solution meet the stated goal?",
+        "de": "Lösung: Sie verwenden folgende DAX-Formel:\nHighest sales value for any Product =\nMAXX ( 'Product', [Total Sales] )\nErfüllt die Lösung das Ziel?"
+      }
+    ],
+    "images": [
+      "q021.png"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q022",
+    "content": [
+      {
+        "type": "text",
+        "eng": "The HR analytics team at Canva has prepared the below New Hire Report in Power BI.",
+        "de": "Das HR-Analytics-Team von Canva hat den folgenden New Hire Report in Power BI erstellt."
+      },
+      {
+        "type": "image",
+        "value": "q022.png"
+      },
+      {
+        "type": "text",
+        "eng": "If an HR manager selects any gender from the pie chart, the following interactions should happen on other visuals in the report:\n1. The column chart should display the new hire data of all the regions for the selected gender.\n2. The line chart shall show the nature of employment data every month for the selected gender.\n3. The clustered column chart should display a section of new hires every month for the selected gender.\nHow would you configure the interactions between the visuals?",
+        "de": "Wenn ein HR-Manager ein Geschlecht im Kreisdiagramm auswählt, sollen folgende Interaktionen in anderen Visuals erfolgen:\n1. Das Säulendiagramm soll die Neueinstellungen aller Regionen für das ausgewählte Geschlecht anzeigen.\n2. Das Liniendiagramm soll die Art der Beschäftigung monatlich für das ausgewählte Geschlecht zeigen.\n3. Das gruppierte Säulendiagramm soll monatlich einen Ausschnitt der Neueinstellungen für das ausgewählte Geschlecht anzeigen.\nWie konfigurieren Sie die Interaktionen zwischen den Visuals?"
+      }
+    ],
+    "images": [
+      "q022.png"
+    ],
+    "choices": [
+      "Cross-highlight the column chart\nCross-filter the line chart\nCross-highlight the clustered column chart",
+      "Cross-filter the column chart\nCross-filter the line chart\nCross-highlight the clustered column chart",
+      "Cross-filter the column chart\nCross-highlight the line chart\nCross-highlight the clustered column chart",
+      "Cross-filter the column chart\nCross-filter the line chart\nSet no visual interaction for the clustered column chart"
+    ],
+    "choices_ger": [
+      "Säulendiagramm cross-highlighten\nLiniendiagramm cross-filtern\nGruppiertes Säulendiagramm cross-highlighten",
+      "Säulendiagramm cross-filtern\nLiniendiagramm cross-filtern\nGruppiertes Säulendiagramm cross-highlighten",
+      "Säulendiagramm cross-filtern\nLiniendiagramm cross-highlighten\nGruppiertes Säulendiagramm cross-highlighten",
+      "Säulendiagramm cross-filtern\nLiniendiagramm cross-filtern\nKeine Interaktion für gruppiertes Säulendiagramm"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q023",
+    "content": [
+      {
+        "type": "text",
+        "eng": "SwipeWire is an online merchandise company that sells T-shirts. Below is the table displaying the company's Revenue and EBITDA across all its regions.",
+        "de": "SwipeWire ist ein Online-Merchandise-Unternehmen, das T-Shirts verkauft. Unten sehen Sie die Tabelle mit Umsatz und EBITDA aller Regionen."
+      },
+      {
+        "type": "image",
+        "value": "q023.png"
+      },
+      {
+        "type": "text",
+        "eng": "You need to calculate and display the EBITDA margin on a card visual in Power BI Desktop.\nNote: EBITDA margin is the company's operating profit (EBITDA) as a percentage of its Revenue.\nWhich of the following would you create?",
+        "de": "Sie müssen die EBITDA-Marge auf einer Kartenvisualisierung in Power BI Desktop berechnen und anzeigen.\nHinweis: Die EBITDA-Marge ist der operative Gewinn (EBITDA) als Prozentsatz des Umsatzes.\nWas würden Sie erstellen?"
+      }
+    ],
+    "images": [
+      "q023.png"
+    ],
+    "choices": [
+      "A calculated column",
+      "A measure",
+      "A custom column"
+    ],
+    "choices_ger": [
+      "Eine berechnete Spalte",
+      "Ein Measure",
+      "Eine benutzerdefinierte Spalte"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q024",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have trading data that has the stock trade details across several months. The stock deals contain data at the granularity of a minute, captured by the DateTime column of type Date/time.",
+        "de": "Sie haben Handelsdaten mit Aktiengeschäften über mehrere Monate. Die Daten haben eine Granularität von Minuten, erfasst in einer DateTime-Spalte vom Typ Datum/Zeit."
+      },
+      {
+        "type": "image",
+        "value": "q024.png"
+      },
+      {
+        "type": "text",
+        "eng": "How would you optimize the column storage while still retaining all the relevant information?",
+        "de": "Wie optimieren Sie die Spaltenspeicherung bei Beibehaltung aller relevanten Informationen?"
+      }
+    ],
+    "images": [
+      "q024.png"
+    ],
+    "choices": [
+      "Format the DateTime column as two separate columns: a Date column and a Time column",
+      "Modify the data type of the DateTime column from Date/time to Date",
+      "In Power Query, separate the DateTime column into a Date column and a Time column. Delete the original DateTime column",
+      "Create a calculated column that floors the time part of the DateTime column to the nearest 15 minutes"
+    ],
+    "choices_ger": [
+      "DateTime-Spalte in zwei Spalten formatieren: Datum und Zeit",
+      "Datentyp der DateTime-Spalte von Datum/Zeit zu Datum ändern",
+      "In Power Query die DateTime-Spalte in Datum- und Zeit-Spalte teilen und Original löschen",
+      "Berechnete Spalte erstellen, die den Zeitanteil auf 15 Minuten rundet"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q025",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Your Power BI report displays sensitive information like customers' Social Security Numbers to report users. You export the report from the service as PDF/PowerPoint and share it with your vendors for collaboration. You have to ensure that only the authorized users (in the vendor team) can access the exported reports.\nWhich of the following features would you use?",
+        "de": "Ihr Power BI-Bericht zeigt sensible Informationen wie Sozialversicherungsnummern. Sie exportieren den Bericht als PDF/PPT und teilen ihn mit Lieferanten. Sie müssen sicherstellen, dass nur autorisierte Benutzer (im Lieferantenteam) die exportierten Berichte öffnen können.\nWelche Funktion würden Sie verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Row-level security",
+      "Sensitivity labels",
+      "Object-level security",
+      "Data loss prevention policies"
+    ],
+    "choices_ger": [
+      "Row-Level Security",
+      "Sensitivity Labels",
+      "Object-Level Security",
+      "Data Loss Prevention Policies"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q026",
+    "content": [
+      {
+        "type": "text",
+        "eng": "This question is part of repeated scenario questions that contain the same stem but with a different solution for each question. You need to identify if the given solution solves a particular problem. Each set of repeated scenario questions might contain either none, one, or many solutions.\nBelow is a Power BI Column chart that displays the Total Marks obtained by 15 Grade X students in Marion Cross School.",
+        "de": "Diese Frage ist Teil von wiederholten Szenariofragen mit gleichem Stamm aber unterschiedlichen Lösungen. Sie müssen prüfen, ob die gegebene Lösung das Problem löst.\nUnten sehen Sie ein Säulendiagramm mit den Noten von 15 Schülern der Klasse X."
+      },
+      {
+        "type": "image",
+        "value": "q026.png"
+      },
+      {
+        "type": "text",
+        "eng": "You need to create a reference line that shows which students are above/below the median class marks.\nSolution: You create a constant line and set the Value to 300\nDoes the solution meet the goal?",
+        "de": "Sie benötigen eine Referenzlinie, die den Median anzeigt.\nLösung: Sie erstellen eine konstante Linie mit Wert 300.\nErfüllt die Lösung das Ziel?"
+      }
+    ],
+    "images": [
+      "q026.png"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q027",
+    "content": [
+      {
+        "type": "text",
+        "eng": "This question is part of repeated scenario questions that contain the same stem but with a different solution for each question. You need to identify if the given solution solves a particular problem. Each set of repeated scenario questions might contain either none, one, or many solutions.\nBelow is a Power BI Column chart that displays the Total Marks obtained by 15 Grade X students in Marion Cross School.",
+        "de": "Diese Frage ist Teil von wiederholten Szenariofragen mit gleichem Stamm aber unterschiedlichen Lösungen. Sie müssen prüfen, ob die gegebene Lösung das Problem löst.\nUnten sehen Sie ein Säulendiagramm mit den Noten von 15 Schülern der Klasse X."
+      },
+      {
+        "type": "image",
+        "value": "q027.png"
+      },
+      {
+        "type": "text",
+        "eng": "You need to create a reference line that shows which students are above/below the median class marks.\nSolution: You create an average line using the Total Marks measure.\nDoes the solution meet the goal?",
+        "de": "Sie benötigen eine Referenzlinie, die den Median anzeigt.\nLösung: Sie erstellen eine Durchschnittslinie.\nErfüllt die Lösung das Ziel?"
+      }
+    ],
+    "images": [
+      "q027.png"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q028",
+    "content": [
+      {
+        "type": "text",
+        "eng": "This question is part of repeated scenario questions that contain the same stem but with a different solution for each question. You need to identify if the given solution solves a particular problem. Each set of repeated scenario questions might contain either none, one, or many solutions.\nBelow is a Power BI Column chart that displays the Total Marks obtained by 15 Grade X students in Marion Cross School.",
+        "de": "Diese Frage ist Teil von wiederholten Szenariofragen mit gleichem Stamm aber unterschiedlichen Lösungen. Sie müssen prüfen, ob die gegebene Lösung das Problem löst.\nUnten sehen Sie ein Säulendiagramm mit den Noten von 15 Schülern der Klasse X."
+      },
+      {
+        "type": "image",
+        "value": "q028.png"
+      },
+      {
+        "type": "text",
+        "eng": "You need to create a reference line that shows which students are above/below the median class marks.\nSolution: You create a percentile line using the Total Marks measure and set the Percentile to 50%\nDoes the solution meet the goal?",
+        "de": "Sie benötigen eine Referenzlinie, die den Median anzeigt.\nLösung: Sie erstellen eine Perzentillinie (50%).\nErfüllt die Lösung das Ziel?"
+      }
+    ],
+    "images": [
+      "q028.png"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q029",
+    "content": [
+      {
+        "type": "text",
+        "eng": "This question is part of repeated scenario questions that contain the same stem but with a different solution for each question. You need to identify if the given solution solves a particular problem. Each set of repeated scenario questions might contain either none, one, or many solutions.\nBelow is a Power BI Column chart that displays the Total Marks obtained by 15 Grade X students in Marion Cross School.",
+        "de": "Diese Frage ist Teil von wiederholten Szenariofragen mit gleichem Stamm aber unterschiedlichen Lösungen. Sie müssen prüfen, ob die gegebene Lösung das Problem löst.\nUnten sehen Sie ein Säulendiagramm mit den Noten von 15 Schülern der Klasse X."
+      },
+      {
+        "type": "image",
+        "value": "q029.png"
+      },
+      {
+        "type": "text",
+        "eng": "You need to create a reference line that shows which students are above/below the median class marks.\nSolution: You create a median line using the Total Marks measure.\nDoes the solution meet the goal?",
+        "de": "Sie benötigen eine Referenzlinie, die den Median anzeigt.\nLösung: Sie erstellen eine Medianlinie.\nErfüllt die Lösung das Ziel?"
+      }
+    ],
+    "images": [
+      "q029.png"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q030",
+    "content": [
+      {
+        "type": "text",
+        "eng": "The Repair & Maintenance team of a centrifugal pump manufacturing company generates a CSV file with information about when the machines halt for any maintenance operation. This organization-wide data is shared with your IT team and has the following schema",
+        "de": "Das Wartungsteam einer Pumpenfabrik erstellt eine CSV-Datei mit Wartungsdaten. Diese unternehmensweiten Daten werden mit der IT geteilt."
+      },
+      {
+        "type": "image",
+        "value": "q030.png"
+      },
+      {
+        "type": "text",
+        "eng": "You have to analyze the maintenance events by the event date. What would you do?\nNote: In the future, you may need to analyze the event data every hour.",
+        "de": "Sie müssen Wartungsereignisse nach Datum analysieren. Was tun Sie?\nHinweis: Zukünftig benötigen Sie möglicherweise stündliche Analysen."
+      }
+    ],
+    "images": [
+      "q030.png"
+    ],
+    "choices": [
+      "Change the data type of Occurred At column to date",
+      "Extract the first 11 characters of the Occurred At column using the Extract transform",
+      "Split the Occurred At column by first 11 characters using the Split transform",
+      "Parse the Occurred At column using the Parse transform"
+    ],
+    "choices_ger": [
+      "Datentyp der Occurred At-Spalte zu Datum ändern",
+      "Erste 11 Zeichen der Occurred At-Spalte mit Extract-Transformation extrahieren",
+      "Occurred At-Spalte nach ersten 11 Zeichen mit Split-Transformation teilen",
+      "Occurred At-Spalte mit Parse-Transformation parsen"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q031",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Sugar Paper LA sells stationery items for its US customers. Their sales managers have to visualize how the percentage of units sold for each of the four products (Eraser, Highlighter, Paper clip, & Stapler) contribute to the total units sold by the company in the last seven days.",
+        "de": "Sugar Paper LA verkauft Büroartikel für seine US-Kunden. Die Vertriebsmanager müssen visualisieren, wie der prozentuale Anteil der verkauften Einheiten jedes der vier Produkte (Radiergummi, Textmarker, Büroklammer & Hefter) am Gesamtabsatz des Unternehmens in den letzten sieben Tagen beiträgt."
+      },
+      {
+        "type": "image",
+        "value": "q031.png"
+      },
+      {
+        "type": "text",
+        "eng": "Which chart is best suited for this scenario?",
+        "de": "Welches Diagramm eignet sich am besten für dieses Szenario?"
+      }
+    ],
+    "images": [
+      "q031.png"
+    ],
+    "choices": [
+      "Line chart",
+      "Area chart",
+      "Stacked area chart",
+      "100% stacked area chart"
+    ],
+    "choices_ger": [
+      "Liniendiagramm",
+      "Flächendiagramm",
+      "Gestapeltes Flächendiagramm",
+      "100% gestapeltes Flächendiagramm"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q032",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which of the following statements about creating a portrait version of your reports/dashboards for mobile devices is TRUE?",
+        "de": "Welche der folgenden Aussagen zur Erstellung einer Hochformat-Version Ihrer Berichte/Dashboards für mobile Geräte ist WAHR?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "You can create a portrait version of your reports for mobile devices only on Power BI Desktop",
+      "You can create a portrait version of your reports for mobile devices on both Power BI Desktop and service",
+      "You can create a portrait version of your reports for mobile devices only on the Power BI service",
+      "You can create a portrait version of only your dashboards for mobile devices"
+    ],
+    "choices_ger": [
+      "Sie können eine Hochformat-Version Ihrer Berichte für mobile Geräte nur in Power BI Desktop erstellen",
+      "Sie können eine Hochformat-Version Ihrer Berichte für mobile Geräte sowohl in Power BI Desktop als auch im Service erstellen",
+      "Sie können eine Hochformat-Version Ihrer Berichte für mobile Geräte nur im Power BI Service erstellen",
+      "Sie können eine Hochformat-Version nur Ihrer Dashboards für mobile Geräte erstellen"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q033",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a Sales table that has sales transactions.",
+        "de": "Sie haben eine Verkaufstabelle mit Verkaufstransaktionen."
+      },
+      {
+        "type": "image",
+        "value": "q033.png"
+      },
+      {
+        "type": "text",
+        "eng": "You have to find the percentage of transactions performed by non-unique customers. Which data preview tool in Power Query is the most suitable choice?",
+        "de": "Sie müssen den Prozentsatz der Transaktionen ermitteln, die von nicht eindeutigen Kunden durchgeführt wurden. Welches Datenvorschau-Tool in Power Query ist die am besten geeignete Wahl?"
+      }
+    ],
+    "images": [
+      "q033.png"
+    ],
+    "choices": [
+      "Column distribution",
+      "Column profile",
+      "Column quality",
+      "Column statistics"
+    ],
+    "choices_ger": [
+      "Spaltenverteilung",
+      "Spaltenprofil",
+      "Spaltenqualität",
+      "Spaltenstatistiken"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q034",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You import a Customer Purchases JSON file into Power BI Desktop. Below is the structure of the JSON file, with some customers purchasing a different number of products.",
+        "de": "Sie importieren eine JSON-Datei mit Kundenkäufen in Power BI Desktop. Unten sehen Sie die Struktur der JSON-Datei, wobei einige Kunden eine unterschiedliche Anzahl von Produkten kaufen."
+      },
+      {
+        "type": "image",
+        "value": "q034_1.png"
+      },
+      {
+        "type": "text",
+        "eng": "When you import this JSON file into Power BI, the Source step is a List of Records.",
+        "de": "Beim Import dieser JSON-Datei in Power BI ist der Quellschritt eine Liste von Datensätzen."
+      },
+      {
+        "type": "image",
+        "value": "q034_2.png"
+      },
+      {
+        "type": "text",
+        "eng": "Rearrange the remaining order of steps to flatten out the JSON file into a Power BI table.",
+        "de": "Ordnen Sie die verbleibenden Schritte neu an, um die JSON-Datei in eine Power BI-Tabelle zu entfalten."
+      },
+      {
+        "type": "image",
+        "value": "q034_3.png"
+      }
+    ],
+    "images": [
+      "q034_1.png",
+      "q034_2.png",
+      "q034_3.png"
+    ],
+    "choices": [
+      "Convert to Table\nExpand the Column\nExpand Purchase Records to New columns\nExpand Purchase Lists to New Rows\nConvert to List",
+      "Expand the Column\nConvert to Table\nExpand Purchases Lists to New columns",
+      "Convert to Table\nExpand the Column\nConvert to List\nExpand Purchases Lists to New columns",
+      "Convert to Table\nExpand the Column\nExpand Purchase Lists to New Rows\nExpand Purchase Records to New columns",
+      "Expand the Column\nExpand Purchases Lists to New columns\nExpand Purchase Records to New columns\nConvert to Table",
+      "Expand the Column\nExpand Purchase Lists to New Rows\nExpand Purchase Records to New columns\nConvert to Table"
+    ],
+    "choices_ger": [
+      "In Tabelle konvertieren\nSpalte erweitern\nKaufdatensätze zu neuen Spalten erweitern\nKauflisten zu neuen Zeilen erweitern\nIn Liste konvertieren",
+      "Spalte erweitern\nIn Tabelle konvertieren\nKauflisten zu neuen Spalten erweitern",
+      "In Tabelle konvertieren\nSpalte erweitern\nIn Liste konvertieren\nKauflisten zu neuen Spalten erweitern",
+      "In Tabelle konvertieren\nSpalte erweitern\nKauflisten zu neuen Zeilen erweitern\nKaufdatensätze zu neuen Spalten erweitern",
+      "Spalte erweitern\nKauflisten zu neuen Spalten erweitern\nKaufdatensätze zu neuen Spalten erweitern\nIn Tabelle konvertieren",
+      "Spalte erweitern\nKauflisten zu neuen Zeilen erweitern\nKaufdatensätze zu neuen Spalten erweitern\nIn Tabelle konvertieren"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q035",
+    "content": [
+      {
+        "type": "text",
+        "eng": "The users in an organization access the company's financial dashboard in Power BI from the web.\nThe users accessing data from a mobile device should view all the dashboard tiles except those on sales/profits. Select and order three steps you would perform to create a mobile dashboard layout that displays the information in the best possible way.",
+        "de": "Die Benutzer einer Organisation greifen über das Web auf das finanzielle Dashboard des Unternehmens in Power BI zu.\nBenutzer, die von einem mobilen Gerät aus auf die Daten zugreifen, sollten alle Dashboard-Kacheln außer denen zu Verkäufen/Gewinnen sehen. Wählen Sie drei Schritte aus und ordnen Sie sie, um ein mobiles Dashboard-Layout zu erstellen, das die Informationen optimal darstellt."
+      },
+      {
+        "type": "image",
+        "value": "q035.png"
+      }
+    ],
+    "images": [
+      "q035.png"
+    ],
+    "choices": [
+      "Edit the dashboard layout from web to mobile\nMove around the tiles in the mobile view as per the requirement\nHide tiles related to profit/sales from the mobile view",
+      "Edit the dashboard layout from web to mobile\nHide tiles related to profit/sales from the mobile view\nSave the dashboard's mobile layout",
+      "Edit the dashboard layout from web to mobile\nHide tiles related to profit/sales from the mobile view\nMove around the tiles in the mobile view as per the requirement",
+      "Add a mobile layout for the dashboard\nHide tiles related to profit/sales from the mobile view\nMove around the tiles in the mobile view as per the requirement",
+      "Add a mobile layout for the dashboard\nHide tiles related to profit/sales from the mobile view\nSave the dashboard's mobile layout"
+    ],
+    "choices_ger": [
+      "Dashboard-Layout von Web auf Mobil bearbeiten\nKacheln in der mobilen Ansicht nach Bedarf verschieben\nKacheln zu Gewinn/Verkäufen in der mobilen Ansicht ausblenden",
+      "Dashboard-Layout von Web auf Mobil bearbeiten\nKacheln zu Gewinn/Verkäufen in der mobilen Ansicht ausblenden\nMobiles Dashboard-Layout speichern",
+      "Dashboard-Layout von Web auf Mobil bearbeiten\nKacheln zu Gewinn/Verkäufen in der mobilen Ansicht ausblenden\nKacheln in der mobilen Ansicht nach Bedarf verschieben",
+      "Mobiles Layout für das Dashboard hinzufügen\nKacheln zu Gewinn/Verkäufen in der mobilen Ansicht ausblenden\nKacheln in der mobilen Ansicht nach Bedarf verschieben",
+      "Mobiles Layout für das Dashboard hinzufügen\nKacheln zu Gewinn/Verkäufen in der mobilen Ansicht ausblenden\nMobiles Dashboard-Layout speichern"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q036",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a Power BI column chart that displays sales across different countries based on a transactional data store.",
+        "de": "Sie haben ein Power BI-Säulendiagramm, das den Umsatz in verschiedenen Ländern basierend auf einem transaktionalen Datenspeicher anzeigt."
+      },
+      {
+        "type": "image",
+        "value": "q036.png"
+      },
+      {
+        "type": "text",
+        "eng": "When a user places the cursor on any individual column in the column chart, the visual should display additional data points like Average Units Sold, Highest discount offered.\nHow would you achieve this objective?",
+        "de": "Wenn ein Benutzer den Cursor auf eine einzelne Säule im Säulendiagramm setzt, soll die Visualisierung zusätzliche Datenpunkte wie durchschnittlich verkaufte Einheiten, höchster angebotener Rabatt anzeigen.\nWie erreichen Sie dieses Ziel?"
+      }
+    ],
+    "images": [
+      "q036.png"
+    ],
+    "choices": [
+      "Use drillthrough",
+      "Use tooltips",
+      "Use drill down",
+      "Use a hierarchy"
+    ],
+    "choices_ger": [
+      "Drillthrough verwenden",
+      "Tooltips verwenden",
+      "Drilldown verwenden",
+      "Hierarchie verwenden"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q037",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which of the following statements/scenarios about creating data alerts in Power BI is valid? (Choose two options)",
+        "de": "Welche der folgenden Aussagen/Szenarien zum Erstellen von Datenwarnungen in Power BI ist gültig? (Wählen Sie zwei Optionen)"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "You cannot create alerts on tiles created using push datasets directly from the Power BI dashboard.",
+      "You can create alerts on any workspace you can access if you have a Power BI Premium Per User (PPU) license.",
+      "You, the owner of a Supplier Quality Analysis dashboard, share the dashboard with your colleague. He sets alerts to notify if the metric Total Downtime Minutes goes below a specific value. To validate the alert rule, you check your dashboard. Strangely, you cannot find any alerts.",
+      "Data alerts are available for all platforms like Power BI Service, Desktop, and Power BI mobile apps.",
+      "You publish a report (by importing a CSV file from your drive) to the Power BI service. You pin the tile to the dashboard and create alerts for the tile. For any updates in the CSV file, you automatically see alerts in Power BI, if the threshold is met."
+    ],
+    "choices_ger": [
+      "Sie können keine Warnungen für Kacheln erstellen, die mit Push-Datasets direkt vom Power BI-Dashboard erstellt wurden.",
+      "Sie können Warnungen für jeden Arbeitsbereich erstellen, auf den Sie zugreifen können, wenn Sie eine Power BI Premium Pro User (PPU)-Lizenz haben.",
+      "Sie, der Besitzer eines Supplier Quality Analysis-Dashboards, teilen das Dashboard mit Ihrem Kollegen. Er richtet Warnungen ein, die benachrichtigen, wenn die Metrik Total Downtime Minutes unter einen bestimmten Wert fällt. Um die Warnregel zu validieren, überprüfen Sie Ihr Dashboard. Seltsamerweise finden Sie keine Warnungen.",
+      "Datenwarnungen sind für alle Plattformen wie Power BI Service, Desktop und Power BI Mobile Apps verfügbar.",
+      "Sie veröffentlichen einen Bericht (durch Import einer CSV-Datei von Ihrem Laufwerk) im Power BI Service. Sie heften die Kachel an das Dashboard und erstellen Warnungen für die Kachel. Bei Aktualisierungen der CSV-Datei sehen Sie automatisch Warnungen in Power BI, wenn der Schwellenwert erreicht wird."
+    ],
+    "isMulti": true,
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "q038",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a Power BI model with sales data between 2011 and 2013. You need to develop a measure that returns the YOY YTD Total Revenue of the company every month.\nWhich of the following measures would you create? Select two options.",
+        "de": "Sie haben ein Power BI-Modell mit Verkaufsdaten zwischen 2011 und 2013. Sie müssen eine Kennzahl entwickeln, die den YTD-Gesamtumsatz des Unternehmens im Vorjahresvergleich (YOY) jeden Monat zurückgibt.\nWelche der folgenden Kennzahlen würden Sie erstellen? Wählen Sie zwei Optionen."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Revenue YTD = TOTALYTD ( [Revenue], 'Date'[Date] )\nRevenue Last Year YTD = CALCULATE ( [Revenue YTD], SAMEPERIODLASTYEAR ('Date'[Date] ) )\nYOY YTD Total Revenue = DIVIDE ( [Revenue YTD] - [Revenue Last Year YTD], [Revenue Last Year YTD] )",
+      "Revenue YTD = TOTALYTD ( [Revenue], 'Date'[Date] )\nRevenue Last Year YTD = CALCULATE ( [Revenue YTD], DATEADD ( 'Date'[Date], -4,QUARTER ) )\nYOY YTD Total Revenue = DIVIDE ( [Revenue YTD] - [Revenue Last Year YTD], [Revenue Last Year YTD] )",
+      "Revenue YTD = TOTALYTD([Revenue], 'Date'[Date])\nRevenue Last Year YTD = CALCULATE ( [Revenue YTD], DATESBETWEEN ( 'Date'[Date], STARTOFYEAR ( PREVIOUSYEAR('Date'[Date] ) ), LASTDATE ( 'Date'[Date])-365 ) )\nYOY YTD Total Revenue = DIVIDE ( [Revenue YTD] - [Revenue Last Year YTD], [Revenue Last Year YTD] )",
+      "Revenue YTD = TOTALYTD ( [Revenue], 'Date'[Date] )\nRevenue Last Year YTD = CALCULATE([Revenue YTD], DATESINPERIOD ( 'Date'[Date], MAX ( 'Date'[Date] ), -1, YEAR ) )\nYOY YTD Total Revenue = DIVIDE ( [Revenue YTD] - [Revenue Last Year YTD], [Revenue Last Year YTD] )"
+    ],
+    "choices_ger": [
+      "Umsatz YTD = TOTALYTD ( [Umsatz], 'Datum'[Datum] )\nUmsatz Vorjahr YTD = CALCULATE ( [Umsatz YTD], SAMEPERIODLASTYEAR ('Datum'[Datum] ) )\nYOY YTD Gesamtumsatz = DIVIDE ( [Umsatz YTD] - [Umsatz Vorjahr YTD], [Umsatz Vorjahr YTD] )",
+      "Umsatz YTD = TOTALYTD ( [Umsatz], 'Datum'[Datum] )\nUmsatz Vorjahr YTD = CALCULATE ( [Umsatz YTD], DATEADD ( 'Datum'[Datum], -4,QUARTAL ) )\nYOY YTD Gesamtumsatz = DIVIDE ( [Umsatz YTD] - [Umsatz Vorjahr YTD], [Umsatz Vorjahr YTD] )",
+      "Umsatz YTD = TOTALYTD([Umsatz], 'Datum'[Datum])\nUmsatz Vorjahr YTD = CALCULATE ( [Umsatz YTD], DATESBETWEEN ( 'Datum'[Datum], STARTOFYEAR ( PREVIOUSYEAR('Datum'[Datum] ) ), LASTDATE ( 'Datum'[Datum])-365 ) )\nYOY YTD Gesamtumsatz = DIVIDE ( [Umsatz YTD] - [Umsatz Vorjahr YTD], [Umsatz Vorjahr YTD] )",
+      "Umsatz YTD = TOTALYTD ( [Umsatz], 'Datum'[Datum] )\nUmsatz Vorjahr YTD = CALCULATE([Umsatz YTD], DATESINPERIOD ( 'Datum'[Datum], MAX ( 'Datum'[Datum] ), -1, JAHR ) )\nYOY YTD Gesamtumsatz = DIVIDE ( [Umsatz YTD] - [Umsatz Vorjahr YTD], [Umsatz Vorjahr YTD] )"
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "q039",
+    "content": [
+      {
+        "type": "text",
+        "eng": "This question is part of repeated scenario questions that contain the same stem but with a different solution for each question. You need to identify if the given solution solves a particular problem. Each set of repeated scenario questions might contain either none, one, or many solutions.\nYou have to calculate the Quarter-to-date sales values from the Sales table. Below is the given data model.",
+        "de": "Diese Frage ist Teil von wiederholten Szenariofragen, die den gleichen Stamm haben, aber für jede Frage eine andere Lösung. Sie müssen feststellen, ob die gegebene Lösung ein bestimmtes Problem löst. Jede Gruppe wiederholter Szenariofragen kann keine, eine oder viele Lösungen enthalten.\nSie müssen die Quartalsumsätze (QTD) aus der Verkaufstabelle berechnen. Unten ist das gegebene Datenmodell."
+      },
+      {
+        "type": "image",
+        "value": "q039.png"
+      },
+      {
+        "type": "text",
+        "eng": "Solution: You perform the following steps:\na. Create a relationship between the date column in the Date table and the Order Date column in the Sales table\nb. Mark the Date table as a date table.\nc. You create the measure Sales QTD = CALCULATE([Sales Amount], DATESQTD('Date'[Date]))\nDo the above steps help you to calculate the QTD sales values?",
+        "de": "Lösung: Sie führen folgende Schritte durch:\na. Erstellen Sie eine Beziehung zwischen der Datumsspalte in der Datumstabelle und der Bestelldatum-Spalte in der Verkaufstabelle\nb. Markieren Sie die Datumstabelle als Datumstabelle.\nc. Sie erstellen die Kennzahl Verkäufe QTD = CALCULATE([Verkaufsbetrag], DATESQTD('Datum'[Datum]))\nHelfen Ihnen diese Schritte, die QTD-Verkaufswerte zu berechnen?"
+      }
+    ],
+    "images": [
+      "q039.png"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q040",
+    "content": [
+      {
+        "type": "text",
+        "eng": "This question is part of repeated scenario questions that contain the same stem but with a different solution for each question. You need to identify if the given solution solves a particular problem. Each set of repeated scenario questions might contain either none, one, or many solutions.\nYou have to calculate the Quarter-to-date sales values from the Sales table. Below is the given data model.",
+        "de": "Diese Frage ist Teil von wiederholten Szenariofragen, die den gleichen Stamm haben, aber für jede Frage eine andere Lösung. Sie müssen feststellen, ob die gegebene Lösung ein bestimmtes Problem löst. Jede Gruppe wiederholter Szenariofragen kann keine, eine oder viele Lösungen enthalten.\nSie müssen die Quartalsumsätze (QTD) aus der Verkaufstabelle berechnen. Unten ist das gegebene Datenmodell."
+      },
+      {
+        "type": "image",
+        "value": "q040.png"
+      },
+      {
+        "type": "text",
+        "eng": "Solution: You perform the following steps:\na. Create a relationship between the date column in the Date table and the Order Date column in the Sales table\nb. You do not Mark the Date table as a date table.\nc. You create the measure Sales QTD = CALCULATE([Sales Amount], DATESQTD('Date'[Date]))\nDo the above steps help you to calculate the QTD sales values?",
+        "de": "Lösung: Sie führen folgende Schritte durch:\na. Erstellen Sie eine Beziehung zwischen der Datumsspalte in der Datumstabelle und der Bestelldatum-Spalte in der Verkaufstabelle\nb. Sie markieren die Datumstabelle nicht als Datumstabelle.\nc. Sie erstellen die Kennzahl Verkäufe QTD = CALCULATE([Verkaufsbetrag], DATESQTD('Datum'[Datum]))\nHelfen Ihnen diese Schritte, die QTD-Verkaufswerte zu berechnen?"
+      }
+    ],
+    "images": [
+      "q040.png"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q041",
+    "content": [
+      {
+        "type": "text",
+        "eng": "This question is part of repeated scenario questions that contain the same stem but with a different solution for each question. You need to identify if the given solution solves a particular problem. Each set of repeated scenario questions might contain either none, one, or many solutions.\nYou have to calculate the Quarter-to-date sales values from the Sales table. Below is the given data model.",
+        "de": "Diese Frage ist Teil von wiederholten Szenariofragen, die den gleichen Stamm haben, aber für jede Frage eine andere Lösung. Sie müssen feststellen, ob die gegebene Lösung ein bestimmtes Problem löst. Jede Gruppe wiederholter Szenariofragen kann keine, eine oder viele Lösungen enthalten.\nSie müssen die Quartalsumsätze (QTD) aus der Verkaufstabelle berechnen. Unten ist das gegebene Datenmodell."
+      },
+      {
+        "type": "image",
+        "value": "q041.png"
+      },
+      {
+        "type": "text",
+        "eng": "Solution: You perform the following steps:\na. Create a relationship between the Date Key column in the Date table and the Order Date Key column in the Sales table\nb. Mark the Date table as a date table.\nc. You create the measure Sales QTD = CALCULATE([Sales Amount], DATESQTD('Date'[Date]))\nDo the above steps help you to calculate the QTD sales values?",
+        "de": "Lösung: Sie führen folgende Schritte durch:\na. Erstellen Sie eine Beziehung zwischen der Datumsschlüssel-Spalte in der Datumstabelle und der Bestelldatum-Schlüssel-Spalte in der Verkaufstabelle\nb. Markieren Sie die Datumstabelle als Datumstabelle.\nc. Sie erstellen die Kennzahl Verkäufe QTD = CALCULATE([Verkaufsbetrag], DATESQTD('Datum'[Datum]))\nHelfen Ihnen diese Schritte, die QTD-Verkaufswerte zu berechnen?"
+      }
+    ],
+    "images": [
+      "q041.png"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q042",
+    "content": [
+      {
+        "type": "text",
+        "eng": "This question is part of repeated scenario questions that contain the same stem but with a different solution for each question. You need to identify if the given solution solves a particular problem. Each set of repeated scenario questions might contain either none, one, or many solutions.\nYou have to calculate the Quarter-to-date sales values from the Sales table. Below is the given data model.",
+        "de": "Diese Frage ist Teil von wiederholten Szenariofragen, die den gleichen Stamm haben, aber für jede Frage eine andere Lösung. Sie müssen feststellen, ob die gegebene Lösung ein bestimmtes Problem löst. Jede Gruppe wiederholter Szenariofragen kann keine, eine oder viele Lösungen enthalten.\nSie müssen die Quartalsumsätze (QTD) aus der Verkaufstabelle berechnen. Unten ist das gegebene Datenmodell."
+      },
+      {
+        "type": "image",
+        "value": "q042.png"
+      },
+      {
+        "type": "text",
+        "eng": "Solution: You perform the following steps:\na. Create a relationship between the Date Key column in the Date table and the Order Date Key column in the Sales table\nb. You do not mark the Date table as a date table.\nc. You create the measure\nSales QTD =\nCALCULATE (\n[Sales Amount],\nDATESQTD ( 'Date'[Date] ),\nREMOVEFILTERS ( 'Date' )\n)\nDo the above steps help you to calculate the QTD sales values?",
+        "de": "Lösung: Sie führen folgende Schritte durch:\na. Erstellen Sie eine Beziehung zwischen der Datumsschlüssel-Spalte in der Datumstabelle und der Bestelldatum-Schlüssel-Spalte in der Verkaufstabelle\nb. Sie markieren die Datumstabelle nicht als Datumstabelle.\nc. Sie erstellen die Kennzahl\nVerkäufe QTD =\nCALCULATE (\n[Verkaufsbetrag],\nDATESQTD ( 'Datum'[Datum] ),\nREMOVEFILTERS ( 'Datum' )\n)\nHelfen Ihnen diese Schritte, die QTD-Verkaufswerte zu berechnen?"
+      }
+    ],
+    "images": [
+      "q042.png"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "choices_ger": [
+      "Ja",
+      "Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q043",
+    "content": [
+      {
+        "type": "text",
+        "eng": "For a diagnostic test center, you have to create standard dimension tables like Patient, Pathologist, and Tests that can be used in your organization for data modeling and report creation.\nWhich of the following would you do/create?",
+        "de": "Für ein diagnostisches Testzentrum müssen Sie Standard-Dimensionstabellen wie Patient, Pathologe und Tests erstellen, die in Ihrer Organisation für die Datenmodellierung und Berichterstellung verwendet werden können.\nWelche der folgenden Optionen würden Sie durchführen/erstellen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Shared datasets",
+      "Dataflows",
+      "Use Common Data Model",
+      "Certify the dataset"
+    ],
+    "choices_ger": [
+      "Geteilte Datasets",
+      "Dataflows",
+      "Common Data Model verwenden",
+      "Dataset zertifizieren"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q044",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Below is the Key influencer chart for customer feedback provided by Microsoft.",
+        "de": "Unten sehen Sie das Key Influencer-Diagramm für Kundenfeedback von Microsoft."
+      },
+      {
+        "type": "image",
+        "value": "q044.png"
+      },
+      {
+        "type": "text",
+        "eng": "What does 2.57x in the green circle indicate?",
+        "de": "Was bedeutet die Angabe 2,57x im grünen Kreis?"
+      }
+    ],
+    "images": [
+      "q044.png"
+    ],
+    "choices": [
+      "The ratio of the percentage of low ratings given by consumers to the percentage of low ratings given by other roles",
+      "The ratio of the percentage of consumers who give a low rating to the percentage of other roles who give a low rating",
+      "The ratio of the percentage of consumers who give a low rating to the percentage of all roles who give a low rating",
+      "The ratio of the percentage of low ratings given by consumers to the percentage of low ratings given by all roles"
+    ],
+    "choices_ger": [
+      "Das Verhältnis des Prozentsatzes der niedrigen Bewertungen von Verbrauchern zum Prozentsatz der niedrigen Bewertungen anderer Rollen",
+      "Das Verhältnis des Prozentsatzes der Verbraucher, die eine niedrige Bewertung abgeben, zum Prozentsatz anderer Rollen, die eine niedrige Bewertung abgeben",
+      "Das Verhältnis des Prozentsatzes der Verbraucher, die eine niedrige Bewertung abgeben, zum Prozentsatz aller Rollen, die eine niedrige Bewertung abgeben",
+      "Das Verhältnis des Prozentsatzes der niedrigen Bewertungen von Verbrauchern zum Prozentsatz der niedrigen Bewertungen aller Rollen"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  }
+]

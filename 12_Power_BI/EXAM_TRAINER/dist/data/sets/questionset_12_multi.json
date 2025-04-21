@@ -1,0 +1,1273 @@
+[
+  {
+    "id": "q001",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You administer Power BI for your organization.\nYou prevent users from adding custom visuals from Microsoft AppSource by disabling the Allow visuals created using the Power BI SDK option in the tenant settings of the Power BI service.\nYou need to provide a set of custom visuals for users to add to their reports in the Power BI service.\nWhat should you do?",
+        "de": "Sie verwalten Power BI für Ihr Unternehmen.\nSie verhindern, dass Benutzer benutzerdefinierte Visuals aus Microsoft AppSource hinzufügen, indem Sie die Option *Allow visuals created using the Power BI SDK* in den Mandanteneinstellungen des Power BI-Dienstes deaktivieren.\nSie müssen eine Reihe benutzerdefinierter Visuals bereitstellen, die Benutzer ihren Berichten im Power BI-Dienst hinzufügen können.\nWas sollten Sie tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Publish the custom visuals to the Partner Center.",
+      "Apply an Active Directory Group Policy to set the EnableCustomVisuals registry key.",
+      "Give users the .pbiviz files for the permitted custom visuals to import themselves.",
+      "Add the permitted custom visuals to Organizational visuals."
+    ],
+    "choices_ger": [
+      "Veröffentlichen Sie die benutzerdefinierten Visualisierungen im Partner Center.",
+      "Wenden Sie eine Active Directory-Gruppenrichtlinie an, um den Registrierungsschlüssel EnableCustomMsuals festzulegen.",
+      "Geben Sie den Benutzern die .pbiviz-Dateien für die zulässigen benutzerdefinierten Visualisierungen zum selbständigen Import.",
+      "Fügen Sie die zulässigen benutzerdefinierten Visualisierungen zu den Organisationsvisualisierungen hinzu."
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q002",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a Power BI dashboard for streaming data from Azure IoT devices.\nYou need to configure Power BI to visualize the IoT telemetry data. For each of the following statements, select Yes if the statement is true. Otherwise, select No.\n1. The streaming data is added in the data model in Power BI Desktop.\n2. The real-time data visual is added directly to the dashboard.\n3. Azure Stream Analytics can supply streaming data for Power BI.",
+        "de": "Sie erstellen ein Power BI-Dashboard für Streaming-Daten von Azure IoT-Geräten.\nSie müssen Power BI so konfigurieren, dass IoT-Telemetriedaten visualisiert werden. Wählen Sie für jede Aussage *Ja*, wenn sie wahr ist, andernfalls *Nein*.\n1. Die Streaming-Daten werden im Datenmodell in Power BI Desktop hinzugefügt.\n2. Die Echtzeitdatenvisualisierung wird direkt dem Dashboard hinzugefügt.\n3. Azure Stream Analytics kann Streaming-Daten für Power BI bereitstellen."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "1. Yes 2. Yes 3. Yes",
+      "1. No 2. Yes 3. Yes",
+      "1. Yes 2. No 3. No",
+      "1. No 2. No 3. Yes",
+      "1. Yes 2. Yes 3. No",
+      "1. No 2. Yes 3. No"
+    ],
+    "choices_ger": [
+      "1. Ja 2. Ja 3. Ja",
+      "1. Nein 2. Ja 3. Ja",
+      "1. Ja 2. Nein 3. Nein",
+      "1. Nein 2. Nein 3. Ja",
+      "1. Ja 2. Ja 3. Nein",
+      "1. Nein 2. Ja 3. Nein"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q003",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a Power BI report.\nYou need to improve report navigation.\nWhich options should you use for the stated task?\n“Preserve slicer selection of a specific report page”",
+        "de": "Sie erstellen einen Power BI-Bericht.\nSie müssen die Berichtsnavigation verbessern.\nWelche Option sollten Sie für die Aufgabe „Auswahl eines Slicers auf einer bestimmten Berichtsseite beibehalten“ verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Buttons",
+      "Bookmarks"
+    ],
+    "choices_ger": [
+      "Schaltflächen",
+      "Lesezeichen"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q004",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a report page and pin the page to a dashboard in the Power BI service. You receive many enquiries from users asking you about the data and requesting additional visuals on the dashboard.\nYou need to enable the Q&A feature that appears as “Ask a question about your data” at the top of the dashboard above the visuals.\nHow should you enable this feature?\nSolution: Add the Q&A visual to the report page.\nDoes this solution meet the goal?",
+        "de": "Sie erstellen eine Berichtsseite und heften diese an ein Dashboard im Power BI-Dienst. Sie erhalten viele Anfragen von Benutzern, die Fragen zu den Daten haben und zusätzliche Visuals auf dem Dashboard wünschen.\nSie müssen die Q&A-Funktion aktivieren, die als „Stellen Sie eine Frage zu Ihren Daten“ oben im Dashboard über den Visuals erscheint.\nWie sollten Sie diese Funktion aktivieren?\nLösung: Fügen Sie das Q&A-Visual zur Berichtsseite hinzu.\nErfüllt diese Lösung das Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "choices_ger": [
+      "Nein",
+      "Ja"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q005",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Imagine you have created a query named Customers in a Power BI Desktop to append the rows from three external tables with customer data into a single output table named Customers.\nWhat would be the best approach to add a new fabricated ID column to the Customers table to ensure that every row in the Customers table contains a unique ID value?",
+        "de": "Stellen Sie sich vor, Sie haben eine Abfrage namens *Customers* in Power BI Desktop erstellt, um Zeilen aus drei externen Tabellen mit Kundendaten in eine einzige Ausgabetabelle *Customers* zusammenzuführen.\nWelcher Ansatz eignet sich am besten, um der Customers-Tabelle eine neue künstliche ID-Spalte hinzuzufügen, die sicherstellt, dass jede Zeile eine eindeutige ID enthält?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Modify the data model by extending the Customers table with an Index column",
+      "Modify the data model by extending the Customers table with a Counter column",
+      "Modify the Customers query by adding a Counter column",
+      "Modify the Customers query by adding an Index column"
+    ],
+    "choices_ger": [
+      "Datenmodell anpassen: Customers-Tabelle um eine Indexspalte erweitern",
+      "Datenmodell anpassen: Customers-Tabelle um eine Zählerspalte erweitern",
+      "Customers-Abfrage anpassen: Eine Zählerspalte hinzufügen",
+      "Customers-Abfrage anpassen: Eine Indexspalte hinzufügen"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q006",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a dataset that contains survey results for the percentage of internet access by year, age, and gender. The age of the respondents is between 15 and 85 years old.\nYou need to create a bar chart showing the percentage of internet access for equal age ranges of 10 years. Which four actions should you perform in sequence?",
+        "de": "Sie haben einen Datensatz mit Umfrageergebnissen zum Internetzugang (in %) nach Jahr, Alter und Geschlecht. Das Alter der Befragten liegt zwischen 15 und 85 Jahren.\nSie müssen ein Balkendiagramm erstellen, das den Internetzugang in gleich großen Altersgruppen von 10 Jahren anzeigt. Welche vier Aktionen sollten Sie der Reihenfolge nach durchführen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "1. Set Group type to Bin. 2. Set the Bin type to Number of bins. 3. Set the Bin count to 7. 4. Set the Bin size to 7.",
+      "1. Right click on the Age column and select New Group. 2. Set Group type to List. 3. Set the Bin size to 7. 4. Set the Bin count to 10.",
+      "1. Right click on the Age column and select New Group. 2. Set Group type to Bin. 3. Set the Bin type to Number of bins. 4. Set the Bin count to 10.",
+      "1. Right click on the Age column and select New Group. 2. Set Group type to Bin. 3. Set the Bin type to Number of bins. 4. Set the Bin count to 7"
+    ],
+    "choices_ger": [
+      "1. Gruppentyp auf *Bin* setzen. 2. Bin-Typ auf *Anzahl der Bins* setzen. 3. Bin-Anzahl auf 7 setzen. 4. Bin-Größe auf 7 setzen.",
+      "1. Rechtsklick auf die Altersspalte und *Neue Gruppe* wählen. 2. Gruppentyp auf *Liste* setzen. 3. Bin-Größe auf 7 setzen. 4. Bin-Anzahl auf 10 setzen.",
+      "1. Rechtsklick auf die Altersspalte und *Neue Gruppe* wählen. 2. Gruppentyp auf *Bin* setzen. 3. Bin-Typ auf *Anzahl der Bins* setzen. 4. Bin-Anzahl auf 10 setzen.",
+      "1. Rechtsklick auf die Altersspalte und *Neue Gruppe* wählen. 2. Gruppentyp auf *Bin* setzen. 3. Bin-Typ auf *Anzahl der Bins* setzen. 4. Bin-Anzahl auf 7 setzen."
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q007",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You build a Power BI report showing vendor purchases. The dataset contains five hundred to a thousand rows.\nYou need to add a visual that enables users to easily identify the outliers in the data. Which type of visual should you add?",
+        "de": "Sie erstellen einen Power BI-Bericht, der Lieferanteneinkäufe anzeigt. Der Datensatz enthält 500 bis 1000 Zeilen.\nSie müssen ein Visual hinzufügen, mit dem Benutzer Ausreißer in den Daten leicht erkennen können. Welchen Visualtyp sollten Sie verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Scatter chart",
+      "Chord",
+      "Key influencers",
+      "Decomposition Tree"
+    ],
+    "choices_ger": [
+      "Streudiagramm",
+      "Chord-Diagramm",
+      "Key Influencers",
+      "Zerlegungsbaum"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q008",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are creating a Power BI report for products ordered from vendors for the purchasing department. The purchasing department monitors suppliers and their performance against a suite of metrics.\nThe department needs a visualization to assist in identifying the factors that affect vendor performance. Which type of visualization should you add?",
+        "de": "Sie erstellen einen Power BI-Bericht für Produkte, die von Lieferanten bestellt wurden (Einkaufsabteilung). Die Abteilung überwacht Lieferanten und deren Leistung anhand von Metriken.\nDie Abteilung benötigt eine Visualisierung, um Faktoren zu identifizieren, die die Lieferantenleistung beeinflussen. Welche Visualisierung sollten Sie hinzufügen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Key influencers",
+      "Q&A",
+      "KPI",
+      "Decomposition Tree"
+    ],
+    "choices_ger": [
+      "Key Influencers",
+      "Q&A",
+      "KPI",
+      "Zerlegungsbaum"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q009",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a Power BI report that shows the visual in the below exhibit.\nYou need to show how the relationship between costs and sales changes over the months in the year.\nWhat should you do?",
+        "de": "Sie erstellen einen Power BI-Bericht mit dem in der Abbildung gezeigten Visual.\nSie müssen darstellen, wie sich die Beziehung zwischen Kosten und Verkäufen über die Monate des Jahres hinweg ändert.\nWas sollten Sie tun?"
+      },
+      {
+        "type": "image",
+        "value": "q009.png"
+      }
+    ],
+    "images": [
+      "q009.png"
+    ],
+    "choices": [
+      "Add a relative date slicer to the page.",
+      "Add the month column to the Play Axis option for the visual.",
+      "Create a quick measure to calculate the month-over-month change of sales.",
+      "Add a Ratio line in the Analytics pane."
+    ],
+    "choices_ger": [
+      "Einen relativen Datumsslicer zur Seite hinzufügen.",
+      "Die Monatsspalte zur *Play Axis*-Option des Visuals hinzufügen.",
+      "Eine Schnellmessung erstellen, um die monatliche Veränderung der Verkäufe zu berechnen.",
+      "Eine Verhältnislinie im Analysebereich hinzufügen."
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q010",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a Power BI Pro license.\nYou want to use the AI features of Power BI to enhance your data.\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n1. You can analyze text in your dataset for positive or negative sentiment in Power BI Desktop\n2. The Key Influencers visual requires a Power BI premium subscription\n3. You can create your own machine learning models and invoke the models from Power BI Desktop.",
+        "de": "Sie besitzen eine Power BI Pro-Lizenz.\nSie möchten die KI-Funktionen von Power BI nutzen, um Ihre Daten anzureichern.\nWählen Sie für jede Aussage *Ja*, wenn sie wahr ist, andernfalls *Nein*.\n1. Sie können Text in Ihrem Datensatz in Power BI Desktop auf positive/negative Stimmung analysieren.\n2. Das *Key Influencers*-Visual erfordert ein Power BI Premium-Abonnement.\n3. Sie können eigene Machine-Learning-Modelle erstellen und diese aus Power BI Desktop aufrufen."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "1. No 2. No 3. No",
+      "1. No 2. Yes 3. No",
+      "1. No 2. No 3. Yes",
+      "1. Yes 2. Yes 3. No",
+      "1. Yes 2. No 3. No",
+      "1. Yes 2. No 3. Yes"
+    ],
+    "choices_ger": [
+      "1. Nein 2. Nein 3. Nein",
+      "1. Nein 2. Ja 3. Nein",
+      "1. Nein 2. Nein 3. Ja",
+      "1. Ja 2. Ja 3. Nein",
+      "1. Ja 2. Nein 3. Nein",
+      "1. Ja 2. Nein 3. Ja"
+    ],
+    "isMulti": false,
+    "correct": [
+      4
+    ]
+  },
+  {
+    "id": "q011",
+    "content": [
+      {
+        "type": "text",
+        "eng": "The marketing team needs a new dashboard to show the uptake of social users on the company’s corporate forum. The dashboard will contain one particular report that shows the total number of users that registered for the site in each of the months of the year. For this report you want to create a dataset with a calculated column that displays the date with the abbreviated month name followed by the four digit year e.g. Jan 2018.\nWhich DAX expression should you use?",
+        "de": "Das Marketingteam benötigt ein Dashboard zur Darstellung der Nutzerzahlen des Unternehmensforums. Ein Bericht soll die monatliche Anzahl neuer Registrierungen im Format „Jan 2018“ anzeigen.\nWelchen DAX-Ausdruck sollten Sie für eine berechnete Spalte verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "FORMAT( [RegistrationDate], \"MM yyyy\")",
+      "FORMAT( [RegistrationDate], \"mm yyyy\")",
+      "FORMAT( [RegistrationDate], \"MMM yyyy\")"
+    ],
+    "choices_ger": [
+      "FORMAT( [RegistrationDate], \"MM yyyy\")",
+      "FORMAT( [RegistrationDate], \"mm yyyy\")",
+      "FORMAT( [RegistrationDate], \"MMM yyyy\")"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q012",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You use the Key influencer visual to analyze which product lines influence customers’ decisions to choose certain payment methods.\nYou need to create a key influencer visual, as shown in the exhibit.\nPayment method is cash:\n/Table1/\nPayment method is credit card:\n/Table2/\nPayment method is e-wallet:\n/Table3/\nHow should you configure the visual? To answer, select the appropriate options for the setup screen menus.\n/Table4/",
+        "de": "Sie verwenden das Key-Influencer-Visual, um zu analysieren, welche Produktlinien die Entscheidung von Kunden für bestimmte Zahlungsmethoden beeinflussen.\nSie müssen ein Key-Influencer-Visual erstellen, wie in der Abbildung gezeigt.\nZahlungsmethode ist Bargeld:\n/Table1/\nZahlungsmethode ist Kreditkarte:\n/Table2/\nZahlungsmethode ist E-Wallet:\n/Table3/\nWie sollten Sie das Visual konfigurieren? Wählen Sie die entsprechenden Optionen für die Menüs des Einrichtungsbildschirms.\n/Table4/"
+      },
+      {
+        "type": "image",
+        "value": "q012_1.png"
+      },
+      {
+        "type": "image",
+        "value": "q012_2.png"
+      },
+      {
+        "type": "image",
+        "value": "q012_3.png"
+      },
+      {
+        "type": "image",
+        "value": "q012_4.png"
+      }
+    ],
+    "images": [
+      "q012_1.png",
+      "q012_2.png",
+      "q012_3.png",
+      "q012_4.png"
+    ],
+    "choices": [
+      "Explain by > Payment Method",
+      "Explain by > Product Line",
+      "Analyze > Payment Method",
+      "Analyze > Product Line",
+      "Explain by > Sales",
+      "Analyze > Sales"
+    ],
+    "choices_ger": [
+      "Erklären durch > Zahlungsmethode",
+      "Erklären durch > Produktlinie",
+      "Analysieren > Zahlungsmethode",
+      "Analysieren > Produktlinie",
+      "Erklären durch > Umsatz",
+      "Analysieren > Umsatz"
+    ],
+    "isMulti": true,
+    "correct": [
+      1,
+      2
+    ]
+  },
+  {
+    "id": "q013",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are creating a Power BI report for service requests received in your call center. The support department wants to be able to perform ad hoc analysis on calls against the company product range and determine the drivers behind incoming call volumes.\nYou need to allow users to perform root cause analysis.\nWhich visual should you use?",
+        "de": "Sie erstellen einen Power-BI-Bericht für Serviceanfragen in Ihrem Callcenter. Die Supportabteilung möchte Ad-hoc-Analysen zu Anrufen im Zusammenhang mit dem Produktsortiment durchführen und die Treiber hinter den eingehenden Anrufvolumen identifizieren.\nSie müssen Benutzern ermöglichen, Ursachenanalysen durchzuführen.\nWelches Visual sollten Sie verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Key influencers",
+      "Treemap",
+      "Waterfall",
+      "Decomposition tree"
+    ],
+    "choices_ger": [
+      "Key Influencers (Haupttreiber)",
+      "Baumkarte",
+      "Wasserfalldiagramm",
+      "Zerlegungsbaum (Decomposition Tree)"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q014",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a report about product sales and customer churn rates.\nYou need to restrict the visual to show the top five products with the highest churn rates.\nSolution: Create a measure of the top five products using the TOPN DAX function.\nDoes this solution meet the goal?",
+        "de": "Sie erstellen einen Bericht zu Produktverkäufen und Kündigungsraten.\nSie müssen das Visual auf die Top-5-Produkte mit den höchsten Kündigungsraten beschränken.\nLösung: Erstellen Sie ein Measure für die Top-5-Produkte mit der TOPN-DAX-Funktion.\nErfüllt diese Lösung das Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "choices_ger": [
+      "Nein",
+      "Ja"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q015",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a report about product sales and customer churn rates.\nYou need to restrict the visual to show the top five products with the highest churn rates.\nSolution: Apply Top N filter on Visual (Visual level filter)\nDoes this solution meet the goal?",
+        "de": "Sie erstellen einen Bericht zu Produktverkäufen und Kündigungsraten.\nSie müssen das Visual auf die Top-5-Produkte mit den höchsten Kündigungsraten beschränken.\nLösung: Wenden Sie einen „Top N“-Filter auf das Visual an (Filter auf Visualebene).\nErfüllt diese Lösung das Ziel?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "No",
+      "Yes"
+    ],
+    "choices_ger": [
+      "Nein",
+      "Ja"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q016",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which of the following strategies are recommended when designing the queries to import data from an OLTP-style database into a Power BI Desktop project?",
+        "de": "Welche der folgenden Strategien werden empfohlen, wenn Sie Abfragen zum Importieren von Daten aus einer OLTP-Datenbank in ein Power BI Desktop-Projekt entwerfen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Refactoring the imported tables into a multidimensional cube.",
+      "Normalizing the data model to make it better suited for data analysis and reporting",
+      "Refactoring the imported tables into a star schema.",
+      "Denormalizing the data model to make it better suited for data analysis and reporting."
+    ],
+    "choices_ger": [
+      "Überführen der importierten Tabellen in einen multidimensionalen Cube.",
+      "Normalisierung des Datenmodells für bessere Eignung zur Datenanalyse und Berichterstattung",
+      "Überführen der importierten Tabellen in ein Sternschema (Star Schema).",
+      "Denormalisierung des Datenmodells für bessere Eignung zur Datenanalyse und Berichterstattung."
+    ],
+    "isMulti": true,
+    "correct": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "q017",
+    "content": [
+      {
+        "type": "text",
+        "eng": "When you optimize a data model for Q&A, which factor is the most important?",
+        "de": "Welcher Faktor ist am wichtigsten, wenn Sie ein Datenmodell für Q&A (Fragen und Antworten) optimieren?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Column names",
+      "Data model size",
+      "Row count",
+      "DAX Formulas"
+    ],
+    "choices_ger": [
+      "Spaltennamen",
+      "Größe des Datenmodells",
+      "Anzahl der Zeilen",
+      "DAX-Formeln"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q018",
+    "content": [
+      {
+        "type": "text",
+        "eng": "What are the reasons for which you might use calculated tables?",
+        "de": "Aus welchen Gründen könnten Sie berechnete Tabellen verwenden?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "To union tables",
+      "To create a table based on the result of a function or formula",
+      "To improve the speed and performance of an existing table",
+      "To perform different types of merge join"
+    ],
+    "choices_ger": [
+      "Um Tabellen zu vereinigen (UNION)",
+      "Um eine Tabelle basierend auf dem Ergebnis einer Funktion oder Formel zu erstellen",
+      "Um die Geschwindigkeit und Leistung einer bestehenden Tabelle zu verbessern",
+      "Um verschiedene Typen von Merge-Joins durchzuführen"
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      1,
+      3
+    ]
+  },
+  {
+    "id": "q019",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are creating a Power BI report for products ordered by customers. You create a bar chart showing the number of units sold by product.\nYou need to configure the chart to show the average number of units sold per order.\nWhat are two possible ways to achieve this goal? Each correct answer presents a complete solution.",
+        "de": "Sie erstellen einen Power BI-Bericht für von Kunden bestellte Produkte. Sie erstellen ein Balkendiagramm, das die verkaufte Stückzahl pro Produkt anzeigt.\nSie müssen das Diagramm so konfigurieren, dass die durchschnittliche Stückzahl pro Bestellung angezeigt wird.\nWelche zwei Möglichkeiten gibt es, um dieses Ziel zu erreichen? Jede richtige Antwort bietet eine vollständige Lösung."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Right click on the units sold column in Fields, add a new group, and set the bin size to 50.",
+      "Create a measure using the AVERAGE DAX function and replace the number of units sold with the measure.",
+      "Create a measure using the PERCENTILE DAX function at 50 percent and replace the number of units sold with the measure.",
+      "Right click on the units sold in Values for the visual and change the summarization to Average.",
+      "Right click on the units sold in Values for the visual and set show values as percent of grand total."
+    ],
+    "choices_ger": [
+      "Rechtsklick auf die Spalte „Units Sold“ in Felder > Neue Gruppe hinzufügen und die Bin-Größe auf 50 setzen.",
+      "Ein Measure mit der AVERAGE-DAX-Funktion erstellen und die Stückzahl durch das Measure ersetzen.",
+      "Ein Measure mit der PERCENTILE-DAX-Funktion (50 %) erstellen und die Stückzahl durch das Measure ersetzen.",
+      "Rechtsklick auf „Units Sold“ in Werte für das Visual > Zusammenfassung auf „Durchschnitt“ ändern.",
+      "Rechtsklick auf „Units Sold“ in Werte für das Visual > „Werte als Prozentsatz der Gesamtsumme anzeigen“."
+    ],
+    "isMulti": true,
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "q020",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a Power BI report containing a line chart that shows sales by month as shown in Exhibit 1 below.\n/Table1/\nYou need to configure the visual as shown in Exhibit 2 below.\n/Table2/\nWhat should you do?",
+        "de": "Sie erstellen einen Power BI-Bericht mit einem Liniendiagramm, das monatliche Umsätze anzeigt (siehe Abbildung 1).\n/Table1/\nSie müssen das Visual wie in Abbildung 2 konfigurieren.\n/Table2/\nWas sollten Sie tun?"
+      },
+      {
+        "type": "image",
+        "value": "q020_1.png"
+      },
+      {
+        "type": "image",
+        "value": "q020_2.png"
+      }
+    ],
+    "images": [
+      "q020_1.png",
+      "q020_2.png"
+    ],
+    "choices": [
+      "Add a trend line in the Analytics pane.",
+      "Add an Average line in the Analytics pane.",
+      "Add a Play Axis to the visual",
+      "Add a forecast in the Analytics pane"
+    ],
+    "choices_ger": [
+      "Trendlinie im Analysebereich hinzufügen.",
+      "Durchschnittslinie im Analysebereich hinzufügen.",
+      "Eine „Play Axis“ (Zeitachse) zum Visual hinzufügen.",
+      "Eine Prognose im Analysebereich hinzufügen."
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q021",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a table that contains details for your product sales as shown in the below exhibit.\n/Table1/\nThe salesperson is recorded on each sale. You have 1000 products with data spanning 30 years.\nYou create a Power BI report with visuals that contain aggregations with the following visuals:\n• a column chart with products in the axis, but there are too many product columns displayed\n• a bar chart with the year of order in the axis, but there are too many bars displayed\n• a pie chart with the quantity of products per order as the legend but, there are too many slices\nYou need to combine the data to make the visual more readable.\nHow should you combine the data? To answer, select the appropriate option for each action.\n/Table2",
+        "de": "Sie haben eine Tabelle mit Verkaufsdetails (siehe Abbildung).\n/Table1/\nJeder Verkauf enthält den Namen des Verkäufers. Sie haben 1000 Produkte mit Daten über 30 Jahre.\nSie erstellen einen Power BI-Bericht mit Visuals, die Aggregationen enthalten:\n• Ein Säulendiagramm mit Produkten in der Achse (zu viele Spalten)\n• Ein Balkendiagramm mit Bestelljahren in der Achse (zu viele Balken)\n• Ein Kuchendiagramm mit der Produktmenge pro Bestellung (zu viele Segmente)\nSie müssen die Daten gruppieren, um die Visuals lesbarer zu machen.\nWie sollten Sie die Daten kombinieren? Wählen Sie die passende Option für jede Aktion.\n/Table2"
+      },
+      {
+        "type": "image",
+        "value": "q021_1.png"
+      },
+      {
+        "type": "image",
+        "value": "q021_2.png"
+      }
+    ],
+    "images": [
+      "q021_1.png",
+      "q021_2.png"
+    ],
+    "choices": [
+      "1. List 2. List 3. List",
+      "1. List 2. List 3. Bin",
+      "1. Bin 2. Bin 3. Bin",
+      "1. List 2. Bin 3. List",
+      "1. Bin 2. List 3. List",
+      "1. List 2. Bin 3. Bin"
+    ],
+    "choices_ger": [
+      "1. Liste 2. Liste 3. Liste",
+      "1. Liste 2. Liste 3. Bin",
+      "1. Bin 2. Bin 3. Bin",
+      "1. Liste 2. Bin 3. Liste",
+      "1. Bin 2. Liste 3. Liste",
+      "1. Liste 2. Bin 3. Bin"
+    ],
+    "isMulti": false,
+    "correct": [
+      5
+    ]
+  },
+  {
+    "id": "q022",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You use the Decomposition tree visual to analyze sales across different attributes, payment methods, and product lines, as shown in the below exhibit.\n/Table1/\nYou need to create the visual. How should you complete the configuration? To answer, select the appropriate options for the setup menu.\n/Table2/",
+        "de": "Sie verwenden das Zerlegungsbaum-Visual (Decomposition Tree), um Verkäufe nach Attributen, Zahlungsmethoden und Produktlinien zu analysieren (siehe Abbildung).\n/Table1/\nSie müssen das Visual erstellen. Wie sollten Sie die Konfiguration abschließen? Wählen Sie die passenden Optionen für das Setup-Menü.\n/Table2/"
+      },
+      {
+        "type": "image",
+        "value": "q022_1.png"
+      },
+      {
+        "type": "image",
+        "value": "q022_2.png"
+      }
+    ],
+    "images": [
+      "q022_1.png",
+      "q022_2.png"
+    ],
+    "choices": [
+      "Explain by (first field) > Sales",
+      "Explain by (second field) > Sales",
+      "Explain by (second field) > Product Line",
+      "Explain by (second field) > Payment Method",
+      "Explain by (first field) > Payment Method",
+      "Analyze > Sales"
+    ],
+    "choices_ger": [
+      "Erklären durch (erstes Feld) > Umsatz",
+      "Erklären durch (zweites Feld) > Umsatz",
+      "Erklären durch (zweites Feld) > Produktlinie",
+      "Erklären durch (zweites Feld) > Zahlungsmethode",
+      "Erklären durch (erstes Feld) > Zahlungsmethode",
+      "Analysieren > Umsatz"
+    ],
+    "isMulti": true,
+    "correct": [
+      2,
+      4,
+      5
+    ]
+  },
+  {
+    "id": "q023",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which of the following types of real-time datasets in Power BI always store their data in Azure SQL Database?",
+        "de": "Welche der folgenden Echtzeit-Datensatztypen in Power BI speichern ihre Daten immer in Azure SQL-Datenbank?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Streaming Datasets",
+      "Push Datasets",
+      "Hybrid Datasets"
+    ],
+    "choices_ger": [
+      "Streaming-Datensätze",
+      "Push-Datensätze",
+      "Hybrid-Datensätze"
+    ],
+    "isMulti": false,
+    "correct": 1
+  },
+  {
+    "id": "q024",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a new workspace named Department and publish your Power BI report to this workspace.\nYou need to distribute a report among the executives without giving them direct access to the workspace.\nWhich four options are essential for an app to be published for the first time? Each correct answer presents part of the solution.",
+        "de": "Sie erstellen einen neuen Arbeitsbereich namens 'Department' und veröffentlichen Ihren Power-BI-Bericht in diesem Arbeitsbereich.\nSie müssen einen Bericht an Führungskräfte verteilen, ohne ihnen direkten Zugriff auf den Arbeitsbereich zu gewähren.\nWelche vier Optionen sind essenziell, damit eine App erstmalig veröffentlicht werden kann? Jede richtige Antwort stellt einen Teil der Lösung dar."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Under the Setup tab, provide the App name and description.",
+      "Select the Department workspace.",
+      "Under the Permissions tab, specify users who can view the app.",
+      "Under the Navigation tab, provide report name.",
+      "Click the Publish App button.",
+      "Click the Update App button."
+    ],
+    "choices_ger": [
+      "Unter dem Setup-Tab geben Sie den App-Namen und eine Beschreibung an.",
+      "Wählen Sie den 'Department'-Arbeitsbereich aus.",
+      "Unter dem Permissions-Tab geben Sie die Benutzer an, die die App einsehen dürfen.",
+      "Unter dem Navigation-Tab geben Sie den Berichtsnamen an.",
+      "Klicken Sie auf den 'Publish App'-Button.",
+      "Klicken Sie auf den 'Update App'-Button."
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      1,
+      2,
+      4
+    ]
+  },
+  {
+    "id": "q025",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a Power BI workspace in the new workspace experience.\nYou need to permit the following groups of users to access the workspace to perform specific actions on workspace content. You must use the principle of least privilege.\n• Users in GroupA must be able to publish Power BI apps.\n• Users in GroupB must be able to publish Power BI reports.\n• UserC must be able to build reports using the workspace datasets in different workspaces without any additional configuration.\nWhich workspace role should you assign to the users? To answer, select the appropriate role to the below-stated user.\n“Users in GroupA”",
+        "de": "Sie erstellen einen Power-BI-Arbeitsbereich in der neuen Arbeitsbereichsumgebung.\nSie müssen folgenden Benutzergruppen Zugriff auf den Arbeitsbereich gewähren, um bestimmte Aktionen am Arbeitsbereichsinhalt durchzuführen. Dabei müssen Sie das Prinzip der geringsten Rechte anwenden.\n• Benutzer in GruppeA müssen Power-BI-Apps veröffentlichen können.\n• Benutzer in GruppeB müssen Power-BI-Berichte veröffentlichen können.\n• BenutzerC muss Berichte mit den Datensätzen des Arbeitsbereichs in anderen Arbeitsbereichen erstellen können, ohne zusätzliche Konfiguration.\nWelche Arbeitsbereichsrolle sollten Sie den Benutzern zuweisen? Wählen Sie die passende Rolle für den unten genannten Benutzer.\n„Benutzer in GruppeA“"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Member",
+      "Viewer",
+      "Admin",
+      "Contributor"
+    ],
+    "choices_ger": [
+      "Mitglied",
+      "Betrachter",
+      "Administrator",
+      "Mitwirkender"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q026",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Which of the following resources are automatically provisioned when you create a new app workspace in the Power BI Service?",
+        "de": "Welche der folgenden Ressourcen werden automatisch bereitgestellt, wenn Sie einen neuen App-Arbeitsbereich im Power-BI-Service erstellen?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "A storage container for Power BI resources including datasets, reports and dashboards",
+      "An Office 365 Group which triggers the creation of a SharePoint team site",
+      "An Azure Active Directory user account to serve as the workspace identity",
+      "A shared capacity which is used to host the workspace"
+    ],
+    "choices_ger": [
+      "Ein Speichercontainer für Power-BI-Ressourcen, einschließlich Datensätzen, Berichten und Dashboards",
+      "Eine Office-365-Gruppe, die die Erstellung einer SharePoint-Teamwebsite auslöst",
+      "Ein Azure-Active-Directory-Benutzerkonto, das als Arbeitsbereichsidentität dient",
+      "Eine Shared Capacity, die zum Hosten des Arbeitsbereichs verwendet wird"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q027",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create datasets, reports, and dashboards in Power BI.\nYou need to make these assets easily available to other users and indicate how they should be used. You need to configure the assets to meet the requirements.\nTo answer, select the appropriate option for the below requirement.\n“Configure a dashboard so that the sensitivity of its data is visible”",
+        "de": "Sie erstellen Datensätze, Berichte und Dashboards in Power BI.\nSie müssen diese Assets anderen Benutzern leicht zugänglich machen und angeben, wie sie verwendet werden sollen. Sie müssen die Assets entsprechend konfigurieren.\nWählen Sie die passende Option für die folgende Anforderung.\n„Konfigurieren Sie ein Dashboard, sodass die Sensitivität seiner Daten sichtbar ist“"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Featured",
+      "Certified",
+      "Promoted",
+      "Data Classification"
+    ],
+    "choices_ger": [
+      "Hervorgehoben",
+      "Zertifiziert",
+      "Beworben",
+      "Datenklassifizierung"
+    ],
+    "isMulti": false,
+    "correct": [
+      3
+    ]
+  },
+  {
+    "id": "q028",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a Power BI workspace in the new workspace experience.\nYou need to permit the following groups of users to access the workspace to perform specific actions on workspace content. You must use the principle of least privilege.\n• Users in GroupA must be able to publish Power BI apps.\n• Users in GroupB must be able to publish Power BI reports.\n• UserC must be able to build reports using the workspace datasets in different workspaces without any additional configuration.\nWhich workspace role should you assign to the users? To answer, select the appropriate role for the below-stated user.\n“UserC”",
+        "de": "Sie erstellen einen Power-BI-Arbeitsbereich in der neuen Arbeitsbereichsumgebung.\nSie müssen folgenden Benutzergruppen Zugriff auf den Arbeitsbereich gewähren, um bestimmte Aktionen am Arbeitsbereichsinhalt durchzuführen. Dabei müssen Sie das Prinzip der geringsten Rechte anwenden.\n• Benutzer in GruppeA müssen Power-BI-Apps veröffentlichen können.\n• Benutzer in GruppeB müssen Power-BI-Berichte veröffentlichen können.\n• BenutzerC muss Berichte mit den Datensätzen des Arbeitsbereichs in anderen Arbeitsbereichen erstellen können, ohne zusätzliche Konfiguration.\nWelche Arbeitsbereichsrolle sollten Sie den Benutzern zuweisen? Wählen Sie die passende Rolle für den unten genannten Benutzer.\n„BenutzerC“"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Viewer",
+      "Contributor",
+      "Admin",
+      "Member"
+    ],
+    "choices_ger": [
+      "Betrachter",
+      "Mitwirkender",
+      "Administrator",
+      "Mitglied"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q029",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You need to assign the appropriate workspace roles to co-workers to perform certain tasks. You must use the lowest permission level necessary to accomplish the tasks.\nWhich roles should you use? To answer, select the appropriate option.\n“To read workspace reports”",
+        "de": "Sie müssen Kollegen geeignete Arbeitsbereichsrollen zuweisen, um bestimmte Aufgaben auszuführen. Dabei müssen Sie das niedrigste erforderliche Berechtigungsniveau verwenden.\nWelche Rollen sollten Sie verwenden? Wählen Sie die passende Option.\n„Um Arbeitsbereichsberichte zu lesen“"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Member",
+      "Viewer",
+      "Contributor"
+    ],
+    "choices_ger": [
+      "Mitglied",
+      "Betrachter",
+      "Mitwirkender"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q030",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have Power BI Premium with allocated capacity.\nYou import data into Power BI from a webpage and create a Power BI report. You need to ensure that the data for your visuals that is extracted from the web page is up to date.\nYou decide to automate the updating process from the data source. How and where should you configure the dataset to meet the requirements?\n“The storage mode that requires a refresh schedule to be configured..”",
+        "de": "Sie verfügen über Power BI Premium mit zugeteilter Kapazität.\nSie importieren Daten aus einer Webseite in Power BI und erstellen einen Power-BI-Bericht. Sie müssen sicherstellen, dass die Daten für Ihre Visuals, die von der Webseite extrahiert werden, aktuell sind.\nSie entscheiden sich, den Aktualisierungsprozess aus der Datenquelle zu automatisieren. Wie und wo sollten Sie den Datensatz konfigurieren, um die Anforderungen zu erfüllen?\n„Der Speichermodus, der eine konfigurierte Aktualisierungsplanung erfordert...“"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Import",
+      "Live Connect",
+      "DirectQuery"
+    ],
+    "choices_ger": [
+      "Import",
+      "Live Connect",
+      "DirectQuery"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q031",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Data in your organization must be classified as either None, Personal, or Confidential.\nYou need to protect confidential data in your Power BI reports within Power BI and when data is exported from Power BI. Information protection has been enabled on your Power BI tenant.\nWhich three actions should you perform in sequence? To answer, select the appropriate list of actions.",
+        "de": "Daten in Ihrer Organisation müssen als 'Keine', 'Persönlich' oder 'Vertraulich' klassifiziert werden.\nSie müssen vertrauliche Daten in Ihren Power-BI-Berichten innerhalb von Power BI und beim Export schützen. Der Informationsschutz ist in Ihrem Power-BI-Mandanten aktiviert.\nWelche drei Aktionen sollten Sie in dieser Reihenfolge ausführen? Wählen Sie die passende Aktionsliste."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "1. Create and publish labels in Microsoft 365. 2. Open Tenant settings in Power BI Admin Portal. 3. Select the sensitivity label.",
+      "1. Create and publish labels in Microsoft 365. 2. Open the settings pane on the Power BI report. 3. Select the sensitivity label.",
+      "1. Open the settings pane on the Power BI report. 2. Set Export data to None. 3. Add a data classification tag.",
+      "1. Open Tenant settings in Power BI Admin Portal. 2. Select the sensitivity label. 3. Add a data classification tag."
+    ],
+    "choices_ger": [
+      "1. Erstellen und veröffentlichen Sie Labels in Microsoft 365. 2. Öffnen Sie die Mandanteneinstellungen im Power-BI-Admin-Portal. 3. Wählen Sie das Sensitivity-Label aus.",
+      "1. Erstellen und veröffentlichen Sie Labels in Microsoft 365. 2. Öffnen Sie das Einstellungsfenster des Power-BI-Berichts. 3. Wählen Sie das Sensitivity-Label aus.",
+      "1. Öffnen Sie das Einstellungsfenster des Power-BI-Berichts. 2. Setzen Sie 'Daten exportieren' auf 'Keine'. 3. Fügen Sie ein Datenklassifizierungs-Tag hinzu.",
+      "1. Öffnen Sie die Mandanteneinstellungen im Power-BI-Admin-Portal. 2. Wählen Sie das Sensitivity-Label aus. 3. Fügen Sie ein Datenklassifizierungs-Tag hinzu."
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q032",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a Power BI workspace in the new workspace experience.\nYou need to permit the following groups of users to access the workspace to perform specific actions on workspace content. You must use the principle of least privilege.\n• Users in GroupA must be able to publish Power BI apps.\n• Users in GroupB must be able to publish Power BI reports.\n• UserC must be able to build reports using the workspace datasets in different workspaces without any additional configuration.\nWhich workspace role should you assign to the users? To answer, select the appropriate role to the below-stated user.\n“Users in GroupB”",
+        "de": "Sie erstellen einen Power-BI-Arbeitsbereich in der neuen Arbeitsbereichsumgebung.\nSie müssen folgenden Benutzergruppen Zugriff auf den Arbeitsbereich gewähren, um bestimmte Aktionen am Arbeitsbereichsinhalt durchzuführen. Dabei müssen Sie das Prinzip der geringsten Rechte anwenden.\n• Benutzer in GruppeA müssen Power-BI-Apps veröffentlichen können.\n• Benutzer in GruppeB müssen Power-BI-Berichte veröffentlichen können.\n• BenutzerC muss Berichte mit den Datensätzen des Arbeitsbereichs in anderen Arbeitsbereichen erstellen können, ohne zusätzliche Konfiguration.\nWelche Arbeitsbereichsrolle sollten Sie den Benutzern zuweisen? Wählen Sie die passende Rolle für den unten genannten Benutzer.\n„Benutzer in GruppeB“"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Admin",
+      "Contributor",
+      "Member",
+      "Viewer"
+    ],
+    "choices_ger": [
+      "Administrator",
+      "Mitwirkender",
+      "Mitglied",
+      "Betrachter"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q033",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You implement a security role named EmployeeAddress to filter employees based on their login account in the Power BI service.\nYou need to add 100 users to this role so they can view a report based on row-level security settings.\nWhich two actions should you perform? Each correct answer presents part of the solution.",
+        "de": "Sie implementieren eine Sicherheitsrolle namens EmployeeAddress, um Mitarbeiter basierend auf ihrem Login-Konto im Power BI Service zu filtern.\nSie müssen 100 Benutzer zu dieser Rolle hinzufügen, damit sie einen Bericht basierend auf Row-Level-Security-Einstellungen anzeigen können.\nWelche zwei Aktionen sollten Sie durchführen? Jede richtige Antwort stellt einen Teil der Lösung dar."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Add the newly created Power BI group to the EmployeeAddress security role.",
+      "Add the newly created security group to the EmployeeAddress security role.",
+      "Create a group in Power BI and assign users to this group.",
+      "Create a security group in Active Directory and assign users to this group."
+    ],
+    "choices_ger": [
+      "Fügen Sie die neu erstellte Power BI-Gruppe der EmployeeAddress-Sicherheitsrolle hinzu.",
+      "Fügen Sie die neu erstellte Sicherheitsgruppe der EmployeeAddress-Sicherheitsrolle hinzu.",
+      "Erstellen Sie eine Gruppe in Power BI und weisen Sie Benutzer dieser Gruppe zu.",
+      "Erstellen Sie eine Sicherheitsgruppe in Active Directory und weisen Sie Benutzer dieser Gruppe zu."
+    ],
+    "isMulti": true,
+    "correct": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "q034",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have a data model as shown in the below exhibit for sales opportunity data.\n/Table/\nEach salesperson has a sales manager. You create a Power BI report for a sales team’s opportunities. Salespeople must only be able to see their own data. Sales managers must be able to see all data. You create a DAX measure to calculate the monthly commission amount on sales.\nYou need to configure row-level security (RLS) and create two roles named SalesPerson and SalesManager. Salespeople are assigned to the SalesPerson role. Sales managers are assigned to the SalesManager role.\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n1. Setting the DAX Filter expression on the SalesPerson role to [Email Address] = userprincipalname() allows salespeople to only view their own data.\n2. Salespeople will be able to see their commission amount.\n3. Setting the DAX Filter expression on the SalesManager role to FALSE() allows Sales managers to view all data.",
+        "de": "Sie haben ein Datenmodell wie in der folgenden Abbildung für Verkaufschancendaten.\n/Tabelle/\nJeder Verkäufer hat einen Verkaufsleiter. Sie erstellen einen Power BI-Bericht für die Verkaufschancen eines Verkaufsteams. Verkäufer dürfen nur ihre eigenen Daten sehen. Verkaufsleiter müssen alle Daten sehen können. Sie erstellen ein DAX-Maß zur Berechnung der monatlichen Provisionshöhe für Verkäufe.\nSie müssen Row-Level Security (RLS) konfigurieren und zwei Rollen namens SalesPerson und SalesManager erstellen. Verkäufer werden der SalesPerson-Rolle zugewiesen. Verkaufsleiter werden der SalesManager-Rolle zugewiesen.\nWählen Sie für jede der folgenden Aussagen Ja, wenn die Aussage wahr ist. Andernfalls wählen Sie Nein.\n1. Das Setzen des DAX-Filterausdrucks in der SalesPerson-Rolle auf [Email Address] = userprincipalname() ermöglicht es Verkäufern, nur ihre eigenen Daten zu sehen.\n2. Verkäufer werden ihre Provisionshöhe sehen können.\n3. Das Setzen des DAX-Filterausdrucks in der SalesManager-Rolle auf FALSE() ermöglicht es Verkaufsleitern, alle Daten zu sehen."
+      },
+      {
+        "type": "image",
+        "value": "q034.png"
+      }
+    ],
+    "images": [
+      "q034.png"
+    ],
+    "choices": [
+      "1. Yes 2. Yes 3. Yes",
+      "1. Yes 2. No 3. No",
+      "1. Yes 2. Yes 3. No",
+      "1. No 2. No 3. No",
+      "1. Yes 2. No 3. Yes",
+      "1. No 2. No 3. Yes"
+    ],
+    "choices_ger": [
+      "1. Ja 2. Ja 3. Ja",
+      "1. Ja 2. Nein 3. Nein",
+      "1. Ja 2. Ja 3. Nein",
+      "1. Nein 2. Nein 3. Nein",
+      "1. Ja 2. Nein 3. Ja",
+      "1. Nein 2. Nein 3. Ja"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q035",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have Power BI Premium with allocated capacity.\nYou import data into Power BI from a webpage and create a Power BI report. You need to ensure that the data for your visuals that is extracted from the web page is up to date.\nYou decide to automate the updating process from the data source. How and where should you configure the dataset to meet the requirements?\n“The number of time slots per day that can be configured in the refresh schedule..”",
+        "de": "Sie haben Power BI Premium mit zugeteilter Kapazität.\nSie importieren Daten aus einer Webseite in Power BI und erstellen einen Power BI-Bericht. Sie müssen sicherstellen, dass die Daten für Ihre Visuals, die von der Webseite extrahiert werden, aktuell sind.\nSie entscheiden sich, den Aktualisierungsprozess aus der Datenquelle zu automatisieren. Wie und wo sollten Sie den Datensatz konfigurieren, um die Anforderungen zu erfüllen?\n„Die Anzahl der Zeitfenster pro Tag, die im Aktualisierungsplan konfiguriert werden können...“"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "1",
+      "8",
+      "48"
+    ],
+    "choices_ger": [
+      "1",
+      "8",
+      "48"
+    ],
+    "isMulti": false,
+    "correct": [
+      2
+    ]
+  },
+  {
+    "id": "q036",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create datasets, reports, and dashboards in Power BI.\nYou need to make these assets easily available to other users and indicate how they should be used. You need to configure the assets to meet the requirements.\nTo answer, select the appropriate option for the below requirement.\n“List a report on the Power BI Home page”",
+        "de": "Sie erstellen Datensätze, Berichte und Dashboards in Power BI.\nSie müssen diese Assets anderen Benutzern leicht zugänglich machen und angeben, wie sie verwendet werden sollen. Sie müssen die Assets entsprechend konfigurieren.\nWählen Sie die passende Option für die folgende Anforderung.\n„Einen Bericht auf der Power BI-Startseite auflisten“"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Certified",
+      "Featured",
+      "Promoted",
+      "Data Classification"
+    ],
+    "choices_ger": [
+      "Zertifiziert",
+      "Hervorgehoben",
+      "Beworben",
+      "Datenklassifizierung"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q037",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You are a data analyst at a company that uses Power BI. The company has 12 departments. You have created a Power BI report that shows data for the organization’s staff and training from the HR dataset. You have been asked to create the same report for each department.\nWhat are two possible ways to achieve this goal? Each correct answer presents a complete solution.",
+        "de": "Sie sind Datenanalyst in einem Unternehmen, das Power BI verwendet. Das Unternehmen hat 12 Abteilungen. Sie haben einen Power BI-Bericht erstellt, der Daten zu den Mitarbeitern und Schulungen der Organisation aus dem HR-Datensatz anzeigt. Sie wurden gebeten, denselben Bericht für jede Abteilung zu erstellen.\nWelche zwei möglichen Wege gibt es, um dieses Ziel zu erreichen? Jede richtige Antwort stellt eine vollständige Lösung dar."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Add a parameter to the report.",
+      "Create a URL for each department to filter the report by the department.",
+      "Create a dataset for each department, copy the report, and use the report with the department dataset.",
+      "Create a workspace for each department and add the report to the workspace."
+    ],
+    "choices_ger": [
+      "Fügen Sie dem Bericht einen Parameter hinzu.",
+      "Erstellen Sie eine URL für jede Abteilung, um den Bericht nach der Abteilung zu filtern.",
+      "Erstellen Sie einen Datensatz für jede Abteilung, kopieren Sie den Bericht und verwenden Sie den Bericht mit dem Abteilungsdatensatz.",
+      "Erstellen Sie einen Arbeitsbereich für jede Abteilung und fügen Sie den Bericht zum Arbeitsbereich hinzu."
+    ],
+    "isMulti": true,
+    "correct": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "q038",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You have Power BI Premium with allocated capacity.\nYou import data into Power BI from a webpage and create a Power BI report. You need to ensure that the data for your visuals that is extracted from the web page is up to date.\nYou decide to automate the updating process from the data source. How and where should you configure the dataset to meet the requirements?\n“The tool where the refresh schedule is configured..”",
+        "de": "Sie haben Power BI Premium mit zugeteilter Kapazität.\nSie importieren Daten aus einer Webseite in Power BI und erstellen einen Power BI-Bericht. Sie müssen sicherstellen, dass die Daten für Ihre Visuals, die von der Webseite extrahiert werden, aktuell sind.\nSie entscheiden sich, den Aktualisierungsprozess aus der Datenquelle zu automatisieren. Wie und wo sollten Sie den Datensatz konfigurieren, um die Anforderungen zu erfüllen?\n„Das Tool, in dem der Aktualisierungsplan konfiguriert wird...“"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Power BI Desktop",
+      "Power BI Service",
+      "Power BI Mobile"
+    ],
+    "choices_ger": [
+      "Power BI Desktop",
+      "Power BI Service",
+      "Power BI Mobile"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q039",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You need to assign the appropriate workspace roles to co-workers to perform certain tasks. You must use the lowest permission level necessary to accomplish the tasks.\nWhich roles should you use? To answer, select the appropriate option.\n“To publish content to the workspace”",
+        "de": "Sie müssen Kollegen geeignete Arbeitsbereichsrollen zuweisen, um bestimmte Aufgaben auszuführen. Dabei müssen Sie das niedrigste erforderliche Berechtigungsniveau verwenden.\nWelche Rollen sollten Sie verwenden? Wählen Sie die passende Option.\n„Um Inhalte im Arbeitsbereich zu veröffentlichen“"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Contributor",
+      "Admin",
+      "Member"
+    ],
+    "choices_ger": [
+      "Mitwirkender",
+      "Administrator",
+      "Mitglied"
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  },
+  {
+    "id": "q040",
+    "content": [
+      {
+        "type": "text",
+        "eng": "Overview:\nCompany1 is a manufacturing company that is adopting Power BI for its analytics and insights requirements.\nPower BI Desktop and Power BI Service will be used to generate reports and dashboards for Operations, Human Resources, Sales, and Finance departments.\nManagement are concerned over access to data and reports.\nYou need to plan the setup, security and administration of the Power BI environment.\nYou will run a pilot with the Sales department to verify your proposed configuration before deploying the other departments.\nExisting environment:\nCompany1 has Office 365 deployed.\nCompany1 uses Azure AD Security groups for access control.\nOffice 365 Groups are used for collaboration.\nData Sources:\nExcel spreadsheets will be the source of data for the pilot.\nThere are other data sources that will be used after the pilot:\nSQL Server\nSharePoint lists\nJSON files\nZendesk\nReport development:\nThere is a team of business intelligence analysts who will create the reports and dashboards.\nThis team will load, transform, and cleanse the data. They will then model the data and create datasets for use across the organization.\nChanges made by the developers should be automatically deployed to users.\nSecurity requirements:\nDevelopers should not have access to production data.\nDevelopers should not have access to reports and dashboards in production.\nBusiness users should not have access to developer data or assets.\nBoard members must be able to access select reports and dashboards.\nExcel files used in reports should only be accessible from their workspace.\nUsers must only have access to the data in their department.\nUsers in the Sales department must only have access to data in their territory.\nThe reports and dashboards for a department should only be accessible by business users in the same department.\nBusiness users should not be able to edit the reports and dashboards. Business users should not be able to create new reports or dashboards.\nBoard members are not part of the company network.\nRequirement:\nWhat are two possible ways to control access to data in the Sales department? Each correct answer presents a complete solution.",
+        "de": "Übersicht:\nCompany1 ist ein produzierendes Unternehmen, das Power BI für seine Analyse- und Erkenntnisanforderungen einführt.\nPower BI Desktop und Power BI Service werden verwendet, um Berichte und Dashboards für die Abteilungen Betrieb, Personalwesen, Vertrieb und Finanzen zu erstellen.\nDie Geschäftsleitung ist besorgt über den Zugriff auf Daten und Berichte.\nSie müssen die Einrichtung, Sicherheit und Administration der Power BI-Umgebung planen.\nSie führen einen Pilotversuch mit der Vertriebsabteilung durch, um Ihre vorgeschlagene Konfiguration zu überprüfen, bevor Sie die anderen Abteilungen bereitstellen.\nBestehende Umgebung:\nCompany1 hat Office 365 im Einsatz.\nCompany1 verwendet Azure AD-Sicherheitsgruppen für die Zugriffskontrolle.\nOffice 365-Gruppen werden für die Zusammenarbeit verwendet.\nDatenquellen:\nExcel-Tabellen werden als Datenquelle für den Pilotversuch verwendet.\nEs gibt weitere Datenquellen, die nach dem Pilotversuch genutzt werden:\nSQL Server\nSharePoint-Listen\nJSON-Dateien\nZendesk\nBerichtsentwicklung:\nEs gibt ein Team von Business-Intelligence-Analysten, die die Berichte und Dashboards erstellen werden.\nDieses Team wird die Daten laden, transformieren und bereinigen. Anschließend werden sie die Daten modellieren und Datensätze für die Nutzung im gesamten Unternehmen erstellen.\nÄnderungen der Entwickler sollten automatisch an die Benutzer bereitgestellt werden.\nSicherheitsanforderungen:\nEntwickler sollten keinen Zugriff auf Produktionsdaten haben.\nEntwickler sollten keinen Zugriff auf Berichte und Dashboards in der Produktion haben.\nGeschäftsbenutzer sollten keinen Zugriff auf Entwicklerdaten oder -assets haben.\nVorstandsmitglieder müssen ausgewählte Berichte und Dashboards einsehen können.\nIn Berichten verwendete Excel-Dateien sollten nur von ihrem Arbeitsbereich aus zugänglich sein.\nBenutzer dürfen nur auf die Daten ihrer Abteilung zugreifen.\nBenutzer in der Vertriebsabteilung dürfen nur auf Daten in ihrem Gebiet zugreifen.\nDie Berichte und Dashboards einer Abteilung sollten nur für Geschäftsbenutzer derselben Abteilung zugänglich sein.\nGeschäftsbenutzer sollten Berichte und Dashboards nicht bearbeiten können. Geschäftsbenutzer sollten keine neuen Berichte oder Dashboards erstellen können.\nVorstandsmitglieder sind nicht Teil des Unternehmensnetzwerks.\nAnforderung:\nWelche zwei möglichen Wege gibt es, um den Zugriff auf Daten in der Vertriebsabteilung zu steuern? Jede richtige Antwort stellt eine vollständige Lösung dar."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Create workspaces for each territory and assign users in each territory the Member role.",
+      "Publish the app from the Sales workspace and set Allow all users to connect to the app's underlying datasets using the Build permission.",
+      "Publish the app from the Sales workspace and add the users in the Sales department to the app.",
+      "Assign the Viewer role in the Sales workspace to the users in the Sales department."
+    ],
+    "choices_ger": [
+      "Erstellen Sie Arbeitsbereiche für jedes Gebiet und weisen Sie Benutzern in jedem Gebiet die Mitgliederrolle zu.",
+      "Veröffentlichen Sie die App aus dem Vertriebsarbeitsbereich und stellen Sie „Allen Benutzern erlauben, eine Verbindung zu den zugrunde liegenden Datensätzen der App mit der Build-Berechtigung herzustellen“ ein.",
+      "Veröffentlichen Sie die App aus dem Vertriebsarbeitsbereich und fügen Sie die Benutzer der Vertriebsabteilung zur App hinzu.",
+      "Weisen Sie Benutzern in der Vertriebsabteilung die Betrachterrolle im Vertriebsarbeitsbereich zu."
+    ],
+    "isMulti": true,
+    "correct": [
+      2,
+      3
+    ]
+  },
+  {
+    "id": "q041",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a Power BI report with a very large dataset. You want to improve the performance of the dataset refresh by using incremental refresh.\nFor each of the following statements, select Yes if the statement is true. Otherwise, select No.\n1. The Incremental Refresh feature should only be used on data sources that support query folding.\n2. Two PowerQuery parameters named RangeStart and RangeEnd are required for an incremental refresh.\n3. A date field is required on a table in the dataset.",
+        "de": "Sie erstellen einen Power BI-Bericht mit einem sehr großen Datensatz. Sie möchten die Leistung der Datensatzaktualisierung durch inkrementelle Aktualisierung verbessern.\nWählen Sie für jede der folgenden Aussagen Ja, wenn die Aussage wahr ist. Andernfalls wählen Sie Nein.\n1. Die Funktion für inkrementelle Aktualisierung sollte nur für Datenquellen verwendet werden, die Query Folding unterstützen.\n2. Zwei PowerQuery-Parameter namens RangeStart und RangeEnd sind für eine inkrementelle Aktualisierung erforderlich.\n3. Ein Datumsfeld ist in einer Tabelle des Datensatzes erforderlich."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "1. No 2. No 3. Yes",
+      "1. Yes 2. Yes 3. Yes",
+      "1. Yes 2. No 3. Yes",
+      "1. Yes 2. Yes 3. No",
+      "1. No 2. No 3. No",
+      "1. No 2. Yes 3. Yes"
+    ],
+    "choices_ger": [
+      "1. Nein 2. Nein 3. Ja",
+      "1. Ja 2. Ja 3. Ja",
+      "1. Ja 2. Nein 3. Ja",
+      "1. Ja 2. Ja 3. Nein",
+      "1. Nein 2. Nein 3. Nein",
+      "1. Nein 2. Ja 3. Ja"
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q042",
+    "content": [
+      {
+        "type": "text",
+        "eng": "To complete the sentence below, select the appropriate option.\n/Table/",
+        "de": "Um den folgenden Satz zu vervollständigen, wählen Sie die passende Option.\n/Tabelle/"
+      },
+      {
+        "type": "image",
+        "value": "q042.png"
+      }
+    ],
+    "images": [
+      "q042.png"
+    ],
+    "choices": [
+      "Promoted",
+      "Certified"
+    ],
+    "choices_ger": [
+      "Beworben",
+      "Zertifiziert"
+    ],
+    "isMulti": false,
+    "correct": [
+      7
+    ]
+  },
+  {
+    "id": "q043",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You create a Power BI dataset and report for a multi-national organization. You configure row-level security (RLS) in the data model. Users are restricted to accessing rows only for their own country. You should follow the best practices for managing security.\nYou create roles for each country. You add a DAX Filter expression for each role on the country table. You add the Azure Active Directory (Azure AD) security group for the country to each role. A new user starts in Country A.\nYou need to ensure that the user can only view data for Country A. What should you do?",
+        "de": "Sie erstellen einen Power BI-Datensatz und Bericht für eine multinationale Organisation. Sie konfigurieren Row-Level Security (RLS) im Datenmodell. Benutzer sind auf den Zugriff auf Zeilen nur für ihr eigenes Land beschränkt. Sie sollten die Best Practices für die Sicherheitsverwaltung befolgen.\nSie erstellen Rollen für jedes Land. Sie fügen einen DAX-Filterausdruck für jede Rolle in der Landestabelle hinzu. Sie fügen die Azure Active Directory (Azure AD)-Sicherheitsgruppe für das Land jeder Rolle hinzu. Ein neuer Benutzer beginnt in Land A.\nSie müssen sicherstellen, dass der Benutzer nur Daten für Land A einsehen kann. Was sollten Sie tun?"
+      }
+    ],
+    "images": [],
+    "choices": [
+      "Manage roles in Power BI Desktop and change the DAX filter expression on the role for Country A.",
+      "Add the user to the Azure AD security group for County A.",
+      "Change Access in the Power BI workspace and add the user's email address with the Member role.",
+      "Edit Security on the dataset in Power BI service and add the user's email address to the role for Country A."
+    ],
+    "choices_ger": [
+      "Verwalten Sie Rollen in Power BI Desktop und ändern Sie den DAX-Filterausdruck für die Rolle von Land A.",
+      "Fügen Sie den Benutzer der Azure AD-Sicherheitsgruppe für Land A hinzu.",
+      "Ändern Sie den Zugriff im Power BI-Arbeitsbereich und fügen Sie die E-Mail-Adresse des Benutzers mit der Mitgliederrolle hinzu.",
+      "Bearbeiten Sie die Sicherheit des Datensatzes im Power BI Service und fügen Sie die E-Mail-Adresse des Benutzers zur Rolle für Land A hinzu."
+    ],
+    "isMulti": false,
+    "correct": [
+      1
+    ]
+  },
+  {
+    "id": "q044",
+    "content": [
+      {
+        "type": "text",
+        "eng": "You manage the Power BI admin portal. Company policy says that only specific people can create new workspaces. You have a security group named WorkspaceCreator. Some new users complain that they are unable to create a new workspace. These users are already added to WorkspaceCreator security group. You need to allow these users to create new workspaces within the stated guidelines.\nWhich four actions should you perform in sequence in the Power BI admin portal? To answer, move the appropriate actions from the list of possible actions to the answer area and arrange them in the correct order.",
+        "de": "Sie verwalten das Power BI-Admin-Portal. Die Unternehmensrichtlinie besagt, dass nur bestimmte Personen neue Arbeitsbereiche erstellen können. Sie haben eine Sicherheitsgruppe namens WorkspaceCreator. Einige neue Benutzer beschweren sich, dass sie keinen neuen Arbeitsbereich erstellen können. Diese Benutzer sind bereits der WorkspaceCreator-Sicherheitsgruppe hinzugefügt. Sie müssen diesen Benutzern ermöglichen, neue Arbeitsbereiche innerhalb der festgelegten Richtlinien zu erstellen.\nWelche vier Aktionen sollten Sie in dieser Reihenfolge im Power BI-Admin-Portal durchführen? Ordnen Sie die passenden Aktionen aus der Liste der möglichen Aktionen in der Antwortfläche in der richtigen Reihenfolge an."
+      }
+    ],
+    "images": [],
+    "choices": [
+      "1. Go to Power BI admin portal > Tenant settings. 2. Choose Workspace settings > Create workspaces (new workspace experience). 3. Under Apply to, choose Specific security groups, and add the WorkspaceCreator security group. 4. Click Apply.",
+      "1. Choose Workspace settings > Create workspaces (new workspace experience). 2. Click Apply. 3. Go to Power BI admin portal > Tenant settings. 4. Choose Workspace settings > Block classic workspace creation.",
+      "1. Go to Power BI admin portal > Tenant settings. 2. Choose Workspace settings > Block classic workspace creation. 3. Under Apply to, choose Specific security groups, and add the WorkspaceCreator security group. 4. Click Apply.",
+      "1. Choose Workspace settings > Block classic workspace creation. 2. Go to Power BI admin portal > Tenant settings. 3. Under Apply to, choose Specific security groups, and add the WorkspaceCreator security group. 4. Click Apply."
+    ],
+    "choices_ger": [
+      "1. Gehen Sie zum Power BI-Admin-Portal > Mandanteneinstellungen. 2. Wählen Sie Arbeitsbereichseinstellungen > Arbeitsbereiche erstellen (neue Arbeitsbereichsumgebung). 3. Wählen Sie unter „Anwenden auf“ „Bestimmte Sicherheitsgruppen“ und fügen Sie die WorkspaceCreator-Sicherheitsgruppe hinzu. 4. Klicken Sie auf „Übernehmen“.",
+      "1. Wählen Sie Arbeitsbereichseinstellungen > Arbeitsbereiche erstellen (neue Arbeitsbereichsumgebung). 2. Klicken Sie auf „Übernehmen“. 3. Gehen Sie zum Power BI-Admin-Portal > Mandanteneinstellungen. 4. Wählen Sie Arbeitsbereichseinstellungen > Erstellung klassischer Arbeitsbereiche blockieren.",
+      "1. Gehen Sie zum Power BI-Admin-Portal > Mandanteneinstellungen. 2. Wählen Sie Arbeitsbereichseinstellungen > Erstellung klassischer Arbeitsbereiche blockieren. 3. Wählen Sie unter „Anwenden auf“ „Bestimmte Sicherheitsgruppen“ und fügen Sie die WorkspaceCreator-Sicherheitsgruppe hinzu. 4. Klicken Sie auf „Übernehmen“.",
+      "1. Wählen Sie Arbeitsbereichseinstellungen > Erstellung klassischer Arbeitsbereiche blockieren. 2. Gehen Sie zum Power BI-Admin-Portal > Mandanteneinstellungen. 3. Wählen Sie unter „Anwenden auf“ „Bestimmte Sicherheitsgruppen“ und fügen Sie die WorkspaceCreator-Sicherheitsgruppe hinzu. 4. Klicken Sie auf „Übernehmen“."
+    ],
+    "isMulti": false,
+    "correct": [
+      0
+    ]
+  }
+]

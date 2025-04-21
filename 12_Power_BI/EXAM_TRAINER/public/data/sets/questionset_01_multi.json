@@ -1,0 +1,1023 @@
+[
+    {
+        "id": "q001",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You need to import 45 Excel files to Power BI Desktop. All these files are in a unique desktop local folder and share the same structure. You want to import all these Excel files into a single table. Which of the following would help you in achieving the goal?",
+                "de": "Sie müssen 45 Excel-Dateien in Power BI Desktop importieren. Alle diese Dateien befinden sich in einem einzigen lokalen Ordner auf dem Desktop und haben die gleiche Struktur. Sie möchten alle diese Excel-Dateien in eine einzige Tabelle importieren. Welche der folgenden Optionen würde Ihnen helfen, dieses Ziel zu erreichen?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Adding the folder data source; using the Append Queries command",
+            "Adding the folder data source; using the Combine Files Command",
+            "Adding every single file to the model and then using Merge Query Command",
+            "Adding the MS Excel Data Source; selecting all files of the folder",
+            "Adding a folder data source and using the Merge Queries Command"
+        ],
+        "choices_ger": [
+            "Hinzufügen der Ordner-Datenquelle; Verwenden des Befehls 'Abfragen anhängen'",
+            "Hinzufügen der Ordner-Datenquelle; Verwenden des Befehls 'Dateien kombinieren'",
+            "Hinzufügen jeder einzelnen Datei zum Modell und anschließendes Verwenden des Befehls 'Abfragen zusammenführen'",
+            "Hinzufügen der MS Excel-Datenquelle; Auswählen aller Dateien im Ordner",
+            "Hinzufügen einer Ordner-Datenquelle und Verwenden des Befehls 'Abfragen zusammenführen'"
+        ],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q002",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You have a 200 GB data warehouse that has data consolidated from several applications and runs on SQL Server 2017 Enterprise Edition. You notice that with your reports, there is a default limitation of eight daily refreshes. Your manager asks you to ensure that the reports are never more outdated than 1 hour. Which of the following can help you in achieving the same?",
+                "de": "Sie haben ein 200 GB großes Data Warehouse, das Daten aus mehreren Anwendungen konsolidiert und auf SQL Server 2017 Enterprise Edition läuft. Ihnen fällt auf, dass bei Ihren Berichten eine Standardbeschränkung von acht täglichen Aktualisierungen besteht. Ihr Manager bittet Sie sicherzustellen, dass die Berichte nie älter als 1 Stunde sind. Welche der folgenden Optionen kann Ihnen dabei helfen, dies zu erreichen?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Building an application for monitoring the changes in the database and pushing them out utilizing the real-time streaming API",
+            "Migrating the content to Power BI Premium",
+            "Adding an SSAS tabular layer on top and enabling the Live connections",
+            "Convert to DirectQuery to access the data warehouse"
+        ],
+        "choices_ger": [
+            "Entwicklung einer Anwendung zur Überwachung der Änderungen in der Datenbank und Übertragung dieser Änderungen mithilfe der Echtzeit-Streaming-API",
+            "Migration der Inhalte zu Power BI Premium",
+            "Hinzufügen einer SSAS-Tabellenschicht (SQL Server Analysis Services) und Aktivieren von Live-Verbindungen",
+            "Umstellung auf DirectQuery, um auf das Data Warehouse zuzugreifen"
+        ],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q003",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Consider the statement below. Row Level Security can't be applied in Power BI Desktop while connecting via a Live connection to Analysis Services, these need to be set within the AS model.",
+                "de": "Betrachten Sie die folgende Aussage: Row-Level-Sicherheit (RLS) kann in Power BI Desktop nicht angewendet werden, wenn über eine Live-Verbindung zu Analysis Services verbunden wird. Diese muss innerhalb des AS-Modells festgelegt werden."
+            }
+        ],
+        "images": [],
+        "choices": ["true", "false"],
+        "choices_ger": ["Wahr", "Falsch"],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q004",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Can you create a relationship between two columns having different DATA TYPE?",
+                "de": "Können Sie eine Beziehung zwischen zwei Spalten mit unterschiedlichen DATENTYPEN erstellen?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Yes, but the cardinality of the relationship needs to set as one to many",
+            "Yes, but the cardinality of the relationship needs to set as many to many",
+            "Yes, the latest versions of Power BI Desktops fully support creating relationships between such columns",
+            "No, the columns in a relationship need to share the same data type"
+        ],
+        "choices_ger": [
+            "Ja, aber die Kardinalität der Beziehung muss auf 'Eins-zu-Viele' festgelegt werden.",
+            "Ja, aber die Kardinalität der Beziehung muss auf 'Viele-zu-Viele' festgelegt werden.",
+            "Ja, die neuesten Versionen von Power BI Desktop unterstützen die Erstellung von Beziehungen zwischen solchen Spalten vollständig.",
+            "Nein, die Spalten in einer Beziehung müssen denselben Datentyp haben."
+        ],
+        "isMulti": false,
+        "correct": [3]
+    },
+    {
+        "id": "q005",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You need to configure a Gauge chart. Where would you set the goal for this?",
+                "de": "Sie müssen ein Messdiagramm (Gauge Chart) konfigurieren. Wo würden Sie das Ziel dafür festlegen?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Format Settings",
+            "Power Query",
+            "Calculated Column",
+            "DAX Expression"
+        ],
+        "choices_ger": [
+            "Formateinstellungen",
+            "Power Query",
+            "Berechnete Spalte",
+            "DAX-Ausdruck"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q006",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You need to create a histogram with a fixed number of bins in Power BI. Below are the few steps (given in improper sequence) that you need for creating the histogram. a. Choose New Group b. Enter the bin count c. Choose the clustered column chart icon on the visualization Pane d. In the Fields Pane, right-click the data field that you need to analyze e. Set the Group type option to 'Bin' and Bin Type option to 'Number of bins' f. Drag the new Field (Buckets) into the axis of your chart and apply count measure on values. Choose the right sequence of the steps that you will follow. [Build the suitable visualization type first]",
+                "de": "Sie müssen ein Histogramm mit einer festen Anzahl von Bins (Intervallen) in Power BI erstellen. Unten sind einige Schritte (in falscher Reihenfolge) aufgeführt, die Sie für die Erstellung des Histogramms benötigen. a. 'Wählen Sie Neue Gruppe' b. Geben Sie die Anzahl der Bins ein c. Wählen Sie das Symbol für das gruppierte Säulendiagramm im Visualisierungsbereich d. Klicken Sie im Bereich 'Felder' mit der rechten Maustaste auf das Datenfeld, das Sie analysieren möchten e. Legen Sie die Option 'Gruppentyp' auf 'Bin' und die Option 'Bin-Typ' auf 'Anzahl der Bins' fest f. Ziehen Sie das neue Feld (Buckets) in die Achse Ihres Diagramms und wenden Sie das Zählmaß auf die Werte an. Wählen Sie die richtige Reihenfolge der Schritte, die Sie befolgen werden. [Erstellen Sie zuerst den geeigneten Visualisierungstyp.]"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "a-b-c-d-e-f",
+            "a-c-b-d-e-f",
+            "a-c-b-e-d-f",
+            "c-d-a-e-b-f",
+            "c-a-d-e-b-f",
+            "c-a-d-b-e-f"
+        ],
+        "choices_ger": [
+            "a-b-c-d-e-f",
+            "a-c-b-d-e-f",
+            "a-c-b-e-d-f",
+            "c-d-a-e-b-f",
+            "c-a-d-e-b-f",
+            "c-a-d-b-e-f"
+        ],
+        "isMulti": false,
+        "correct": [3]
+    },
+    {
+        "id": "q007",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Consider the statement below. The nodes in a decomposition tree (the fields through which the metric is analyzed by in the visuals) are fixed and can't be modified by the end-users viewing the report.",
+                "de": "Betrachten Sie die folgende Aussage: Die Knoten in einem Zerlegungsbaum (die Felder, durch die die Metrik in der Visualisierung analysiert wird) sind festgelegt und können von den Endbenutzern, die den Bericht anzeigen, nicht geändert werden."
+            }
+        ],
+        "images": [],
+        "choices": ["true", "false"],
+        "choices_ger": ["Wahr", "Falsch"],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q008",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Which of the following reserved parameters respectively configure the start and end of where Incremental refresh should happen?",
+                "de": "Welche der folgenden reservierten Parameter konfigurieren jeweils den Start und das Ende des inkrementellen Aktualisierungsbereichs?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Start and End parameters",
+            "StartRange and EndRange parameters",
+            "RangeStart and RangeEnd parameters",
+            "RefreshStart and RefreshEnd parameters",
+            "StartRefresh and EndRefresh parameters"
+        ],
+        "choices_ger": [
+            "Start- und End-Parameter",
+            "StartRange- und EndRange-Parameter",
+            "RangeStart- und RangeEnd-Parameter",
+            "RefreshStart- und RefreshEnd-Parameter",
+            "StartRefresh- und EndRefresh-Parameter"
+        ],
+        "isMulti": false,
+        "correct": [2]
+    },
+    {
+        "id": "q009",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Which of the following can't be seen from the data lineage view in Power BI?",
+                "de": "Welche der folgenden Informationen können nicht in der Datenherkunftsansicht (Data Lineage View) in Power BI eingesehen werden?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Where the dataflows are being utilized as a data source for datasets",
+            "The data sources that are being utilized by the dashboards/reports/datasets in a workspace",
+            "The credentials utilized to connect to datasets",
+            "Where gateways are being utilized as a data source for datasets"
+        ],
+        "choices_ger": [
+            "Wo Dataflows als Datenquelle für Datasets genutzt werden",
+            "Die Datenquellen, die von Dashboards/Berichten/Datasets in einem Arbeitsbereich genutzt werden",
+            "Die Anmeldeinformationen, die für die Verbindung zu Datasets verwendet werden",
+            "Wo Gateways als Datenquelle für Datasets genutzt werden"
+        ],
+        "isMulti": false,
+        "correct": [3]
+    },
+    {
+        "id": "q010",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Microsoft Information Protection sensitivity labels allow the users to classify the sensitive/critical content in Power BI without affecting the productivity or the collaborating ability. These Sensitivity labels can be applied to which of the following items in Power BI Service?",
+                "de": "Microsoft Information Protection-Sensitivitätslabels ermöglichen es Benutzern, sensible/kritische Inhalte in Power BI zu klassifizieren, ohne die Produktivität oder die Zusammenarbeit zu beeinträchtigen. Diese Sensitivitätslabels können auf welche der folgenden Elemente im Power BI Service angewendet werden?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Only datasets",
+            "Only reports",
+            "Only dashboards",
+            "Only dataflows",
+            "Only datasets and reports",
+            "All including reports, datasets, dataflows, and dashboards"
+        ],
+        "choices_ger": [
+            "Nur Datasets",
+            "Nur Berichte",
+            "Nur Dashboards",
+            "Nur Dataflows",
+            "Nur Datasets und Berichte",
+            "Alle, einschließlich Berichte, Datasets, Dataflows und Dashboards"
+        ],
+        "isMulti": false,
+        "correct": [5]
+    },
+    {
+        "id": "q011",
+        "content": [
+            {
+                "type": "text",
+                "eng": "For your Power BI dashboard, you have just created a pie chart visualizing the actual sales figures by region for the last year. In order to give decision makers a deeper insight, you want to extend the visual with a breakdown by countries. You decide to use the small multiples feature as a comfortable way of exploding visuals by a given dimension. Is it a feasible solution?",
+                "de": "Für Ihr Power BI-Dashboard haben Sie gerade ein Kreisdiagramm erstellt, das die tatsächlichen Verkaufszahlen nach Region für das vergangene Jahr visualisiert. Um Entscheidungsträgern einen tieferen Einblick zu geben, möchten Sie die Visualisierung um eine Aufschlüsselung nach Ländern erweitern. Sie entscheiden sich dafür, die Small Multiples-Funktion als komfortable Möglichkeit zu verwenden, um Visualisierungen nach einer bestimmten Dimension aufzuteilen. Ist dies eine machbare Lösung?"
+            }
+        ],
+        "images": [],
+        "choices": ["Yes", "No"],
+        "choices_ger": ["Ja", "Nein"],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q012",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You are creating a dashboard by using the Power BI service. You have an existing report page that contains three charts. You need to add the charts to the dashboard while maintaining the interactivity between the charts. What should you do?",
+                "de": "Sie erstellen ein Dashboard mit dem Power BI Service. Sie haben eine bestehende Berichtsseite, die drei Diagramme enthält. Sie müssen die Diagramme zum Dashboard hinzufügen und dabei die Interaktivität zwischen den Diagrammen beibehalten. Was sollten Sie tun?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Edit interactions in the report and set all interactions to Filter.",
+            "Pin each chart as a tile.",
+            "Edit the dashboard theme and pin each chart as a tile.",
+            "Pin the report page as a live tile."
+        ],
+        "choices_ger": [
+            "Interaktionen im Bericht bearbeiten und alle Interaktionen auf 'Filtern' setzen.",
+            "Jedes Diagramm als Kachel anheften.",
+            "Das Dashboard-Design bearbeiten und jedes Diagramm als Kachel anheften.",
+            "Die Berichtsseite als Live-Kachel anheften."
+        ],
+        "isMulti": false,
+        "correct": [3]
+    },
+    {
+        "id": "q013",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You need to create a data model that includes multiple tables. Which tool should you use?",
+                "de": "Sie müssen ein Datenmodell erstellen, das mehrere Tabellen enthält. Welches Tool sollten Sie verwenden?"
+            }
+        ],
+        "images": [],
+        "choices": ["Power BI", "Power Automate", "Power Apps", "Power Query"],
+        "choices_ger": [
+            "Power BI",
+            "Power Automate",
+            "Power Apps",
+            "Power Query"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q014",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You want to show the relationship between two variables in a dataset. Which chart type would be best to use?",
+                "de": "Sie möchten die Beziehung zwischen zwei Variablen in einem Datensatz darstellen. Welcher Diagrammtyp wäre am besten geeignet?"
+            }
+        ],
+        "images": [],
+        "choices": ["Scatter chart", "Bar chart", "Line chart", "Pie chart"],
+        "choices_ger": [
+            "Punktdiagramm (Scatter Chart)",
+            "Balkendiagramm (Bar Chart)",
+            "Liniendiagramm (Line Chart)",
+            "Kreisdiagramm (Pie Chart)"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q015",
+        "content": [
+            {
+                "type": "text",
+                "eng": "How can you manage permissions for a workspace in Power BI?",
+                "de": "Wie können Sie Berechtigungen für einen Arbeitsbereich in Power BI verwalten?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Add or remove members",
+            "Assign roles to members",
+            "Set permissions for specific reports",
+            "Delete a workspace"
+        ],
+        "choices_ger": [
+            "Mitglieder hinzufügen oder entfernen",
+            "Mitgliedern Rollen zuweisen",
+            "Berechtigungen für bestimmte Berichte festlegen",
+            "Einen Arbeitsbereich löschen"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q016",
+        "content": [
+            {
+                "type": "text",
+                "eng": "What is the purpose of the Power BI Gateway?",
+                "de": "Was ist der Zweck des Power BI Gateways?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "To allow users to connect to on-premises data sources",
+            "To allow users to create custom visuals",
+            "To allow users to share reports with others",
+            "To allow users to create dashboards"
+        ],
+        "choices_ger": [
+            "Benutzern den Zugriff auf lokale Datenquellen zu ermöglichen",
+            "Benutzern die Erstellung benutzerdefinierter Visuals zu ermöglichen",
+            "Benutzern das Teilen von Berichten mit anderen zu ermöglichen",
+            "Benutzern die Erstellung von Dashboards zu ermöglichen"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q017",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You have a project management app that is fully hosted in Microsoft Teams. The app was developed by using Microsoft Power Apps. You need to create a Power BI report that connects to the project management app. Which connector should you select?",
+                "de": "Sie haben eine Projektmanagement-App, die vollständig in Microsoft Teams gehostet wird. Die App wurde mit Microsoft Power Apps entwickelt. Sie müssen einen Power BI-Bericht erstellen, der eine Verbindung zur Projektmanagement-App herstellt. Welchen Connector sollten Sie auswählen?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Microsoft Teams Personal Analytics",
+            "SQL Server database",
+            "Dataverse",
+            "Dataflows"
+        ],
+        "choices_ger": [
+            "Microsoft Teams Personal Analytics",
+            "SQL Server-Datenbank",
+            "Dataverse",
+            "Dataflows"
+        ],
+        "isMulti": false,
+        "correct": [2]
+    },
+    {
+        "id": "q018",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You have four sales regions. Each region has multiple sales managers. You implement row-level security (RLS) in a data model. You assign the relevant mail-enabled security group to each role. You have sales reports that enable analysis by region. The sales managers can view the sales records of their region. The sales managers are prevented from viewing records from other regions. A sales manager changes to a different region. You need to ensure that the sales manager can see the correct sales data. What should you do?",
+                "de": "Sie haben vier Vertriebsregionen. Jede Region hat mehrere Vertriebsmanager. Sie implementieren Row-Level Security (RLS) in einem Datenmodell. Sie weisen jeder Rolle die entsprechende E-Mail-aktivierte Sicherheitsgruppe zu. Sie haben Vertriebsberichte, die eine Analyse nach Region ermöglichen. Die Vertriebsmanager können die Verkaufsdaten ihrer Region einsehen, aber nicht die Daten anderer Regionen.\n\nEin Vertriebsmanager wechselt in eine andere Region. Sie müssen sicherstellen, dass der Vertriebsmanager die korrekten Verkaufsdaten einsehen kann. Was sollten Sie tun?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Change the Microsoft Power BI license type of the sales manager.",
+            "From Microsoft Power BI Desktop, edit the Row-Level Security setting for the reports.",
+            "Manage the permissions of the underlying dataset.",
+            "Request that the sales manager be added to the correct Azure Active Directory group."
+        ],
+        "choices_ger": [
+            "Den Microsoft Power BI-Lizenztyp des Vertriebsmanagers ändern.",
+            "In Microsoft Power BI Desktop die Row-Level Security-Einstellungen für die Berichte bearbeiten.",
+            "Die Berechtigungen des zugrunde liegenden Datensatzes verwalten.",
+            "Anfordern, dass der Vertriebsmanager der richtigen Azure Active Directory-Gruppe hinzugefügt wird."
+        ],
+        "isMulti": false,
+        "correct": [3]
+    },
+    {
+        "id": "q019",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You have a Power BI report. The report contains a visual that shows gross sales by date. The visual has anomaly detection enabled. No anomalies are detected. You need to increase the likelihood that anomaly detection will identify anomalies in the report. What should you do?",
+                "de": "Sie haben einen Power BI-Bericht. Der Bericht enthält eine Visualisierung, die den Bruttoumsatz nach Datum anzeigt. Die Anomalieerkennung ist für die Visualisierung aktiviert, aber es werden keine Anomalien erkannt. Sie möchten die Wahrscheinlichkeit erhöhen, dass die Anomalieerkennung Anomalien im Bericht identifiziert. Was sollten Sie tun?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Increase the Expected range transparency setting.",
+            "Add a data field to the Legend field well.",
+            "Increase the Sensitivity setting.",
+            "Add a data field to the Secondary values field well."
+        ],
+        "choices_ger": [
+            "Die Einstellung 'Erwarteter Bereich Transparenz', erhöhen.",
+            "Ein Datenfeld zum Legendenfeld hinzufügen.",
+            "Die Einstellung 'Empfindlichkeit' erhöhen.",
+            "Ein Datenfeld zum Feld für sekundäre Werte hinzufügen."
+        ],
+        "isMulti": false,
+        "correct": [2]
+    },
+    {
+        "id": "q020",
+        "content": [
+            {
+                "type": "text",
+                "eng": "What is the best way to monitor the performance of your assets?",
+                "de": "Was ist die beste Methode, um die Leistung Ihrer Assets zu überwachen?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Use Azure Monitor",
+            "Use Azure Log Analytics",
+            "Use Azure Application Insights",
+            "Use Azure Network Watcher"
+        ],
+        "choices_ger": [
+            "Azure Monitor verwenden",
+            "Azure Log Analytics verwenden",
+            "Azure Application Insights verwenden",
+            "Azure Network Watcher verwenden"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q021",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You are designing a data model for a financial institution. Which entity should you use to store information about customer accounts?",
+                "de": "Sie entwerfen ein Datenmodell für ein Finanzinstitut. Welche Entität sollten Sie verwenden, um Informationen über Kundenkonten zu speichern?"
+            }
+        ],
+        "images": [],
+        "choices": ["Account", "Contact", "Opportunity", "Activity"],
+        "choices_ger": ["Konto", "Kontakt", "Verkaufschance", "Aktivität"],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q022",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You want to create a data source that can be used by Power BI. Which type of data source should you use?",
+                "de": "Sie möchten eine Datenquelle erstellen, die von Power BI verwendet werden kann. Welchen Typ von Datenquelle sollten Sie verwenden?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "SQL Server",
+            "Common Data Service",
+            "SharePoint",
+            "OneDrive"
+        ],
+        "choices_ger": [
+            "SQL Server",
+            "Common Data Service",
+            "SharePoint",
+            "OneDrive"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q023",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You want to show the correlation between two variables in a dataset. Which chart type would be best to use?",
+                "de": "Sie möchten die Korrelation zwischen zwei Variablen in einem Datensatz darstellen. Welcher Diagrammtyp wäre am besten geeignet?"
+            }
+        ],
+        "images": [],
+        "choices": ["Scatter chart", "Bar chart", "Line chart", "Pie chart"],
+        "choices_ger": [
+            "Punktdiagramm",
+            "Balkendiagramm",
+            "Liniendiagramm",
+            "Kreisdiagramm"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q024",
+        "content": [
+            {
+                "type": "text",
+                "eng": "What is the difference between a slicer and a filter in Power BI?",
+                "de": "Was ist der Unterschied zwischen einem Slicer und einem Filter in Power BI?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "A slicer is a visual control that allows users to filter data, while a filter is a data manipulation tool that allows users to filter data",
+            "A slicer is a data manipulation tool that allows users to filter data, while a filter is a visual control that allows users to filter data",
+            "A slicer and a filter are the same thing",
+            "A slicer and a filter are not available in Power BI"
+        ],
+        "choices_ger": [
+            "Ein Slicer ist ein visuelles Steuerelement, das Benutzern ermöglicht, Daten zu filtern, während ein Filter ein Datenmanipulationstool ist, das Benutzern ermöglicht, Daten zu filtern.",
+            "Ein Slicer ist ein Datenmanipulationstool, das Benutzern ermöglicht, Daten zu filtern, während ein Filter ein visuelles Steuerelement ist, das Benutzern ermöglicht, Daten zu filtern.",
+            "Ein Slicer und ein Filter sind dasselbe.",
+            "Ein Slicer und ein Filter sind in Power BI nicht verfügbar."
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q025",
+        "content": [
+            {
+                "type": "text",
+                "eng": "What is the purpose of the Power BI Q&A feature?",
+                "de": "Was ist der Zweck der Power BI Q&A-Funktion?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "To allow users to ask natural language questions and receive visual answers",
+            "To provide a way to export data to Excel",
+            "To create custom visuals for reports and dashboards",
+            "To schedule data refreshes for reports and dashboards"
+        ],
+        "choices_ger": [
+            "Benutzern zu ermöglichen, Fragen in natürlicher Sprache zu stellen und visuelle Antworten zu erhalten",
+            "Eine Möglichkeit bereitzustellen, Daten nach Excel zu exportieren",
+            "Benutzerdefinierte Visuals für Berichte und Dashboards zu erstellen",
+            "Geplante Datenaktualisierungen für Berichte und Dashboards einzurichten"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q026",
+        "content": [
+            {
+                "type": "text",
+                "eng": "What is the purpose of data normalization?",
+                "de": "Was ist der Zweck der Daten-Normalisierung?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "To scale data to a common range",
+            "To remove outliers from the data",
+            "To replace missing data with estimated values",
+            "To transform data into a different format"
+        ],
+        "choices_ger": [
+            "Daten auf einen gemeinsamen Bereich zu skalieren",
+            "Ausreißer aus den Daten zu entfernen",
+            "Fehlende Daten durch geschätzte Werte zu ersetzen",
+            "Daten in ein anderes Format zu transformieren"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q027",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You want to create a data source that can be used by multiple Power Apps. Which type of data source should you use?",
+                "de": "Sie möchten eine Datenquelle erstellen, die von mehreren Power Apps verwendet werden kann. Welchen Typ von Datenquelle sollten Sie verwenden?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "SQL Server",
+            "Common Data Service",
+            "SharePoint",
+            "OneDrive"
+        ],
+        "choices_ger": [
+            "SQL Server",
+            "Common Data Service",
+            "SharePoint",
+            "OneDrive"
+        ],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q028",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You are designing a data model for a healthcare organization. Which entity should you use to store information about patient diagnoses?",
+                "de": "Sie entwerfen ein Datenmodell für eine Gesundheitsorganisation. Welche Entität sollten Sie verwenden, um Informationen über Patientendiagnosen zu speichern?"
+            }
+        ],
+        "images": [],
+        "choices": ["Appointment", "Encounter", "Diagnosis Code", "Procedure"],
+        "choices_ger": ["Termin", "Begegnung", "Diagnosecode", "Verfahren"],
+        "isMulti": false,
+        "correct": [2]
+    },
+    {
+        "id": "q029",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You are creating a data model for a retail company. Which entity should you use to store information about customer orders?",
+                "de": "Sie erstellen ein Datenmodell für ein Einzelhandelsunternehmen. Welche Entität sollten Sie verwenden, um Informationen über Kundenbestellungen zu speichern?"
+            }
+        ],
+        "images": [],
+        "choices": ["Order", "Product", "Customer", "Salesperson"],
+        "choices_ger": ["Bestellung", "Produkt", "Kunde", "Verkäufer"],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q030",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You are designing a data model for a customer relationship management system. Which entity should you use to store information about customer interactions?",
+                "de": "Sie entwerfen ein Datenmodell für ein Customer Relationship Management (CRM)-System. Welche Entität sollten Sie verwenden, um Informationen über Kundeninteraktionen zu speichern?"
+            }
+        ],
+        "images": [],
+        "choices": ["Account", "Contact", "Opportunity", "Activity"],
+        "choices_ger": ["Konto", "Kontakt", "Verkaufschance", "Aktivität"],
+        "isMulti": false,
+        "correct": [3]
+    },
+    {
+        "id": "q031",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You have a Power BI tenant. You have reports that use financial datasets and are exported as PDF files. You need to ensure that the reports are encrypted. What should you implement?",
+                "de": "Sie haben einen Power BI-Mandanten. Sie verfügen über Berichte, die Finanzdatensätze verwenden und als PDF-Dateien exportiert werden. Sie müssen sicherstellen, dass die Berichte verschlüsselt sind. Was sollten Sie implementieren?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Microsoft Intune policies",
+            "row-level security (RLS)",
+            "sensitivity labels",
+            "dataset certifications"
+        ],
+        "choices_ger": [
+            "Microsoft Intune-Richtlinien",
+            "Row-Level Security (RLS)",
+            "Sensitivitätslabels",
+            "Dataset-Zertifizierungen"
+        ],
+        "isMulti": false,
+        "correct": [2]
+    },
+    {
+        "id": "q032",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You have a dataset that is used infrequently and refreshes every hour. You receive a notification that the refresh was disabled due to inactivity. Which two actions will cause the scheduled refresh schedule to resume? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.",
+                "de": "Sie haben ein Dataset, das selten verwendet wird und sich stündlich aktualisiert. Sie erhalten eine Benachrichtigung, dass die Aktualisierung aufgrund von Inaktivität deaktiviert wurde. Welche zwei Aktionen bewirken, dass der geplante Aktualisierungszeitplan fortgesetzt wird? Jede richtige Antwort stellt eine vollständige Lösung dar. HINWEIS: Jede richtige Auswahl ist einen Punkt wert."
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Enable query caching for the dataset.",
+            "Import the dataset to Microsoft Excel.",
+            "From the Power BI service, open a dashboard that uses the dataset.",
+            "From the Power BI service, open a report that uses the dataset.",
+            "From PowerShell, run the get-powerbireport cmdlet."
+        ],
+        "choices_ger": [
+            "Abfrage-Caching für das Dataset aktivieren.",
+            "Das Dataset in Microsoft Excel importieren.",
+            "Im Power BI Service ein Dashboard öffnen, das das Dataset verwendet.",
+            "Im Power BI Service einen Bericht öffnen, der das Dataset verwendet.",
+            "In PowerShell das Cmdlet get-powerbi-report ausführen."
+        ],
+        "isMulti": true,
+        "correct": [2, 3]
+    },
+    {
+        "id": "q033",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You want to create a data source that can be used by Power Apps. Which type of data source should you use if you need to store unstructured data?",
+                "de": "Sie möchten eine Datenquelle erstellen, die von Power Apps verwendet werden kann. Welchen Typ von Datenquelle sollten Sie verwenden, wenn Sie unstrukturierte Daten speichern müssen?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "SQL Server",
+            "Common Data Service",
+            "SharePoint",
+            "OneDrive"
+        ],
+        "choices_ger": [
+            "SQL Server",
+            "Common Data Service",
+            "SharePoint",
+            "OneDrive"
+        ],
+        "isMulti": false,
+        "correct": [2]
+    },
+    {
+        "id": "q034",
+        "content": [
+            {
+                "type": "text",
+                "eng": "What is the most effective way to manage your assets' configuration and updates?",
+                "de": "Was ist die effektivste Methode, um die Konfiguration und Aktualisierungen Ihrer Assets zu verwalten?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Use Azure Automation",
+            "Use Azure Configuration Management",
+            "Use Azure Policy",
+            "Use Azure Update Management"
+        ],
+        "choices_ger": [
+            "Azure Automation verwenden",
+            "Azure Configuration Management verwenden",
+            "Azure Policy verwenden",
+            "Azure Update Management verwenden"
+        ],
+        "isMulti": false,
+        "correct": [3]
+    },
+    {
+        "id": "q035",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You want to show the distribution of customer ages in a survey. Which chart type would be best to use?",
+                "de": "Sie möchten die Verteilung des Alters von Kunden in einer Umfrage darstellen. Welcher Diagrammtyp wäre am besten geeignet?"
+            }
+        ],
+        "images": [],
+        "choices": ["Histogram", "Line chart", "Pie chart", "Scatter chart"],
+        "choices_ger": [
+            "Histogramm",
+            "Liniendiagramm",
+            "Kreisdiagramm",
+            "Punktdiagramm (Scatter Chart)"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q036",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You are creating a data model for a transportation company. Which entity should you use to store information about vehicles?",
+                "de": "Sie erstellen ein Datenmodell für ein Transportunternehmen. Welche Entität sollten Sie verwenden, um Informationen über Fahrzeuge zu speichern?"
+            }
+        ],
+        "images": [],
+        "choices": ["Vehicle", "Driver", "Route", "Shipment"],
+        "choices_ger": [
+            "Fahrzeug (Vehicle)",
+            "Fahrer (Driver)",
+            "Route (Route)",
+            "Sendung (Shipment)"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q037",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You are creating a data model for a marketing agency. Which entity should you use to store information about campaigns?",
+                "de": "Sie erstellen ein Datenmodell für eine Marketingagentur. Welche Entität sollten Sie verwenden, um Informationen über Kampagnen zu speichern?"
+            }
+        ],
+        "images": [],
+        "choices": ["Campaign", "Lead", "Opportunity", "Contact"],
+        "choices_ger": [
+            "Kampagne (Campaign)",
+            "Interessent (Lead)",
+            "Verkaufschance (Opportunity)",
+            "Kontakt (Contact)"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q038",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You have a Power BI workspace named Workspace1 that contains a dataset named DS1 and a report named RPT1. A user wants to create a report by using the data in DS1 and publish the report to another workspace. You need to provide the user with the appropriate access. The solution must minimize the number of access permissions granted to the user. What should you do?",
+                "de": "Sie haben einen Power BI-Arbeitsbereich namens Workspace1, der ein Dataset namens DS1 und einen Bericht namens RPT1 enthält. Ein Benutzer möchte einen Bericht mit den Daten aus DS1 erstellen und diesen Bericht in einem anderen Arbeitsbereich veröffentlichen. Sie müssen dem Benutzer die entsprechenden Zugriffsrechte erteilen. Die Lösung muss die Anzahl der erteilten Zugriffsberechtigungen minimieren. Was sollten Sie tun?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Add the user as a Viewer of Workspace1.",
+            "Grant the Build permission for DS1 to the user.",
+            "Share RPT1 with the user.",
+            "Add the user as a member of Workspace1."
+        ],
+        "choices_ger": [
+            "Den Benutzer als Viewer von Workspace1 hinzufügen.",
+            "Dem Benutzer die Build-Berechtigung für DS1 erteilen.",
+            "RPT1 mit dem Benutzer teilen.",
+            "Den Benutzer als Mitglied von Workspace1 hinzufügen."
+        ],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q039",
+        "content": [
+            {
+                "type": "text",
+                "eng": "How can you create a calculated table in Power BI?",
+                "de": "Wie können Sie eine berechnete Tabelle in Power BI erstellen?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Use the DAX formula language",
+            "Use the M formula language",
+            "Use the SQL formula language",
+            "Use the Python formula language"
+        ],
+        "choices_ger": [
+            "Die DAX-Formelsprache verwenden",
+            "Die M-Formelsprache verwenden",
+            "Die SQL-Formelsprache verwenden",
+            "Die Python-Formelsprache verwenden"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q040",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You want to show the comparison of sales performance between different product categories. Which chart type would be best to use?",
+                "de": "Sie möchten den Vergleich der Verkaufsleistung zwischen verschiedenen Produktkategorien darstellen. Welcher Diagrammtyp wäre am besten geeignet?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Stacked bar chart",
+            "Line chart",
+            "Scatter chart",
+            "Dual-axis chart"
+        ],
+        "choices_ger": [
+            "Gestapeltes Balkendiagramm (Stacked Bar Chart)",
+            "Liniendiagramm (Line Chart)",
+            "Punktdiagramm (Scatter Chart)",
+            "Diagramm mit zwei Achsen (Dual-Axis Chart)"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q041",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You have a Microsoft Excel file in a Microsoft OneDrive folder. The file must be imported to a Power BI dataset. You need to ensure that the dataset can be refreshed in powerbi.com. Which two connectors can you use to connect to the file? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.",
+                "de": "Sie haben eine Microsoft Excel-Datei in einem Microsoft OneDrive-Ordner. Die Datei muss in ein Power BI-Dataset importiert werden. Sie müssen sicherstellen, dass das Dataset in powerbi.com aktualisiert werden kann. Welche zwei Connector können Sie verwenden, um eine Verbindung zur Datei herzustellen? Jede richtige Antwort stellt eine vollständige Lösung dar. HINWEIS: Jede richtige Auswahl ist einen Punkt wert."
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Excel Workbook",
+            "Text/CSV",
+            "Folder",
+            "SharePoint folder",
+            "Web"
+        ],
+        "choices_ger": [
+            "Excel-Arbeitsmappe (Excel Workbook)",
+            "Text/CSV",
+            "Ordner (Folder)",
+            "SharePoint-Ordner (SharePoint Folder)",
+            "Web"
+        ],
+        "isMulti": true,
+        "correct": [0, 3]
+    },
+    {
+        "id": "q042",
+        "content": [
+            {
+                "type": "text",
+                "eng": "How can you create a custom visual in Power BI?",
+                "de": "Wie können Sie ein benutzerdefiniertes Visual in Power BI erstellen?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "By importing a custom visual from the marketplace",
+            "By using the Power BI Developer Tools to create a custom visual",
+            "By using the built-in visualizations and customizing them",
+            "By creating a new report page and adding visuals to it"
+        ],
+        "choices_ger": [
+            "Durch Importieren eines benutzerdefinierten Visuals aus dem Marketplace",
+            "Durch Verwendung der Power BI Developer Tools, um ein benutzerdefiniertes Visual zu erstellen",
+            "Durch Verwendung der integrierten Visualisierungen und deren Anpassung",
+            "Durch Erstellen einer neuen Berichtsseite und Hinzufügen von Visuals"
+        ],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q043",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You are modeling data by using Microsoft Power BI. Part of the data model is a large Microsoft SQL Server table named Order that has more than 100 million records. During the development process, you need to import a sample of the data from the Order table. Solution: You add a report-level filter that filters based on the order date. Does this meet the goal?",
+                "de": "Hinweis: Diese Frage ist Teil einer Reihe von Fragen, die das gleiche Szenario darstellen. Jede Frage in der Reihe enthält eine eindeutige Lösung, die die angegebenen Ziele erfüllen könnte. Einige Fragesätze haben möglicherweise mehr als eine korrekte Lösung, während andere möglicherweise keine korrekte Lösung haben. Nachdem Sie eine Frage in diesem Abschnitt beantwortet haben, können Sie NICHT mehr darauf zurückkehren. Daher werden diese Fragen nicht im Überprüfungsbildschirm angezeigt. Sie modellieren Daten mit Microsoft Power BI. Ein Teil des Datenmodells ist eine große Microsoft SQL Server-Tabelle namens Order, die mehr als 100 Millionen Datensätze enthält. Während des Entwicklungsprozesses müssen Sie eine Stichprobe der Daten aus der Order-Tabelle importieren. Lösung: Sie fügen einen Berichtsebenenfilter hinzu, der basierend auf dem Bestelldatum filtert. Erfüllt dies das Ziel?"
+            }
+        ],
+        "images": [],
+        "choices": ["Yes", "No"],
+        "choices_ger": ["Ja", "Nein"],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q044",
+        "content": [
+            {
+                "type": "text",
+                "eng": "How can you create a custom theme in Power BI?",
+                "de": "Wie können Sie ein benutzerdefiniertes Design in Power BI erstellen?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Use the Power BI Desktop",
+            "Use the Power BI Service",
+            "Use the Power BI Mobile App",
+            "Use the Power BI Developer Tools"
+        ],
+        "choices_ger": [
+            "Power BI Desktop verwenden",
+            "Power BI Service verwenden",
+            "Power BI Mobile App verwenden",
+            "Power BI Developer Tools verwenden"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q045",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have a Power BI report that imports a date table and a sales table from an Azure SQL database data source. The sales table has the following date foreign keys: Due Date, Order Date, Delivery Date. You need to support the analysis of sales over time based on all the date foreign keys. Solution: From the Fields pane, you rename the date table as Due Date. You use a DAX expression to create Order Date and Delivery Date as calculated tables. Does this meet the goal?",
+                "de": "Hinweis: Diese Frage ist Teil einer Reihe von Fragen, die das gleiche Szenario darstellen. Jede Frage in der Reihe enthält eine eindeutige Lösung, die die angegebenen Ziele erfüllen könnte. Einige Fragesätze haben möglicherweise mehr als eine korrekte Lösung, während andere möglicherweise keine korrekte Lösung haben. Nachdem Sie eine Frage in diesem Abschnitt beantwortet haben, können Sie NICHT mehr darauf zurückkehren. Daher werden diese Fragen nicht im Überprüfungsbildschirm angezeigt. Sie haben einen Power BI-Bericht, der eine Datumstabelle und eine Verkaufstabelle aus einer Azure SQL-Datenbank-Datenquelle importiert. Die Verkaufstabelle enthält die folgenden Datums-Fremdschlüssel: Fälligkeitsdatum (Due Date), Bestelldatum (Order Date), Lieferdatum (Delivery Date). Sie müssen die Analyse der Verkäufe über die Zeit basierend auf allen Datums-Fremdschlüsseln unterstützen. Lösung: Im Bereich 'Felder' benennen Sie die Datumstabelle in Fälligkeitsdatum (Due Date) um. Sie verwenden einen DAX-Ausdruck, um Bestelldatum (Order Date) und Lieferdatum (Delivery Date) als berechnete Tabellen zu erstellen. Erfüllt dies das Ziel?"
+            }
+        ],
+        "images": [],
+        "choices": ["Yes", "No"],
+        "choices_ger": ["Ja", "Nein"],
+        "isMulti": false,
+        "correct": [0]
+    }
+]

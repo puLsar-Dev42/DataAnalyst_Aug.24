@@ -1,0 +1,794 @@
+[
+    {
+        "id": "q001",
+        "content": [
+            {
+                "type": "text",
+                "eng": "This question is part of repeated scenario questions that contain the same stem but with a different solution for each question. You need to identify if the given solution solves a particular problem. Each set of repeated scenario questions might contain either none, one, or many solutions.\nYou have a data model with the Date table related to the Offline Sales table by columns of date data type (Date[Date] -> ‘Offline Sales‘[Due Date]). The Date table is marked as a date table.",
+                "de": "Diese Frage ist Teil von Fragen mit wiederholten Szenarien, die denselben Stamm enthalten, aber für jede Frage eine andere Lösung haben. Sie müssen feststellen, ob die gegebene Lösung ein bestimmtes Problem löst. Jeder Satz von sich wiederholenden Szenariofragen kann entweder keine, eine oder viele Lösungen enthalten.\nSie verfügen über ein Datenmodell, bei dem die Tabelle \"Datum\" mit der Tabelle \"Offline-Verkäufe\" durch Spalten des Datentyps \"Datum\" verknüpft ist (\"Datum[Datum] -> 'Offline-Verkäufe'[Fälligkeitsdatum]\"). Die Datumstabelle ist als Datumstabelle gekennzeichnet."
+            },
+            {
+                "type": "image",
+                "value": "q001_1.png"
+            },
+            {
+                "type": "image",
+                "value": "q001_2.png"
+            }
+        ],
+        "images": ["q001_1.png", "q001_2.png"],
+        "choices": ["Yes", "No"],
+        "choices_ger": ["Ja", "Nein"],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q002",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You are a stock trading analyst working with a table that contains Microsoft\u0092s daily closing stock prices for the past year.",
+                "de": "Sie sind ein Aktienhandelsanalyst, der mit einer Tabelle arbeitet, die die täglichen Schlusskurse von Microsoft für das vergangene Jahr enthält."
+            },
+            {
+                "type": "image",
+                "value": "q002.png"
+            }
+        ],
+        "images": ["q002.png"],
+        "choices": [
+            "KPI visual",
+            "Radial gauge",
+            "Funnel chart",
+            "Ribbon chart"
+        ],
+        "choices_ger": [
+            "KPI-Visualisierung",
+            "Radiales Messgerät",
+            "Trichterdiagramm",
+            "Banddiagramm"
+        ],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q003",
+        "content": [
+            {
+                "type": "text",
+                "eng": "John Carmack is a new Power BI developer. He updates the dashboard theme by changing the Tile background color. He observes that, out of 3 visuals in the dashboard, one visual has no effect.\nWhat could be the reason for his observation?.",
+                "de": "John Carmack ist ein neuer Power BI-Entwickler. Er aktualisiert das Dashboarddesign, indem er die Hintergrundfarbe der Kachel ändert. Er stellt fest, dass von 3 visuellen Elementen im Dashboard eine Visualisierung keine Wirkung hat.\nWas könnte der Grund für seine Beobachtung sein?."
+            }
+        ],
+        "images": [],
+        "choices": [
+            "The tile uses a dashboard theme",
+            "The tile uses a report theme",
+            "The tile uses a custom theme",
+            "The tile uses a built-in theme"
+        ],
+        "choices_ger": [
+            "Die Kachel verwendet ein Dashboard-Design",
+            "Die Kachel verwendet ein Berichtsdesign",
+            "Die Kachel verwendet ein benutzerdefiniertes Design",
+            "Die Kachel verwendet ein integriertes Design"
+        ],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q004",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Which of the following statements about Measures and Calculated columns is TRUE?",
+                "de": "Welche der folgenden Aussagen zu Measures und berechneten Spalten ist WAHR?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Calculated columns are evaluated by using filter context at data refresh time, while measures are evaluated by using row context at query time.",
+            "Calculated columns are evaluated by using row context at data refresh time, while measures are evaluated by using filter context at query time.",
+            "Calculated columns are evaluated by using filter context at query time, while measures are evaluated by using row context at data refresh time.",
+            "Calculated columns are evaluated by using row context at query time, while measures are evaluated by using filter context at data refresh time."
+        ],
+        "choices_ger": [
+            "Berechnete Spalten werden zum Zeitpunkt der Datenaktualisierung mithilfe des Filterkontexts ausgewertet, während Measures zur Abfragezeit mithilfe des Zeilenkontexts ausgewertet werden",
+            "Berechnete Spalten werden zum Zeitpunkt der Datenaktualisierung mithilfe des Zeilenkontexts ausgewertet, während Measures zur Abfragezeit mithilfe des Filterkontexts ausgewertet werden",
+            "Berechnete Spalten werden zur Abfragezeit mithilfe des Filterkontexts ausgewertet, während Measures zum Zeitpunkt der Datenaktualisierung mithilfe des Zeilenkontexts ausgewertet werden",
+            "Berechnete Spalten werden zur Abfragezeit mithilfe des Zeilenkontexts ausgewertet, während Measures zur Datenaktualisierungszeit mithilfe des Filterkontexts ausgewertet werden"
+        ],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q005",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Your manager has shared a technical requirements documentation that guides the Power BI project teams in your organization. One of the requirements is:\nUse query parameters instead of hardcoding data source connection details.\nYou create a Power BI model that combines data from 3 data sources: Azure SQL Server, Analysis Services, and Excel spreadsheet.\nYou realize that you can browse the Excel file and import data into your model, but Excel doesn‘t support data source parameterization in the default data connector.\nHow do you parameterize the Excel data source connection? (Select two possible options).",
+                "de": "Ihr Vorgesetzter hat eine Dokumentation zu den technischen Anforderungen freigegeben, die die Power BI-Projektteams in Ihrer Organisation anleitet. Eine der Anforderungen lautet:\nVerwenden Sie Abfrageparameter, anstatt die Verbindungsdetails der Datenquelle fest zu codieren.\nSie erstellen ein Power BI-Modell, das Daten aus 3 Datenquellen kombiniert: Azure SQL Server, Analysis Services und Excel-Tabelle.\nSie stellen fest, dass Sie die Excel-Datei durchsuchen und Daten in Ihr Modell importieren können, aber Excel unterstützt die Parametrisierung von Datenquellen im Standarddatenconnector nicht.\nWie parametrisieren Sie die Excel-Datenquellenverbindung? (Wählen Sie zwei mögliche Optionen aus)."
+            }
+        ],
+        "images": [],
+        "choices": [
+            "In the Power Query M code, replace the references to the file with a parameter",
+            "Create a new query that uses the parameter",
+            "Convert the Excel file to a Text/CSV. Then import the data using a parameter",
+            "Modify the Source step of the Excel query to use the parameter as the file path"
+        ],
+        "choices_ger": [
+            "Ersetzen Sie im Power Query M-Code die Verweise auf die Datei durch einen Parameter",
+            "Erstellen Sie eine neue Abfrage, die den Parameter",
+            "Konvertieren Sie die Excel-Datei in eine Text-/CSV-Datei. Importieren Sie dann die Daten mithilfe eines Parameters",
+            "Ändern Sie den Schritt Quelle der Excel-Abfrage so, dass der Parameter als Dateipfad verwendet wird."
+        ],
+        "isMulti": true,
+        "correct": [0, 3]
+    },
+    {
+        "id": "q006",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You have a Sales table that has sales transactions...You have to find the percentage of transactions with empty Product ID values. Which data preview tool in Power Query is the most suitable choice?",
+                "de": "Sie haben eine Verkaufstabelle mit Verkaufstransaktionen...Sie müssen den Prozentsatz der Transaktionen mit leeren Produkt-ID-Werten ermitteln. Welches Datenvorschautool in Power Query ist die am besten geeignete Wahl?"
+            },
+            {
+                "type": "image",
+                "value": "q006.png"
+            }
+        ],
+        "images": ["q006.png"],
+        "choices": [
+            "Column distribution",
+            "Column profile",
+            "Column quality",
+            "Column statistics"
+        ],
+        "choices_ger": [
+            "Spaltenverteilung",
+            "Spaltenprofil",
+            "Spaltenqualität",
+            "Spaltenstatistiken"
+        ],
+        "isMulti": false,
+        "correct": [2]
+    },
+    {
+        "id": "q007",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You import web analytics data from Google Analytics and the dimension table Browser from SQL Server. You merge the two queries in Power Query and publish the dataset to Power BI. You observe that the dataset refresh is very slow, with the refresh even timing out a few times.\nWhich of the following could be a possible reason?",
+                "de": "Sie importieren Webanalysedaten aus Google Analytics und die Dimensionstabelle Browser aus SQL Server. Sie führen die beiden Abfragen in Power Query zusammen und veröffentlichen das Dataset in Power BI. Sie stellen fest, dass die Aktualisierung des Datasets sehr langsam ist und sogar einige Male eine Zeitüberschreitung auftritt.\nWelche der folgenden Ursachen könnte ein möglicher Grund sein?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "The data source credentials expired.",
+            "The data source is unsupported.",
+            "Too many Power BI visuals.",
+            "Query folding is not achieved."
+        ],
+        "choices_ger": [
+            "Die Datenquellen-Anmeldedaten sind abgelaufen.",
+            "Die Datenquelle wird nicht unterstützt.",
+            "Zu viele Power BI-Visuals.",
+            "Query Folding wird nicht erreicht."
+        ],
+        "isMulti": false,
+        "correct": [3]
+    },
+    {
+        "id": "q008",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You have an app workspace Marketing Efficiency. You need to grant marketing users read-only access to all the reports in the workspace.\nWhich of the following solutions meet the stated goals? Select two options.",
+                "de": "Sie verfügen über einen App-Arbeitsbereich Marketing Efficiency. Sie müssen Marketing-Benutzern schreibgeschützten Zugriff auf alle Berichte im Arbeitsbereich gewähren.\nWelche der folgenden Lösungen erfüllt die erklärten Ziele? Wählen Sie zwei Optionen aus."
+            }
+        ],
+        "images": [],
+        "choices": [
+            "You assign a Member role for marketing users to the Marketing Efficiency workspace",
+            "You create an Azure AD group security group Marketing users. You share each report with the group.",
+            "You enable Include in app for all the reports in the workspace.",
+            "You publish the app Marketing Efficiency. And grant access to marketing users through the app.",
+            "You share individual reports with People in your organization.,"
+        ],
+        "choices_ger": [
+            "Sie weisen dem Arbeitsbereich 'Marketing Efficiency' eine Rolle 'Mitglied' für Marketingbenutzer zu",
+            "Sie erstellen eine Azure AD-Gruppensicherheitsgruppe Marketingbenutzer. Sie geben jeden Bericht für die Gruppe frei.",
+            "Sie aktivieren In App einbeziehen für alle Berichte im Arbeitsbereich.",
+            "Sie veröffentlichen die App Marketing Efficiency. Und gewähren Sie Marketingnutzern über die App Zugriff.",
+            "Sie geben einzelne Berichte für Personen in Ihrer Organisation frei.,"
+        ],
+        "isMulti": true,
+        "correct": [1, 3]
+    },
+    {
+        "id": "q009",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Here is a sample data model...",
+                "de": "Hier ist ein Beispiel-Datenmodell..."
+            },
+            { "type": "image", "value": "q009_1.png" },
+            {
+                "type": "text",
+                "eng": "You create the below Power BI report.",
+                "de": "Sie erstellen den folgenden Power BI-Bericht."
+            },
+
+            { "type": "image", "value": "q009_2.png" },
+
+            {
+                "type": "text",
+                "eng": "You need to design the Sales Value measure used in the table visual. This measure:\n1. Should display empty values only if the report is filtered by the Date field from the Dates table.\n2. Should honor any other filter and display [Total Sales] values if the report is filtered/sliced by other fields in the model.\nHow would you complete box 1, box 2, and box 3 respectively for the Sales Value measure?",
+                "de": "Sie müssen das Measure Sales Value entwerfen, das in der Tabellenvisualisierung verwendet wird. Diese Kennzahl:\n1. Leere Werte sollten nur angezeigt werden, wenn der Bericht nach dem Feld \"Datum\" aus der Tabelle \"Datumsangaben\" gefiltert wurde.\n2. Sollte alle anderen Filter berücksichtigen und [Gesamtumsatz]-Werte anzeigen, wenn der Bericht nach anderen Feldern im Modell gefiltert/segmentiert wird.\nWie würden Sie Feld 1, Feld 2 bzw. Feld 3 für das Measure Sales Value ausfüllen?"
+            },
+
+            { "type": "image", "value": "q009_3.png" }
+        ],
+        "images": ["q009_1.png", "q009_2.png", "q009_3.png"],
+        "choices": [
+            "ISFILTERED, Dates, ISBLANK ()",
+            "ISCROSSFILTERED, 'Sales Orders'[Order Date], BLANK ()",
+            "ISFILTERED, Dates[Date], BLANK ()",
+            "ISFILTERED, Dates, BLANK ()",
+            "ISCROSSFILTERED, Dates[Date], ISBLANK ()"
+        ],
+        "choices_ger": [
+            "ISFILTERED, Dates, ISBLANK ()",
+            "ISCROSSFILTERED, 'Sales Orders'[Order Date], BLANK ()",
+            "ISFILTERED, Dates[Date], BLANK ()",
+            "ISFILTERED, Dates, BLANK ()",
+            "ISCROSSFILTERED, Dates[Date], ISBLANK ()"
+        ],
+        "isMulti": false,
+        "correct": [2]
+    },
+    {
+        "id": "q010",
+        "content": [
+            {
+                "type": "text",
+                "eng": "The IT bellwether Infosys serves its clients across five main verticals:\n1. BFSI\n2. Life sciences\n3. Manufacturing & hi-tech\n4. Energy & Utilities\n5. Communications & services.\nThe company develops a Power BI report that displays project information in these verticals. They define row-level security roles to enable bulk access for the SPMs, DMs, BU heads, etc., to the project‘s insights in their vertical. i.e., they can access project data only for their verticals via Azure AD security groups.\nYou, a delivery manager (DM) in the BFSI space, received a transfer to the Life sciences vertical.\nHow should your access be managed in Power BI?",
+                "de": "Infosys ist der IT-Vorreiter und bedient seine Kunden in fünf Hauptbranchen:\n1. BFSI\n2. Biowissenschaften\n3. Fertigung & Hightech\n4. Energie & Versorgung\n5. Kommunikation & Dienstleistungen.\nDas Unternehmen entwickelt einen Power BI-Bericht, in dem Projektinformationen in diesen Branchen angezeigt werden. Sie definieren Sicherheitsrollen auf Zeilenebene, um den Massenzugriff für die SPMs, DMs, BU-Köpfe usw. auf die Erkenntnisse des Projekts in ihrer Vertikalen zu ermöglichen. Das heißt, sie können nur über Azure AD-Sicherheitsgruppen auf Projektdaten für ihre Branchen zugreifen.\nSie, ein Delivery Manager (DM) im BFSI-Bereich, haben eine Versetzung in den Bereich Life Sciences erhalten.\nWie sollte Ihr Zugriff in Power BI verwaltet werden?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Update the Azure AD security group membership",
+            "Update the role definition in Power BI Desktop",
+            "Add the DM to the appropriate security role of the dataset",
+            "Add/remove the Azure AD security group to the row-level security settings of the dataset"
+        ],
+        "choices_ger": [
+            "Die Azure AD-Sicherheitsgruppenmitgliedschaft aktualisieren",
+            "Die Rollendefinition in Power BI Desktop aktualisieren",
+            "Den DM der entsprechenden Sicherheitsrolle des Datensatzes hinzufügen",
+            "Die Azure AD-Sicherheitsgruppe zu den Row-Level-Sicherheitseinstellungen des Datensatzes hinzufügen/entfernen"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q011",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Read the below information and answer the questions that are part of the case study.\nBelow is the sample data of a popular affiliate marketer from India. The dataset contains information on the traffic (Clicks) and Affiliate Income he generates from different advertisers via his blog.",
+                "de": "Lesen Sie die folgenden Informationen und beantworten Sie die Fragen, die Teil der Fallstudie sind.\nUnten sehen Sie Beispieldaten eines bekannten Affiliate-Marketers aus Indien. Der Datensatz enthält Informationen über den Traffic (Klicks) und das Affiliate-Einkommen, das er über seinen Blog von verschiedenen Werbetreibenden generiert.\n/Tabelle1/\nSie haben zwei Berichtsseiten in Power BI Desktop erstellt.\nDer Bericht 'Klicks nach Werbetreibendem' enthält ein Säulendiagramm, das die Anzahl der Klicks für jeden Werbetreibenden anzeigt. Außerdem gibt es in diesem Bericht einen Affiliate-Kanal-Slicer.\n/Tabelle2/\nDer Bericht 'Umsatz nach Werbetreibendem' enthält ein Balkendiagramm, das den Umsatzbetrag für jeden Werbetreibenden anzeigt. In diesem Bericht gibt es auch einen Datums-Slicer.\n/Tabelle3/\nSie müssen sicherstellen, dass, wenn ein Benutzer die erste Berichtsseite nach einem Affiliate-Kanal filtert, dieselben Filter auch auf die zweite Berichtsseite angewendet werden. Welche der folgenden Optionen würden Sie wählen?"
+            },
+            { "type": "image", "value": "q011_1.png" },
+
+            {
+                "type": "text",
+                "eng": "You have created two report pages in Power BI Desktop.\nThe report Clicks by Advertiser has a column chart displaying the number of clicks for each Advertiser. There is also an Affiliate channel slicer in this report.",
+                "de": "Sie haben zwei Berichtsseiten in Power BI Desktop erstellt.\nDer Bericht \"Klicks nach Werbetreibenden\" enthält ein Säulendiagramm, in dem die Anzahl der Klicks für jeden Werbetreibenden angezeigt wird. In diesem Bericht befindet sich auch ein Slicer für Affiliate-Kanäle."
+            },
+            { "type": "image", "value": "q011_2.png" },
+            {
+                "type": "text",
+                "eng": "The report Sales by Advertiser has a bar chart displaying the Sales Amount for each Advertiser. There is also a Date slicer in this report.",
+                "de": "Der Bericht \"Umsatz nach Werbetreibenden\" enthält ein Balkendiagramm, in dem der Umsatzbetrag für jeden Werbetreibenden angezeigt wird. Dieser Bericht enthält auch einen Datenschnitt für das Datum."
+            },
+            { "type": "image", "value": "q011_3.png" },
+            {
+                "type": "text",
+                "eng": "Question: You have to ensure that when a business user filters the first report page by any Affiliate channel, the same filters apply to the second report page as well. Which of the following options would you choose?",
+                "de": "Frage: Sie müssen sicherstellen, dass, wenn ein Geschäftsbenutzer die erste Berichtsseite nach einem beliebigen Affiliate-Kanal filtert, dieselben Filter auch für die zweite Berichtsseite gelten. Welche der folgenden Optionen würden Sie wählen?"
+            }
+        ],
+
+        "images": ["q011_1.png", "q011_2.png", "q011_3.png"],
+
+        "choices": [
+            "Create a bookmark for each slicer",
+            "Group both the slicer visuals",
+            "Use the Affiliate channel field in a page-level filter",
+            "Sync both the slicer visuals"
+        ],
+        "choices_ger": [
+            "Ein Lesezeichen für jeden Slicer erstellen",
+            "Beide Slicer-Visuals gruppieren",
+            "Das Affiliate-Kanal-Feld in einem Seitenfilter verwenden",
+            "Beide Slicer-Visuals synchronisieren"
+        ],
+        "isMulti": false,
+        "correct": [3]
+    },
+    {
+        "id": "q012",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Read the below information and answer the questions that are part of the case study.\nBelow is the sample data of a popular affiliate marketer from India. The dataset contains information on the traffic (Clicks) and Affiliate Income he generates from different advertisers via his blog.",
+                "de": "Lesen Sie die folgenden Informationen und beantworten Sie die Fragen, die Teil der Fallstudie sind.\nUnten sehen Sie Beispieldaten eines bekannten Affiliate-Marketers aus Indien. Der Datensatz enthält Informationen über den Traffic (Klicks) und das Affiliate-Einkommen, das er über seinen Blog von verschiedenen Werbetreibenden generiert.\n/Tabelle1/\nSie haben zwei Berichtsseiten in Power BI Desktop erstellt.\nDer Bericht 'Klicks nach Werbetreibendem' enthält ein Säulendiagramm, das die Anzahl der Klicks für jeden Werbetreibenden anzeigt. Außerdem gibt es in diesem Bericht einen Affiliate-Kanal-Slicer.\n/Tabelle2/\nDer Bericht 'Umsatz nach Werbetreibendem' enthält ein Balkendiagramm, das den Umsatzbetrag für jeden Werbetreibenden anzeigt. In diesem Bericht gibt es auch einen Datums-Slicer.\n/Tabelle3/\nEinige Datensätze im Datensatz haben unbekannte Werte in der Spalte 'Affiliate Channel' [Beachten Sie den (leeren) Wert im Affiliate-Kanal-Slicer oben].\nDaher wenden Sie einen Visual-Level-Filter an, um die leeren Werte im Slicer auszufiltern.\n/Tabelle4/\nSie müssen sicherstellen, dass der Datums-Slicer (auf der zweiten Berichtsseite) nur die Daten anzeigt, die keine leeren Werte für 'Affiliate Channel' haben.\nWelche zwei Aktionen würden Sie durchführen?\nHinweis: Sie haben beide Slicer bereits synchronisiert."
+            },
+            { "type": "image", "value": "q012_1.png" },
+            {
+                "type": "text",
+                "eng": "You have created two report pages in Power BI Desktop.\nThe report Clicks by Advertiser has a column chart displaying the number of clicks for each Advertiser. There is also an Affiliate channel slicer in this report.",
+                "de": "Sie haben zwei Berichtsseiten in Power BI Desktop erstellt.\nDer Bericht \"Klicks nach Werbetreibenden\" enthält ein Säulendiagramm, in dem die Anzahl der Klicks für jeden Werbetreibenden angezeigt wird. In diesem Bericht befindet sich auch ein Slicer für Affiliate-Kanäle."
+            },
+            { "type": "image", "value": "q012_2.png" },
+            {
+                "type": "text",
+                "eng": "The report Sales by Advertiser has a bar chart displaying the Sales Amount for each Advertiser. There is also a Date slicer in this report.",
+                "de": "Der Bericht \"Umsatz nach Werbetreibenden\" enthält ein Balkendiagramm, in dem der Umsatzbetrag für jeden Werbetreibenden angezeigt wird. Dieser Bericht enthält auch einen Datenschnitt für das Datum."
+            },
+            { "type": "image", "value": "q012_3.png" },
+            {
+                "type": "text",
+                "eng": "Some records in the dataset have unknown values in the Affiliate Channel column [Observe the (blank) value in the Affiliate Channel slicer above].\nSo, you apply a visual-level filter to filter out the blank value in the slicer.",
+                "de": "Einige Datensätze im Datensatz haben unbekannte Werte in der Spalte \"Affiliate-Kanal\" [Beachten Sie den (leeren) Wert im obigen Slicer für den Affiliate-Kanal].\nDaher wenden Sie einen Filter auf visueller Ebene an, um den leeren Wert im Datenschnitt herauszufiltern."
+            },
+            { "type": "image", "value": "q012_4.png" },
+            {
+                "type": "text",
+                "eng": "Question: You have to ensure that the Date slicer (on the second report page) displays only the dates that do not have any blank values for Affiliate Channel.\nWhat two actions would you do?\nNote: You have already synced both the slicers.",
+                "de": "Frage: Sie müssen sicherstellen, dass der Datenschnitt \"Datum\" (auf der zweiten Berichtsseite) nur die Daten anzeigt, die keine leeren Werte für den Affiliate-Kanal haben.\nWelche zwei Aktionen würden Sie durchführen?\nHinweis: Sie haben bereits beide Datenschnitte synchronisiert."
+            }
+        ],
+
+        "images": ["q012_1.png", "q012_2.png", "q012_3.png", "q012_4.png"],
+        "choices": [
+            "Mark both slicers as part of a group",
+            "Sync field changes to other slicers",
+            "Sync filter changes to other slicers",
+            "Give different group names for each slicer"
+        ],
+        "choices_ger": [
+            "Beide Slicer als Teil einer Gruppe markieren",
+            "Feldänderungen mit anderen Slicern synchronisieren",
+            "Filteränderungen mit anderen Slicern synchronisieren",
+            "Verschiedene Gruppennamen für jeden Slicer vergeben"
+        ],
+        "isMulti": true,
+        "correct": [0, 2]
+    },
+    {
+        "id": "q013",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Read the below information and answer the questions that are part of the case study.\nBelow is the sample data of a popular affiliate marketer from India. The dataset contains information on the traffic (Clicks) and Affiliate Income he generates from different advertisers via his blog.",
+                "de": "Lesen Sie die folgenden Informationen und beantworten Sie die Fragen, die Teil der Fallstudie sind.\nNachfolgend finden Sie die Beispieldaten eines beliebten Affiliate-Vermarkters aus Indien. Der Datensatz enthält Informationen über den Traffic (Clicks) und das Affiliate-Einkommen, das er von verschiedenen Werbetreibenden über seinen Blog generiert."
+            },
+            { "type": "image", "value": "q013_1.png" },
+            {
+                "type": "text",
+                "eng": "You have created two report pages in Power BI Desktop.\nThe report Clicks by Advertiser has:\n· A column chart displaying the number of clicks for each Advertiser.\n· An Affiliate Channel slicer.\n· In addition, you added a Line chart that displays Clicks by Year",
+                "de": "Sie haben zwei Berichtsseiten in Power BI Desktop erstellt.\nDer Bericht \"Klicks nach Werbetreibenden\" enthält:\n· Ein Säulendiagramm, in dem die Anzahl der Klicks für jeden Werbetreibenden angezeigt wird.\n· Ein Slicer für Affiliate-Kanäle.\n· Darüber hinaus haben Sie ein Liniendiagramm hinzugefügt, in dem die Klicks nach Jahr angezeigt werden"
+            },
+            { "type": "image", "value": "q013_2.png" },
+            {
+                "type": "text",
+                "eng": "The report Sales by Advertiser has a bar chart displaying the Sales Amount for each Advertiser. There is also a Date slicer in this report.",
+                "de": "Der Bericht \"Umsatz nach Werbetreibenden\" enthält ein Balkendiagramm, in dem der Umsatzbetrag für jeden Werbetreibenden angezeigt wird. Dieser Bericht enthält auch einen Datenschnitt für das Datum."
+            },
+            { "type": "image", "value": "q013_3.png" },
+            {
+                "type": "text",
+                "eng": "Question: What two actions would you perform to ensure that if a business user selects any date in the Date slicer, all visuals on the first report page, except the Line chart, are filtered?\nNote: You have NOT synced both the slicers yet.",
+                "de": "Frage: Welche zwei Aktionen würden Sie ausführen, um sicherzustellen, dass, wenn ein Geschäftsbenutzer ein Datum im Datenschnitt auswählt, alle visuellen Elemente auf der ersten Berichtsseite, mit Ausnahme des Liniendiagramms, gefiltert werden?\nHinweis: Sie haben noch NICHT beide Slicer."
+            }
+        ],
+        "images": ["q013_1.png", "q013_2.png", "q013_3.png"],
+        "choices": [
+            "Sync both the slicers",
+            "Edit the interactions between the Date slicer and the Line chart",
+            "Copy, paste, and sync the Date slicer on the first report page",
+            "Edit the interactions between the Affiliate Channel slicer and the Line chart"
+        ],
+        "choices_ger": [
+            "Beide Slicer synchronisieren",
+            "Die Interaktionen zwischen dem Datums-Slicer und dem Liniendiagramm bearbeiten",
+            "Den Datums-Slicer auf der ersten Berichtsseite kopieren, einfügen und synchronisieren",
+            "Die Interaktionen zwischen dem Affiliate-Kanal-Slicer und dem Liniendiagramm bearbeiten"
+        ],
+        "isMulti": true,
+        "correct": [1, 2]
+    },
+    {
+        "id": "q014",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You want to publish a dataset to all users in the organization. i.e., even users who do not have access to the dataset should be able to view the dataset in the data hub and request access to it.\nWhich of the following actions do you need to perform?",
+                "de": "Sie möchten einen Datensatz für alle Benutzer in der Organisation veröffentlichen. Das heißt, auch Benutzer, die keinen Zugriff auf den Datensatz haben, sollen ihn im Data Hub sehen und Zugriff anfordern können.\nWelche der folgenden Aktionen müssen Sie durchführen?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Promote the dataset",
+            "Add all users as members to the workspace",
+            "Publish an app from the workspace",
+            "Host the workspace in a premium capacity"
+        ],
+        "choices_ger": [
+            "Den Datensatz fördern (Promote)",
+            "Alle Benutzer als Mitglieder zum Workspace hinzufügen",
+            "Eine App aus dem Workspace veröffentlichen",
+            "Den Workspace in einer Premium-Kapazität hosten"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q015",
+        "content": [
+            {
+                "type": "text",
+                "eng": "There is a table visual that displays Total Sales each quarter and the corresponding sales for the previous quarter from the Sales table.",
+                "de": "Es gibt eine Tabellenvisualisierung, in der der Gesamtumsatz jedes Quartals und die entsprechenden Verkäufe für das vorherige Quartal aus der Tabelle Sales angezeigt werden."
+            },
+            { "type": "image", "value": "q015.png" },
+            {
+                "type": "text",
+                "eng": "Question: The two measures used in the table are defined as below:\nTotal Sales =\nCALCULATE ( SUM ( Sales[Sales Amount] ) )\nSales Last Quarter =\nCALCULATE ( [Total Sales], PREVIOUSQUARTER( ‘Date‘[Date] ) )\nDue to the workings of the PREVIOUSQUARTER DAX function, a blank value appears for Total Sales in the last row when you add the Sales Last Quarter measure to the visual.\nHow would you rewrite the measure for Sales Last Quarter in order to avoid this blank value? Select two options.",
+                "de": "Frage: Die beiden in der Tabelle verwendeten Measures sind wie folgt definiert:\nTotal Sales =\nCALCULATE ( SUM ( Sales[Sales Amount] ) )\nSales Last Quarter =\nCALCULATE ( [Total Sales], PREVIOUSQUARTER( 'Date'[Date] ) )\nAufgrund der Funktionsweise der DAX-Funktion PREVIOUSQUARTER wird in der letzten Zeile ein leerer Wert für Total Sales (Gesamtumsatz) angezeigt, wenn Sie dem Visual das Measure Sales Last Quarter hinzufügen.\nWie würden Sie die Kennzahl für \"Umsatz im letzten Quartal\" neu schreiben, um diesen leeren Wert zu vermeiden? Wählen Sie zwei Optionen aus."
+            }
+        ],
+        "images": ["q015.png"],
+        "choices": [
+            "Sales Last Quarter = \nIF (ISBLANK([Total Sales]), CALCULATE ( [Total Sales], PREVIOUSQUARTER( ‘Date‘[Date] ) ) )",
+            "Sales Last Quarter = \nIF (NOT ISEMPTY(Sales), CALCULATE ( [Total Sales], PREVIOUSQUARTER( ‘Date‘[Date] ) ) )",
+            "Sales Last Quarter = \nIF (NOT ISBLANK([Total Sales]), BLANK(), CALCULATE ( [Total Sales], PREVIOUSQUARTER( ‘Date‘[Date] ) ) )",
+            "Sales Last Quarter = \nIF (NOT BLANK(), CALCULATE ( [Total Sales], PREVIOUSQUARTER( ‘Date‘[Date] ) ) )",
+            "Sales Last Quarter = \nIF (ISBLANK([Total Sales]), BLANK(), CALCULATE ( [Total Sales], PREVIOUSQUARTER( ‘Date‘[Date] ) ) )"
+        ],
+        "choices_ger": [
+            "Sales Last Quarter = \nIF (ISBLANK([Total Sales]), CALCULATE ( [Total Sales], PREVIOUSQUARTER( ‘Date‘[Date] ) ) )",
+            "Sales Last Quarter = \nIF (NOT ISEMPTY(Sales), CALCULATE ( [Total Sales], PREVIOUSQUARTER( ‘Date‘[Date] ) ) )",
+            "Sales Last Quarter = \nIF (NOT ISBLANK([Total Sales]), BLANK(), CALCULATE ( [Total Sales], PREVIOUSQUARTER( ‘Date‘[Date] ) ) )",
+            "Sales Last Quarter = \nIF (NOT BLANK(), CALCULATE ( [Total Sales], PREVIOUSQUARTER( ‘Date‘[Date] ) ) )",
+            "Sales Last Quarter = \nIF (ISBLANK([Total Sales]), BLANK(), CALCULATE ( [Total Sales], PREVIOUSQUARTER( ‘Date‘[Date] ) ) )"
+        ],
+        "isMulti": true,
+        "correct": [1, 4]
+    },
+    {
+        "id": "q016",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Your Power BI team creates dashboards for the Marketing automation team. Where can the users share feedback by adding comments for effective collaboration?",
+                "de": "Ihr Power BI-Team erstellt Dashboards für das Marketing-Automation-Team. Wo können Benutzer Feedback teilen, indem sie Kommentare für eine effektive Zusammenarbeit hinzufügen?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Only at the individual tile level in a dashboard",
+            "Only at the dashboard level",
+            "Either at the dashboard level or individual tiles in a dashboard",
+            "Comments can be added only at the report level"
+        ],
+        "choices_ger": [
+            "Nur auf Ebene einzelner Kacheln in einem Dashboard",
+            "Nur auf Dashboard-Ebene",
+            "Sowohl auf Dashboard-Ebene als auch bei einzelnen Kacheln in einem Dashboard",
+            "Kommentare können nur auf Berichtsebene hinzugefügt werden"
+        ],
+        "isMulti": false,
+        "correct": [2]
+    },
+    {
+        "id": "q017",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You build a Power BI report for graduates of a b-school. Given below is a sample dataset.",
+                "de": "Sie erstellen einen Power BI-Bericht für Absolventen einer B-School. Nachfolgend finden Sie ein Beispieldataset."
+            },
+            { "type": "image", "value": "q017.png" },
+            {
+                "type": "text",
+                "eng": "Question: The final report has the following requirements:\n1. When a student logs in, the report should display their name (Graduate Name) and Grades.\n2. The report should display their peer grades without revealing personal information (name) about whom those grades belong. That is, the report should not display the names of their peers.\n3. The users should be able to compare their performance with the performance of the batch mates.\nHow would you create the report?",
+                "de": "Frage: Der Abschlussbericht hat die folgenden Anforderungen:\n1. Wenn sich ein Student anmeldet, sollte der Bericht seinen Namen (Name des Absolventen) und seine Noten anzeigen.\n2. Der Bericht sollte ihre Peer-Noten anzeigen, ohne persönliche Informationen (Name) preiszugeben, zu wem diese Noten gehören. Das heißt, der Bericht sollte nicht die Namen ihrer Peers anzeigen.\n3. Die Benutzer sollten in der Lage sein, ihre Leistung mit der Leistung der Chargenverknüpfungen zu vergleichen.\nWie würden Sie den Bericht erstellen?"
+            }
+        ],
+        "images": ["q017.png"],
+        "choices": [
+            "Mask data to anonymize sensitive data",
+            "Use row-level security to filter sensitive data",
+            "Use object-level security to hide student names",
+            "Use sensitivity labels to encrypt the data"
+        ],
+        "choices_ger": [
+            "Daten maskieren, um sensible Daten zu anonymisieren",
+            "Row-Level Security verwenden, um sensible Daten zu filtern",
+            "Object-Level Security verwenden, um Studentennamen zu verbergen",
+            "Sensitivity Labels verwenden, um die Daten zu verschlüsseln"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q018",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Business users in your organization connect to a financial data mart to develop financial reports like income analysis, P&L analysis, etc., and deploy them to service. Over time, this leads to a proliferation of datasets and reports and inefficient workspace storage consumption as many reports have a good overlap of measures & KPIs.",
+                "de": "Geschäftsanwender in Ihrer Organisation stellen eine Verbindung zu einem Finanz-Data Mart her, um Finanzberichte wie Einkommensanalysen, Gewinn- und Verlustanalysen usw. zu erstellen und für den Service bereitzustellen. Im Laufe der Zeit führt dies zu einer Zunahme von Datensätzen und Berichten und einer ineffizienten Speichernutzung des Arbeitsbereichs, da viele Berichte eine gute Überlappung von Kennzahlen und KPIs aufweisen."
+            },
+            { "type": "image", "value": "q018.png" },
+            {
+                "type": "text",
+                "eng": "Question: Which of the following would you choose to optimize the self-service BI implementation?",
+                "de": "Frage: Welche der folgenden Optionen würden Sie wählen, um die Self-Service-BI-Implementierung zu optimieren?"
+            }
+        ],
+        "images": ["q018.png"],
+        "choices": [
+            "Promote the dataset",
+            "Shared datasets",
+            "Power BI dataflows",
+            "Instruct users to delete the dataset after report publishing"
+        ],
+        "choices_ger": [
+            "Den Datensatz fördern (Promote)",
+            "Geteilte Datensätze (Shared Datasets)",
+            "Power BI Dataflows",
+            "Benutzer anweisen, den Datensatz nach der Berichtsveröffentlichung zu löschen"
+        ],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q019",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You have a dataset of the height and weight of Grade 10 students.",
+                "de": "Sie verfügen über ein Dataset mit der Größe und dem Gewicht der Schüler der 10. Klasse."
+            },
+            { "type": "image", "value": "q019.png" },
+            {
+                "type": "text",
+                "eng": "Question: You need to use both height and weight to visualize and identify students who are very tall, a cut above the rest of the batch, for an inter-school basketball match.\nWhich Power BI visual would you use?",
+                "de": "Frage: Sie müssen sowohl die Größe als auch das Gewicht verwenden, um Schüler zu visualisieren und zu identifizieren, die sehr groß sind und sich vom Rest der Gruppe abheben, für ein Basketballspiel zwischen der Schule.\nWelches Power BI-Visual würden Sie verwenden?"
+            }
+        ],
+        "images": ["q019.png"],
+        "choices": ["Dot plot", "Bubble chart", "Scatter plot", "Line chart"],
+        "choices_ger": [
+            "Punktdiagramm (Dot Plot)",
+            "Blasendiagramm (Bubble Chart)",
+            "Streudiagramm (Scatter Plot)",
+            "Liniendiagramm (Line Chart)"
+        ],
+        "isMulti": false,
+        "correct": [2]
+    },
+    {
+        "id": "q020",
+        "content": [
+            {
+                "type": "text",
+                "eng": "An organization publishes employee referral reports so employees can view upcoming opportunities and refer their pals to suitable job openings. They implement row-level security so employees can view the opportunities only in their department. Employees should not be able to modify report filters to view openings in other departments.\nHow would you manage employees access to reports?",
+                "de": "Eine Organisation veröffentlicht Employee-Referral-Berichte, damit Mitarbeiter kommende Stellenangebote einsehen und ihre Freunde auf passende Jobs hinweisen können. Sie implementieren Row-Level Security, damit Mitarbeiter nur Stellenangebote in ihrer Abteilung sehen können. Mitarbeiter sollen keine Berichtsfilter anpassen können, um Stellenangebote in anderen Abteilungen einzusehen.\nWie würden Sie den Zugriff der Mitarbeiter auf die Berichte verwalten?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Add employees to the member role of the workspace",
+            "Distribute the referral reports as an app",
+            "Publish only the reports to the workspace, leaving out the dataset",
+            "Do not add the employee to any row-level security role"
+        ],
+        "choices_ger": [
+            "Mitarbeiter zur Mitgliederrolle des Workspaces hinzufügen",
+            "Die Referral-Berichte als App verteilen",
+            "Nur die Berichte im Workspace veröffentlichen, ohne den Datensatz",
+            "Mitarbeiter keiner Row-Level-Security-Rolle hinzufügen"
+        ],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q021",
+        "content": [
+            {
+                "type": "text",
+                "eng": "In addition to telling stories in a Power BI report, there is a requirement to display table statistics and data distribution profiles of columns in a fact table for end users. Which of the following tools/scenarios is a feasible/best solution you would employ?\nNote: Assume the fact table has a large number of columns.",
+                "de": "Zusätzlich zur Darstellung von Daten in einem Power BI-Bericht besteht die Anforderung, Tabellenstatistiken und Datenverteilungsprofile von Spalten einer Faktentabelle für Endbenutzer anzuzeigen. Welches der folgenden Tools/Szenarien wäre eine machbare/beste Lösung, die Sie einsetzen würden?\nHinweis: Gehen Sie davon aus, dass die Faktentabelle eine große Anzahl von Spalten hat."
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Use the Table.Profile function on the fact table in Power Query",
+            "In Power Query, use the column profile tool",
+            "In Power Query, use the column quality tool",
+            "Create a table visual in Power BI using aggregate functions"
+        ],
+        "choices_ger": [
+            "Verwenden Sie die Table.Profile-Funktion auf der Faktentabelle in Power Query",
+            "Verwenden Sie in Power Query das Spaltenprofil-Tool",
+            "Verwenden Sie in Power Query das Spaltenqualitäts-Tool",
+            "Erstellen Sie ein Tabellenvisual in Power BI mit Aggregatfunktionen"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q022",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You create multiple reports on the company's last quarter financial information. You would like to share these reports with the C-level executives of the company. How would you share the reports?\nNote: Ignore all aspects of Power BI licensing.",
+                "de": "Sie erstellen mehrere Berichte zu den Finanzinformationen des letzten Quartals des Unternehmens. Sie möchten diese Berichte mit den C-Level-Führungskräften des Unternehmens teilen. Wie würden Sie die Berichte teilen?\nHinweis: Ignorieren Sie alle Aspekte der Power BI-Lizenzierung."
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Directly share the report",
+            "Publish an app",
+            "Assign a viewer role to the workspace",
+            "Publish the report on the web"
+        ],
+        "choices_ger": [
+            "Bericht direkt teilen",
+            "Eine App veröffentlichen",
+            "Eine Betrachterrolle für den Workspace zuweisen",
+            "Den Bericht im Web veröffentlichen"
+        ],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q023",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You create the below data model in Power BI.",
+                "de": "Sie erstellen das folgende Datenmodell in Power BI."
+            },
+            { "type": "image", "value": "q023_1.png" },
+            {
+                "type": "text",
+                "eng": "The Permissions table defines the Account Types that individual employees can access.",
+                "de": "In der Tabelle \"Berechtigungen\" werden die Kontotypen definiert, auf die einzelne Mitarbeiter zugreifen können."
+            },
+            { "type": "image", "value": "q023_2.png" },
+            {
+                "type": "text",
+                "eng": "Question: Select and order the actions you need to perform to ensure that dynamic row-level security works for users logged into Power BI.",
+                "de": "Frage: Wählen Sie die Aktionen aus, die Sie ausführen müssen, und ordnen Sie sie an, um sicherzustellen, dass die dynamische Sicherheit auf Zeilenebene für Benutzer funktioniert, die bei Power BI angemeldet sind."
+            },
+            { "type": "image", "value": "q023_3.png" },
+            {
+                "type": "text",
+                "eng": "Note: A security role is created on the Permissions table with the DAX expression: [User Name] = USERPRINCIPALNAME ()",
+                "de": "Hinweis: In der Tabelle \"Berechtigungen\" wird eine Sicherheitsrolle mit dem folgenden DAX-Ausdruck erstellt: [Benutzername] = USERPRINCIPALNAME ()"
+            }
+        ],
+        "images": ["q023_1.png", "q023_2.png", "q023_3.png"],
+        "choices": [
+            "Set the cross filter direction between the Accounts and Account Types table to Both\nCheck Apply security filter in both directions",
+            "Set the cross filter direction between the Permissions and Account Types table to Both\nCheck Apply security filter in both directions",
+            "Change the relationship cardinality from Permissions -> Account Types to One to many\nSet the Cross filter direction between the Permissions and Account Types table to Both",
+            "Change the relationship cardinality from Permissions -> Account Types to One to many\nCheck Apply security filter in both directions"
+        ],
+        "choices_ger": [
+            "Kreuzfilterrichtung zwischen Konten- und Kontotypentabelle auf \"Beide\" setzen\n\"Sicherheitsfilter in beide Richtungen anwenden\" aktivieren",
+            "Kreuzfilterrichtung zwischen Berechtigungs- und Kontotypentabelle auf \"Beide\" setzen\n\"Sicherheitsfilter in beide Richtungen anwenden\" aktivieren",
+            "Kardinalität der Beziehung von Berechtigungen -> Kontotypen auf \"Ein zu viele\" ändern\nKreuzfilterrichtung zwischen Berechtigungs- und Kontotypentabelle auf \"Beide\" setzen",
+            "Kardinalität der Beziehung von Berechtigungen -> Kontotypen auf \"Ein zu viele\" ändern\n\"Sicherheitsfilter in beide Richtungen anwenden\" aktivieren"
+        ],
+        "isMulti": false,
+        "correct": [1]
+    },
+    {
+        "id": "q024",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You monitor an active fraudulent activity report in the Power BI service that connects to a backend financial data mart. The Teradata Database is updated whenever customers use a credit card. You have to detect counterfeit transactions as soon as they happen.\nHow would you set up the data connection from Power BI?",
+                "de": "Sie überwachen einen aktiven Bericht über betrügerische Aktivitäten im Power BI-Dienst, der eine Verbindung mit einem Back-End-Finanzdatenmarkt herstellt. Die Teradata-Datenbank wird aktualisiert, wenn Kunden eine Kreditkarte verwenden. Sie müssen gefälschte Transaktionen erkennen, sobald sie passieren.\nWie würden Sie die Datenverbindung von Power BI einrichten?"
+            }
+        ],
+        "images": [],
+        "choices": [
+            "Use DirectQuery as Data Connectivity mode with reports on shared capacity",
+            "Use Import as Data Connectivity mode with reports on Premium capacity",
+            "Use Import as Data Connectivity mode with reports on shared capacity",
+            "Use DirectQuery as Data Connectivity mode with reports on Premium capacity"
+        ],
+        "choices_ger": [
+            "DirectQuery als Datenkonnektivitätsmodus mit Berichten auf Shared-Kapazität verwenden",
+            "Import als Datenkonnektivitätsmodus mit Berichten auf Premium-Kapazität verwenden",
+            "Import als Datenkonnektivitätsmodus mit Berichten auf Shared-Kapazität verwenden",
+            "DirectQuery als Datenkonnektivitätsmodus mit Berichten auf Premium-Kapazität verwenden"
+        ],
+        "isMulti": false,
+        "correct": [3]
+    },
+    {
+        "id": "q025",
+        "content": [
+            {
+                "type": "text",
+                "eng": "Koovs is an online e-commerce store based in India that sells women\u0092s shoes. On each of their product pages, they display two metrics: Product ratings and Answered questions.",
+                "de": "Koovs ist ein Online-E-Commerce-Shop mit Sitz in Indien, der Damenschuhe verkauft. Auf jeder ihrer Produktseiten zeigen sie zwei Metriken an: Produktbewertungen und beantwortete Fragen."
+            },
+            { "type": "image", "value": "q025_1.png" },
+            {
+                "type": "text",
+                "eng": "Question: The Sales Manager has to understand the relationship between No. of. ratings and No. of. answered questions. They also need to find high-performing product categories (based on these metrics).\nWhich chart best meets the needs of the sales manager?",
+                "de": "Frage: Der Verkaufsleiter muss den Zusammenhang zwischen Nr. von. Einschaltquoten und Nr. von. beantwortete Fragen. Sie müssen auch leistungsstarke Produktkategorien finden (basierend auf diesen Metriken).\nWelches Diagramm entspricht am besten den Anforderungen des Vertriebsleiters?"
+            },
+            { "type": "image", "value": "q025_2.png" }
+        ],
+        "images": ["q025_1.png", "q025_2.png"],
+        "choices": [
+            "Scatter chart",
+            "Line chart",
+            "Stacked bar chart",
+            "Bubble chart"
+        ],
+        "choices_ger": [
+            "Streudiagramm",
+            "Liniendiagramm",
+            "Gestapeltes Balkendiagramm",
+            "Blasendiagramm"
+        ],
+        "isMulti": false,
+        "correct": [0]
+    },
+    {
+        "id": "q026",
+        "content": [
+            {
+                "type": "text",
+                "eng": "You have a dataset on the bulk orders your company received from across India via different Sales Channels.",
+                "de": "Sie verfügen über einen Datensatz über die Großbestellungen, die Ihr Unternehmen aus ganz Indien über verschiedene Vertriebskanäle erhalten hat."
+            },
+            { "type": "image", "value": "q026.png" },
+            {
+                "type": "text",
+                "eng": "Question: You have to create a transformation query for the No of bulk orders received from each City and Sales channel. Which of the following options would you choose?",
+                "de": "Frage: Sie müssen eine Transformationsabfrage für die Anzahl der Massenbestellungen erstellen, die von jeder Stadt und jedem Vertriebskanal empfangen wurden. Welche der folgenden Optionen würden Sie wählen?"
+            }
+        ],
+        "images": ["q026.png"],
+        "choices": [
+            "Create a Basic Group by transform. And set the Group by operation to Count Rows",
+            "Create an Advanced Group by transform. And set the Group by operation to Count Rows",
+            "Create a Basic Group by transform. And set the Group by operation to Count Distinct Rows",
+            "Create an Advanced Group by transform. And set the Group by operation to Count Distinct Rows"
+        ],
+        "choices_ger": [
+            "Erstellen Sie eine einfache Gruppierungstransformation. Und setzen Sie die Gruppierungsoperation auf 'Zeilen zählen'",
+            "Erstellen Sie eine erweiterte Gruppierungstransformation. Und setzen Sie die Gruppierungsoperation auf 'Zeilen zählen'",
+            "Erstellen Sie eine einfache Gruppierungstransformation. Und setzen Sie die Gruppierungsoperation auf Eindeutige 'Zeilen zählen'",
+            "Erstellen Sie eine erweiterte Gruppierungstransformation. Und setzen Sie die Gruppierungsoperation auf Eindeutige 'Zeilen zählen'"
+        ],
+        "isMulti": false,
+        "correct": [1]
+    }
+]

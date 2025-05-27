@@ -11,6 +11,8 @@
       <node color="5" path="$PROJECT_DIR$/09_Datenschnittstellen/Tag_7_Webscraping2/Vorlesung/9_Skript_Webscraping_2_Vorlage.ipynb" />
       <node color="5" path="$PROJECT_DIR$/11_Datenvisualisierung_mit_Python/Tag_2_Balken-Linien-Streudiagramm/Tutorium/Group2_Tagesaufgaben.ipynb" />
       <node color="2" path="$PROJECT_DIR$/11_Datenvisualisierung_mit_Python/Tag_5_Bubblechart-Surfaceplot-3DScatterplot/Tutorium/11_Datenvisualisierung_Lernkontrolle_1_MichaelMat.ipynb" />
+      <node color="2" path="$PROJECT_DIR$/13_Machine_Learning/Tag_8_Logistic-Regression/Tutorium/13_Tagesaufgaben_Logistische_Regression_MichaelMat_PART1.ipynb" />
+      <node color="6" path="$PROJECT_DIR$/13_Machine_Learning/Tag_9_Feature-Engineering/Vorlesung/13_Skript_Feature_Engineering_Vorlage.ipynb" />
       <node color="7" path="$PROJECT_DIR$/util/colors/color.py" />
       <node color="2" path="$PROJECT_DIR$/util/functions/fns.py" />
     </files>

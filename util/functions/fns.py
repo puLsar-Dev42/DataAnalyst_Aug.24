@@ -116,4 +116,42 @@ def rename_cols_by_user(df: pd.DataFrame) -> pd.DataFrame:
 				df.rename(columns={old_col_name: new_col_name}, inplace=True)
 	return df
 
+
+##################################################################################################
+# ML:
+
+
+# Vorarbeit:
+
+probs = classifier.predict_proba(X_train)
+probs_df = pd.DataFrame(probs, columns=['prob_0', 'prob_1'])
+
+probs
+
+
+def colorize_prob(probs: tuple) -> str:
+	"""
+    Nimmt ein Tupel von vorhergesagten Klassenwahrscheinlichkeiten und gibt eine Farbe zurück, die das Konfidenzniveau anzeigt.
+
+    Args:
+        probs (tuple): Tupel von Wahrscheinlichkeiten aus classifier.predict_proba(X_Train), das die
+                      vorhergesagten Wahrscheinlichkeiten für jede Klasse enthält
+
+    Returns:
+        str: Farbe, die das Vorhersage-Konfidenzniveau repräsentiert:
+            "green" für maximale Wahrscheinlichkeit >= 0.9 (sehr sicher)
+            "yellow" für maximale Wahrscheinlichkeit >= 0.8 (sicher)
+            "orange" für maximale Wahrscheinlichkeit >= 0.6 (unsicher)
+            "red" für maximale Wahrscheinlichkeit < 0.6 (sehr unsicher)
+    """
+	max_prob = max(probs)
+	if max_prob >= 0.9:
+		return "green"
+	elif max_prob >= 0.8:
+		return "yellow"
+	elif max_prob >= 0.6:
+		return "orange"
+	else:
+		return "red"
+
 ##################################################################################################

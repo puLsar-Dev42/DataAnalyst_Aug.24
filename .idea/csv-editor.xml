@@ -80,6 +80,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\11_Datenvisualisierung_mit_Python\Tag_11_StreamLit\Tutorium\googleplaystore.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\11_Datenvisualisierung_mit_Python\Tag_11_StreamLit\Tutorium\googleplaystore_user_reviews.csv">
           <value>
             <Attribute>

@@ -1,0 +1,11 @@
+id,name,age,sex,height,experience,department,degree,remote,salary
+1,John Smith,47.0,m,182,21.0,Sales,Bachelor,no,62000
+2,Andrea Müller,,f,168,19.0,HR,Master,yes,67500
+3,Dora Datenfels,30.0,f,171,7.0,IT,Bachelor,yes,51000
+4,Ben Krause,39.0,m,176,15.0,Marketing,High School,no,58000
+5,Clara Sonnenschein,25.0,f,165,2.0,IT,Bachelor,yes,49500
+6,Fatih Yilmaz,41.0,m,179,,Finance,Master,no,72000
+7,Emily Nguyen,34.0,f,160,10.0,HR,Bachelor,yes,56000
+8,Markus Bold,52.0,m,185,27.0,Management,PhD,no,83000
+9,Sophie Becker,28.0,f,170,4.0,Sales,High School,yes,50500
+10,Kevin Großmann,,m,178,12.0,IT,Bachelor,yes,61000

@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/DAQ_Python101" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/REDEZEIT/Redezeit-Analyse" vcs="Git" />
   </component>
 </project>
